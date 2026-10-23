@@ -1,0 +1,1827 @@
+<title>Torob in the Loop</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800;900&display=swap">
+<style>
+  /* Layout: RTL single column of bands; hero = thesis + live phone demo; data bands use SVG charts drawn from real catalog numbers.
+     Tokens follow design-system/torob-in-the-loop/MASTER.md (ui-ux-pro-max: E-commerce palette + Hyperlocal profile). */
+  :root {
+    --brand: #059669;
+    --brand-strong: #047857;
+    --brand-ink: #065f46;
+    --brand-tint: #ecfdf5;
+    --accent: #ea580c;
+    --accent-strong: #c2410c;
+    --accent-tint: #fff7ed;
+    --accent-ink: #9a3412;
+    --bg: #f3faf7;
+    --surface: #ffffff;
+    --surface-2: #e8f1f3;
+    --line: #d5e5df;
+    --ink: #0f172a;
+    --ink-2: #334155;
+    --muted: #475569;
+    --heading: #064e3b;
+    --good: #047857;
+    --info: #0369a1;
+    --warn: #b45309;
+    --bad: #dc2626;
+    --phone: #0f172a;
+    --phone-screen: #f3faf7;
+    --shadow: 0 1px 2px rgba(6, 78, 59, .06), 0 8px 24px rgba(6, 78, 59, .08);
+    --f-display: "Vazirmatn", Tahoma, "Segoe UI", system-ui, sans-serif;
+    --f-body: "Vazirmatn", Tahoma, "Segoe UI", system-ui, sans-serif;
+    --f-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --brand: #34d399;
+      --brand-strong: #10b981;
+      --brand-ink: #a7f3d0;
+      --brand-tint: #0b2a22;
+      --accent: #fb923c;
+      --accent-strong: #ea580c;
+      --accent-tint: #2c1a10;
+      --accent-ink: #fed7aa;
+      --bg: #07130f;
+      --surface: #0d1f19;
+      --surface-2: #132a23;
+      --line: #1f3d33;
+      --ink: #e6f2ee;
+      --ink-2: #c3d6cf;
+      --muted: #94aaa2;
+      --heading: #d1fae5;
+      --good: #34d399;
+      --info: #38bdf8;
+      --warn: #fbbf24;
+      --bad: #f87171;
+      --phone: #020807;
+      --phone-screen: #0a1a15;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .35);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --brand: #34d399;
+    --brand-strong: #10b981;
+    --brand-ink: #a7f3d0;
+    --brand-tint: #0b2a22;
+    --accent: #fb923c;
+    --accent-strong: #ea580c;
+    --accent-tint: #2c1a10;
+    --accent-ink: #fed7aa;
+    --bg: #07130f;
+    --surface: #0d1f19;
+    --surface-2: #132a23;
+    --line: #1f3d33;
+    --ink: #e6f2ee;
+    --ink-2: #c3d6cf;
+    --muted: #94aaa2;
+    --heading: #d1fae5;
+    --good: #34d399;
+    --info: #38bdf8;
+    --warn: #fbbf24;
+    --bad: #f87171;
+    --phone: #020807;
+    --phone-screen: #0a1a15;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .35);
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  html {
+    direction: rtl
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--f-body);
+    font-size: 16px;
+    line-height: 1.75;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px))
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0 0 auto;
+    height: env(safe-area-inset-top, 0px);
+    z-index: 10;
+    background: var(--bg)
+  }
+
+  .wrap {
+    max-width: 1120px;
+    margin: 0 auto
+  }
+
+  h1, h2, h3 {
+    font-family: var(--f-display);
+    color: var(--heading);
+    text-wrap: balance;
+    margin: 0;
+    line-height: 1.35
+  }
+
+  h2 {
+    font-size: clamp(24px, 3.4vw, 34px);
+    font-weight: 900
+  }
+
+  h3 {
+    font-size: 19px;
+    font-weight: 800
+  }
+
+  p {
+    margin: 0;
+    color: var(--ink-2)
+  }
+
+  .lead {
+    max-width: 62ch;
+    font-size: 17px
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--brand-strong);
+    letter-spacing: .02em
+  }
+
+  .ltr {
+    direction: ltr;
+    unicode-bidi: isolate;
+    display: inline-block
+  }
+
+  .num {
+    font-variant-numeric: tabular-nums
+  }
+
+  section {
+    padding-block: 64px;
+    display: grid;
+    gap: 28px
+  }
+
+  .sec-head {
+    display: grid;
+    gap: 10px
+  }
+
+  a {
+    color: var(--brand-strong)
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 8px
+  }
+
+  /* nav */
+  .top {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 5;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+    margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px)))
+  }
+
+  .top .wrap {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px max(16px, env(safe-area-inset-left, 0px));
+    flex-wrap: wrap
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 900;
+    color: var(--heading);
+    text-decoration: none
+  }
+
+  .logo svg {
+    width: 34px;
+    height: 34px
+  }
+
+  .top nav {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-inline-start: auto
+  }
+
+  .top nav a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink-2);
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 999px
+  }
+
+  .top nav a:hover {
+    background: var(--brand-tint);
+    color: var(--brand-ink)
+  }
+
+  /* hero */
+  .hero {
+    display: grid;
+    grid-template-columns:1.15fr .85fr;
+    gap: 40px;
+    align-items: center;
+    padding-block: 56px 40px
+  }
+
+  .hero h1 {
+    font-size: clamp(34px, 5.6vw, 60px);
+    font-weight: 900;
+    letter-spacing: -.01em
+  }
+
+  .hero h1 .loop {
+    color: var(--brand-strong);
+    position: relative;
+    white-space: nowrap
+  }
+
+  .hero h1 .loop::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    bottom: .08em;
+    height: .16em;
+    background: var(--accent);
+    opacity: .35;
+    border-radius: 4px
+  }
+
+  .hero-copy {
+    display: grid;
+    gap: 20px
+  }
+
+  .cta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 46px;
+    padding: 0 20px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit
+  }
+
+  .btn.primary {
+    background: var(--accent-strong);
+    color: #fff
+  }
+
+  .btn.primary:hover {
+    background: var(--accent-ink)
+  }
+
+  .btn.ghost {
+    background: var(--surface);
+    color: var(--brand-ink);
+    border: 1.5px solid var(--line)
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 10px
+  }
+
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 12px 14px
+  }
+
+  .stat b {
+    display: block;
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--heading);
+    font-variant-numeric: tabular-nums
+  }
+
+  .stat span {
+    font-size: 12.5px;
+    color: var(--muted)
+  }
+
+  /* phone */
+  .phone {
+    justify-self: center;
+    width: min(330px, 100%);
+    aspect-ratio: 9/18.5;
+    background: var(--phone);
+    border-radius: 42px;
+    padding: 12px;
+    box-shadow: var(--shadow), 0 30px 60px -20px rgba(6, 78, 59, .35);
+    position: relative
+  }
+
+  .screen {
+    height: 100%;
+    background: var(--phone-screen);
+    border-radius: 32px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column
+  }
+
+  .p-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 14px 8px;
+    font-weight: 800;
+    font-size: 13px;
+    color: var(--heading)
+  }
+
+  .p-head i {
+    width: 22px;
+    height: 22px;
+    border-radius: 7px;
+    background: var(--brand-strong);
+    display: inline-block
+  }
+
+  .p-chips {
+    display: flex;
+    gap: 6px;
+    padding: 0 12px 8px;
+    overflow: hidden
+  }
+
+  .p-chip {
+    font-size: 10.5px;
+    padding: 3px 9px;
+    border-radius: 999px;
+    border: 1px dashed var(--line);
+    color: var(--muted);
+    white-space: nowrap;
+    transition: all .35s
+  }
+
+  .p-chip.on {
+    border-style: solid;
+    border-color: var(--brand);
+    background: var(--brand-tint);
+    color: var(--brand-ink);
+    font-weight: 700
+  }
+
+  .p-body {
+    flex: 1;
+    padding: 6px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow: hidden
+  }
+
+  .b {
+    max-width: 88%;
+    font-size: 11.5px;
+    line-height: 1.7;
+    padding: 8px 11px;
+    border-radius: 14px;
+    animation: pop .35s ease both
+  }
+
+  .b.u {
+    align-self: flex-start;
+    background: var(--brand-strong);
+    color: #fff;
+    border-end-start-radius: 4px
+  }
+
+  .b.a {
+    align-self: flex-end;
+    background: var(--surface);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-end-end-radius: 4px
+  }
+
+  .b.s {
+    align-self: center;
+    font-size: 10.5px;
+    color: var(--muted);
+    background: none;
+    padding: 2px
+  }
+
+  .card {
+    align-self: stretch;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 9px 10px;
+    font-size: 11px;
+    display: grid;
+    gap: 4px;
+    animation: pop .35s ease both
+  }
+
+  .card .t {
+    font-weight: 800;
+    color: var(--ink)
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    align-items: center
+  }
+
+  .tag {
+    font-size: 9.5px;
+    font-weight: 700;
+    padding: 1px 7px;
+    border-radius: 999px;
+    white-space: nowrap
+  }
+
+  .tag.g {
+    background: var(--brand-tint);
+    color: var(--brand-ink)
+  }
+
+  .tag.o {
+    background: var(--accent-tint);
+    color: var(--accent-ink)
+  }
+
+  .tag.w {
+    border: 1px dashed var(--muted);
+    color: var(--muted)
+  }
+
+  .call {
+    align-self: stretch;
+    background: var(--surface);
+    border: 1px solid var(--accent);
+    border-radius: 14px;
+    padding: 10px;
+    display: grid;
+    gap: 5px;
+    animation: pop .35s ease both
+  }
+
+  .ring {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: inline-block;
+    animation: ring 1.2s infinite
+  }
+
+  .p-input {
+    margin: 8px 12px 14px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    border-radius: 14px;
+    padding: 9px 12px;
+    font-size: 11px;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between
+  }
+
+  @keyframes pop {
+    from {
+      opacity: 0;
+      transform: translateY(8px)
+    }
+    to {
+      opacity: 1;
+      transform: none
+    }
+  }
+
+  @keyframes ring {
+    0% {
+      box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 60%, transparent)
+    }
+    100% {
+      box-shadow: 0 0 0 9px transparent
+    }
+  }
+
+  .scene-dots {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 14px
+  }
+
+  .scene-dots button {
+    width: 30px;
+    height: 6px;
+    border-radius: 4px;
+    border: 0;
+    background: var(--line);
+    cursor: pointer;
+    padding: 0
+  }
+
+  .scene-dots button.on {
+    background: var(--brand-strong)
+  }
+
+  .scene-cap {
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 6px;
+    min-height: 1.7em
+  }
+
+  .mock-note {
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+    max-width: 330px;
+    margin: 4px auto 0
+  }
+
+  /* provenance */
+  .prov {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 14px
+  }
+
+  .src {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 18px;
+    display: grid;
+    gap: 10px;
+    align-content: start
+  }
+
+  .src .lvl {
+    justify-self: start;
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 3px 11px;
+    border-radius: 999px
+  }
+
+  .src .lvl.real {
+    background: var(--brand-strong);
+    color: #fff
+  }
+
+  .src .lvl.derived {
+    background: var(--brand-tint);
+    color: var(--brand-ink)
+  }
+
+  .src .lvl.ext {
+    border: 1.5px solid var(--info);
+    color: var(--info)
+  }
+
+  .src .lvl.sim {
+    border: 1.5px dashed var(--accent-strong);
+    color: var(--accent-ink)
+  }
+
+  .src ul {
+    margin: 0;
+    padding-inline-start: 18px;
+    color: var(--ink-2);
+    font-size: 14.5px;
+    display: grid;
+    gap: 5px
+  }
+
+  .src code {
+    font-family: var(--f-mono);
+    font-size: 12.5px;
+    background: var(--surface-2);
+    padding: 1px 6px;
+    border-radius: 5px;
+    direction: ltr;
+    unicode-bidi: isolate
+  }
+
+  @media (max-width: 900px) {
+    .prov {
+      grid-template-columns:1fr
+    }
+  }
+
+  /* steps */
+  .steps {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 14px;
+    counter-reset: s
+  }
+
+  .step {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 18px;
+    display: grid;
+    gap: 8px;
+    align-content: start;
+    position: relative
+  }
+
+  .step::before {
+    counter-increment: s;
+    content: counter(s, persian);
+    font-weight: 900;
+    font-size: 13px;
+    color: #fff;
+    background: var(--brand-strong);
+    width: 28px;
+    height: 28px;
+    border-radius: 9px;
+    display: grid;
+    place-items: center
+  }
+
+  .step small {
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.7
+  }
+
+  /* tour */
+  .tour {
+    display: grid;
+    grid-template-columns:250px 1fr;
+    gap: 20px;
+    align-items: start
+  }
+
+  .tabs {
+    display: grid;
+    gap: 6px
+  }
+
+  .tabs button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: start;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--ink-2);
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 10px 12px;
+    cursor: pointer;
+    min-height: 46px
+  }
+
+  .tabs button svg {
+    width: 20px;
+    height: 20px;
+    flex: none;
+    stroke: currentColor
+  }
+
+  .tabs button[aria-selected="true"] {
+    background: var(--surface);
+    border-color: var(--line);
+    color: var(--brand-ink);
+    box-shadow: var(--shadow)
+  }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 24px;
+    display: grid;
+    gap: 16px
+  }
+
+  .panel[hidden] {
+    display: none
+  }
+
+  .panel ul {
+    margin: 0;
+    padding-inline-start: 20px;
+    display: grid;
+    gap: 6px;
+    color: var(--ink-2)
+  }
+
+  .panel .how {
+    background: var(--brand-tint);
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: grid;
+    gap: 6px
+  }
+
+  .panel .how b {
+    color: var(--brand-ink)
+  }
+
+  .kbd {
+    font-family: var(--f-mono);
+    font-size: 13px;
+    background: var(--surface-2);
+    padding: 1px 7px;
+    border-radius: 6px
+  }
+
+  /* trust legend */
+  .legend {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 14px
+  }
+
+  .lg {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 18px;
+    display: grid;
+    gap: 10px
+  }
+
+  .badge {
+    justify-self: start;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 999px
+  }
+
+  .badge.v {
+    background: var(--brand-strong);
+    color: #fff
+  }
+
+  .badge.r {
+    border: 1.5px solid var(--info);
+    color: var(--info)
+  }
+
+  .badge.u {
+    border: 1.5px dashed var(--muted);
+    color: var(--muted)
+  }
+
+  /* charts */
+  .charts {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 16px
+  }
+
+  .chart {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 20px;
+    display: grid;
+    gap: 12px
+  }
+
+  .chart .cap {
+    font-size: 13px;
+    color: var(--muted)
+  }
+
+  .chart svg, .flow svg {
+    direction: ltr
+  }
+
+  .chart svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible
+  }
+
+  .chart svg text {
+    fill: var(--ink-2);
+    font-family: var(--f-body);
+    font-size: 12px
+  }
+
+  .chart svg .v {
+    fill: var(--heading);
+    font-weight: 800
+  }
+
+  .chart svg .grid {
+    stroke: var(--line);
+    stroke-width: 1
+  }
+
+  .bar {
+    transform-box: fill-box;
+    transform-origin: right center;
+    animation: grow 1s cubic-bezier(.2, .8, .2, 1) both
+  }
+
+  .col {
+    transform-box: fill-box;
+    transform-origin: bottom;
+    animation: rise .9s cubic-bezier(.2, .8, .2, 1) both
+  }
+
+  @keyframes grow {
+    from {
+      transform: scaleX(0)
+    }
+    to {
+      transform: scaleX(1)
+    }
+  }
+
+  @keyframes rise {
+    from {
+      transform: scaleY(0)
+    }
+    to {
+      transform: scaleY(1)
+    }
+  }
+
+  .wide {
+    grid-column: 1/-1
+  }
+
+  /* state machine */
+  .flow {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 20px;
+    overflow-x: auto
+  }
+
+  .flow svg {
+    min-width: 760px;
+    width: 100%;
+    height: auto
+  }
+
+  .flow svg text {
+    font-family: var(--f-body);
+    font-size: 13px;
+    fill: var(--ink)
+  }
+
+  .flow .node rect {
+    fill: var(--surface-2);
+    stroke: var(--line)
+  }
+
+  .flow .node.hot rect {
+    fill: var(--brand-tint);
+    stroke: var(--brand)
+  }
+
+  .flow .node.warn rect {
+    fill: var(--accent-tint);
+    stroke: var(--accent)
+  }
+
+  .flow path {
+    stroke: var(--muted);
+    stroke-width: 1.6;
+    fill: none
+  }
+
+  .flow .dash {
+    stroke-dasharray: 6 6;
+    animation: dash 1.2s linear infinite
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: -24
+    }
+  }
+
+  /* arch + demo */
+  .arch {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 14px
+  }
+
+  .box {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 18px;
+    display: grid;
+    gap: 8px;
+    align-content: start
+  }
+
+  .box ul {
+    margin: 0;
+    padding-inline-start: 18px;
+    color: var(--ink-2);
+    font-size: 14.5px;
+    display: grid;
+    gap: 4px
+  }
+
+  .timeline {
+    display: grid;
+    gap: 0;
+    border-inline-start: 2px solid var(--line);
+    margin-inline-start: 8px
+  }
+
+  .tl {
+    display: grid;
+    grid-template-columns:72px 1fr;
+    gap: 14px;
+    padding: 10px 0 10px 0;
+    position: relative;
+    padding-inline-start: 18px
+  }
+
+  .tl::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: -7px;
+    top: 18px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--brand-strong);
+    border: 3px solid var(--bg)
+  }
+
+  .tl time {
+    font-family: var(--f-mono);
+    font-weight: 700;
+    color: var(--accent-strong);
+    font-size: 14px;
+    direction: ltr;
+    text-align: end
+  }
+
+  .tl p {
+    font-size: 15px
+  }
+
+  .rubric {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14.5px;
+    background: var(--surface);
+    border-radius: 14px;
+    overflow: hidden
+  }
+
+  .rubric th, .rubric td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--line);
+    text-align: start;
+    vertical-align: top
+  }
+
+  .rubric th {
+    background: var(--surface-2);
+    color: var(--heading)
+  }
+
+  .tbl {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 14px
+  }
+
+  footer {
+    padding-block: 36px 48px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    color: var(--muted);
+    font-size: 14px
+  }
+
+  @media (max-width: 900px) {
+    .hero {
+      grid-template-columns:1fr
+    }
+
+    .steps {
+      grid-template-columns:1fr 1fr
+    }
+
+    .tour {
+      grid-template-columns:1fr
+    }
+
+    .tabs {
+      grid-template-columns:repeat(2, 1fr)
+    }
+
+    .charts, .legend, .arch {
+      grid-template-columns:1fr
+    }
+
+    .stats {
+      grid-template-columns:repeat(2, 1fr)
+    }
+
+    .top nav {
+      display: none
+    }
+  }
+
+  @media (max-width: 480px) {
+    .steps {
+      grid-template-columns:1fr
+    }
+
+    .tabs {
+      grid-template-columns:1fr
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important
+    }
+  }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Torob in the Loop">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <rect width="64" height="64" rx="16" fill="#047857"/>
+        <path d="M14 26h36l-3 24a4 4 0 0 1-4 3.5H21a4 4 0 0 1-4-3.5z" fill="#fff"/>
+        <path d="M24 26v-4a8 8 0 0 1 16 0v4" fill="none" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="32" cy="39" r="5" fill="#047857"/>
+      </svg>
+      <span class="ltr">Torob in the Loop</span>
+    </a>
+    <nav aria-label="بخش‌ها">
+      <a href="#steps">چهار گام</a><a href="#tour">ویژگی‌ها</a><a href="#start">شروع کار</a><a
+      href="#data">داده‌ها</a><a href="#provenance">منبع داده</a><a href="#brain">هوشمندی</a><a href="#tech">فنی و
+      دیپلوی</a><a href="#demo">دمو</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">دستیار هوشمند خرید حضوری در تهران · بر پایه داده‌های ترب</span>
+      <h1>از «چی بخرم؟» تا جلوی ویترین مغازه، <span class="loop">همراه شما</span></h1>
+      <p class="lead">Torob in the Loop کمک می‌کند مدل مناسب را انتخاب کنید، فروشگاه‌های نزدیکِ دارای کالا را پیدا و
+        مقایسه کنید، با یک لمس از چند فروشگاه موجودی و قیمت به‌روز بپرسید و مسیر بازدید از پاساژها را بچینید. اگر
+        فروشگاهی بسته بود یا جواب نداد، فوراً جایگزین پیشنهاد می‌دهد.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://torob-in-the-loop.liara.run">باز کردن اپلیکیشن</a>
+        <a class="btn ghost" href="#start">آموزش ۵ دقیقه‌ای</a>
+      </div>
+      <div class="stats" aria-label="آمار کاتالوگ">
+        <div class="stat"><b class="num" data-count="225903">۲۲۵٬۹۰۳</b><span>کالا</span></div>
+        <div class="stat"><b class="num" data-count="331506">۳۳۱٬۵۰۶</b><span>پیشنهاد فروش</span></div>
+        <div class="stat"><b class="num" data-count="6476">۶٬۴۷۶</b><span>فروشگاه حضوری</span></div>
+        <div class="stat"><b class="num" data-count="448">۴۴۸</b><span>پاساژ و مجتمع</span></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="phone" role="img" aria-label="نمایش متحرک گفتگو با دستیار">
+        <div class="screen">
+          <div class="p-head"><i></i><span class="ltr">Torob in the Loop</span></div>
+          <div class="p-chips">
+            <span class="p-chip" id="chip-loc">محدوده</span>
+            <span class="p-chip" id="chip-inst">قسطی</span>
+            <span class="p-chip" id="chip-budget">بودجه</span>
+            <span class="p-chip">زمان مراجعه</span>
+          </div>
+          <div class="p-body" id="phone-body"></div>
+          <div class="p-input"><span>چه می‌خواهید؟ مثلاً گوشی قسطی</span><span>●</span></div>
+        </div>
+      </div>
+      <div class="scene-dots" id="scene-dots"></div>
+      <p class="scene-cap" id="scene-cap"></p>
+      <p class="mock-note">نمونهٔ نمایشی: صحنه‌های این گوشی برای معرفی قابلیت‌ها نوشته شده‌اند و دادهٔ زنده نیستند. <a
+        href="#provenance">منبع داده‌ها</a></p>
+    </div>
+  </section>
+
+  <section id="steps">
+    <div class="sec-head">
+      <span class="eyebrow">مسیر خرید حضوری</span>
+      <h2>چهار گامی که چالش ترب خواسته بود، در یک جریان</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>انتخاب کالا</h3><small>«کتونی می‌خوام، مدلش رو نمی‌دونم» → دو سؤال کوتاه دربارهٔ بودجه و
+        کاربری، پیشنهاد مدل با دلیل، و مقایسهٔ مشخصات.</small></div>
+      <div class="step"><h3>یافتن فروشگاه و محله</h3><small>فروشنده‌های حضوری همان کالا، محله‌های پرفروشنده نزدیک شما، و
+        کسب‌وکارهایی که فقط دستهٔ فعالیتشان مطابق است.</small></div>
+      <div class="step"><h3>مقایسهٔ فروشگاه‌ها</h3><small>قیمت ثبت‌شده و تاریخ آن، فاصله و زمان رسیدن، باز بودن در زمان
+        مراجعه، گارانتی و شرایط قسطی.</small></div>
+      <div class="step"><h3>تماس و پیگیری</h3><small>دستیار از چند فروشگاه موجودی و قیمت امروز را می‌پرسد، اگر جواب
+        ندادند دوباره تماس می‌گیرد و جایگزین می‌آورد.</small></div>
+    </div>
+  </section>
+
+  <section id="tour">
+    <div class="sec-head">
+      <span class="eyebrow">تور ویژگی‌ها</span>
+      <h2>هر صفحه یک قدم بعدی روشن دارد</h2>
+      <p class="lead">لازم نیست همه‌چیز از چت بگذرد. کارت‌ها، فیلترها و دکمه‌ها کار را جلو می‌برند و دستیار هر جا لازم
+        باشد کمک می‌کند.</p>
+    </div>
+    <div class="tour">
+      <div class="tabs" role="tablist" aria-label="ویژگی‌ها" id="tabs"></div>
+      <div id="panels"></div>
+    </div>
+  </section>
+
+  <section id="start">
+    <div class="sec-head">
+      <span class="eyebrow">آموزش کاربر جدید</span>
+      <h2>پنج دقیقهٔ اول با Torob in the Loop</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>محدوده را تعیین کنید</h3><small>روی چیپ «محدوده» بزنید: موقعیت فعلی، یک محله یا ایستگاه
+        مترو. بدون آن هم کار می‌کند ولی فاصله‌ها نامشخص می‌مانند.</small></div>
+      <div class="step"><h3>بپرسید یا جستجو کنید</h3><small>به زبان خودمانی بنویسید یا با میکروفون بگویید: «هدفون
+        بلوتوثی تا ۳ میلیون نزدیک ونک». بودجه، قسطی و محله خودکار روی چیپ‌ها می‌نشیند.</small></div>
+      <div class="step"><h3>از فروشگاه‌ها بپرسید</h3><small>چند فروشگاه را تیک بزنید و «بپرس» را بزنید. نتیجهٔ تماس‌ها
+        زنده در «پیگیری‌ها» می‌آید.</small></div>
+      <div class="step"><h3>برنامهٔ بازدید بچینید</h3><small>«به برنامه» ترتیب بهینه، ساعت حرکت و راهنمای طبقه و واحد را
+        می‌دهد. در محل، دکمه‌های «بسته بود» یا «پیدایش نکردم» جایگزین می‌آورند.</small></div>
+    </div>
+    <div class="legend">
+      <div class="lg"><span class="badge v">✓ تأییدشده</span>
+        <p>فروشنده همین امروز در تماس یا صندوق پیام پاسخ داده است. زمان پاسخ کنارش نوشته می‌شود.</p></div>
+      <div class="lg"><span class="badge r">ثبت‌شده · ۹ روز پیش</span>
+        <p>قیمتی که فروشنده در ترب ثبت کرده، همراه سن آن. قیمت ثبت‌شده به معنی موجود بودن کالا نیست.</p></div>
+      <div class="lg"><span class="badge u">? نامشخص · بپرس</span>
+        <p>اطلاعاتی که ثبت نشده، مثل کالابرگ یا ساعت کاری برخی فروشگاه‌ها. هرگز به‌جای «ندارد» نمایش داده نمی‌شود.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="data">
+    <div class="sec-head">
+      <span class="eyebrow">داده‌ها با شفافیت</span>
+      <h2>چه چیزی در دادهٔ ترب هست و چطور از آن استفاده می‌کنیم</h2>
+      <p class="lead">همهٔ اعداد این بخش از کاتالوگ ساخته‌شده از دیتاست ترب است (اسنپ‌شات ۲۱ مهر ۱۴۰۵). نام فروشگاه‌ها و
+        شماره‌ها در دیتاست ناشناس‌سازی شده‌اند و تماس‌ها در نسخهٔ نمایشی شبیه‌سازی می‌شوند.</p>
+    </div>
+    <div class="charts">
+      <div class="chart"><h3>فروشگاه‌ها در کدام محله‌ها هستند؟</h3>
+        <p class="cap">۸۵٪ در مرکز شهر؛ به همین دلیل پیاده‌روی بین پاساژها و مترو اهمیت دارد.</p>
+        <svg id="ch-areas" viewBox="0 0 520 250" role="img" aria-label="تعداد فروشگاه در هر محله"></svg>
+      </div>
+      <div class="chart"><h3>قیمت‌ها چقدر تازه‌اند؟</h3>
+        <p class="cap">ماه آخرین تغییر قیمت در پیشنهادها. ۷۶۹ پیشنهاد تاریخ ندارند.</p>
+        <svg id="ch-fresh" viewBox="0 0 520 250" role="img" aria-label="توزیع زمان آخرین تغییر قیمت"></svg>
+      </div>
+      <div class="chart"><h3>خرید قسطی کجا ثبت شده؟</h3>
+        <p class="cap">تعداد فروشگاه به تفکیک ارائه‌دهنده؛ بخش پررنگ یعنی «پذیرندهٔ حضوری».</p>
+        <svg id="ch-pay" viewBox="0 0 520 230" role="img" aria-label="ارائه‌دهندگان خرید قسطی"></svg>
+      </div>
+      <div class="chart"><h3>آدرس‌ها چقدر دقیق‌اند؟</h3>
+        <p class="cap">سهم فروشگاه‌هایی که هر جزء نشانی را دارند؛ پایهٔ راهنمای داخل پاساژ.</p>
+        <svg id="ch-addr" viewBox="0 0 520 230" role="img" aria-label="پوشش اجزای نشانی"></svg>
+      </div>
+      <div class="chart wide"><h3>سه نوع فروشگاه، سه نوع رفتار</h3>
+        <p class="cap">دستهٔ فعالیت به‌تنهایی نشانهٔ موجود بودن کالا نیست؛ این فروشگاه‌ها جدا نمایش داده می‌شوند و فقط
+          «بپرس» دارند.</p>
+        <svg id="ch-tiers" viewBox="0 0 1040 120" role="img" aria-label="فروشگاه‌ها بر اساس نوع داده"></svg>
+      </div>
+    </div>
+  </section>
+
+  <section id="provenance">
+    <div class="sec-head">
+      <span class="eyebrow">منبع داده‌ها</span>
+      <h2>هر عدد از کجا آمده است؟</h2>
+      <p class="lead">چهار نوع داده در این پروژه هست. فقط نوع چهارم ساختگی است و در اپلیکیشن همیشه برچسب نمایشی
+        دارد.</p>
+    </div>
+    <div class="prov">
+      <div class="src">
+        <span class="lvl real">۱ · دیتاست ترب، بدون تغییر</span>
+        <p>همهٔ اعداد نمودارهای این صفحه مستقیماً از سه فایل <code>shops.csv</code>، <code>products.csv</code> و <code>offers.csv</code>
+          شمرده شده‌اند.</p>
+        <ul>
+          <li>۲۲۵٬۹۰۳ کالا، ۳۳۱٬۵۰۶ پیشنهاد فروش و ۶٬۴۷۶ فروشگاه</li>
+          <li>فروشگاه‌ها در هر محله، مثل فردوسی ۳٬۲۸۲ و شیخ هادی ۱٬۵۸۷</li>
+          <li>ماه آخرین تغییر قیمت، مثل مهر ۱۲۸٬۸۴۵ و شهریور ۸۷٬۶۲۶</li>
+          <li>ارائه‌دهندگان قسطی، مثل ترب‌پی در ۱۹۰ فروشگاه که ۵۰ تا پذیرندهٔ حضوری‌اند</li>
+          <li>پوشش نشانی، مثل «طبقه» در ۴٬۲۲۴ نشانی؛ و انواع فروشگاه ۳٬۷۹۲ / ۸۸۷ / ۱٬۷۹۷</li>
+        </ul>
+        <p>این شمارش‌ها با پرس‌وجوی SQL روی خود فایل‌ها به‌دست آمده و ساخت کاتالوگ همان‌ها را در <code>docs/DATA-REPORT.md</code>
+          تکرار می‌کند.</p>
+      </div>
+      <div class="src">
+        <span class="lvl derived">۲ · محاسبه‌شده از همان دیتاست</span>
+        <p>سازندهٔ کاتالوگ (<code>packages/etl</code>) با قاعده‌های ثابت از متن CSVها فیلد می‌سازد و هیچ واقعیت تازه‌ای
+          اضافه نمی‌کند.</p>
+        <ul>
+          <li>پاساژ، طبقه و واحد، استخراج‌شده از متن نشانی</li>
+          <li>۴۴۸ پاساژ و مجتمع: فروشگاه‌هایی که نشانی‌شان یک پاساژ را نام می‌برد و در فاصلهٔ ۲۵۰ متری هم هستند</li>
+          <li>ساعت کاری پاک‌سازی‌شده، قیمت‌های مشکوک علامت‌خورده و برند تشخیص‌داده‌شده از عنوان کالا</li>
+        </ul>
+      </div>
+      <div class="src">
+        <span class="lvl ext">۳ · دادهٔ بیرونی برای قابلیت‌ها</span>
+        <ul>
+          <li>۱۲۴ ایستگاه مترو و خطوط آن از OpenStreetMap (© OpenStreetMap contributors)</li>
+          <li>فهرست‌های گردآوری‌شده در <code>packages/etl/data/</code>: گروه‌بندی دسته‌ها (<code>taxonomy.json</code>)،
+            مترادف‌های جستجو (<code>synonyms.json</code>)، املای برندها (<code>brands.json</code>) و ۱۰۳ مکان
+            شناخته‌شدهٔ تهران (<code>places.json</code>)
+          </li>
+          <li>مختصات مکان‌ها <b>تقریبی</b> است: برخی بر ایستگاه مترو یا میانگین موقعیت فروشگاه‌های دیتاست تکیه دارند و
+            برخی مثل ایران‌مال و پالادیوم دستی جای‌گذاری شده‌اند
+          </li>
+          <li>روش ساخت هر فایل در <code>packages/etl/data/README.md</code> آمده است</li>
+        </ul>
+      </div>
+      <div class="src">
+        <span class="lvl sim">۴ · شبیه‌سازی و نمونهٔ نمایشی (واقعی نیست)</span>
+        <ul>
+          <li><b>تماس با فروشگاه‌ها شبیه‌سازی می‌شود</b>، چون شماره‌های دیتاست جعلی‌اند. نتیجهٔ هر تماس هنگام استعلام با
+            قاعده و سازگار با داده ساخته می‌شود: فروشگاه بسته جواب نمی‌دهد و قیمت قدیمی‌تر بیشتر احتمال تغییر دارد.
+            اپلیکیشن همیشه برچسب «تماس شبیه‌سازی‌شده · نسخه نمایشی» نشان می‌دهد.
+          </li>
+          <li><b>صحنه‌های گوشی بالای این صفحه</b> برای معرفی قابلیت‌ها نوشته شده‌اند. عبارت‌هایی مثل «فروشگاه ۱»، «۳۹٫۶
+            میلیون»، «تا ۱۸:۳۰ نگه می‌دارند» و «۲۲ فروشنده در ۶۵۰ متری» از اجراهای آزمایشی و سناریوی دمو گرفته شده‌اند و
+            دادهٔ زنده نیستند.
+          </li>
+          <li>نام اغلب فروشگاه‌ها در خود دیتاست ناشناس‌سازی شده است؛ فقط ۱۱۲ فروشگاه دارای اینستاگرام یا وب‌سایت نام
+            واقعی دارند.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="brain">
+    <div class="sec-head">
+      <span class="eyebrow">هوشمندی</span>
+      <h2>پیگیری فروشنده، تا وقتی جواب بگیرید</h2>
+      <p class="lead">هر استعلام یک ماشین حالت است. اگر فروشگاه طبق ساعت کاری بسته باشد، تماس به زمان باز شدن موکول
+        می‌شود. اگر جواب ندهد، با فاصلهٔ فزاینده دوباره تماس می‌گیریم و در نهایت جایگزین پیشنهاد می‌شود. پاسخ مستقیم
+        فروشنده همیشه برنده است.</p>
+    </div>
+    <div class="flow">
+      <svg viewBox="0 0 980 250" role="img" aria-label="مراحل پیگیری استعلام">
+        <defs>
+          <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7"
+                  orient="auto-start-reverse">
+            <path d="M0 0L10 5L0 10z" fill="currentColor" style="color:var(--muted)"/>
+          </marker>
+        </defs>
+        <g class="node">
+          <rect x="830" y="30" width="130" height="44" rx="12"/>
+          <text x="895" y="57" text-anchor="middle">در صف</text>
+        </g>
+        <g class="node hot">
+          <rect x="660" y="30" width="130" height="44" rx="12"/>
+          <text x="725" y="57" text-anchor="middle">در حال تماس</text>
+        </g>
+        <g class="node hot">
+          <rect x="470" y="30" width="150" height="44" rx="12"/>
+          <text x="545" y="57" text-anchor="middle">پاسخ داد ✓</text>
+        </g>
+        <g class="node hot">
+          <rect x="270" y="30" width="160" height="44" rx="12"/>
+          <text x="350" y="57" text-anchor="middle">نتیجهٔ تأییدشده</text>
+        </g>
+        <g class="node warn">
+          <rect x="660" y="150" width="130" height="44" rx="12"/>
+          <text x="725" y="177" text-anchor="middle">جواب نداد / اشغال</text>
+        </g>
+        <g class="node">
+          <rect x="470" y="150" width="150" height="44" rx="12"/>
+          <text x="545" y="177" text-anchor="middle">تماس مجدد خودکار</text>
+        </g>
+        <g class="node warn">
+          <rect x="270" y="150" width="160" height="44" rx="12"/>
+          <text x="350" y="177" text-anchor="middle">در دسترس نبود</text>
+        </g>
+        <g class="node hot">
+          <rect x="40" y="90" width="190" height="44" rx="12"/>
+          <text x="135" y="117" text-anchor="middle">جایگزین + اعلان</text>
+        </g>
+        <g class="node">
+          <rect x="830" y="150" width="130" height="44" rx="12"/>
+          <text x="895" y="171" text-anchor="middle">بسته است:</text>
+          <text x="895" y="187" text-anchor="middle" style="font-size:11px">تماس هنگام باز شدن</text>
+        </g>
+        <path class="dash" d="M830 52H792" marker-end="url(#ar)"/>
+        <path class="dash" d="M660 52H622" marker-end="url(#ar)"/>
+        <path class="dash" d="M470 52H432" marker-end="url(#ar)"/>
+        <path d="M725 74V148" marker-end="url(#ar)"/>
+        <path d="M660 172H622" marker-end="url(#ar)"/>
+        <path d="M545 150V76" marker-end="url(#ar)"/>
+        <path d="M470 172H432" marker-end="url(#ar)"/>
+        <path d="M270 172C240 172 240 120 232 116" marker-end="url(#ar)"/>
+        <path d="M270 52C240 52 240 104 232 108" marker-end="url(#ar)"/>
+        <path d="M895 74V148" marker-end="url(#ar)"/>
+        <text x="250" y="238" style="font-size:12px;fill:var(--muted)">«ناموجود» یا «فراتر از بودجه» هم مستقیم به
+          جایگزین‌ها می‌رود
+        </text>
+      </svg>
+    </div>
+    <div class="arch">
+      <div class="box"><h3>توجه به شرایط مراجعه</h3>
+        <ul>
+          <li>باز بودن در لحظهٔ رسیدن، نه لحظهٔ جستجو</li>
+          <li>پنجشنبه‌عصر، جمعه و تعطیلی ظهر بین دو شیفت</li>
+          <li>محدودهٔ طرح ترافیک و نزدیک‌ترین ایستگاه مترو</li>
+          <li>بنر «برای فردا ۱۰:۰۰ برنامه بچینم؟» وقتی بیشتر فروشگاه‌ها بسته‌اند</li>
+        </ul>
+      </div>
+      <div class="box"><h3>جایگزین‌یابی</h3>
+        <ul>
+          <li>همان کالا در فروشگاه‌های باز، اول همان پاساژ</li>
+          <li>مدل‌های هم‌خانواده و کالاهای مشابه در بودجه</li>
+          <li>شُل کردن یک‌به‌یک شرط‌ها و گفتن این‌که کدام شل شد</li>
+        </ul>
+      </div>
+      <div class="box"><h3>دستیار گفتگو</h3>
+        <ul>
+          <li>LLM با ۱۷ ابزار؛ هر عدد از نتیجهٔ ابزار می‌آید</li>
+          <li>نگهبان واقعیت: جمله‌ای با عدد ساختگی حذف می‌شود</li>
+          <li>حالت پایهٔ فارسی بدون کلید API، با همان کارت‌ها</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="tech">
+    <div class="sec-head">
+      <span class="eyebrow">فنی و دیپلوی</span>
+      <h2>یک کانتینر، بدون وابستگی بومی، روی لیارا</h2>
+    </div>
+    <div class="arch">
+      <div class="box"><h3>داده</h3>
+        <ul>
+          <li>ETL تایپ‌اسکریپتی: ۳ فایل CSV به کاتالوگ SQLite با FTS5 در حدود ۴۰ ثانیه</li>
+          <li>نرمال‌سازی فارسی مشترک بین نمایه و جستجو</li>
+          <li>۱٬۳۹۰ مترادف، ۳۹۳ مکان، ۱۲۴ ایستگاه مترو از OSM</li>
+        </ul>
+      </div>
+      <div class="box"><h3>سرور و وب</h3>
+        <ul>
+          <li>Node 22 با <span class="ltr">node:sqlite</span> و Hono؛ کل سرور یک فایل esbuild</li>
+          <li>React 19، Vite، Tailwind 4، PWA آفلاین</li>
+          <li>SSE برای تماس‌های زنده و پیام دستیار</li>
+          <li>طراحی با مهارت UI UX Pro Max</li>
+        </ul>
+      </div>
+      <div class="box"><h3>کیفیت و انتشار</h3>
+        <ul>
+          <li>۲۳۱ تست خودکار؛ smoke test نُه‌مرحله‌ای</li>
+          <li>Docker با فایل‌سیستم فقط‌خواندنی، دیسک پایدار برای وضعیت</li>
+          <li>GitHub Actions: تست، ساخت و دیپلوی خودکار به لیارا</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tbl">
+      <table class="rubric">
+        <thead>
+        <tr>
+          <th>معیار داوری</th>
+          <th>امتیاز</th>
+          <th>پاسخ ما</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>محصول</td>
+          <td class="num">۷۵</td>
+          <td>هر چهار گام و هر pain point ویدئو یک قابلیت مشخص دارد.</td>
+        </tr>
+        <tr>
+          <td>UX</td>
+          <td class="num">۷۵</td>
+          <td>موبایل‌محور و راست‌به‌چپ، با چت و کارت‌ها کنار هم؛ هر کارت «چرا» و «قدم بعدی» دارد.</td>
+        </tr>
+        <tr>
+          <td>هوشمندی</td>
+          <td class="num">۵۰</td>
+          <td>پیگیری خودکار، جایگزین‌یابی و توجه به زمان، مکان و نیاز.</td>
+        </tr>
+        <tr>
+          <td>دیپلوی</td>
+          <td class="num">۴۰</td>
+          <td>ایمیج اجرایی، health check، دیسک پایدار و CI.</td>
+        </tr>
+        <tr>
+          <td>پیاده‌سازی فنی</td>
+          <td class="num">۴۰</td>
+          <td>مونوریپوی تایپ‌شده، قرارداد مشترک API و تست‌ها.</td>
+        </tr>
+        <tr>
+          <td>دیتاست</td>
+          <td class="num">۲۰</td>
+          <td>قیمت ثبت‌شده، تاریخ و موجودی جدا؛ «نامشخص» همیشه صریح.</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="demo">
+    <div class="sec-head">
+      <span class="eyebrow">سناریوی ویدئوی دمو</span>
+      <h2>پنج دقیقه، از کتونی تا جلوی مغازه</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl">
+        <time>0:00</time>
+        <p>معرفی مسئله و صفحهٔ اصلی؛ چیپ محدوده روی «میدان فردوسی».</p></div>
+      <div class="tl">
+        <time>0:30</time>
+        <p>«کتونی می‌خوام ولی نمی‌دونم چه مدلی» → سؤال‌های کوتاه و مدل‌های پیشنهادی با دلیل.</p></div>
+      <div class="tl">
+        <time>1:20</time>
+        <p>«کجا چند مدل را یک‌جا ببینم؟» → فروشگاه‌های با تنوع بیشتر و خوشهٔ پاساژها.</p></div>
+      <div class="tl">
+        <time>2:00</time>
+        <p>«سامسونگ A07 قسطی نزدیک جمهوری» → چیپ‌ها خودکار، ۲۸ فروشنده و گروه‌بندی قسطی.</p></div>
+      <div class="tl">
+        <time>2:40</time>
+        <p>«از ۳ فروشگاه بپرس» → سه تماس زنده؛ یکی جواب نمی‌دهد و تماس مجدد زمان‌بندی می‌شود.</p></div>
+      <div class="tl">
+        <time>3:30</time>
+        <p>صندوق فروشنده در تب دوم: پاسخ یک‌لمسی، و به‌روز شدن زندهٔ صفحهٔ خریدار.</p></div>
+      <div class="tl">
+        <time>4:10</time>
+        <p>برنامهٔ بازدید، راهنمای طبقه و واحد، «بسته بود» و جایگزین در همان پاساژ.</p></div>
+      <div class="tl">
+        <time>4:40</time>
+        <p>صفحهٔ «دربارهٔ داده‌ها»، لینک لیارا و جمع‌بندی.</p></div>
+    </div>
+  </section>
+
+</main>
+<footer class="wrap">
+  <span>ساخته‌شده برای چالش ترب توسط تیم <b class="ltr">Human in the Loop</b></span>
+  <span>داده: دیتاست ترب · نقشه و مترو: © OpenStreetMap contributors</span>
+</footer>
+
+<script>
+  (() => {
+    const fa = n => n.toLocaleString('fa-IR');
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // count-up (final value is already rendered in the HTML)
+    if (!reduce) document.querySelectorAll('[data-count]').forEach(el => {
+      const end = +el.dataset.count, t0 = performance.now(), dur = 1200;
+      const tick = t => {
+        const k = Math.min(1, (t - t0) / dur);
+        el.textContent = fa(Math.round(end * (1 - Math.pow(1 - k, 3))));
+        if (k < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    });
+
+    // ── phone demo scenes ──
+    const scenes = [
+      {
+        cap: 'گام ۱: انتخاب مدل با دو سؤال کوتاه', chips: [], items: [
+          ['u', 'کتونی می‌خوام ولی نمی‌دونم چه مدلی'],
+          ['s', 'در حال آماده کردن چند سؤال کوتاه…'],
+          ['a', '۸۶۵ مدل کتانی میان فروشنده‌های حضوری هست. بودجه‌تان حدوداً چقدر است؟'],
+          ['card', '<div class="row"><span class="tag g">زیر ۲ میلیون</span><span class="tag g">۲ تا ۵ میلیون</span><span class="tag g">بالای ۵ میلیون</span></div>']]
+      },
+      {
+        cap: 'گام ۲ و ۳: فروشگاه‌های نزدیک و مقایسه', chips: ['chip-loc', 'chip-inst'], items: [
+          ['u', 'گوشی سامسونگ A07 قسطی نزدیک جمهوری'],
+          ['s', 'دستیار «قسطی» را روشن کرد و محدوده را «پاساژ جمهوری» گذاشت · برگرداندن'],
+          ['a', '۲۸ فروشندهٔ حضوری پیدا شد؛ ۲۲ تا در ۶۵۰ متری هم.'],
+          ['card', '<div class="row"><span class="t">فروشگاه ۱ · پاساژ علاءالدین، طبقه ۲</span></div><div class="row"><span>۳۹٫۶ میلیون تومان</span><span class="tag r tag w">ثبت‌شده · ۲ روز پیش</span></div><div class="row"><span>۴۰۰ متر · باز تا ۲۰:۰۰</span><span class="tag o">قسطی: ترب‌پی</span></div>']]
+      },
+      {
+        cap: 'گام ۴: تماس هوشمند و پیگیری خودکار', chips: ['chip-loc', 'chip-inst'], items: [
+          ['u', 'از ۳ فروشگاه اول بپرس موجود دارن؟'],
+          ['call', '<div class="row"><span class="t"><span class="ring"></span> فروشگاه ۱ · در حال گفتگو</span><span class="tag w">نسخه نمایشی</span></div><div>«{product} را الان موجود دارید؟» — «بله، موجود داریم.»</div>'.replace('{product}', 'A07')],
+          ['card', '<div class="row"><span class="t">فروشگاه ۲</span><span class="tag o">جواب نداد · تماس مجدد ۴۵ ثانیه دیگر</span></div>'],
+          ['card', '<div class="row"><span class="t">فروشگاه ۱</span><span class="tag g">✓ موجود · ۳۹٫۶ م · تا ۱۸:۳۰ نگه می‌دارند</span></div>']]
+      },
+      {
+        cap: 'در محل: «بسته بود» و جایگزین فوری', chips: ['chip-loc', 'chip-inst', 'chip-budget'], items: [
+          ['u', 'رسیدم ولی بسته بود'],
+          ['s', 'گزارش «بسته بود» ثبت شد'],
+          ['a', 'این ۳ فروشگاه همین الان باز هستند و همین کالا را دارند؛ اولی در همین طبقه است.'],
+          ['card', '<div class="row"><span class="t">همان پاساژ · طبقه ۲ · واحد ۲۱۴</span><span class="tag g">باز تا ۲۰:۰۰</span></div><div class="row"><span>۶۰ متر پیاده</span><span class="tag o">جایگزین در برنامه</span></div>']]
+      },
+    ];
+    const body = document.getElementById('phone-body'), cap = document.getElementById('scene-cap'),
+      dots = document.getElementById('scene-dots');
+    let cur = 0, timers = [];
+    const render = (i, animate) => {
+      timers.forEach(clearTimeout);
+      timers = [];
+      cur = i;
+      const s = scenes[i];
+      cap.textContent = s.cap;
+      body.innerHTML = '';
+      document.querySelectorAll('.p-chip').forEach(c => c.classList.toggle('on', s.chips.includes(c.id)));
+      [...dots.children].forEach((d, k) => d.classList.toggle('on', k === i));
+      s.items.forEach(([kind, html], k) => {
+        const add = () => {
+          const el = document.createElement('div');
+          el.className = kind === 'card' ? 'card' : kind === 'call' ? 'call' : 'b ' + kind;
+          el.innerHTML = html;
+          body.appendChild(el);
+        };
+        if (animate) timers.push(setTimeout(add, 450 + k * 900)); else add();
+      });
+      if (animate) timers.push(setTimeout(() => render((i + 1) % scenes.length, true), 450 + s.items.length * 900 + 2600));
+    };
+    scenes.forEach((s, i) => {
+      const b = document.createElement('button');
+      b.setAttribute('aria-label', s.cap);
+      b.onclick = () => render(i, !reduce);
+      dots.appendChild(b);
+    });
+    render(0, false);                       // complete first frame at rest
+    if (!reduce) timers.push(setTimeout(() => render(1, true), 4200));
+
+    // ── feature tour ──
+    const icon = d => `<svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+    const feats = [
+      {
+        t: 'دستیار گفتگو', i: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>',
+        p: 'به زبان روزمره بنویسید یا بگویید. دستیار شرط‌ها را روی چیپ‌ها می‌گذارد، ابزارهای جستجو و تماس را صدا می‌زند و جواب را در کارت‌های تعاملی نشان می‌دهد.',
+        l: ['وضعیت هر قدم را می‌بینید: «پیدا کردن فروشنده‌های حضوری نزدیک شما…»', 'هر تغییری که دستیار در شرط‌ها می‌دهد یک دکمهٔ «برگرداندن» دارد', 'ورودی صوتی؛ و بدون کلید API هم با حالت پایهٔ فارسی کار می‌کند'],
+        h: 'از صفحهٔ «دستیار» یکی از مثال‌ها را لمس کنید یا بنویسید: <span class="kbd">کتونی می‌خوام ولی نمی‌دونم چه مدلی</span>'
+      },
+      {
+        t: 'جستجو و انتخاب مدل', i: '<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>',
+        p: 'جستجوی فارسی با مترادف‌ها (کتونی، کتانی، اسنیکرز)، تشخیص بودجه و برند، و «کمکم کن انتخاب کنم» برای وقتی که مدل را نمی‌دانید.',
+        l: ['سؤال‌های داده‌محور: بازهٔ قیمت از چارک‌های واقعی دسته، برندها، جنسیت و مشخصات فنی', 'کارت بررسی واقع‌بینانهٔ بودجه: «با ۲۵ میلیون فقط گوشی ساده پیدا شد…»', 'مقایسهٔ تا ۴ کالا با برجسته شدن تفاوت‌ها'],
+        h: 'در «جستجو» عبارت را بنویسید، سپس «کمکم کن» را بزنید و به دو سؤال جواب دهید.'
+      },
+      {
+        t: 'فروشگاه‌ها و محله‌ها', i: '<path d="M3 9l1-5h16l1 5"/><path d="M4 9v11h16V9"/><path d="M9 20v-6h6v6"/>',
+        p: 'برای هر کالا فروشنده‌های حضوری با رتبهٔ هوشمند (قیمت، فاصله، باز بودن، تازگی قیمت) و دلیل رتبه، به‌علاوهٔ محله‌هایی که چند فروشنده نزدیک هم دارند.',
+        l: ['نمای فهرست یا نقشه با برچسب قیمت روی هر پاساژ', 'گروه‌بندی قسطی: ثبت‌شده، در توضیحات فروشنده، ثبت نشده (با «بپرس»)', '«ممکن است داشته باشند»: فروشگاه‌هایی که فقط دستهٔ فعالیتشان مطابق است'],
+        h: 'در صفحهٔ کالا «فروشنده‌ها» را بزنید؛ برای مقایسه چند فروشگاه را تیک بزنید.'
+      },
+      {
+        t: 'تماس و پیگیری',
+        i: '<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/>',
+        p: 'دستیار از طرف شما با چند فروشگاه تماس می‌گیرد و موجودی، قیمت امروز، ساعت کاری، نگه‌داشتن کالا، قسط و نشانی دقیق را می‌پرسد.',
+        l: ['متن تماس زنده پخش می‌شود و نتیجه کنار قیمت ثبت‌شده با درصد تغییر می‌آید', 'جواب نداد؟ تماس مجدد خودکار؛ بسته بود؟ تماس در ساعت باز شدن', 'خلاصهٔ نتیجه‌ها و پیشنهاد نهایی در چت ارسال می‌شود'],
+        h: 'روی کارت فروشگاه «بپرس» را بزنید، سؤال‌ها را انتخاب کنید و نتیجه را در «پیگیری‌ها» ببینید. تماس‌ها در نسخهٔ نمایشی شبیه‌سازی می‌شوند، چون شماره‌های دیتاست جعلی‌اند.'
+      },
+      {
+        t: 'برنامهٔ بازدید', i: '<path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3z"/><path d="M9 3v15M15 6v15"/>',
+        p: 'ترتیب بهینهٔ فروشگاه‌ها، زمان رسیدن به هر کدام، باز بودن در لحظهٔ رسیدن و آخرین ساعت حرکت. فروشگاه‌های یک پاساژ پشت سر هم و از طبقهٔ پایین به بالا.',
+        l: ['هشدار پنجشنبه‌عصر، جمعه، ساعت شلوغی و طرح ترافیک با پیشنهاد مترو', 'دکمه‌های محل: بسته بود، پیدایش نکردم، موجود نداشت، گران‌تر بود', 'آفلاین هم باز می‌شود؛ زیرزمین پاساژها آنتن ندارد'],
+        h: 'روی کارت‌ها «به برنامه» را بزنید، سپس از تب «برنامه» ترتیب را ببینید.'
+      },
+      {
+        t: 'راهنمای داخل پاساژ',
+        i: '<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+        p: 'نشانی متنی هر فروشگاه به «پاساژ ← طبقه ← واحد ← راهرو» تبدیل می‌شود و فروشگاه‌های همان طبقه هم نمایش داده می‌شوند.',
+        l: ['۴۴۸ پاساژ و مجتمع با فهرست طبقه به طبقه', 'کارت تمام‌صفحه برای نشان دادن به نگهبان پاساژ', 'نزدیک‌ترین ایستگاه مترو و خط آن'],
+        h: 'در صفحهٔ فروشگاه بخش «کجای پاساژ است؟» را ببینید یا روی نام پاساژ بزنید.'
+      },
+      {
+        t: 'صندوق فروشنده',
+        i: '<path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5.1 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.5-6.9A2 2 0 0 0 16.8 4H7.2a2 2 0 0 0-1.7 1.1z"/>',
+        p: 'سمت دیگر بازار: فروشنده سؤال مشتری را می‌بیند و با یک لمس جواب می‌دهد. پاسخ مستقیم فروشنده بر تماس شبیه‌سازی‌شده اولویت دارد و زنده برای خریدار می‌رود.',
+        l: ['پاسخ یک‌لمسی: موجود است، تمام شده، همان قیمت، قیمت جدید، نگه می‌داریم', 'آمار «امروز n نفر دربارهٔ کالاهای شما پرسیدند»', 'به‌روزرسانی زنده با SSE'],
+        h: 'نشانی <span class="kbd ltr">/seller</span> را در تب دوم باز کنید، فروشگاهی را که از آن پرسیده‌اید انتخاب کنید و جواب دهید.'
+      },
+      {
+        t: 'شفافیت داده', i: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>',
+        p: 'قیمت ثبت‌شده، تاریخ تغییر قیمت و موجودی تأییدشده هیچ‌وقت یکی نشان داده نمی‌شوند. اطلاعات نامشخص صریح است و همیشه یک «بپرس» کنارش دارد.',
+        l: ['قیمت صفر یا غیرعادی با توضیح علامت می‌خورد و در آمار نمی‌آید', 'برند تشخیص‌خودکار، عنوان حذف‌شده و کالای طرح/کپی برچسب دارند', 'صفحهٔ «دربارهٔ داده‌ها» با میزان کامل بودن هر فیلد'],
+        h: 'در فوتر صفحه‌ها «این برچسب‌ها یعنی چه؟» را بزنید یا به <span class="kbd ltr">/about</span> بروید.'
+      },
+    ];
+    const tabs = document.getElementById('tabs'), panels = document.getElementById('panels');
+    feats.forEach((f, i) => {
+      const b = document.createElement('button');
+      b.role = 'tab';
+      b.id = 'tab-' + i;
+      b.setAttribute('aria-controls', 'panel-' + i);
+      b.setAttribute('aria-selected', i === 0);
+      b.tabIndex = i === 0 ? 0 : -1;
+      b.innerHTML = icon(f.i) + '<span>' + f.t + '</span>';
+      tabs.appendChild(b);
+      const p = document.createElement('div');
+      p.className = 'panel';
+      p.id = 'panel-' + i;
+      p.setAttribute('role', 'tabpanel');
+      p.setAttribute('aria-labelledby', b.id);
+      p.hidden = i !== 0;
+      p.innerHTML = `<h3>${f.t}</h3><p>${f.p}</p><ul>${f.l.map(x => '<li>' + x + '</li>').join('')}</ul><div class="how"><b>امتحان کنید</b><span>${f.h}</span></div>`;
+      panels.appendChild(p);
+    });
+    const select = i => {
+      [...tabs.children].forEach((b, k) => {
+        b.setAttribute('aria-selected', k === i);
+        b.tabIndex = k === i ? 0 : -1;
+      });
+      [...panels.children].forEach((p, k) => p.hidden = k !== i);
+    };
+    tabs.addEventListener('click', e => {
+      const b = e.target.closest('button');
+      if (b) select([...tabs.children].indexOf(b));
+    });
+    tabs.addEventListener('keydown', e => {
+      const n = feats.length, i = [...tabs.children].indexOf(document.activeElement);
+      if (i < 0) return;
+      const j = e.key === 'ArrowDown' || e.key === 'ArrowLeft' ? (i + 1) % n : e.key === 'ArrowUp' || e.key === 'ArrowRight' ? (i - 1 + n) % n : -1;
+      if (j >= 0) {
+        e.preventDefault();
+        select(j);
+        tabs.children[j].focus();
+      }
+    });
+
+    // ── charts (real catalog numbers) ──
+    const NS = 'http://www.w3.org/2000/svg';
+    const el = (svg, tag, attrs, text) => {
+      const n = document.createElementNS(NS, tag);
+      for (const k in attrs) n.setAttribute(k, attrs[k]);
+      if (text != null) n.textContent = text;
+      svg.appendChild(n);
+      return n;
+    };
+    const hbars = (id, rows, opts = {}) => {
+      const svg = document.getElementById(id), W = 520, labelW = opts.labelW || 120, valW = 70, rowH = opts.rowH || 30,
+        max = opts.max || Math.max(...rows.map(r => r[1]));
+      const plot = W - labelW - valW;
+      rows.forEach(([label, v, color, inner], i) => {
+        const y = 10 + i * rowH, w = Math.max(2, plot * v / max), x0 = W - labelW;
+        el(svg, 'text', {x: W, y: y + rowH / 2 + 4, 'text-anchor': 'end'}, label);
+        el(svg, 'rect', {
+          x: x0 - w - 8,
+          y: y + 5,
+          width: w,
+          height: rowH - 12,
+          rx: 5,
+          fill: color || 'var(--brand)',
+          class: 'bar',
+          style: `animation-delay:${i * 80}ms`
+        });
+        if (inner) {
+          const iw = plot * inner / max;
+          el(svg, 'rect', {
+            x: x0 - iw - 8,
+            y: y + 5,
+            width: iw,
+            height: rowH - 12,
+            rx: 5,
+            fill: 'var(--brand-strong)',
+            class: 'bar',
+            style: `animation-delay:${i * 80 + 200}ms`
+          });
+        }
+        el(svg, 'text', {
+          x: x0 - w - 14,
+          y: y + rowH / 2 + 4,
+          'text-anchor': 'end',
+          class: 'v'
+        }, opts.fmt ? opts.fmt(v) : fa(v));
+      });
+    };
+    hbars('ch-areas', [['فردوسی', 3282], ['شیخ هادی', 1587], ['بهارستان', 616], ['آسمان', 151], ['باغ فیض', 107], ['ایرانشهر', 99], ['سنائی', 96], ['۲۴ محلهٔ دیگر', 538, 'var(--surface-2)']], {rowH: 29});
+    hbars('ch-pay', [['ترب‌پی', 190, 'var(--brand-tint)', 50], ['اسنپ‌پی', 89, 'var(--brand-tint)', 53], ['دیجی‌پی', 61, 'var(--brand-tint)', 45], ['تارا', 37, 'var(--brand-tint)', 26], ['ازکی‌وام', 5, 'var(--brand-tint)', 0]], {rowH: 40});
+    const total = 6476;
+    hbars('ch-addr', [['پلاک', 5091], ['طبقه', 4224], ['نام پاساژ', 3179], ['واحد', 2380], ['مجتمع تجاری', 467]], {
+      rowH: 40,
+      max: total,
+      fmt: v => Math.round(v / total * 100).toLocaleString('fa-IR') + '٪'
+    });
+
+    // freshness columns
+    (() => {
+      const svg = document.getElementById('ch-fresh'),
+        data = [['قبل از فروردین', 18283], ['فروردین', 11544], ['اردیبهشت', 22700], ['خرداد', 14967], ['تیر', 18402], ['مرداد', 28370], ['شهریور', 87626], ['مهر', 128845]];
+      const W = 520, H = 250, top = 24, base = 200, max = 130000, cw = W / data.length;
+      [0, 40000, 80000, 120000].forEach(v => {
+        const y = base - (base - top) * v / max;
+        el(svg, 'line', {x1: 0, x2: W, y1: y, y2: y, class: 'grid'});
+        el(svg, 'text', {x: 2, y: y - 4, 'text-anchor': 'start', style: 'font-size:10.5px;fill:var(--muted)'}, fa(v));
+      });
+      data.forEach(([m, v], i) => {
+        const h = (base - top) * v / max, x = W - (i + 1) * cw + cw * .2, w = cw * .6;
+        el(svg, 'rect', {
+          x,
+          y: base - h,
+          width: w,
+          height: h,
+          rx: 5,
+          fill: i >= 6 ? 'var(--brand)' : 'var(--surface-2)',
+          stroke: i >= 6 ? 'none' : 'var(--line)',
+          class: 'col',
+          style: `animation-delay:${i * 70}ms`
+        });
+        el(svg, 'text', {
+          x: x + w / 2,
+          y: base - h - 6,
+          'text-anchor': 'middle',
+          class: 'v',
+          style: 'font-size:10.5px'
+        }, v >= 1000 ? Math.round(v / 1000).toLocaleString('fa-IR') + 'هـ' : fa(v));
+        el(svg, 'text', {x: x + w / 2, y: base + 18, 'text-anchor': 'middle', style: 'font-size:10.5px'}, m);
+      });
+      el(svg, 'text', {
+        x: W,
+        y: 242,
+        'text-anchor': 'end',
+        style: 'font-size:11px;fill:var(--muted)'
+      }, 'هـ = هزار پیشنهاد · ۱۴۰۵');
+    })();
+
+    // shop tiers stacked bar
+    (() => {
+      const svg = document.getElementById('ch-tiers'), W = 1040,
+        parts = [['دارای پیشنهاد کالا', 3792, 'var(--brand)'], ['فقط دستهٔ فعالیت', 887, 'var(--accent)'], ['بدون کالا و دسته', 1797, 'var(--surface-2)']];
+      let x = W;
+      parts.forEach(([label, v, c], i) => {
+        const w = W * v / 6476;
+        x -= w;
+        el(svg, 'rect', {
+          x: x + 2,
+          y: 10,
+          width: w - 4,
+          height: 46,
+          rx: 8,
+          fill: c,
+          stroke: i === 2 ? 'var(--line)' : 'none',
+          class: 'bar',
+          style: `animation-delay:${i * 150}ms`
+        });
+        el(svg, 'text', {x: x + w - 12, y: 82, 'text-anchor': 'start', class: 'v'}, fa(v));
+        el(svg, 'text', {x: x + w - 12, y: 104, 'text-anchor': 'start'}, label);
+      });
+    })();
+  })();
+</script>
