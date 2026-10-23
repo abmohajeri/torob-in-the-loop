@@ -1,0 +1,4 @@
+# Overrides apps/web/.gitignore for `liara deploy` (Liara reads one ignore file per directory and
+# would otherwise use .gitignore, which excludes dist/ — Dockerfile.runtime needs apps/web/dist).
+.screens/
+node_modules
