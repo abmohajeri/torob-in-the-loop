@@ -140,7 +140,10 @@ liara app logs --app torob-in-the-loop -f
 
 - `liara.json` schema & flags: Liara CLI 9.4.7 source (`lib/types/liara-json.d.ts`, `lib/commands/deploy.js`, `lib/commands/disk/create.js` — disk size in GB, `lib/commands/app/create.js` — `--platform`, `--plan`, `--read-only`).
 - Ignore precedence and size limit: `lib/utils/create-archive.js` (`.liaraignore` > `.dockerignore` > `.gitignore`, 256 MiB).
-- Health-check fields: https://docs.liara.ir/paas/details/health-check/ — the page's example uses `interval: 30, timeout: 15, retries: 2, startPeriod: 5` (values that only make sense as seconds, although the prose says milliseconds). Our values follow the example's scale.
+- Health-check fields: https://docs.liara.ir/paas/details/health-check/ — the page's example uses
+  `interval: 30, timeout: 15, retries: 2, startPeriod: 5` but the values are milliseconds, as the prose and the CLI's
+  `liara init` prompts (`interval(ms)`, `startPeriod(ms)`) say. Our values: interval 30000, timeout 10000, retries 3,
+  startPeriod 60000.
 
 ---
 
@@ -161,4 +164,6 @@ liara app logs --app torob-in-the-loop -f
 
 **English:** for team-owned apps pass `--team-id` (or `LIARA_TEAM_ID`). For CI deploys, upload `catalog.db.gz` as a
 Release asset and set the `LIARA_API_TOKEN`, `LIARA_TEAM_ID` and `CATALOG_URL` repository secrets; each push to `main`
-then tests, builds, deploys and smoke-tests. Liara health-check values are in seconds, with `interval` ≥ 30.
+then tests, builds, deploys and smoke-tests. Liara health-check values are in **milliseconds** (seconds-scale values
+like
+`timeout: 10` make every probe fail and Liara SIGTERMs the container right after it starts listening).

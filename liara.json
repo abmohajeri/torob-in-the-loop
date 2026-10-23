@@ -18,9 +18,9 @@
       "node",
       "/app/scripts/healthcheck.mjs"
     ],
-    "interval": 30,
-    "timeout": 10,
+    "interval": 30000,
+    "timeout": 10000,
     "retries": 3,
-    "startPeriod": 30
+    "startPeriod": 60000
   }
 }
