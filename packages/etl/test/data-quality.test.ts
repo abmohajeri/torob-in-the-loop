@@ -2,9 +2,9 @@
  * DT15: rule hit counts of the built catalog stay within ±5 % of the reference counts in
  * docs/DESIGN-REVIEW.md §4.1 (verified against raw.db). Skipped when data/catalog.db is absent.
  */
-import { existsSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
-import { describe, expect, it } from 'vitest';
+import {existsSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import {describe, expect, it} from 'vitest';
 
 const { DatabaseSync } = process.getBuiltinModule('node:sqlite') as typeof import('node:sqlite');
 const CATALOG = fileURLToPath(new URL('../../../data/catalog.db', import.meta.url));
@@ -29,6 +29,7 @@ const REFERENCE: Record<string, number> = {
 };
 
 (full ? describe : describe.skip)('DT15 data-quality counts (±5 %)', () => {
+  if (!full) return; // describe.skip still runs this body during collection
   const db = new DatabaseSync(CATALOG, { readOnly: true });
   const q = JSON.parse((db.prepare("SELECT value FROM meta WHERE key = 'quality'").get() as { value: string }).value);
   const rules: Record<string, number> = q.offers.rules;

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Deploy Torob in the Loop to Liara (Docker platform, Dockerfile.runtime from prebuilt artifacts).
-#   scripts/deploy-liara.sh [--app NAME] [--api-token TOKEN] [--detach] [--skip-build] [--full]
+#   scripts/deploy-liara.sh [--app NAME] [--api-token TOKEN] [--team-id ID] [--detach] [--skip-build] [--full]
 #   env: LIARA_APP (default torob-in-the-loop), LIARA_API_TOKEN
 #   --full : build from source on Liara with ./Dockerfile instead of Dockerfile.runtime (slower).
 set -euo pipefail
@@ -12,11 +12,12 @@ ok()   { echo "${G}✔${N} $*"; }
 warn() { echo "${Y}!${N} $*" >&2; }
 die()  { echo "${R}✘ $*${N}" >&2; exit 1; }
 
-APP="${LIARA_APP:-torob-in-the-loop}"; TOKEN="${LIARA_API_TOKEN:-}"; DETACH=0; SKIP_BUILD=0; FULL=0
+APP="${LIARA_APP:-torob-in-the-loop}"; TOKEN="${LIARA_API_TOKEN:-}"; TEAM="${LIARA_TEAM_ID:-}"; DETACH=0; SKIP_BUILD=0; FULL=0
 while [ $# -gt 0 ]; do
   case "$1" in
     --app) APP="${2:?}"; shift 2 ;;
     --api-token) TOKEN="${2:?}"; shift 2 ;;
+    --team-id) TEAM="${2:?}"; shift 2 ;;
     --detach) DETACH=1; shift ;;
     --skip-build) SKIP_BUILD=1; shift ;;
     --full) FULL=1; shift ;;
@@ -67,6 +68,7 @@ info "estimating upload size"
 args=(deploy --app "$APP" --platform docker --port 3000 --no-app-logs)
 [ "$FULL" = 1 ] && args+=(--dockerfile Dockerfile)
 [ -n "$TOKEN" ] && args+=(--api-token "$TOKEN")
+[ -n "$TEAM" ] && args+=(--team-id "$TEAM")
 [ "$DETACH" = 1 ] && args+=(--detach)
 info "liara ${args[*]/$TOKEN/***}"
 liara "${args[@]}"

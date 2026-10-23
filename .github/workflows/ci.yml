@@ -46,6 +46,7 @@ jobs:
     environment: production
     env:
       LIARA_API_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
+      LIARA_TEAM_ID: ${{ secrets.LIARA_TEAM_ID }}
       CATALOG_URL: ${{ secrets.CATALOG_URL }}
       LIARA_APP: ${{ vars.LIARA_APP || 'torob-in-the-loop' }}
     steps:
@@ -80,4 +81,6 @@ jobs:
           bash scripts/deploy-liara.sh --app "$LIARA_APP" --api-token "$LIARA_API_TOKEN" --skip-build
       - name: Smoke test
         if: steps.gate.outputs.ok == 'true'
-        run: bash scripts/smoke.sh "https://${LIARA_APP}.liara.run"
+        run: |
+          sleep 45
+          for i in 1 2 3; do bash scripts/smoke.sh "https://${LIARA_APP}.liara.run" && exit 0; sleep 30; done; exit 1
