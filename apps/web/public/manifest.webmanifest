@@ -1,0 +1,25 @@
+{
+  "name": "Torob in the Loop",
+  "short_name": "TITL",
+  "description": "بگویید چه می‌خواهید؛ نزدیک‌ترین فروشگاه‌ها و پاساژهای تهران را با قیمت و شرایط شما پیدا می‌کنیم.",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ecfdf5",
+  "theme_color": "#047857",
+  "categories": ["shopping", "navigation"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "جستجوی کالا", "url": "/search" },
+    { "name": "پیگیری‌ها", "url": "/inquiries" },
+    { "name": "برنامه مراجعه", "url": "/plan" }
+  ]
+}

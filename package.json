@@ -1,0 +1,35 @@
+{
+  "name": "torob-in-the-loop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Torob in the Loop — دستیار هوشمند خرید حضوری در تهران (Torob in-person shopping challenge)",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n server,web -c blue,magenta \"npm:dev -w @titl/server\" \"npm:dev -w @titl/web\"",
+    "build": "npm run build -w @titl/web && npm run build -w @titl/server",
+    "start": "node --disable-warning=ExperimentalWarning apps/server/dist/index.js",
+    "data:build": "npm run build:catalog -w @titl/etl",
+    "data:fixtures": "npm run build:fixtures -w @titl/etl",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "e2e": "playwright test",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.20.5",
+    "concurrently": "^9.2.0",
+    "esbuild": "^0.25.10",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

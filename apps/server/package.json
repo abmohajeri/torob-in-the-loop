@@ -1,0 +1,19 @@
+{
+  "name": "@titl/server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development tsx watch --clear-screen=false --disable-warning=ExperimentalWarning src/index.ts",
+    "build": "node build.mjs",
+    "start": "node --disable-warning=ExperimentalWarning dist/index.js",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@titl/shared": "*",
+    "@hono/node-server": "^1.19.5",
+    "hono": "^4.10.0",
+    "zod": "^3.25.76"
+  }
+}

@@ -1,0 +1,3013 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-22T08:48:10Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "relation",
+  "id": 443307,
+  "members": [
+    {
+      "type": "node",
+      "ref": 10860300370,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5161529740,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732956,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3930789262,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732950,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732984,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4558309639,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 654081655,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4452444057,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732952,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5162910434,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660624968,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5188247276,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5188341404,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6438071583,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14075125226,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4544628125,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732969,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732980,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4553519985,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1167734827,
+      "role": "inactive"
+    },
+    {
+      "type": "way",
+      "ref": 1167734826,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562335,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562330,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562332,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562331,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562333,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 461961970,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 531786471,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 51766788,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 911325099,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "yellow",
+    "from": "علامه جعفری",
+    "name": "خط ۴",
+    "name:de": "Linie 4",
+    "name:en": "Line 4",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "ar:مترو طهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "to": "شهید کلاهدوز",
+    "type": "route",
+    "wikidata": "Q20110121",
+    "wikipedia": "en:Tehran Metro Line 4"
+  }
+},
+{
+  "type": "relation",
+  "id": 2431321,
+  "members": [
+    {
+      "type": "node",
+      "ref": 4453643066,
+      "role": "stop_entry_only"
+    },
+    {
+      "type": "node",
+      "ref": 2120217849,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 864404756,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5183625749,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4452329924,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 654082162,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778792864,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3691224155,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5186262280,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 659784460,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 659782107,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660627035,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660628277,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660628303,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660628364,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3080821096,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4674995987,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660628705,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660628852,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031505,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660628921,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169691367,
+      "role": "stop_exit_only"
+    },
+    {
+      "type": "way",
+      "ref": 182547031,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 28745590,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 448212350,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 439856575,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1278615273,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1474345789,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 531784904,
+      "role": "inactive"
+    }
+  ],
+  "tags": {
+    "colour": "#003380",
+    "from": "تهران(صادقیه)",
+    "name": "خط ۲: صادقیه به فرهنگسرا",
+    "name:de": "Linie 2",
+    "name:en": "Line 2: Sadeghiyeh → Farhangsara",
+    "name:fa": "خط ۲: صادقیه به فرهنگسرا",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "fa:متروی تهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "2",
+    "route": "subway",
+    "to": "فرهنگسرا",
+    "type": "route",
+    "wikidata": "Q20110119"
+  }
+},
+{
+  "type": "relation",
+  "id": 5366249,
+  "members": [
+    {
+      "type": "node",
+      "ref": 3778861797,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861792,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861791,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861790,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861789,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12457390951,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4453205974,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14072135589,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861786,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12457390952,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14071134416,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5188238058,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2831259303,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2831259315,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10760685494,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732979,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3649760926,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4453224428,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12457390950,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3641204693,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5190555599,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3649760928,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4453604919,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4453614390,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3649760925,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 561284303,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 278822219,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360429886,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 783749669,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 358622226,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360429884,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1543181085,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 445967481,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#00aad4",
+    "from": "آزادگان",
+    "name": "خط ٣",
+    "name:de": "U-Bahn-Linie 3",
+    "name:en": "Line 3",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "ar:مترو طهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "3",
+    "route": "subway",
+    "to": "قائم",
+    "type": "route",
+    "wikidata": "Q20110120",
+    "wikipedia": "en:Tehran Metro Line 3"
+  }
+},
+{
+  "type": "relation",
+  "id": 5697303,
+  "members": [
+    {
+      "type": "node",
+      "ref": 3853324357,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10761286147,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324358,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 11263536540,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456860,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10235224668,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456838,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456823,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456820,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456806,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648882,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324374,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324397,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324399,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324412,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456757,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10759924012,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13426509301,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13426743991,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660627594,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815454729,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815454724,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9149513247,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5930756414,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324444,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815454692,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 916915022,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1119122330,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1119122331,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 461839263,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 951990654,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 931422129,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 931422128,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 378127816,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF5599",
+    "from": "شهید آرمان علی‌وردی (کوهسار)",
+    "name": "خط ۶",
+    "name:de": "Linie 6",
+    "name:en": "Line 6: Arman Aliverdi → Shohadaye Dowlat",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "fa:متروی تهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "6",
+    "route": "subway",
+    "to": "شهدای دولت‌آباد",
+    "type": "route",
+    "wikidata": "Q20110123"
+  }
+},
+{
+  "type": "relation",
+  "id": 6151834,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5162855460,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5003695296,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2367114843,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1436350945,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 11271470415,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1216457828,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 411285305,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 548581300,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 548581298,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554054,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554052,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554055,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554059,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554057,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 868566180,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 868566179,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554063,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554061,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554073,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554070,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554079,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 689406409,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 689406410,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554076,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554091,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554087,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554085,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554082,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554097,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554094,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554114,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554112,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554117,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554115,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 466141447,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 466141448,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 466141435,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554118,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554120,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 466141436,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 228064677,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554121,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554122,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 228064679,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 228064683,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 100431485,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 489149261,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511554125,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358478,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358489,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358492,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358493,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358494,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358495,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358496,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358497,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358498,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358499,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358503,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358504,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358506,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358507,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358508,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358477,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1216457824,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1216457825,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1228618186,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1216457826,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1216457821,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF0F04",
+    "from": "شاهد",
+    "name": "خط ۱",
+    "name:de": "Linie 1: Flughafenlinie",
+    "name:en": "Line 1: Airport branch",
+    "name:fr": "branche de l'aéroport IKA",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "1",
+    "route": "subway",
+    "to": "شهر پرند",
+    "type": "route",
+    "wikidata": "Q65195214"
+  }
+},
+{
+  "type": "relation",
+  "id": 7429356,
+  "members": [
+    {
+      "type": "node",
+      "ref": 3784648857,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10746895094,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648885,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648884,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648883,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5190423569,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10126282787,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9360432983,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648880,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648879,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648769,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4981028494,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14075125224,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648877,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5193453622,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648875,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784645934,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9817359618,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784645922,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648871,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648870,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648869,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 499434599,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1156175799,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 478380205,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 485071133,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 375075389,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 511494751,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#6A00FF",
+    "from": "میدان کتاب",
+    "name": "خط ۷",
+    "name:de": "Linie 7",
+    "name:en": "Line 7",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "note": "Line 7 Northbound",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "7",
+    "route": "subway",
+    "to": "ورزشگاه تختی",
+    "type": "route",
+    "wikidata": "Q20110124",
+    "wikipedia": "fa:خط ۷ متروی تهران"
+  }
+},
+{
+  "type": "relation",
+  "id": 7683584,
+  "members": [
+    {
+      "type": "node",
+      "ref": 11417054145,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3930792665,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3930792260,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 389891675,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "yellow",
+    "name": "انشعاب خط ۴",
+    "name:de": "U-Bahn-Linie 4",
+    "name:en": "Line 4",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "ar:مترو طهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q20110121",
+    "wikipedia": "en:Tehran Metro Line 4"
+  }
+},
+{
+  "type": "relation",
+  "id": 7705643,
+  "members": [
+    {
+      "type": "node",
+      "ref": 3784648869,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648870,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648871,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784645922,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9817359618,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784645934,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648875,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5193453622,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648877,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14075125224,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4981028494,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648769,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648879,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648880,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9360432983,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10126282787,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5190423569,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648883,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648884,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648885,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10746895094,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648857,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 511494751,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 375075389,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 485071133,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 478380205,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1156175799,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 499434599,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#6A00FF",
+    "from": "ورزشگاه تختی",
+    "name": "خط ۷",
+    "name:de": "Linie 7",
+    "name:en": "Line 7",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "ar:مترو طهران",
+    "note": "Line 7 Southbound",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "7",
+    "route": "subway",
+    "to": "میدان کتاب",
+    "type": "route",
+    "wikidata": "Q20110124",
+    "wikipedia": "fa:خط ۷ متروی تهران"
+  }
+},
+{
+  "type": "relation",
+  "id": 7705668,
+  "members": [
+    {
+      "type": "node",
+      "ref": 4553519985,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732980,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732969,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4544628125,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14075125226,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6438071583,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5188341404,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5188247276,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660624968,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5162910434,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732952,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4452444057,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 654081655,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4558309639,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732984,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732950,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3930789262,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732956,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5161529740,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10860300370,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 911325099,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 51766788,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 531786471,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 461961970,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562333,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562331,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562332,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562330,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360562335,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1167734826,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1167734827,
+      "role": "inactive"
+    }
+  ],
+  "tags": {
+    "colour": "yellow",
+    "from": "شهید کلاهدوز",
+    "name": "خط ۴",
+    "name:de": "Linie 4",
+    "name:en": "Line 4",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "ar:مترو طهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "to": "علامه جعفری",
+    "type": "route",
+    "wikidata": "Q20110121",
+    "wikipedia": "en:Tehran Metro Line 4"
+  }
+},
+{
+  "type": "relation",
+  "id": 7726963,
+  "members": [
+    {
+      "type": "node",
+      "ref": 11417054166,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 11417054162,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 11417054144,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1231074690,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "yellow",
+    "name": "انشعاب خط ۴",
+    "name:de": "U-Bahn-Linie 4",
+    "name:en": "Line 4",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "ar:مترو طهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q20110121",
+    "wikipedia": "en:Tehran Metro Line 4"
+  }
+},
+{
+  "type": "relation",
+  "id": 7735255,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2169298472,
+      "role": "stop_entry_only"
+    },
+    {
+      "type": "node",
+      "ref": 11281419801,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660631367,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169292190,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4452299882,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3691093697,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660633348,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660635266,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660636159,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660637545,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660640714,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660640664,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3548939496,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169380710,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660623347,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660623588,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660623849,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5190423567,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660624203,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5188238057,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 26751498,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12457390956,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660658298,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169380721,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169380705,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12457390955,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14123565436,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169380696,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2152781392,
+      "role": "stop_exit_only"
+    },
+    {
+      "type": "way",
+      "ref": 206878116,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 206878117,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1217537090,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 51767507,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687220671,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687220672,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 51767533,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 4344392,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 206883215,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 664336703,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 332271287,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 720467066,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 940525945,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF0F04",
+    "duration": "01:15:00",
+    "from": "کهریزک",
+    "name": "خط ١: کهریزک به تجریش",
+    "name:de": "Linie 1",
+    "name:en": "Line 1: Kahrizak → Tajrish",
+    "name:fa": "خط ١: کهریزک به تجریش",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "ar:مترو طهران",
+    "opening_hours": "Sa-We 05:34-22:59; Th 05:39-22:59; Fr 06:04-22:59",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "1",
+    "route": "subway",
+    "to": "تجریش",
+    "type": "route",
+    "wikidata": "Q20110118",
+    "wikipedia": "en:Tehran Metro Line 1"
+  }
+},
+{
+  "type": "relation",
+  "id": 7770933,
+  "members": [
+    {
+      "type": "node",
+      "ref": 3649760925,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4453614390,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4453604919,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3649760928,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5190555599,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3641204693,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12457390950,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4453224428,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3649760926,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2169732979,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10760685494,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2831259315,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2831259303,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5188238058,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14071134416,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12457390952,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861786,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14072135589,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4453205974,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12457390951,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861789,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861790,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861791,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861792,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3778861797,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 445967481,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1543181085,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360429884,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 358622226,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 783749669,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360429886,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 278822219,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 561284303,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#00aad4",
+    "from": "قائم",
+    "name": "خط ٣",
+    "name:de": "U-Bahn-Linie 3",
+    "name:en": "Line 3",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "ar:مترو طهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "3",
+    "route": "subway",
+    "to": "آزادگان",
+    "type": "route"
+  }
+},
+{
+  "type": "relation",
+  "id": 7832313,
+  "members": [
+    {
+      "type": "node",
+      "ref": 11271470415,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1216457828,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 6735113793,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1436350946,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 5003695295,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5162855460,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1216457821,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1216457823,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1216457822,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358476,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 228064681,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 480683173,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 557122739,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 557122737,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 480683169,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 480683168,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 489149265,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 489149264,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 489149263,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 489149262,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 480683172,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 480683171,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 480683170,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358491,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 905358490,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 228064673,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 489149259,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 489149260,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123455,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123453,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123452,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123451,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123450,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123446,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123444,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123443,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123442,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 717123441,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697605,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697603,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697602,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697600,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697599,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697596,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697595,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697594,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697593,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697592,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697591,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697590,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697589,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697585,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697584,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697583,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697582,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697580,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697581,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697579,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 984697578,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 411285333,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 411285305,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF0F04",
+    "from": "شهر پرند",
+    "name": "خط ۱",
+    "name:de": "Linie 1: Flughafenlinie",
+    "name:en": "Line 1: Airport branch",
+    "name:fr": "branche de l'aéroport IKA",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "1",
+    "route": "subway",
+    "to": "شاهد",
+    "type": "route",
+    "wikidata": "Q65195214"
+  }
+},
+{
+  "type": "relation",
+  "id": 7832324,
+  "members": [
+    {
+      "type": "node",
+      "ref": 14068031503,
+      "role": "stop_entry_only"
+    },
+    {
+      "type": "node",
+      "ref": 14068031489,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660628855,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031484,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031483,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031475,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031472,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031464,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031457,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031448,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031439,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031436,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031421,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031412,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2490301755,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031415,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068031414,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068012395,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068012396,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068012379,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 14068012376,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13953682945,
+      "role": "stop_exit_only"
+    },
+    {
+      "type": "way",
+      "ref": 1546709744,
+      "role": "inactive"
+    },
+    {
+      "type": "way",
+      "ref": 1546709743,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 175819514,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#003380",
+    "from": "فرهنگسرا",
+    "name": "خط ۲: فرهنگسرا به صادقیه",
+    "name:de": "Linie 2",
+    "name:en": "Line 2: Farhangsara → Sadeghiyeh",
+    "name:fa": "خط ۲: فرهنگسرا به صادقیه",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "fa:متروی تهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "2",
+    "route": "subway",
+    "to": "تهران(صادقیه)",
+    "type": "route",
+    "wikidata": "Q20110119"
+  }
+},
+{
+  "type": "relation",
+  "id": 9468295,
+  "members": [
+    {
+      "type": "node",
+      "ref": 3815454692,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324444,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5930756414,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9149513247,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815454724,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815454729,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 660627594,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13426743991,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13426509301,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10759924012,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456757,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324412,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324399,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324397,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324374,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3784648882,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456806,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456820,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456823,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456838,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10235224668,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3815456860,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 11263536540,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324358,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10761286147,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3853324357,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 378127816,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 931422128,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 931422129,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 951990654,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 461839263,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1119122331,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1119122330,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 916915022,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF5599",
+    "from": "شهدای دولت‌آباد",
+    "name": "خط ۶",
+    "name:de": "Linie 6",
+    "name:en": "Line 6: Shohadaye Dowlat → Arman Aliverdi",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "fa:متروی تهران",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "6",
+    "route": "subway",
+    "to": "شهید آرمان علی‌وردی (کوهسار)",
+    "type": "route"
+  }
+},
+{
+  "type": "relation",
+  "id": 19967673,
+  "members": [
+    {
+      "type": "node",
+      "ref": 13381264372,
+      "role": "stop_entry_only"
+    },
+    {
+      "type": "node",
+      "ref": 13381264367,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123769,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123763,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123757,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123744,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123738,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123740,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123733,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123728,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123727,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13381123723,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380785627,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380785623,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380785611,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380785609,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380779588,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380779580,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380779561,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380425847,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380425829,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380425726,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380418899,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380418872,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380418863,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380418856,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13203213003,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13380418857,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 7056721168,
+      "role": "stop_exit_only"
+    },
+    {
+      "type": "way",
+      "ref": 1458942699,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1458942687,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1458942688,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1547023993,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1547023994,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1217537140,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1217537089,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1217537088,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 531943300,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF0F04",
+    "duration": "01:15:00",
+    "from": "تجریش",
+    "interval:conditional": "20 @ (Sa-Th 05:30-06:30, Fr 06:00-06:40); 10 @ (Sa-Th 06:25-06:35, Sa-We 21:30-22:00,Th 21:20-22:00, Fr 07:00-07:20, Fr 21:10-22:00); 5 @ (Sa-We 06:40-10:30, Sa-We 15:05-19:55, Th 06:40-10:10); 7 @ (Th 19:17-21:10, Fr 07:27-21:00); 6 @ (Sa-We 10:36-15:00,",
+    "name": "خط ١: تجریش به کهریزک",
+    "name:de": "Linie 1",
+    "name:en": "Line 1: Tajrish → Kahrizak",
+    "name:fa": "خط ١: تجریش به کهریزک",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "network:wikipedia": "ar:مترو طهران",
+    "opening_hours": "Sa-We 05:30-23:15; Th 05:30-23:15; Fr 06:00-23:15",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport:version": "2",
+    "ref": "1",
+    "route": "subway",
+    "to": "کهریزک",
+    "type": "route",
+    "wikidata": "Q20110118",
+    "wikipedia": "en:Tehran Metro Line 1"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,932 @@
+{
+  "version": 1,
+  "places": [
+    {
+      "id": "vanak-sq",
+      "name": "میدان ونک",
+      "kind": "landmark",
+      "lat": 35.7575,
+      "lng": 51.4097,
+      "subtitle": "شمال تهران، ولیعصر",
+      "weight": 1.0
+    },
+    {
+      "id": "tajrish-sq",
+      "name": "میدان تجریش",
+      "kind": "landmark",
+      "lat": 35.8047,
+      "lng": 51.4336,
+      "subtitle": "شمیران",
+      "weight": 1.0
+    },
+    {
+      "id": "azadi-sq",
+      "name": "میدان آزادی",
+      "kind": "landmark",
+      "lat": 35.6997,
+      "lng": 51.338,
+      "subtitle": "غرب تهران، برج آزادی",
+      "weight": 1.0
+    },
+    {
+      "id": "enghelab-sq",
+      "name": "میدان انقلاب",
+      "kind": "landmark",
+      "lat": 35.7012,
+      "lng": 51.3924,
+      "subtitle": "مرکز تهران",
+      "weight": 1.0
+    },
+    {
+      "id": "valiasr-sq",
+      "name": "میدان ولیعصر",
+      "kind": "landmark",
+      "lat": 35.7116,
+      "lng": 51.407,
+      "subtitle": "مرکز تهران",
+      "weight": 1.0
+    },
+    {
+      "id": "ferdowsi-sq",
+      "name": "میدان فردوسی",
+      "kind": "landmark",
+      "lat": 35.7015,
+      "lng": 51.4191,
+      "subtitle": "مرکز تهران",
+      "weight": 0.9
+    },
+    {
+      "id": "imam-khomeini-sq",
+      "name": "میدان امام خمینی (توپخانه)",
+      "kind": "landmark",
+      "lat": 35.6859,
+      "lng": 51.4208,
+      "subtitle": "مرکز تهران",
+      "weight": 0.9
+    },
+    {
+      "id": "haft-tir-sq",
+      "name": "میدان هفت تیر",
+      "kind": "landmark",
+      "lat": 35.7156,
+      "lng": 51.4261,
+      "subtitle": "مرکز تهران، کریمخان",
+      "weight": 1.0
+    },
+    {
+      "id": "imam-hossein-sq",
+      "name": "میدان امام حسین",
+      "kind": "landmark",
+      "lat": 35.7024,
+      "lng": 51.4458,
+      "subtitle": "شرق مرکز تهران",
+      "weight": 0.9
+    },
+    {
+      "id": "baharestan-sq",
+      "name": "میدان بهارستان",
+      "kind": "landmark",
+      "lat": 35.6923,
+      "lng": 51.4332,
+      "subtitle": "مرکز تهران",
+      "weight": 0.8
+    },
+    {
+      "id": "shohada-sq",
+      "name": "میدان شهدا (ژاله)",
+      "kind": "landmark",
+      "lat": 35.6901,
+      "lng": 51.4474,
+      "subtitle": "شرق مرکز تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "sadeghieh-sq",
+      "name": "میدان صادقیه (آریاشهر)",
+      "kind": "landmark",
+      "lat": 35.7179,
+      "lng": 51.3312,
+      "subtitle": "غرب تهران",
+      "weight": 0.9
+    },
+    {
+      "id": "punak-sq",
+      "name": "میدان پونک",
+      "kind": "landmark",
+      "lat": 35.7615,
+      "lng": 51.3335,
+      "subtitle": "شمال غرب تهران",
+      "weight": 0.8
+    },
+    {
+      "id": "tohid-sq",
+      "name": "میدان توحید",
+      "kind": "landmark",
+      "lat": 35.7011,
+      "lng": 51.3782,
+      "subtitle": "غرب مرکز تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "jahad-sq",
+      "name": "میدان فاطمی (جهاد)",
+      "kind": "landmark",
+      "lat": 35.7206,
+      "lng": 51.4084,
+      "subtitle": "مرکز تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "argentina-sq",
+      "name": "میدان آرژانتین",
+      "kind": "landmark",
+      "lat": 35.7369,
+      "lng": 51.4155,
+      "subtitle": "مرکز تهران، بیهقی",
+      "weight": 0.8
+    },
+    {
+      "id": "hasanabad-sq",
+      "name": "میدان حسن‌آباد",
+      "kind": "landmark",
+      "lat": 35.6861,
+      "lng": 51.4102,
+      "subtitle": "مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "monirieh-sq",
+      "name": "میدان منیریه",
+      "kind": "landmark",
+      "lat": 35.6811,
+      "lng": 51.4016,
+      "subtitle": "بازار لوازم ورزشی",
+      "weight": 0.7
+    },
+    {
+      "id": "hor-sq",
+      "name": "میدان حر",
+      "kind": "landmark",
+      "lat": 35.6908,
+      "lng": 51.3883,
+      "subtitle": "مرکز تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "rahahan-sq",
+      "name": "میدان راه‌آهن",
+      "kind": "landmark",
+      "lat": 35.6595,
+      "lng": 51.3977,
+      "subtitle": "جنوب تهران، ایستگاه راه‌آهن",
+      "weight": 0.7
+    },
+    {
+      "id": "shoush-sq",
+      "name": "میدان شوش",
+      "kind": "landmark",
+      "lat": 35.6574,
+      "lng": 51.4142,
+      "subtitle": "جنوب تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "mohammadieh-sq",
+      "name": "میدان محمدیه (اعدام)",
+      "kind": "landmark",
+      "lat": 35.6677,
+      "lng": 51.4159,
+      "subtitle": "جنوب تهران، نزدیک بازار",
+      "weight": 0.6
+    },
+    {
+      "id": "khorasan-sq",
+      "name": "میدان خراسان",
+      "kind": "landmark",
+      "lat": 35.6654,
+      "lng": 51.4456,
+      "subtitle": "جنوب شرق تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "ghiyam-sq",
+      "name": "میدان قیام",
+      "kind": "landmark",
+      "lat": 35.6697,
+      "lng": 51.4365,
+      "subtitle": "جنوب مرکز تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "sanat-sq",
+      "name": "میدان صنعت",
+      "kind": "landmark",
+      "lat": 35.7544,
+      "lng": 51.368,
+      "subtitle": "شهرک غرب",
+      "weight": 0.8
+    },
+    {
+      "id": "ketab-sq",
+      "name": "میدان کتاب",
+      "kind": "landmark",
+      "lat": 35.7771,
+      "lng": 51.3564,
+      "subtitle": "سعادت‌آباد",
+      "weight": 0.7
+    },
+    {
+      "id": "kaj-sq",
+      "name": "میدان کاج",
+      "kind": "landmark",
+      "lat": 35.7785,
+      "lng": 51.3775,
+      "subtitle": "سعادت‌آباد",
+      "weight": 0.8
+    },
+    {
+      "id": "nobonyad-sq",
+      "name": "میدان نوبنیاد",
+      "kind": "landmark",
+      "lat": 35.7903,
+      "lng": 51.4794,
+      "subtitle": "شمال شرق تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "heravi-sq",
+      "name": "میدان هروی",
+      "kind": "landmark",
+      "lat": 35.7721,
+      "lng": 51.4732,
+      "subtitle": "پاسداران",
+      "weight": 0.7
+    },
+    {
+      "id": "valiasr-intersection",
+      "name": "چهارراه ولیعصر",
+      "kind": "landmark",
+      "lat": 35.7013,
+      "lng": 51.4053,
+      "subtitle": "تئاتر شهر",
+      "weight": 0.9
+    },
+    {
+      "id": "istanbul-crossing",
+      "name": "چهارراه استانبول",
+      "kind": "landmark",
+      "lat": 35.6982,
+      "lng": 51.42,
+      "subtitle": "مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "parkway",
+      "name": "پارک‌وی",
+      "kind": "landmark",
+      "lat": 35.7928,
+      "lng": 51.4135,
+      "subtitle": "ولیعصر، شمال تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "grand-bazaar",
+      "name": "بازار بزرگ تهران",
+      "kind": "landmark",
+      "lat": 35.6765,
+      "lng": 51.4215,
+      "subtitle": "پانزده خرداد، مولوی",
+      "weight": 1.0
+    },
+    {
+      "id": "jomhouri-st",
+      "name": "خیابان جمهوری",
+      "kind": "area",
+      "lat": 35.6942,
+      "lng": 51.4132,
+      "subtitle": "بازار موبایل و کامپیوتر",
+      "weight": 1.0
+    },
+    {
+      "id": "alaeddin",
+      "name": "پاساژ علاءالدین",
+      "kind": "landmark",
+      "lat": 35.695,
+      "lng": 51.4096,
+      "subtitle": "خیابان جمهوری، بازار موبایل",
+      "weight": 1.0
+    },
+    {
+      "id": "charsou",
+      "name": "مرکز خرید چارسو",
+      "kind": "landmark",
+      "lat": 35.6948,
+      "lng": 51.4122,
+      "subtitle": "خیابان جمهوری، موبایل و دیجیتال",
+      "weight": 1.0
+    },
+    {
+      "id": "lalehzar",
+      "name": "خیابان لاله‌زار",
+      "kind": "area",
+      "lat": 35.6923,
+      "lng": 51.4229,
+      "subtitle": "بازار لوازم برق و روشنایی",
+      "weight": 0.9
+    },
+    {
+      "id": "manouchehri",
+      "name": "خیابان منوچهری",
+      "kind": "area",
+      "lat": 35.6975,
+      "lng": 51.4235,
+      "subtitle": "مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "saadi-st",
+      "name": "خیابان سعدی",
+      "kind": "area",
+      "lat": 35.6923,
+      "lng": 51.4243,
+      "subtitle": "مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "sheikh-hadi",
+      "name": "خیابان شیخ هادی",
+      "kind": "area",
+      "lat": 35.6949,
+      "lng": 51.4071,
+      "subtitle": "مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "mellat-st",
+      "name": "خیابان ملت",
+      "kind": "area",
+      "lat": 35.6905,
+      "lng": 51.4258,
+      "subtitle": "مرکز تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "naser-khosrow",
+      "name": "خیابان ناصرخسرو",
+      "kind": "area",
+      "lat": 35.684,
+      "lng": 51.4205,
+      "subtitle": "مرکز تهران، بازار دارو و تجهیزات",
+      "weight": 0.6
+    },
+    {
+      "id": "tajrish-bazaar",
+      "name": "بازار تجریش",
+      "kind": "landmark",
+      "lat": 35.8053,
+      "lng": 51.4328,
+      "subtitle": "میدان تجریش",
+      "weight": 0.8
+    },
+    {
+      "id": "tandis",
+      "name": "مرکز خرید تندیس",
+      "kind": "landmark",
+      "lat": 35.8086,
+      "lng": 51.4293,
+      "subtitle": "تجریش",
+      "weight": 0.7
+    },
+    {
+      "id": "palladium",
+      "name": "مرکز خرید پالادیوم",
+      "kind": "landmark",
+      "lat": 35.7975,
+      "lng": 51.4105,
+      "subtitle": "زعفرانیه، مقدس اردبیلی",
+      "weight": 0.8
+    },
+    {
+      "id": "iran-mall",
+      "name": "ایران مال",
+      "kind": "landmark",
+      "lat": 35.7556,
+      "lng": 51.1965,
+      "subtitle": "بزرگراه خرازی، غرب تهران",
+      "weight": 0.9
+    },
+    {
+      "id": "kourosh-mall",
+      "name": "مجتمع تجاری کوروش",
+      "kind": "landmark",
+      "lat": 35.7462,
+      "lng": 51.3222,
+      "subtitle": "بلوار ستاری",
+      "weight": 0.8
+    },
+    {
+      "id": "tirazheh",
+      "name": "مرکز خرید تیراژه",
+      "kind": "landmark",
+      "lat": 35.7383,
+      "lng": 51.3224,
+      "subtitle": "بزرگراه ستاری، آیت‌الله کاشانی",
+      "weight": 0.7
+    },
+    {
+      "id": "golestan-mall",
+      "name": "مرکز خرید گلستان",
+      "kind": "landmark",
+      "lat": 35.775,
+      "lng": 51.3578,
+      "subtitle": "شهرک غرب",
+      "weight": 0.7
+    },
+    {
+      "id": "saadat-abad",
+      "name": "سعادت‌آباد",
+      "kind": "area",
+      "lat": 35.78,
+      "lng": 51.375,
+      "subtitle": "شمال غرب تهران",
+      "weight": 1.0
+    },
+    {
+      "id": "shahrak-gharb",
+      "name": "شهرک غرب",
+      "kind": "area",
+      "lat": 35.7645,
+      "lng": 51.369,
+      "subtitle": "شمال غرب تهران",
+      "weight": 1.0
+    },
+    {
+      "id": "pasdaran",
+      "name": "پاسداران",
+      "kind": "area",
+      "lat": 35.775,
+      "lng": 51.47,
+      "subtitle": "شمال شرق تهران",
+      "weight": 0.9
+    },
+    {
+      "id": "narmak",
+      "name": "نارمک",
+      "kind": "area",
+      "lat": 35.738,
+      "lng": 51.501,
+      "subtitle": "شرق تهران",
+      "weight": 0.9
+    },
+    {
+      "id": "tehranpars",
+      "name": "تهرانپارس",
+      "kind": "area",
+      "lat": 35.733,
+      "lng": 51.533,
+      "subtitle": "شرق تهران",
+      "weight": 0.9
+    },
+    {
+      "id": "yousef-abad",
+      "name": "یوسف‌آباد",
+      "kind": "area",
+      "lat": 35.73,
+      "lng": 51.407,
+      "subtitle": "مرکز تهران",
+      "weight": 0.8
+    },
+    {
+      "id": "jordan",
+      "name": "جردن (نلسون ماندلا)",
+      "kind": "area",
+      "lat": 35.771,
+      "lng": 51.418,
+      "subtitle": "شمال تهران",
+      "weight": 0.8
+    },
+    {
+      "id": "mirdamad",
+      "name": "میرداماد",
+      "kind": "area",
+      "lat": 35.7595,
+      "lng": 51.426,
+      "subtitle": "شمال تهران",
+      "weight": 0.9
+    },
+    {
+      "id": "sattarkhan",
+      "name": "ستارخان",
+      "kind": "area",
+      "lat": 35.7085,
+      "lng": 51.362,
+      "subtitle": "غرب تهران",
+      "weight": 0.8
+    },
+    {
+      "id": "jannat-abad",
+      "name": "جنت‌آباد",
+      "kind": "area",
+      "lat": 35.745,
+      "lng": 51.309,
+      "subtitle": "شمال غرب تهران",
+      "weight": 0.8
+    },
+    {
+      "id": "gisha",
+      "name": "گیشا (کوی نصر)",
+      "kind": "area",
+      "lat": 35.733,
+      "lng": 51.383,
+      "subtitle": "غرب مرکز تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "amir-abad",
+      "name": "امیرآباد",
+      "kind": "area",
+      "lat": 35.728,
+      "lng": 51.39,
+      "subtitle": "مرکز تهران، کارگر شمالی",
+      "weight": 0.7
+    },
+    {
+      "id": "ekbatan",
+      "name": "شهرک اکباتان",
+      "kind": "area",
+      "lat": 35.7055,
+      "lng": 51.3077,
+      "subtitle": "غرب تهران",
+      "weight": 0.8
+    },
+    {
+      "id": "shahran",
+      "name": "شهران",
+      "kind": "area",
+      "lat": 35.754,
+      "lng": 51.2875,
+      "subtitle": "شمال غرب تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "marzdaran",
+      "name": "مرزداران",
+      "kind": "area",
+      "lat": 35.735,
+      "lng": 51.3461,
+      "subtitle": "غرب تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "bagh-feyz",
+      "name": "باغ فیض",
+      "kind": "area",
+      "lat": 35.7395,
+      "lng": 51.3156,
+      "subtitle": "شمال غرب تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "chitgar",
+      "name": "چیتگر",
+      "kind": "area",
+      "lat": 35.717,
+      "lng": 51.2439,
+      "subtitle": "غرب تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "kan",
+      "name": "کن",
+      "kind": "area",
+      "lat": 35.7632,
+      "lng": 51.2839,
+      "subtitle": "شمال غرب تهران",
+      "weight": 0.4
+    },
+    {
+      "id": "gholhak",
+      "name": "قلهک",
+      "kind": "area",
+      "lat": 35.7727,
+      "lng": 51.4381,
+      "subtitle": "شمال تهران، شریعتی",
+      "weight": 0.8
+    },
+    {
+      "id": "gheytarieh",
+      "name": "قیطریه",
+      "kind": "area",
+      "lat": 35.7934,
+      "lng": 51.4351,
+      "subtitle": "شمال تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "zafaraniyeh",
+      "name": "زعفرانیه",
+      "kind": "area",
+      "lat": 35.803,
+      "lng": 51.417,
+      "subtitle": "شمال تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "elahieh",
+      "name": "الهیه",
+      "kind": "area",
+      "lat": 35.7925,
+      "lng": 51.425,
+      "subtitle": "شمال تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "velenjak",
+      "name": "ولنجک",
+      "kind": "area",
+      "lat": 35.806,
+      "lng": 51.396,
+      "subtitle": "شمال تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "niavaran",
+      "name": "نیاوران",
+      "kind": "area",
+      "lat": 35.81,
+      "lng": 51.47,
+      "subtitle": "شمیران",
+      "weight": 0.7
+    },
+    {
+      "id": "farmanieh",
+      "name": "فرمانیه",
+      "kind": "area",
+      "lat": 35.799,
+      "lng": 51.464,
+      "subtitle": "شمال شرق تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "aghdasieh",
+      "name": "اقدسیه",
+      "kind": "area",
+      "lat": 35.8006,
+      "lng": 51.4846,
+      "subtitle": "شمال شرق تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "abbas-abad",
+      "name": "عباس‌آباد (شهید بهشتی)",
+      "kind": "area",
+      "lat": 35.7306,
+      "lng": 51.4271,
+      "subtitle": "مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "iranshahr",
+      "name": "ایرانشهر",
+      "kind": "area",
+      "lat": 35.7114,
+      "lng": 51.4216,
+      "subtitle": "مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "sanaei",
+      "name": "سنایی",
+      "kind": "area",
+      "lat": 35.7192,
+      "lng": 51.4224,
+      "subtitle": "مرکز تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "sohrevardi",
+      "name": "سهروردی",
+      "kind": "area",
+      "lat": 35.7212,
+      "lng": 51.43,
+      "subtitle": "مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "amjadieh",
+      "name": "امجدیه",
+      "kind": "area",
+      "lat": 35.7152,
+      "lng": 51.4284,
+      "subtitle": "مرکز تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "bahar-st",
+      "name": "خیابان بهار",
+      "kind": "area",
+      "lat": 35.7147,
+      "lng": 51.4328,
+      "subtitle": "مرکز تهران",
+      "weight": 0.4
+    },
+    {
+      "id": "keshavarz",
+      "name": "بلوار کشاورز",
+      "kind": "area",
+      "lat": 35.7122,
+      "lng": 51.4069,
+      "subtitle": "مرکز تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "piroozi",
+      "name": "پیروزی",
+      "kind": "area",
+      "lat": 35.6909,
+      "lng": 51.468,
+      "subtitle": "شرق تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "nabard",
+      "name": "نبرد",
+      "kind": "area",
+      "lat": 35.6916,
+      "lng": 51.4777,
+      "subtitle": "شرق تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "nazi-abad",
+      "name": "نازی‌آباد",
+      "kind": "area",
+      "lat": 35.6406,
+      "lng": 51.4151,
+      "subtitle": "جنوب تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "kianshahr",
+      "name": "کیانشهر",
+      "kind": "area",
+      "lat": 35.6327,
+      "lng": 51.4483,
+      "subtitle": "جنوب شرق تهران",
+      "weight": 0.4
+    },
+    {
+      "id": "shahr-rey",
+      "name": "شهر ری",
+      "kind": "area",
+      "lat": 35.5949,
+      "lng": 51.4223,
+      "subtitle": "جنوب تهران",
+      "weight": 0.7
+    },
+    {
+      "id": "tehran-uni",
+      "name": "دانشگاه تهران",
+      "kind": "landmark",
+      "lat": 35.7035,
+      "lng": 51.3955,
+      "subtitle": "خیابان انقلاب",
+      "weight": 0.8
+    },
+    {
+      "id": "sharif-uni",
+      "name": "دانشگاه شریف",
+      "kind": "landmark",
+      "lat": 35.7057,
+      "lng": 51.3541,
+      "subtitle": "خیابان آزادی",
+      "weight": 0.6
+    },
+    {
+      "id": "milad-tower",
+      "name": "برج میلاد",
+      "kind": "landmark",
+      "lat": 35.7448,
+      "lng": 51.3753,
+      "subtitle": "گیشا، غرب تهران",
+      "weight": 0.8
+    },
+    {
+      "id": "mellat-park",
+      "name": "پارک ملت",
+      "kind": "landmark",
+      "lat": 35.7785,
+      "lng": 51.4185,
+      "subtitle": "ولیعصر، ونک",
+      "weight": 0.7
+    },
+    {
+      "id": "tabiat-bridge",
+      "name": "پل طبیعت",
+      "kind": "landmark",
+      "lat": 35.7575,
+      "lng": 51.4207,
+      "subtitle": "عباس‌آباد",
+      "weight": 0.6
+    },
+    {
+      "id": "laleh-park",
+      "name": "پارک لاله",
+      "kind": "landmark",
+      "lat": 35.7086,
+      "lng": 51.3951,
+      "subtitle": "کارگر، مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "daneshjoo-park",
+      "name": "پارک دانشجو",
+      "kind": "landmark",
+      "lat": 35.701,
+      "lng": 51.4055,
+      "subtitle": "چهارراه ولیعصر",
+      "weight": 0.5
+    },
+    {
+      "id": "south-terminal",
+      "name": "پایانه جنوب",
+      "kind": "landmark",
+      "lat": 35.6509,
+      "lng": 51.4163,
+      "subtitle": "جنوب تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "mehrabad",
+      "name": "فرودگاه مهرآباد",
+      "kind": "landmark",
+      "lat": 35.6921,
+      "lng": 51.3226,
+      "subtitle": "غرب تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "mosalla",
+      "name": "مصلی تهران",
+      "kind": "landmark",
+      "lat": 35.7403,
+      "lng": 51.4277,
+      "subtitle": "عباس‌آباد",
+      "weight": 0.5
+    },
+    {
+      "id": "darvazeh-dowlat",
+      "name": "دروازه دولت",
+      "kind": "landmark",
+      "lat": 35.7016,
+      "lng": 51.426,
+      "subtitle": "مرکز تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "darvazeh-shemiran",
+      "name": "دروازه شمیران",
+      "kind": "landmark",
+      "lat": 35.699,
+      "lng": 51.4373,
+      "subtitle": "مرکز تهران",
+      "weight": 0.5
+    },
+    {
+      "id": "15-khordad",
+      "name": "پانزده خرداد",
+      "kind": "landmark",
+      "lat": 35.6782,
+      "lng": 51.4176,
+      "subtitle": "بازار تهران",
+      "weight": 0.6
+    },
+    {
+      "id": "mofatteh",
+      "name": "مفتح (شهید بهشتی)",
+      "kind": "landmark",
+      "lat": 35.7244,
+      "lng": 51.4278,
+      "subtitle": "مرکز تهران",
+      "weight": 0.4
+    },
+    {
+      "id": "haghani",
+      "name": "ایستگاه شهید حقانی",
+      "kind": "landmark",
+      "lat": 35.7567,
+      "lng": 51.4261,
+      "subtitle": "جهان کودک، شمال تهران",
+      "weight": 0.4
+    },
+    {
+      "id": "sabalan",
+      "name": "سبلان",
+      "kind": "area",
+      "lat": 35.7184,
+      "lng": 51.4644,
+      "subtitle": "شرق تهران",
+      "weight": 0.4
+    }
+  ]
+}

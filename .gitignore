@@ -1,0 +1,36 @@
+# ── Dependencies & build output ─────────────────────────────
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+
+# ── Built data artifacts (rebuild: npm run data:build / npm run data:fixtures) ──
+data/*.db
+data/*.db-*
+data/*.gz
+data/*.tmp-*
+data/state/
+
+# ── Secrets: never commit API keys / tokens ─────────────────
+.env
+.env.*
+!.env.example
+*api-key*.txt
+*_key.txt
+boxapi*.txt
+*.pem
+
+# ── Tests, QA & logs ────────────────────────────────────────
+coverage/
+playwright-report/
+test-results/
+.screens/
+*.log
+
+# ── Editors / OS ────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+
+# ── Claude Code per-user settings (shared skill in .claude/skills IS committed) ──
+.claude/settings.local.json

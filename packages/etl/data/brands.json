@@ -1,0 +1,10876 @@
+{
+  "version": 1,
+  "brands": [
+    {
+      "name": "سامسونگ",
+      "en": "Samsung",
+      "aliases": [
+        "سامسونگ",
+        "samsung",
+        "سامسونک",
+        "سامسنگ",
+        "گلکسی",
+        "galaxy"
+      ]
+    },
+    {
+      "name": "اپل",
+      "en": "Apple",
+      "aliases": [
+        "اپل",
+        "apple",
+        "آیفون",
+        "iphone",
+        "آیپد",
+        "ipad",
+        "مک بوک",
+        "مکبوک",
+        "macbook",
+        "ایرپاد",
+        "ایرپادز",
+        "airpods",
+        "اپل واچ",
+        "apple watch"
+      ]
+    },
+    {
+      "name": "شیائومی",
+      "en": "Xiaomi",
+      "aliases": [
+        "شیائومی",
+        "xiaomi",
+        "شیاومی",
+        "شیامی",
+        "ردمی",
+        "redmi",
+        "پوکو",
+        "poco"
+      ]
+    },
+    {
+      "name": "ام وی ام",
+      "en": "MVM",
+      "aliases": [
+        "ام وی ام",
+        "امویام",
+        "mvm"
+      ]
+    },
+    {
+      "name": "داهوا",
+      "en": "Dahua",
+      "aliases": [
+        "داهوا",
+        "dahua"
+      ]
+    },
+    {
+      "name": "سونی",
+      "en": "Sony",
+      "aliases": [
+        "سونی",
+        "sony",
+        "پلی استیشن",
+        "playstation"
+      ]
+    },
+    {
+      "name": "اچ‌پی",
+      "en": "HP",
+      "aliases": [
+        "اچ‌پی",
+        "اچپی",
+        "hp"
+      ]
+    },
+    {
+      "name": "کانن",
+      "en": "Canon",
+      "aliases": [
+        "کانن",
+        "canon",
+        "کنون"
+      ]
+    },
+    {
+      "name": "هایک ویژن",
+      "en": "Hikvision",
+      "aliases": [
+        "هایک ویژن",
+        "هایکویژن",
+        "hikvision"
+      ]
+    },
+    {
+      "name": "هیوندای",
+      "en": "Hyundai",
+      "aliases": [
+        "هیوندای",
+        "hyundai",
+        "هیوندا"
+      ]
+    },
+    {
+      "name": "فیلیپس",
+      "en": "Philips",
+      "aliases": [
+        "فیلیپس",
+        "philips",
+        "فلیپس"
+      ]
+    },
+    {
+      "name": "دلتا",
+      "en": "Delta",
+      "aliases": [
+        "دلتا",
+        "delta"
+      ]
+    },
+    {
+      "name": "تویوتا",
+      "en": "Toyota",
+      "aliases": [
+        "تویوتا",
+        "toyota"
+      ]
+    },
+    {
+      "name": "کاسیو",
+      "en": "Casio",
+      "aliases": [
+        "کاسیو",
+        "casio"
+      ]
+    },
+    {
+      "name": "شعاع",
+      "en": "Shoa",
+      "aliases": [
+        "شعاع",
+        "shoa",
+        "لامپ شعاع"
+      ]
+    },
+    {
+      "name": "بوش",
+      "en": "Bosch",
+      "aliases": [
+        "بوش",
+        "bosch"
+      ]
+    },
+    {
+      "name": "رونیکس",
+      "en": "Ronix",
+      "aliases": [
+        "رونیکس",
+        "ronix"
+      ]
+    },
+    {
+      "name": "انکر",
+      "en": "Anker",
+      "aliases": [
+        "انکر",
+        "anker"
+      ]
+    },
+    {
+      "name": "پاناسونیک",
+      "en": "Panasonic",
+      "aliases": [
+        "پاناسونیک",
+        "panasonic"
+      ]
+    },
+    {
+      "name": "چری",
+      "en": "Chery",
+      "aliases": [
+        "چری",
+        "chery"
+      ]
+    },
+    {
+      "name": "نیلپر",
+      "en": "Nilper",
+      "aliases": [
+        "نیلپر",
+        "nilper"
+      ]
+    },
+    {
+      "name": "آتونیکس",
+      "en": "Autonics",
+      "aliases": [
+        "آتونیکس",
+        "autonics"
+      ]
+    },
+    {
+      "name": "وسترن دیجیتال",
+      "en": "Western Digital",
+      "aliases": [
+        "وسترن دیجیتال",
+        "وسترندیجیتال",
+        "western digital",
+        "westerndigital",
+        "wd"
+      ]
+    },
+    {
+      "name": "پژو",
+      "en": "Peugeot",
+      "aliases": [
+        "پژو",
+        "peugeot"
+      ]
+    },
+    {
+      "name": "لگرند",
+      "en": "Legrand",
+      "aliases": [
+        "لگرند",
+        "legrand"
+      ]
+    },
+    {
+      "name": "پنتاکس",
+      "en": "Pentax",
+      "aliases": [
+        "پنتاکس",
+        "pentax"
+      ]
+    },
+    {
+      "name": "لیفان",
+      "en": "Lifan",
+      "aliases": [
+        "لیفان",
+        "lifan"
+      ]
+    },
+    {
+      "name": "پارس شعاع توس",
+      "en": "Pars Shoa Toos",
+      "aliases": [
+        "پارس شعاع توس",
+        "پارسشعاعتوس",
+        "pars shoa toos",
+        "parsshoatoos"
+      ]
+    },
+    {
+      "name": "ویرا",
+      "en": "Vira",
+      "aliases": [
+        "ویرا",
+        "vira"
+      ]
+    },
+    {
+      "name": "نوکیا",
+      "en": "Nokia",
+      "aliases": [
+        "نوکیا",
+        "nokia"
+      ]
+    },
+    {
+      "name": "هایما",
+      "en": "Haima",
+      "aliases": [
+        "هایما",
+        "haima"
+      ]
+    },
+    {
+      "name": "توان تک",
+      "en": "Tavan Tak",
+      "aliases": [
+        "توان تک",
+        "توانتک",
+        "tavan tak",
+        "tavantak"
+      ]
+    },
+    {
+      "name": "اوکم",
+      "en": "OKAM",
+      "aliases": [
+        "اوکم",
+        "okam"
+      ]
+    },
+    {
+      "name": "گلنور",
+      "en": null,
+      "aliases": [
+        "گلنور"
+      ]
+    },
+    {
+      "name": "هامون",
+      "en": null,
+      "aliases": [
+        "هامون"
+      ]
+    },
+    {
+      "name": "داتیس",
+      "en": null,
+      "aliases": [
+        "داتیس"
+      ]
+    },
+    {
+      "name": "سایپا",
+      "en": "Saipa",
+      "aliases": [
+        "سایپا",
+        "saipa"
+      ]
+    },
+    {
+      "name": "مک دودو",
+      "en": "Mcdodo",
+      "aliases": [
+        "مک دودو",
+        "مکدودو",
+        "mcdodo"
+      ]
+    },
+    {
+      "name": "کیا",
+      "en": "Kia",
+      "aliases": [
+        "کیا",
+        "kia"
+      ]
+    },
+    {
+      "name": "لنوو",
+      "en": "Lenovo",
+      "aliases": [
+        "لنوو",
+        "lenovo",
+        "لنو"
+      ]
+    },
+    {
+      "name": "پارس",
+      "en": null,
+      "aliases": [
+        "پارس"
+      ]
+    },
+    {
+      "name": "ایسوس",
+      "en": "ASUS",
+      "aliases": [
+        "ایسوس",
+        "asus",
+        "ازوس",
+        "اسوس"
+      ]
+    },
+    {
+      "name": "سیتی زن",
+      "en": "Citizen",
+      "aliases": [
+        "سیتی زن",
+        "سیتیزن",
+        "citizen"
+      ]
+    },
+    {
+      "name": "البرز الکتریک نور",
+      "en": null,
+      "aliases": [
+        "البرز الکتریک نور",
+        "البرزالکتریکنور"
+      ]
+    },
+    {
+      "name": "باسئوس",
+      "en": "Baseus",
+      "aliases": [
+        "باسئوس",
+        "baseus",
+        "بیسوس"
+      ]
+    },
+    {
+      "name": "کامار",
+      "en": "Camar",
+      "aliases": [
+        "کامار",
+        "camar"
+      ]
+    },
+    {
+      "name": "جی بی ال",
+      "en": "JBL",
+      "aliases": [
+        "جی بی ال",
+        "جیبیال",
+        "jbl"
+      ]
+    },
+    {
+      "name": "سیکو",
+      "en": "Seiko",
+      "aliases": [
+        "سیکو",
+        "seiko"
+      ]
+    },
+    {
+      "name": "هوآوی",
+      "en": "Huawei",
+      "aliases": [
+        "هوآوی",
+        "huawei"
+      ]
+    },
+    {
+      "name": "ال جی",
+      "en": "LG",
+      "aliases": [
+        "ال جی",
+        "الجی",
+        "lg"
+      ]
+    },
+    {
+      "name": "مودی",
+      "en": null,
+      "aliases": [
+        "مودی"
+      ]
+    },
+    {
+      "name": "ترک",
+      "en": "TORK",
+      "aliases": [
+        "ترک",
+        "tork"
+      ]
+    },
+    {
+      "name": "نووا",
+      "en": null,
+      "aliases": [
+        "نووا"
+      ]
+    },
+    {
+      "name": "آسیا",
+      "en": null,
+      "aliases": [
+        "آسیا"
+      ]
+    },
+    {
+      "name": "نگزنس",
+      "en": "Nexans",
+      "aliases": [
+        "نگزنس",
+        "nexans"
+      ]
+    },
+    {
+      "name": "سیمپود",
+      "en": "Simpood",
+      "aliases": [
+        "سیمپود",
+        "simpood"
+      ]
+    },
+    {
+      "name": "لیو",
+      "en": null,
+      "aliases": [
+        "لیو"
+      ]
+    },
+    {
+      "name": "ارلدام",
+      "en": "Earldom",
+      "aliases": [
+        "ارلدام",
+        "earldom"
+      ]
+    },
+    {
+      "name": "پارس خزر",
+      "en": "Pars Khazar",
+      "aliases": [
+        "پارس خزر",
+        "پارسخزر",
+        "pars khazar",
+        "parskhazar"
+      ]
+    },
+    {
+      "name": "ابارا",
+      "en": "Ebara",
+      "aliases": [
+        "ابارا",
+        "ebara"
+      ]
+    },
+    {
+      "name": "پمپیران",
+      "en": "Pumpiran",
+      "aliases": [
+        "پمپیران",
+        "pumpiran"
+      ]
+    },
+    {
+      "name": "نایکی",
+      "en": "Nike",
+      "aliases": [
+        "نایکی",
+        "nike",
+        "نایک"
+      ]
+    },
+    {
+      "name": "پارس شهاب",
+      "en": "Pars Shahab",
+      "aliases": [
+        "پارس شهاب",
+        "پارسشهاب",
+        "pars shahab",
+        "parsshahab"
+      ]
+    },
+    {
+      "name": "کلاسیک",
+      "en": null,
+      "aliases": [
+        "کلاسیک"
+      ]
+    },
+    {
+      "name": "سن دیسک",
+      "en": "SanDisk",
+      "aliases": [
+        "سن دیسک",
+        "سندیسک",
+        "sandisk"
+      ]
+    },
+    {
+      "name": "میتوتویو",
+      "en": "Mitutoyo",
+      "aliases": [
+        "میتوتویو",
+        "mitutoyo"
+      ]
+    },
+    {
+      "name": "افراتاب",
+      "en": "Afratab",
+      "aliases": [
+        "افراتاب",
+        "afratab"
+      ]
+    },
+    {
+      "name": "موتورولا",
+      "en": "Motorola",
+      "aliases": [
+        "موتورولا",
+        "motorola"
+      ]
+    },
+    {
+      "name": "پرتو الکتریک",
+      "en": null,
+      "aliases": [
+        "پرتو الکتریک",
+        "پرتوالکتریک"
+      ]
+    },
+    {
+      "name": "دوو",
+      "en": "Daewoo",
+      "aliases": [
+        "دوو",
+        "daewoo"
+      ]
+    },
+    {
+      "name": "دلسی",
+      "en": null,
+      "aliases": [
+        "دلسی"
+      ]
+    },
+    {
+      "name": "یسیدو",
+      "en": "Yesido",
+      "aliases": [
+        "یسیدو",
+        "yesido"
+      ]
+    },
+    {
+      "name": "دلند",
+      "en": "Deland",
+      "aliases": [
+        "دلند",
+        "deland"
+      ]
+    },
+    {
+      "name": "برایتون",
+      "en": null,
+      "aliases": [
+        "برایتون"
+      ]
+    },
+    {
+      "name": "سیماران",
+      "en": null,
+      "aliases": [
+        "سیماران"
+      ]
+    },
+    {
+      "name": "سیمیا",
+      "en": null,
+      "aliases": [
+        "سیمیا"
+      ]
+    },
+    {
+      "name": "اپسون",
+      "en": "Epson",
+      "aliases": [
+        "اپسون",
+        "epson"
+      ]
+    },
+    {
+      "name": "لوریس",
+      "en": "Loris",
+      "aliases": [
+        "لوریس",
+        "loris"
+      ]
+    },
+    {
+      "name": "نیکون",
+      "en": "Nikon",
+      "aliases": [
+        "نیکون",
+        "nikon"
+      ]
+    },
+    {
+      "name": "سایلکس",
+      "en": "Silex",
+      "aliases": [
+        "سایلکس",
+        "silex"
+      ]
+    },
+    {
+      "name": "سیگیت",
+      "en": "Seagate",
+      "aliases": [
+        "سیگیت",
+        "seagate"
+      ]
+    },
+    {
+      "name": "کویو",
+      "en": "Koyo",
+      "aliases": [
+        "کویو",
+        "koyo"
+      ]
+    },
+    {
+      "name": "سومو",
+      "en": "SOMO",
+      "aliases": [
+        "سومو",
+        "somo"
+      ]
+    },
+    {
+      "name": "لئو",
+      "en": null,
+      "aliases": [
+        "لئو"
+      ]
+    },
+    {
+      "name": "رنو",
+      "en": "Renault",
+      "aliases": [
+        "رنو",
+        "renault"
+      ]
+    },
+    {
+      "name": "ایران خودرو",
+      "en": "Iran Khodro",
+      "aliases": [
+        "ایران خودرو",
+        "ایرانخودرو",
+        "iran khodro",
+        "irankhodro",
+        "ikco"
+      ]
+    },
+    {
+      "name": "آنر",
+      "en": "Honor",
+      "aliases": [
+        "آنر",
+        "honor"
+      ]
+    },
+    {
+      "name": "اچ آر یو آی",
+      "en": null,
+      "aliases": [
+        "اچ آر یو آی",
+        "اچآریوآی"
+      ]
+    },
+    {
+      "name": "پارت الکتریک",
+      "en": null,
+      "aliases": [
+        "پارت الکتریک",
+        "پارتالکتریک"
+      ]
+    },
+    {
+      "name": "بویا",
+      "en": "Boya",
+      "aliases": [
+        "بویا",
+        "boya"
+      ]
+    },
+    {
+      "name": "رویا",
+      "en": null,
+      "aliases": [
+        "رویا"
+      ]
+    },
+    {
+      "name": "زد اف ار",
+      "en": "ZFR",
+      "aliases": [
+        "زد اف ار",
+        "زدافار",
+        "zfr"
+      ]
+    },
+    {
+      "name": "شودر",
+      "en": null,
+      "aliases": [
+        "شودر"
+      ]
+    },
+    {
+      "name": "بیورر",
+      "en": "Beurer",
+      "aliases": [
+        "بیورر",
+        "beurer"
+      ]
+    },
+    {
+      "name": "گرین",
+      "en": "Green Lion",
+      "aliases": [
+        "گرین",
+        "green lion",
+        "greenlion",
+        "گرین لاین"
+      ]
+    },
+    {
+      "name": "جک",
+      "en": "JAC",
+      "aliases": [
+        "جک",
+        "jac"
+      ]
+    },
+    {
+      "name": "پایونیر",
+      "en": "Pioneer",
+      "aliases": [
+        "پایونیر",
+        "pioneer"
+      ]
+    },
+    {
+      "name": "سارو",
+      "en": "Saro",
+      "aliases": [
+        "سارو",
+        "saro"
+      ]
+    },
+    {
+      "name": "پرودو",
+      "en": "Porodo",
+      "aliases": [
+        "پرودو",
+        "porodo"
+      ]
+    },
+    {
+      "name": "دبلیو اند ای",
+      "en": null,
+      "aliases": [
+        "دبلیو اند ای",
+        "دبلیواندای"
+      ]
+    },
+    {
+      "name": "اسنوا",
+      "en": "Snowa",
+      "aliases": [
+        "اسنوا",
+        "snowa"
+      ]
+    },
+    {
+      "name": "استریم",
+      "en": "Stream",
+      "aliases": [
+        "استریم",
+        "stream"
+      ]
+    },
+    {
+      "name": "نیلکین",
+      "en": "Nillkin",
+      "aliases": [
+        "نیلکین",
+        "nillkin"
+      ]
+    },
+    {
+      "name": "میکروتیک",
+      "en": "MikroTik",
+      "aliases": [
+        "میکروتیک",
+        "mikrotik"
+      ]
+    },
+    {
+      "name": "ایکس او",
+      "en": "XO",
+      "aliases": [
+        "ایکس او",
+        "ایکساو",
+        "xo"
+      ]
+    },
+    {
+      "name": "براون",
+      "en": "Braun",
+      "aliases": [
+        "براون",
+        "braun"
+      ]
+    },
+    {
+      "name": "پاورولوجی",
+      "en": "Powerology",
+      "aliases": [
+        "پاورولوجی",
+        "powerology"
+      ]
+    },
+    {
+      "name": "تیاندی",
+      "en": "Tiandy",
+      "aliases": [
+        "تیاندی",
+        "tiandy"
+      ]
+    },
+    {
+      "name": "مورفوس",
+      "en": "Morfose",
+      "aliases": [
+        "مورفوس",
+        "morfose"
+      ]
+    },
+    {
+      "name": "راحتیران",
+      "en": null,
+      "aliases": [
+        "راحتیران"
+      ]
+    },
+    {
+      "name": "یاماها",
+      "en": "Yamaha",
+      "aliases": [
+        "یاماها",
+        "yamaha"
+      ]
+    },
+    {
+      "name": "سیسکو",
+      "en": "Cisco",
+      "aliases": [
+        "سیسکو",
+        "cisco"
+      ]
+    },
+    {
+      "name": "برلیانس",
+      "en": "Brilliance",
+      "aliases": [
+        "برلیانس",
+        "brilliance"
+      ]
+    },
+    {
+      "name": "پروسکیت",
+      "en": "Pro'sKit",
+      "aliases": [
+        "پروسکیت",
+        "pro'skit",
+        "proskit"
+      ]
+    },
+    {
+      "name": "ملونی",
+      "en": null,
+      "aliases": [
+        "ملونی"
+      ]
+    },
+    {
+      "name": "وی جی آر",
+      "en": "VGR",
+      "aliases": [
+        "وی جی آر",
+        "ویجیآر",
+        "vgr"
+      ]
+    },
+    {
+      "name": "ایکیا",
+      "en": "IKEA",
+      "aliases": [
+        "ایکیا",
+        "ikea"
+      ]
+    },
+    {
+      "name": "الدینیو",
+      "en": "Ldnio",
+      "aliases": [
+        "الدینیو",
+        "ldnio"
+      ]
+    },
+    {
+      "name": "اینتل",
+      "en": "Intel",
+      "aliases": [
+        "اینتل",
+        "intel"
+      ]
+    },
+    {
+      "name": "پرتو نور توس",
+      "en": null,
+      "aliases": [
+        "پرتو نور توس",
+        "پرتونورتوس"
+      ]
+    },
+    {
+      "name": "تسکو",
+      "en": "TSCO",
+      "aliases": [
+        "تسکو",
+        "tsco"
+      ]
+    },
+    {
+      "name": "مکس",
+      "en": "Maxcell",
+      "aliases": [
+        "مکس",
+        "maxcell"
+      ]
+    },
+    {
+      "name": "لاجیتک",
+      "en": "Logitech",
+      "aliases": [
+        "لاجیتک",
+        "logitech",
+        "لوجیتک"
+      ]
+    },
+    {
+      "name": "اشنایدر",
+      "en": "Schneider Electric",
+      "aliases": [
+        "اشنایدر",
+        "schneider electric",
+        "schneiderelectric",
+        "schneider",
+        "اشنایدر الکتریک"
+      ]
+    },
+    {
+      "name": "طب و صنعت",
+      "en": "Teb & Sanat",
+      "aliases": [
+        "طب و صنعت",
+        "طبوصنعت",
+        "teb & sanat"
+      ]
+    },
+    {
+      "name": "آیمو",
+      "en": "Imou",
+      "aliases": [
+        "آیمو",
+        "imou"
+      ]
+    },
+    {
+      "name": "تی پی-لینک",
+      "en": "TP-Link",
+      "aliases": [
+        "تی پی-لینک",
+        "تیپی-لینک",
+        "tp-link",
+        "tplink"
+      ]
+    },
+    {
+      "name": "رویال",
+      "en": null,
+      "aliases": [
+        "رویال"
+      ]
+    },
+    {
+      "name": "ماکیتا",
+      "en": "Makita",
+      "aliases": [
+        "ماکیتا",
+        "makita"
+      ]
+    },
+    {
+      "name": "یاکسون",
+      "en": "Yaxun",
+      "aliases": [
+        "یاکسون",
+        "yaxun"
+      ]
+    },
+    {
+      "name": "مکسیدر",
+      "en": "maxeeder",
+      "aliases": [
+        "مکسیدر",
+        "maxeeder"
+      ]
+    },
+    {
+      "name": "جی پلاس",
+      "en": "G Plus",
+      "aliases": [
+        "جی پلاس",
+        "جیپلاس",
+        "g plus",
+        "gplus"
+      ]
+    },
+    {
+      "name": "جولیوس",
+      "en": null,
+      "aliases": [
+        "جولیوس"
+      ]
+    },
+    {
+      "name": "نمانور",
+      "en": "Namanoor",
+      "aliases": [
+        "نمانور",
+        "namanoor"
+      ]
+    },
+    {
+      "name": "کلار",
+      "en": null,
+      "aliases": [
+        "کلار"
+      ]
+    },
+    {
+      "name": "پارادوکس",
+      "en": "Paradox",
+      "aliases": [
+        "پارادوکس",
+        "paradox"
+      ]
+    },
+    {
+      "name": "اوپو",
+      "en": "Oppo",
+      "aliases": [
+        "اوپو",
+        "oppo"
+      ]
+    },
+    {
+      "name": "گرنداستریم",
+      "en": "Grandstream",
+      "aliases": [
+        "گرنداستریم",
+        "grandstream",
+        "گرند استریم"
+      ]
+    },
+    {
+      "name": "آ ا گ",
+      "en": null,
+      "aliases": [
+        "آ ا گ",
+        "آاگ"
+      ]
+    },
+    {
+      "name": "پرووان",
+      "en": "ProOne",
+      "aliases": [
+        "پرووان",
+        "proone"
+      ]
+    },
+    {
+      "name": "جی ام کا",
+      "en": "GMK",
+      "aliases": [
+        "جی ام کا",
+        "جیامکا",
+        "gmk"
+      ]
+    },
+    {
+      "name": "ایکس ویژن",
+      "en": null,
+      "aliases": [
+        "ایکس ویژن",
+        "ایکسویژن"
+      ]
+    },
+    {
+      "name": "پارس اروند الکتریک",
+      "en": null,
+      "aliases": [
+        "پارس اروند الکتریک",
+        "پارساروندالکتریک"
+      ]
+    },
+    {
+      "name": "مکانیک",
+      "en": "Mechanic",
+      "aliases": [
+        "مکانیک",
+        "mechanic"
+      ]
+    },
+    {
+      "name": "تیسوت",
+      "en": "Tissot",
+      "aliases": [
+        "تیسوت",
+        "tissot"
+      ]
+    },
+    {
+      "name": "آنا",
+      "en": null,
+      "aliases": [
+        "آنا"
+      ]
+    },
+    {
+      "name": "ایفل",
+      "en": "Eyfel",
+      "aliases": [
+        "ایفل",
+        "eyfel"
+      ]
+    },
+    {
+      "name": "ام اس آی",
+      "en": "MSI",
+      "aliases": [
+        "ام اس آی",
+        "اماسآی",
+        "msi"
+      ]
+    },
+    {
+      "name": "اسمال سان",
+      "en": "Small Sun",
+      "aliases": [
+        "اسمال سان",
+        "اسمالسان",
+        "small sun",
+        "smallsun"
+      ]
+    },
+    {
+      "name": "گات",
+      "en": "Goot",
+      "aliases": [
+        "گات",
+        "goot"
+      ]
+    },
+    {
+      "name": "میگل",
+      "en": null,
+      "aliases": [
+        "میگل"
+      ]
+    },
+    {
+      "name": "کرون",
+      "en": "Crown",
+      "aliases": [
+        "کرون",
+        "crown"
+      ]
+    },
+    {
+      "name": "نیوی فورس",
+      "en": null,
+      "aliases": [
+        "نیوی فورس",
+        "نیویفورس"
+      ]
+    },
+    {
+      "name": "نورشو",
+      "en": null,
+      "aliases": [
+        "نورشو"
+      ]
+    },
+    {
+      "name": "یالینک",
+      "en": "Yealink",
+      "aliases": [
+        "یالینک",
+        "yealink"
+      ]
+    },
+    {
+      "name": "اسرام",
+      "en": "Osram",
+      "aliases": [
+        "اسرام",
+        "osram"
+      ]
+    },
+    {
+      "name": "هوندا",
+      "en": "Honda",
+      "aliases": [
+        "هوندا",
+        "honda"
+      ]
+    },
+    {
+      "name": "نیسان",
+      "en": "Nissan",
+      "aliases": [
+        "نیسان",
+        "nissan"
+      ]
+    },
+    {
+      "name": "الیگ",
+      "en": null,
+      "aliases": [
+        "الیگ"
+      ]
+    },
+    {
+      "name": "رمینگتون",
+      "en": "Remington",
+      "aliases": [
+        "رمینگتون",
+        "remington"
+      ]
+    },
+    {
+      "name": "سانشاین",
+      "en": "Sunshine",
+      "aliases": [
+        "سانشاین",
+        "sunshine"
+      ]
+    },
+    {
+      "name": "متابو",
+      "en": "Metabo",
+      "aliases": [
+        "متابو",
+        "metabo"
+      ]
+    },
+    {
+      "name": "آبارا",
+      "en": "Ebara",
+      "aliases": [
+        "آبارا",
+        "ebara"
+      ]
+    },
+    {
+      "name": "ژنیران",
+      "en": null,
+      "aliases": [
+        "ژنیران"
+      ]
+    },
+    {
+      "name": "ویوارکس",
+      "en": null,
+      "aliases": [
+        "ویوارکس"
+      ]
+    },
+    {
+      "name": "اورال-بی",
+      "en": "Oral-B",
+      "aliases": [
+        "اورال-بی",
+        "oral-b"
+      ]
+    },
+    {
+      "name": "والئو",
+      "en": "Valeo",
+      "aliases": [
+        "والئو",
+        "valeo"
+      ]
+    },
+    {
+      "name": "طبرستان",
+      "en": null,
+      "aliases": [
+        "طبرستان"
+      ]
+    },
+    {
+      "name": "لامپ نور",
+      "en": null,
+      "aliases": [
+        "لامپ نور",
+        "لامپنور"
+      ]
+    },
+    {
+      "name": "کواکس",
+      "en": null,
+      "aliases": [
+        "کواکس"
+      ]
+    },
+    {
+      "name": "کوچ",
+      "en": "Coach",
+      "aliases": [
+        "کوچ",
+        "coach"
+      ]
+    },
+    {
+      "name": "نینتندو",
+      "en": "Nintendo",
+      "aliases": [
+        "نینتندو",
+        "nintendo"
+      ]
+    },
+    {
+      "name": "زنیتمد",
+      "en": "Zenithmed",
+      "aliases": [
+        "زنیتمد",
+        "zenithmed"
+      ]
+    },
+    {
+      "name": "نک",
+      "en": "NEK",
+      "aliases": [
+        "نک",
+        "nek"
+      ]
+    },
+    {
+      "name": "اسکلاره",
+      "en": "Sclaree",
+      "aliases": [
+        "اسکلاره",
+        "sclaree"
+      ]
+    },
+    {
+      "name": "الگانس",
+      "en": null,
+      "aliases": [
+        "الگانس"
+      ]
+    },
+    {
+      "name": "لاینیران",
+      "en": null,
+      "aliases": [
+        "لاینیران"
+      ]
+    },
+    {
+      "name": "نوید موتور",
+      "en": null,
+      "aliases": [
+        "نوید موتور",
+        "نویدموتور"
+      ]
+    },
+    {
+      "name": "بستون",
+      "en": "Beston",
+      "aliases": [
+        "بستون",
+        "beston"
+      ]
+    },
+    {
+      "name": "کالیستا",
+      "en": null,
+      "aliases": [
+        "کالیستا"
+      ]
+    },
+    {
+      "name": "توشیبا",
+      "en": "Toshiba",
+      "aliases": [
+        "توشیبا",
+        "toshiba"
+      ]
+    },
+    {
+      "name": "زیلابگ",
+      "en": null,
+      "aliases": [
+        "زیلابگ"
+      ]
+    },
+    {
+      "name": "هایسنس",
+      "en": "Hisense",
+      "aliases": [
+        "هایسنس",
+        "hisense"
+      ]
+    },
+    {
+      "name": "تک",
+      "en": null,
+      "aliases": [
+        "تک"
+      ]
+    },
+    {
+      "name": "تن یار",
+      "en": null,
+      "aliases": [
+        "تن یار",
+        "تنیار"
+      ]
+    },
+    {
+      "name": "ای دیتا",
+      "en": "ADATA",
+      "aliases": [
+        "ای دیتا",
+        "ایدیتا",
+        "adata"
+      ]
+    },
+    {
+      "name": "کاوه",
+      "en": null,
+      "aliases": [
+        "کاوه"
+      ]
+    },
+    {
+      "name": "کن",
+      "en": null,
+      "aliases": [
+        "کن"
+      ]
+    },
+    {
+      "name": "دل",
+      "en": "Dell",
+      "aliases": [
+        "دل",
+        "dell"
+      ]
+    },
+    {
+      "name": "یو ان وی",
+      "en": "Uniview",
+      "aliases": [
+        "یو ان وی",
+        "یوانوی",
+        "uniview",
+        "unv"
+      ]
+    },
+    {
+      "name": "باس",
+      "en": null,
+      "aliases": [
+        "باس"
+      ]
+    },
+    {
+      "name": "مکسل",
+      "en": null,
+      "aliases": [
+        "مکسل"
+      ]
+    },
+    {
+      "name": "آنیک",
+      "en": "anik",
+      "aliases": [
+        "آنیک",
+        "anik"
+      ]
+    },
+    {
+      "name": "آریاک",
+      "en": null,
+      "aliases": [
+        "آریاک"
+      ]
+    },
+    {
+      "name": "رپو",
+      "en": "Rapoo",
+      "aliases": [
+        "رپو",
+        "rapoo"
+      ]
+    },
+    {
+      "name": "برادر",
+      "en": "Brother",
+      "aliases": [
+        "برادر",
+        "brother"
+      ]
+    },
+    {
+      "name": "کملیون",
+      "en": "Camelion",
+      "aliases": [
+        "کملیون",
+        "camelion"
+      ]
+    },
+    {
+      "name": "اورینت",
+      "en": null,
+      "aliases": [
+        "اورینت"
+      ]
+    },
+    {
+      "name": "راشن",
+      "en": null,
+      "aliases": [
+        "راشن"
+      ]
+    },
+    {
+      "name": "شیله",
+      "en": null,
+      "aliases": [
+        "شیله"
+      ]
+    },
+    {
+      "name": "سنهایزر",
+      "en": "Sennheiser",
+      "aliases": [
+        "سنهایزر",
+        "sennheiser"
+      ]
+    },
+    {
+      "name": "تسلا",
+      "en": "Tesla",
+      "aliases": [
+        "تسلا",
+        "tesla"
+      ]
+    },
+    {
+      "name": "لوتیان",
+      "en": null,
+      "aliases": [
+        "لوتیان"
+      ]
+    },
+    {
+      "name": "وارتا",
+      "en": "Varta",
+      "aliases": [
+        "وارتا",
+        "varta"
+      ]
+    },
+    {
+      "name": "رومانسون",
+      "en": "Romanson",
+      "aliases": [
+        "رومانسون",
+        "romanson"
+      ]
+    },
+    {
+      "name": "سایان",
+      "en": null,
+      "aliases": [
+        "سایان"
+      ]
+    },
+    {
+      "name": "پین مد",
+      "en": null,
+      "aliases": [
+        "پین مد",
+        "پینمد"
+      ]
+    },
+    {
+      "name": "پایرونیکس",
+      "en": "Pyronix",
+      "aliases": [
+        "پایرونیکس",
+        "pyronix"
+      ]
+    },
+    {
+      "name": "ایران رادیاتور",
+      "en": "Iran Radiator",
+      "aliases": [
+        "ایران رادیاتور",
+        "ایرانرادیاتور",
+        "iran radiator",
+        "iranradiator"
+      ]
+    },
+    {
+      "name": "مایکروسافت",
+      "en": "Microsoft",
+      "aliases": [
+        "مایکروسافت",
+        "microsoft",
+        "سرفیس",
+        "surface"
+      ]
+    },
+    {
+      "name": "دی جی آی",
+      "en": "DJI",
+      "aliases": [
+        "دی جی آی",
+        "دیجیآی",
+        "dji"
+      ]
+    },
+    {
+      "name": "سنس",
+      "en": "SENS",
+      "aliases": [
+        "سنس",
+        "sens"
+      ]
+    },
+    {
+      "name": "آلجا",
+      "en": "ALJA",
+      "aliases": [
+        "آلجا",
+        "alja"
+      ]
+    },
+    {
+      "name": "امرن",
+      "en": "Omron",
+      "aliases": [
+        "امرن",
+        "omron"
+      ]
+    },
+    {
+      "name": "اکولاک",
+      "en": null,
+      "aliases": [
+        "اکولاک"
+      ]
+    },
+    {
+      "name": "پاشاباغچه",
+      "en": null,
+      "aliases": [
+        "پاشاباغچه"
+      ]
+    },
+    {
+      "name": "رونکاتو",
+      "en": null,
+      "aliases": [
+        "رونکاتو"
+      ]
+    },
+    {
+      "name": "کی دبلیو سی",
+      "en": null,
+      "aliases": [
+        "کی دبلیو سی",
+        "کیدبلیوسی"
+      ]
+    },
+    {
+      "name": "دماوند",
+      "en": null,
+      "aliases": [
+        "دماوند"
+      ]
+    },
+    {
+      "name": "نظری",
+      "en": null,
+      "aliases": [
+        "نظری"
+      ]
+    },
+    {
+      "name": "اکووات",
+      "en": null,
+      "aliases": [
+        "اکووات"
+      ]
+    },
+    {
+      "name": "وستینگ هاوس",
+      "en": "Westinghouse",
+      "aliases": [
+        "وستینگ هاوس",
+        "وستینگهاوس",
+        "westinghouse"
+      ]
+    },
+    {
+      "name": "ایزی پاور",
+      "en": null,
+      "aliases": [
+        "ایزی پاور",
+        "ایزیپاور"
+      ]
+    },
+    {
+      "name": "زوم",
+      "en": "ZOOM",
+      "aliases": [
+        "زوم",
+        "zoom"
+      ]
+    },
+    {
+      "name": "کرشر",
+      "en": null,
+      "aliases": [
+        "کرشر"
+      ]
+    },
+    {
+      "name": "آدیو-تکنیکا",
+      "en": "Audio-Technica",
+      "aliases": [
+        "آدیو-تکنیکا",
+        "audio-technica"
+      ]
+    },
+    {
+      "name": "ساووی",
+      "en": null,
+      "aliases": [
+        "ساووی"
+      ]
+    },
+    {
+      "name": "فرنام",
+      "en": null,
+      "aliases": [
+        "فرنام"
+      ]
+    },
+    {
+      "name": "بابیلیس",
+      "en": "BaByliss",
+      "aliases": [
+        "بابیلیس",
+        "babyliss",
+        "بابلیس"
+      ]
+    },
+    {
+      "name": "یوگرین",
+      "en": "Ugreen",
+      "aliases": [
+        "یوگرین",
+        "ugreen"
+      ]
+    },
+    {
+      "name": "جیانگ دانگ",
+      "en": null,
+      "aliases": [
+        "جیانگ دانگ",
+        "جیانگدانگ"
+      ]
+    },
+    {
+      "name": "ارنی بال",
+      "en": "Ernie Ball",
+      "aliases": [
+        "ارنی بال",
+        "ارنیبال",
+        "ernie ball",
+        "ernieball"
+      ]
+    },
+    {
+      "name": "پروماکس",
+      "en": null,
+      "aliases": [
+        "پروماکس"
+      ]
+    },
+    {
+      "name": "رولکس",
+      "en": "Rolex",
+      "aliases": [
+        "رولکس",
+        "rolex"
+      ]
+    },
+    {
+      "name": "سوئیس آرت",
+      "en": "Swiss Art",
+      "aliases": [
+        "سوئیس آرت",
+        "سوئیسآرت",
+        "swiss art",
+        "swissart"
+      ]
+    },
+    {
+      "name": "ایکس باکس",
+      "en": "Xbox",
+      "aliases": [
+        "ایکس باکس",
+        "ایکسباکس",
+        "xbox"
+      ]
+    },
+    {
+      "name": "دی پی",
+      "en": null,
+      "aliases": [
+        "دی پی",
+        "دیپی"
+      ]
+    },
+    {
+      "name": "رویال کنین",
+      "en": "Royal Canin",
+      "aliases": [
+        "رویال کنین",
+        "رویالکنین",
+        "royal canin",
+        "royalcanin",
+        "رویال کنن"
+      ]
+    },
+    {
+      "name": "فراسو",
+      "en": null,
+      "aliases": [
+        "فراسو"
+      ]
+    },
+    {
+      "name": "جاک می",
+      "en": "Jakemy",
+      "aliases": [
+        "جاک می",
+        "جاکمی",
+        "jakemy"
+      ]
+    },
+    {
+      "name": "ناصر پلاستیک",
+      "en": null,
+      "aliases": [
+        "ناصر پلاستیک",
+        "ناصرپلاستیک"
+      ]
+    },
+    {
+      "name": "شور",
+      "en": "Shure",
+      "aliases": [
+        "شور",
+        "shure"
+      ]
+    },
+    {
+      "name": "کامینز",
+      "en": "Cummins",
+      "aliases": [
+        "کامینز",
+        "cummins"
+      ]
+    },
+    {
+      "name": "ویسکاس",
+      "en": "Whiskas",
+      "aliases": [
+        "ویسکاس",
+        "whiskas"
+      ]
+    },
+    {
+      "name": "اچ کیو ام",
+      "en": null,
+      "aliases": [
+        "اچ کیو ام",
+        "اچکیوام"
+      ]
+    },
+    {
+      "name": "رفلکس",
+      "en": "Reflex",
+      "aliases": [
+        "رفلکس",
+        "reflex"
+      ]
+    },
+    {
+      "name": "ال اس آدیو",
+      "en": "LS Audio",
+      "aliases": [
+        "ال اس آدیو",
+        "الاسآدیو",
+        "ls audio",
+        "lsaudio"
+      ]
+    },
+    {
+      "name": "لانسین",
+      "en": null,
+      "aliases": [
+        "لانسین"
+      ]
+    },
+    {
+      "name": "وکتو",
+      "en": "Vekto",
+      "aliases": [
+        "وکتو",
+        "vekto"
+      ]
+    },
+    {
+      "name": "راد افشان سحر",
+      "en": null,
+      "aliases": [
+        "راد افشان سحر",
+        "رادافشانسحر"
+      ]
+    },
+    {
+      "name": "اف ای سی",
+      "en": null,
+      "aliases": [
+        "اف ای سی",
+        "افایسی"
+      ]
+    },
+    {
+      "name": "نیک کالا",
+      "en": null,
+      "aliases": [
+        "نیک کالا",
+        "نیککالا"
+      ]
+    },
+    {
+      "name": "فاران",
+      "en": null,
+      "aliases": [
+        "فاران"
+      ]
+    },
+    {
+      "name": "ادون",
+      "en": "EDON",
+      "aliases": [
+        "ادون",
+        "edon"
+      ]
+    },
+    {
+      "name": "اوی",
+      "en": null,
+      "aliases": [
+        "اوی"
+      ]
+    },
+    {
+      "name": "مزدا",
+      "en": "Mazda",
+      "aliases": [
+        "مزدا",
+        "mazda"
+      ]
+    },
+    {
+      "name": "گولون",
+      "en": "Golon",
+      "aliases": [
+        "گولون",
+        "golon"
+      ]
+    },
+    {
+      "name": "آرا سوفا",
+      "en": null,
+      "aliases": [
+        "آرا سوفا",
+        "آراسوفا"
+      ]
+    },
+    {
+      "name": "باتیس",
+      "en": null,
+      "aliases": [
+        "باتیس"
+      ]
+    },
+    {
+      "name": "اسکار",
+      "en": "Oscar",
+      "aliases": [
+        "اسکار",
+        "oscar"
+      ]
+    },
+    {
+      "name": "دی-نت",
+      "en": "D-Net",
+      "aliases": [
+        "دی-نت",
+        "d-net"
+      ]
+    },
+    {
+      "name": "بی ول",
+      "en": "B.Well",
+      "aliases": [
+        "بی ول",
+        "بیول",
+        "b.well"
+      ]
+    },
+    {
+      "name": "درسا",
+      "en": null,
+      "aliases": [
+        "درسا"
+      ]
+    },
+    {
+      "name": "شوفاژکار",
+      "en": "Shofazhkar",
+      "aliases": [
+        "شوفاژکار",
+        "shofazhkar"
+      ]
+    },
+    {
+      "name": "استیل البرز",
+      "en": "Steel Alborz",
+      "aliases": [
+        "استیل البرز",
+        "استیلالبرز",
+        "steel alborz",
+        "steelalborz"
+      ]
+    },
+    {
+      "name": "میچانو",
+      "en": null,
+      "aliases": [
+        "میچانو"
+      ]
+    },
+    {
+      "name": "شارپ",
+      "en": "Sharp",
+      "aliases": [
+        "شارپ",
+        "sharp"
+      ]
+    },
+    {
+      "name": "سواچ",
+      "en": "Swatch",
+      "aliases": [
+        "سواچ",
+        "swatch"
+      ]
+    },
+    {
+      "name": "گلامور",
+      "en": "Glamor",
+      "aliases": [
+        "گلامور",
+        "glamor"
+      ]
+    },
+    {
+      "name": "کرست",
+      "en": "Crest",
+      "aliases": [
+        "کرست",
+        "crest"
+      ]
+    },
+    {
+      "name": "تهران پلیمر یارا",
+      "en": null,
+      "aliases": [
+        "تهران پلیمر یارا",
+        "تهرانپلیمریارا"
+      ]
+    },
+    {
+      "name": "ایساکو",
+      "en": "ISACO",
+      "aliases": [
+        "ایساکو",
+        "isaco"
+      ]
+    },
+    {
+      "name": "لنت پارس",
+      "en": "Pars Lent",
+      "aliases": [
+        "لنت پارس",
+        "لنتپارس",
+        "pars lent",
+        "parslent"
+      ]
+    },
+    {
+      "name": "کسری",
+      "en": null,
+      "aliases": [
+        "کسری"
+      ]
+    },
+    {
+      "name": "جی تی اس",
+      "en": "JTS",
+      "aliases": [
+        "جی تی اس",
+        "جیتیاس",
+        "jts"
+      ]
+    },
+    {
+      "name": "اس تی ای",
+      "en": "STA",
+      "aliases": [
+        "اس تی ای",
+        "استیای",
+        "sta"
+      ]
+    },
+    {
+      "name": "ارگو",
+      "en": null,
+      "aliases": [
+        "ارگو"
+      ]
+    },
+    {
+      "name": "ساوارز",
+      "en": "Savarez",
+      "aliases": [
+        "ساوارز",
+        "savarez"
+      ]
+    },
+    {
+      "name": "ریزر",
+      "en": "Razer",
+      "aliases": [
+        "ریزر",
+        "razer"
+      ]
+    },
+    {
+      "name": "سهیل",
+      "en": null,
+      "aliases": [
+        "سهیل"
+      ]
+    },
+    {
+      "name": "جی وی سی",
+      "en": "JVC",
+      "aliases": [
+        "جی وی سی",
+        "جیویسی",
+        "jvc"
+      ]
+    },
+    {
+      "name": "اچ تی سی",
+      "en": "HTC",
+      "aliases": [
+        "اچ تی سی",
+        "اچتیسی",
+        "htc"
+      ]
+    },
+    {
+      "name": "نایس پاپت",
+      "en": null,
+      "aliases": [
+        "نایس پاپت",
+        "نایسپاپت"
+      ]
+    },
+    {
+      "name": "دانلوپ",
+      "en": "Dunlop",
+      "aliases": [
+        "دانلوپ",
+        "dunlop"
+      ]
+    },
+    {
+      "name": "جاسکو",
+      "en": "Jasco",
+      "aliases": [
+        "جاسکو",
+        "jasco"
+      ]
+    },
+    {
+      "name": "زیکلاس مد",
+      "en": "Zyklus Med",
+      "aliases": [
+        "زیکلاس مد",
+        "زیکلاسمد",
+        "zyklus med",
+        "zyklusmed"
+      ]
+    },
+    {
+      "name": "پرنیان",
+      "en": null,
+      "aliases": [
+        "پرنیان"
+      ]
+    },
+    {
+      "name": "هایوین",
+      "en": "Hiwin",
+      "aliases": [
+        "هایوین",
+        "hiwin"
+      ]
+    },
+    {
+      "name": "آکوا",
+      "en": null,
+      "aliases": [
+        "آکوا"
+      ]
+    },
+    {
+      "name": "لکسوس",
+      "en": "Lexus",
+      "aliases": [
+        "لکسوس",
+        "lexus"
+      ]
+    },
+    {
+      "name": "وان پلاس",
+      "en": "OnePlus",
+      "aliases": [
+        "وان پلاس",
+        "وانپلاس",
+        "oneplus",
+        "one plus"
+      ]
+    },
+    {
+      "name": "های کیو",
+      "en": "Hi-Q",
+      "aliases": [
+        "های کیو",
+        "هایکیو",
+        "hi-q"
+      ]
+    },
+    {
+      "name": "دی-لینک",
+      "en": "D-Link",
+      "aliases": [
+        "دی-لینک",
+        "d-link",
+        "dlink"
+      ]
+    },
+    {
+      "name": "ونپی",
+      "en": "Wanpy",
+      "aliases": [
+        "ونپی",
+        "wanpy"
+      ]
+    },
+    {
+      "name": "کنیپکس",
+      "en": "Knipex",
+      "aliases": [
+        "کنیپکس",
+        "knipex"
+      ]
+    },
+    {
+      "name": "ژنوسیس",
+      "en": "Genosys",
+      "aliases": [
+        "ژنوسیس",
+        "genosys"
+      ]
+    },
+    {
+      "name": "فایروال",
+      "en": null,
+      "aliases": [
+        "فایروال"
+      ]
+    },
+    {
+      "name": "کوئیک",
+      "en": null,
+      "aliases": [
+        "کوئیک"
+      ]
+    },
+    {
+      "name": "ولوو",
+      "en": "Volvo",
+      "aliases": [
+        "ولوو",
+        "volvo"
+      ]
+    },
+    {
+      "name": "اچ اس لاین",
+      "en": "echosline",
+      "aliases": [
+        "اچ اس لاین",
+        "اچاسلاین",
+        "echosline"
+      ]
+    },
+    {
+      "name": "کامان",
+      "en": null,
+      "aliases": [
+        "کامان"
+      ]
+    },
+    {
+      "name": "دکتر براونز",
+      "en": "Dr. Brown's",
+      "aliases": [
+        "دکتر براونز",
+        "دکتربراونز",
+        "dr. brown's",
+        "dr brown"
+      ]
+    },
+    {
+      "name": "پاناتک",
+      "en": "Panatech",
+      "aliases": [
+        "پاناتک",
+        "panatech"
+      ]
+    },
+    {
+      "name": "مای",
+      "en": "My",
+      "aliases": [
+        "مای",
+        "my"
+      ]
+    },
+    {
+      "name": "هانوفر",
+      "en": null,
+      "aliases": [
+        "هانوفر"
+      ]
+    },
+    {
+      "name": "البرز افشان",
+      "en": null,
+      "aliases": [
+        "البرز افشان",
+        "البرزافشان"
+      ]
+    },
+    {
+      "name": "هوا فراور سمنان",
+      "en": null,
+      "aliases": [
+        "هوا فراور سمنان",
+        "هوافراورسمنان"
+      ]
+    },
+    {
+      "name": "پوکا",
+      "en": null,
+      "aliases": [
+        "پوکا"
+      ]
+    },
+    {
+      "name": "ای کی جی",
+      "en": "AKG",
+      "aliases": [
+        "ای کی جی",
+        "ایکیجی",
+        "akg"
+      ]
+    },
+    {
+      "name": "کاترپیلار",
+      "en": "Caterpillar",
+      "aliases": [
+        "کاترپیلار",
+        "caterpillar"
+      ]
+    },
+    {
+      "name": "سی سی کا",
+      "en": null,
+      "aliases": [
+        "سی سی کا",
+        "سیسیکا"
+      ]
+    },
+    {
+      "name": "اولایت",
+      "en": null,
+      "aliases": [
+        "اولایت"
+      ]
+    },
+    {
+      "name": "یونیک",
+      "en": null,
+      "aliases": [
+        "یونیک"
+      ]
+    },
+    {
+      "name": "ایلیا استیل",
+      "en": null,
+      "aliases": [
+        "ایلیا استیل",
+        "ایلیااستیل"
+      ]
+    },
+    {
+      "name": "جووی",
+      "en": null,
+      "aliases": [
+        "جووی"
+      ]
+    },
+    {
+      "name": "آلتون",
+      "en": null,
+      "aliases": [
+        "آلتون"
+      ]
+    },
+    {
+      "name": "نیرو کابل زاگرس",
+      "en": null,
+      "aliases": [
+        "نیرو کابل زاگرس",
+        "نیروکابلزاگرس"
+      ]
+    },
+    {
+      "name": "سانی",
+      "en": null,
+      "aliases": [
+        "سانی"
+      ]
+    },
+    {
+      "name": "بوتان",
+      "en": "Butane",
+      "aliases": [
+        "بوتان",
+        "butane"
+      ]
+    },
+    {
+      "name": "اونت",
+      "en": null,
+      "aliases": [
+        "اونت"
+      ]
+    },
+    {
+      "name": "الکتروپیک",
+      "en": null,
+      "aliases": [
+        "الکتروپیک"
+      ]
+    },
+    {
+      "name": "کِی نت",
+      "en": "Knet",
+      "aliases": [
+        "کِی نت",
+        "کِینت",
+        "knet"
+      ]
+    },
+    {
+      "name": "چیکو",
+      "en": "Chicco",
+      "aliases": [
+        "چیکو",
+        "chicco"
+      ]
+    },
+    {
+      "name": "کی تی اس",
+      "en": "KTS",
+      "aliases": [
+        "کی تی اس",
+        "کیتیاس",
+        "kts"
+      ]
+    },
+    {
+      "name": "اونتوس",
+      "en": "Aventus",
+      "aliases": [
+        "اونتوس",
+        "aventus"
+      ]
+    },
+    {
+      "name": "پاورلوکس",
+      "en": null,
+      "aliases": [
+        "پاورلوکس"
+      ]
+    },
+    {
+      "name": "زارا",
+      "en": "Zara",
+      "aliases": [
+        "زارا",
+        "zara"
+      ]
+    },
+    {
+      "name": "پارسه شید",
+      "en": null,
+      "aliases": [
+        "پارسه شید",
+        "پارسهشید"
+      ]
+    },
+    {
+      "name": "افق",
+      "en": null,
+      "aliases": [
+        "افق"
+      ]
+    },
+    {
+      "name": "سنتلا",
+      "en": null,
+      "aliases": [
+        "سنتلا"
+      ]
+    },
+    {
+      "name": "آرتین",
+      "en": null,
+      "aliases": [
+        "آرتین"
+      ]
+    },
+    {
+      "name": "آی تی آر",
+      "en": "ITR",
+      "aliases": [
+        "آی تی آر",
+        "آیتیآر",
+        "itr"
+      ]
+    },
+    {
+      "name": "کنزاکس",
+      "en": null,
+      "aliases": [
+        "کنزاکس"
+      ]
+    },
+    {
+      "name": "اُرایمو",
+      "en": "Oraimo",
+      "aliases": [
+        "اُرایمو",
+        "oraimo",
+        "اورایمو"
+      ]
+    },
+    {
+      "name": "ماکوته",
+      "en": null,
+      "aliases": [
+        "ماکوته"
+      ]
+    },
+    {
+      "name": "امگا",
+      "en": "Omega",
+      "aliases": [
+        "امگا",
+        "omega"
+      ]
+    },
+    {
+      "name": "هیرو",
+      "en": null,
+      "aliases": [
+        "هیرو"
+      ]
+    },
+    {
+      "name": "دنیل کلین",
+      "en": "daniel klein",
+      "aliases": [
+        "دنیل کلین",
+        "دنیلکلین",
+        "daniel klein",
+        "danielklein"
+      ]
+    },
+    {
+      "name": "شوبرت",
+      "en": null,
+      "aliases": [
+        "شوبرت"
+      ]
+    },
+    {
+      "name": "لی کوپر",
+      "en": "Lee Cooper",
+      "aliases": [
+        "لی کوپر",
+        "لیکوپر",
+        "lee cooper",
+        "leecooper"
+      ]
+    },
+    {
+      "name": "الحمبرا",
+      "en": "Alhambra",
+      "aliases": [
+        "الحمبرا",
+        "alhambra"
+      ]
+    },
+    {
+      "name": "جیلی",
+      "en": "Geely",
+      "aliases": [
+        "جیلی",
+        "geely"
+      ]
+    },
+    {
+      "name": "کورت",
+      "en": "Cort",
+      "aliases": [
+        "کورت",
+        "cort"
+      ]
+    },
+    {
+      "name": "پیر لنون",
+      "en": "pierre lenon",
+      "aliases": [
+        "پیر لنون",
+        "پیرلنون",
+        "pierre lenon",
+        "pierrelenon"
+      ]
+    },
+    {
+      "name": "کینگ استار",
+      "en": "Kingstar",
+      "aliases": [
+        "کینگ استار",
+        "کینگاستار",
+        "kingstar"
+      ]
+    },
+    {
+      "name": "گنج بان",
+      "en": null,
+      "aliases": [
+        "گنج بان",
+        "گنجبان"
+      ]
+    },
+    {
+      "name": "میوا",
+      "en": null,
+      "aliases": [
+        "میوا"
+      ]
+    },
+    {
+      "name": "ژیلت",
+      "en": "Gillette",
+      "aliases": [
+        "ژیلت",
+        "gillette"
+      ]
+    },
+    {
+      "name": "ای دی سی",
+      "en": null,
+      "aliases": [
+        "ای دی سی",
+        "ایدیسی"
+      ]
+    },
+    {
+      "name": "کداک",
+      "en": "Kodak",
+      "aliases": [
+        "کداک",
+        "kodak"
+      ]
+    },
+    {
+      "name": "کیانلی",
+      "en": "Qianli",
+      "aliases": [
+        "کیانلی",
+        "qianli"
+      ]
+    },
+    {
+      "name": "ایسر",
+      "en": "Acer",
+      "aliases": [
+        "ایسر",
+        "acer"
+      ]
+    },
+    {
+      "name": "گریت نایس",
+      "en": null,
+      "aliases": [
+        "گریت نایس",
+        "گریتنایس"
+      ]
+    },
+    {
+      "name": "آذرطیف",
+      "en": null,
+      "aliases": [
+        "آذرطیف"
+      ]
+    },
+    {
+      "name": "جوسرا",
+      "en": "Josera",
+      "aliases": [
+        "جوسرا",
+        "josera"
+      ]
+    },
+    {
+      "name": "ایکس پی-پروداکت",
+      "en": null,
+      "aliases": [
+        "ایکس پی-پروداکت",
+        "ایکسپی-پروداکت"
+      ]
+    },
+    {
+      "name": "بروکس",
+      "en": null,
+      "aliases": [
+        "بروکس"
+      ]
+    },
+    {
+      "name": "آنشی",
+      "en": "Anshi",
+      "aliases": [
+        "آنشی",
+        "anshi"
+      ]
+    },
+    {
+      "name": "باباریا",
+      "en": null,
+      "aliases": [
+        "باباریا"
+      ]
+    },
+    {
+      "name": "آرتمیس",
+      "en": "Artemis",
+      "aliases": [
+        "آرتمیس",
+        "artemis"
+      ]
+    },
+    {
+      "name": "ال تی دی",
+      "en": "LTD",
+      "aliases": [
+        "ال تی دی",
+        "التیدی",
+        "ltd"
+      ]
+    },
+    {
+      "name": "البرز نیرو",
+      "en": null,
+      "aliases": [
+        "البرز نیرو",
+        "البرزنیرو"
+      ]
+    },
+    {
+      "name": "فروزش",
+      "en": null,
+      "aliases": [
+        "فروزش"
+      ]
+    },
+    {
+      "name": "گوچی",
+      "en": "Gucci",
+      "aliases": [
+        "گوچی",
+        "gucci"
+      ]
+    },
+    {
+      "name": "لانگ",
+      "en": "LONG",
+      "aliases": [
+        "لانگ",
+        "long"
+      ]
+    },
+    {
+      "name": "جوی روم",
+      "en": "Joyroom",
+      "aliases": [
+        "جوی روم",
+        "جویروم",
+        "joyroom"
+      ]
+    },
+    {
+      "name": "استیل هامون",
+      "en": null,
+      "aliases": [
+        "استیل هامون",
+        "استیلهامون"
+      ]
+    },
+    {
+      "name": "گودکس",
+      "en": "Godox",
+      "aliases": [
+        "گودکس",
+        "godox"
+      ]
+    },
+    {
+      "name": "فاو",
+      "en": null,
+      "aliases": [
+        "فاو"
+      ]
+    },
+    {
+      "name": "میفا",
+      "en": "MIFA",
+      "aliases": [
+        "میفا",
+        "mifa"
+      ]
+    },
+    {
+      "name": "هرتز",
+      "en": null,
+      "aliases": [
+        "هرتز"
+      ]
+    },
+    {
+      "name": "یابر",
+      "en": "yaber",
+      "aliases": [
+        "یابر",
+        "yaber"
+      ]
+    },
+    {
+      "name": "شانل",
+      "en": "Chanel",
+      "aliases": [
+        "شانل",
+        "chanel",
+        "شنل"
+      ]
+    },
+    {
+      "name": "بی اس",
+      "en": null,
+      "aliases": [
+        "بی اس",
+        "بیاس"
+      ]
+    },
+    {
+      "name": "گوگل",
+      "en": "Google",
+      "aliases": [
+        "گوگل",
+        "google",
+        "پیکسل گوگل"
+      ]
+    },
+    {
+      "name": "فن آوران",
+      "en": null,
+      "aliases": [
+        "فن آوران",
+        "فنآوران"
+      ]
+    },
+    {
+      "name": "دکتر کلادرز",
+      "en": null,
+      "aliases": [
+        "دکتر کلادرز",
+        "دکترکلادرز"
+      ]
+    },
+    {
+      "name": "آنکور",
+      "en": null,
+      "aliases": [
+        "آنکور"
+      ]
+    },
+    {
+      "name": "جانسون",
+      "en": null,
+      "aliases": [
+        "جانسون"
+      ]
+    },
+    {
+      "name": "پاک سمن",
+      "en": "Pak Saman",
+      "aliases": [
+        "پاک سمن",
+        "پاکسمن",
+        "pak saman",
+        "paksaman"
+      ]
+    },
+    {
+      "name": "امکو",
+      "en": null,
+      "aliases": [
+        "امکو"
+      ]
+    },
+    {
+      "name": "داداریو",
+      "en": "D'Addario",
+      "aliases": [
+        "داداریو",
+        "d'addario",
+        "daddario"
+      ]
+    },
+    {
+      "name": "بلدن",
+      "en": "Belden",
+      "aliases": [
+        "بلدن",
+        "belden"
+      ]
+    },
+    {
+      "name": "اونیکوما",
+      "en": "Onikuma",
+      "aliases": [
+        "اونیکوما",
+        "onikuma"
+      ]
+    },
+    {
+      "name": "کیو اند کیو",
+      "en": null,
+      "aliases": [
+        "کیو اند کیو",
+        "کیواندکیو"
+      ]
+    },
+    {
+      "name": "اکیومد",
+      "en": "Accumed",
+      "aliases": [
+        "اکیومد",
+        "accumed"
+      ]
+    },
+    {
+      "name": "سوماک",
+      "en": null,
+      "aliases": [
+        "سوماک"
+      ]
+    },
+    {
+      "name": "توسن",
+      "en": "Tosan",
+      "aliases": [
+        "توسن",
+        "tosan"
+      ]
+    },
+    {
+      "name": "هواسدان",
+      "en": null,
+      "aliases": [
+        "هواسدان"
+      ]
+    },
+    {
+      "name": "ویولت",
+      "en": "Violet",
+      "aliases": [
+        "ویولت",
+        "violet"
+      ]
+    },
+    {
+      "name": "آنوا",
+      "en": "Anua",
+      "aliases": [
+        "آنوا",
+        "anua"
+      ]
+    },
+    {
+      "name": "ویتالیر",
+      "en": null,
+      "aliases": [
+        "ویتالیر"
+      ]
+    },
+    {
+      "name": "زانیس",
+      "en": null,
+      "aliases": [
+        "زانیس"
+      ]
+    },
+    {
+      "name": "تکستار",
+      "en": null,
+      "aliases": [
+        "تکستار"
+      ]
+    },
+    {
+      "name": "فردریک کنستانت",
+      "en": "Frederique Constant",
+      "aliases": [
+        "فردریک کنستانت",
+        "فردریککنستانت",
+        "frederique constant",
+        "frederiqueconstant"
+      ]
+    },
+    {
+      "name": "دوپیر",
+      "en": "Dupier",
+      "aliases": [
+        "دوپیر",
+        "dupier"
+      ]
+    },
+    {
+      "name": "دیتالاجیک",
+      "en": "Datalogic",
+      "aliases": [
+        "دیتالاجیک",
+        "datalogic"
+      ]
+    },
+    {
+      "name": "پی نت",
+      "en": "P-net",
+      "aliases": [
+        "پی نت",
+        "پینت",
+        "p-net"
+      ]
+    },
+    {
+      "name": "صبا",
+      "en": null,
+      "aliases": [
+        "صبا"
+      ]
+    },
+    {
+      "name": "سدید",
+      "en": null,
+      "aliases": [
+        "سدید"
+      ]
+    },
+    {
+      "name": "لپرسو",
+      "en": null,
+      "aliases": [
+        "لپرسو"
+      ]
+    },
+    {
+      "name": "بوستر",
+      "en": "Booster",
+      "aliases": [
+        "بوستر",
+        "booster"
+      ]
+    },
+    {
+      "name": "لیزانو",
+      "en": "lizano",
+      "aliases": [
+        "لیزانو",
+        "lizano"
+      ]
+    },
+    {
+      "name": "شاهچراغ",
+      "en": null,
+      "aliases": [
+        "شاهچراغ"
+      ]
+    },
+    {
+      "name": "رفاکو",
+      "en": null,
+      "aliases": [
+        "رفاکو"
+      ]
+    },
+    {
+      "name": "ریوالد",
+      "en": null,
+      "aliases": [
+        "ریوالد"
+      ]
+    },
+    {
+      "name": "پرینسلی",
+      "en": null,
+      "aliases": [
+        "پرینسلی"
+      ]
+    },
+    {
+      "name": "ام-آدیو",
+      "en": "M-Audio",
+      "aliases": [
+        "ام-آدیو",
+        "m-audio"
+      ]
+    },
+    {
+      "name": "لوتوس",
+      "en": "Lotous",
+      "aliases": [
+        "لوتوس",
+        "lotous"
+      ]
+    },
+    {
+      "name": "نیو بالانس",
+      "en": "New Balance",
+      "aliases": [
+        "نیو بالانس",
+        "نیوبالانس",
+        "new balance",
+        "newbalance"
+      ]
+    },
+    {
+      "name": "او پی تی",
+      "en": "OPT",
+      "aliases": [
+        "او پی تی",
+        "اوپیتی",
+        "opt"
+      ]
+    },
+    {
+      "name": "آلسکا",
+      "en": "Aleska",
+      "aliases": [
+        "آلسکا",
+        "aleska"
+      ]
+    },
+    {
+      "name": "آیلا",
+      "en": null,
+      "aliases": [
+        "آیلا"
+      ]
+    },
+    {
+      "name": "کوبل",
+      "en": "Cobel",
+      "aliases": [
+        "کوبل",
+        "cobel"
+      ]
+    },
+    {
+      "name": "لطافه",
+      "en": null,
+      "aliases": [
+        "لطافه"
+      ]
+    },
+    {
+      "name": "فیتنس",
+      "en": "LS Fitness",
+      "aliases": [
+        "فیتنس",
+        "ls fitness",
+        "lsfitness"
+      ]
+    },
+    {
+      "name": "کدی‌پک",
+      "en": "Kedipek",
+      "aliases": [
+        "کدی‌پک",
+        "کدیپک",
+        "kedipek"
+      ]
+    },
+    {
+      "name": "روموس",
+      "en": "Romoss",
+      "aliases": [
+        "روموس",
+        "romoss"
+      ]
+    },
+    {
+      "name": "ریلایف",
+      "en": "Relife",
+      "aliases": [
+        "ریلایف",
+        "relife"
+      ]
+    },
+    {
+      "name": "اکسیژن",
+      "en": null,
+      "aliases": [
+        "اکسیژن"
+      ]
+    },
+    {
+      "name": "بیرداینامیک",
+      "en": "Beyerdynamic",
+      "aliases": [
+        "بیرداینامیک",
+        "beyerdynamic"
+      ]
+    },
+    {
+      "name": "اینفینیتی",
+      "en": null,
+      "aliases": [
+        "اینفینیتی"
+      ]
+    },
+    {
+      "name": "فلاسک",
+      "en": null,
+      "aliases": [
+        "فلاسک"
+      ]
+    },
+    {
+      "name": "ورساچه",
+      "en": "Versace",
+      "aliases": [
+        "ورساچه",
+        "versace",
+        "ورساچی"
+      ]
+    },
+    {
+      "name": "ویکومن",
+      "en": null,
+      "aliases": [
+        "ویکومن"
+      ]
+    },
+    {
+      "name": "دی ام",
+      "en": null,
+      "aliases": [
+        "دی ام",
+        "دیام"
+      ]
+    },
+    {
+      "name": "ایزی گلوکو",
+      "en": "EasyGluco",
+      "aliases": [
+        "ایزی گلوکو",
+        "ایزیگلوکو",
+        "easygluco"
+      ]
+    },
+    {
+      "name": "اس ای الکترونیکس",
+      "en": "sE Electronics",
+      "aliases": [
+        "اس ای الکترونیکس",
+        "اسایالکترونیکس",
+        "se electronics",
+        "seelectronics"
+      ]
+    },
+    {
+      "name": "ویک فرث",
+      "en": "Vic Firth",
+      "aliases": [
+        "ویک فرث",
+        "ویکفرث",
+        "vic firth",
+        "vicfirth"
+      ]
+    },
+    {
+      "name": "وال",
+      "en": null,
+      "aliases": [
+        "وال"
+      ]
+    },
+    {
+      "name": "مجیک آدیو",
+      "en": "Magic Audio",
+      "aliases": [
+        "مجیک آدیو",
+        "مجیکآدیو",
+        "magic audio",
+        "magicaudio"
+      ]
+    },
+    {
+      "name": "جمع ساز",
+      "en": null,
+      "aliases": [
+        "جمع ساز",
+        "جمعساز"
+      ]
+    },
+    {
+      "name": "میسویک",
+      "en": null,
+      "aliases": [
+        "میسویک"
+      ]
+    },
+    {
+      "name": "ام جی",
+      "en": "MG",
+      "aliases": [
+        "ام جی",
+        "امجی",
+        "mg"
+      ]
+    },
+    {
+      "name": "کارینا",
+      "en": null,
+      "aliases": [
+        "کارینا"
+      ]
+    },
+    {
+      "name": "لیدشاین",
+      "en": null,
+      "aliases": [
+        "لیدشاین"
+      ]
+    },
+    {
+      "name": "ویداسی",
+      "en": null,
+      "aliases": [
+        "ویداسی"
+      ]
+    },
+    {
+      "name": "ترانیو",
+      "en": null,
+      "aliases": [
+        "ترانیو"
+      ]
+    },
+    {
+      "name": "زولینگن",
+      "en": "Solingen",
+      "aliases": [
+        "زولینگن",
+        "solingen"
+      ]
+    },
+    {
+      "name": "چانگان",
+      "en": "Changan",
+      "aliases": [
+        "چانگان",
+        "changan"
+      ]
+    },
+    {
+      "name": "کارتیه",
+      "en": "Cartier",
+      "aliases": [
+        "کارتیه",
+        "cartier"
+      ]
+    },
+    {
+      "name": "آی سنس",
+      "en": null,
+      "aliases": [
+        "آی سنس",
+        "آیسنس"
+      ]
+    },
+    {
+      "name": "واتسون",
+      "en": null,
+      "aliases": [
+        "واتسون"
+      ]
+    },
+    {
+      "name": "سام",
+      "en": null,
+      "aliases": [
+        "سام"
+      ]
+    },
+    {
+      "name": "هارمن کاردن",
+      "en": "Harman Kardon",
+      "aliases": [
+        "هارمن کاردن",
+        "هارمنکاردن",
+        "harman kardon",
+        "harmankardon"
+      ]
+    },
+    {
+      "name": "زد ای سی",
+      "en": null,
+      "aliases": [
+        "زد ای سی",
+        "زدایسی"
+      ]
+    },
+    {
+      "name": "اسکواردی",
+      "en": null,
+      "aliases": [
+        "اسکواردی"
+      ]
+    },
+    {
+      "name": "شفق",
+      "en": null,
+      "aliases": [
+        "شفق"
+      ]
+    },
+    {
+      "name": "آیس کریم",
+      "en": null,
+      "aliases": [
+        "آیس کریم",
+        "آیسکریم"
+      ]
+    },
+    {
+      "name": "الکترون",
+      "en": "Alctron",
+      "aliases": [
+        "الکترون",
+        "alctron"
+      ]
+    },
+    {
+      "name": "محک",
+      "en": "Mahak",
+      "aliases": [
+        "محک",
+        "mahak"
+      ]
+    },
+    {
+      "name": "دیزل‌ساز",
+      "en": null,
+      "aliases": [
+        "دیزل‌ساز",
+        "دیزلساز"
+      ]
+    },
+    {
+      "name": "خوشخواب",
+      "en": null,
+      "aliases": [
+        "خوشخواب"
+      ]
+    },
+    {
+      "name": "پی ام",
+      "en": null,
+      "aliases": [
+        "پی ام",
+        "پیام"
+      ]
+    },
+    {
+      "name": "آلفارومیو",
+      "en": "Alfa Romeo",
+      "aliases": [
+        "آلفارومیو",
+        "alfa romeo",
+        "alfaromeo",
+        "آلفا رومئو"
+      ]
+    },
+    {
+      "name": "فلر",
+      "en": null,
+      "aliases": [
+        "فلر"
+      ]
+    },
+    {
+      "name": "ناچی",
+      "en": "Nachi",
+      "aliases": [
+        "ناچی",
+        "nachi"
+      ]
+    },
+    {
+      "name": "سویس",
+      "en": null,
+      "aliases": [
+        "سویس"
+      ]
+    },
+    {
+      "name": "آدیداس",
+      "en": "Adidas",
+      "aliases": [
+        "آدیداس",
+        "adidas",
+        "آدیدس"
+      ]
+    },
+    {
+      "name": "ولدر",
+      "en": "Welder",
+      "aliases": [
+        "ولدر",
+        "welder"
+      ]
+    },
+    {
+      "name": "کنوود",
+      "en": "Kenwood",
+      "aliases": [
+        "کنوود",
+        "kenwood"
+      ]
+    },
+    {
+      "name": "ژوپینگ",
+      "en": null,
+      "aliases": [
+        "ژوپینگ"
+      ]
+    },
+    {
+      "name": "شپخ",
+      "en": null,
+      "aliases": [
+        "شپخ"
+      ]
+    },
+    {
+      "name": "همراه اول",
+      "en": "Hamrah-e Avval",
+      "aliases": [
+        "همراه اول",
+        "همراهاول",
+        "hamrah-e avval",
+        "hamrah-eavval",
+        "mci"
+      ]
+    },
+    {
+      "name": "پارمیس",
+      "en": null,
+      "aliases": [
+        "پارمیس"
+      ]
+    },
+    {
+      "name": "یوبیکیوتی",
+      "en": "Ubiquiti",
+      "aliases": [
+        "یوبیکیوتی",
+        "ubiquiti"
+      ]
+    },
+    {
+      "name": "کروز +",
+      "en": null,
+      "aliases": [
+        "کروز +"
+      ]
+    },
+    {
+      "name": "این لی",
+      "en": null,
+      "aliases": [
+        "این لی",
+        "اینلی"
+      ]
+    },
+    {
+      "name": "فاز",
+      "en": "Phase",
+      "aliases": [
+        "فاز",
+        "phase"
+      ]
+    },
+    {
+      "name": "سوزوکی",
+      "en": "Suzuki",
+      "aliases": [
+        "سوزوکی",
+        "suzuki"
+      ]
+    },
+    {
+      "name": "اچ کا ائودیو",
+      "en": null,
+      "aliases": [
+        "اچ کا ائودیو",
+        "اچکاائودیو"
+      ]
+    },
+    {
+      "name": "سینگ ای",
+      "en": null,
+      "aliases": [
+        "سینگ ای",
+        "سینگای"
+      ]
+    },
+    {
+      "name": "آدور",
+      "en": "ADOR",
+      "aliases": [
+        "آدور",
+        "ador"
+      ]
+    },
+    {
+      "name": "لکسار",
+      "en": "Lexar",
+      "aliases": [
+        "لکسار",
+        "lexar"
+      ]
+    },
+    {
+      "name": "والرا",
+      "en": null,
+      "aliases": [
+        "والرا"
+      ]
+    },
+    {
+      "name": "کاسپین",
+      "en": null,
+      "aliases": [
+        "کاسپین"
+      ]
+    },
+    {
+      "name": "ایمن آب",
+      "en": null,
+      "aliases": [
+        "ایمن آب",
+        "ایمنآب"
+      ]
+    },
+    {
+      "name": "لیمپیو",
+      "en": "Limpio",
+      "aliases": [
+        "لیمپیو",
+        "limpio"
+      ]
+    },
+    {
+      "name": "آلفاسونیک",
+      "en": null,
+      "aliases": [
+        "آلفاسونیک"
+      ]
+    },
+    {
+      "name": "اسمارا",
+      "en": null,
+      "aliases": [
+        "اسمارا"
+      ]
+    },
+    {
+      "name": "هادرون",
+      "en": null,
+      "aliases": [
+        "هادرون"
+      ]
+    },
+    {
+      "name": "بارز",
+      "en": "Barez",
+      "aliases": [
+        "بارز",
+        "barez",
+        "لاستیک بارز"
+      ]
+    },
+    {
+      "name": "هپی کت",
+      "en": "Happy Cat",
+      "aliases": [
+        "هپی کت",
+        "هپیکت",
+        "happy cat",
+        "happycat"
+      ]
+    },
+    {
+      "name": "وارُم",
+      "en": "Warom",
+      "aliases": [
+        "وارُم",
+        "warom"
+      ]
+    },
+    {
+      "name": "دایناپرو",
+      "en": "Dynapro",
+      "aliases": [
+        "دایناپرو",
+        "dynapro"
+      ]
+    },
+    {
+      "name": "بلکین",
+      "en": "Belkin",
+      "aliases": [
+        "بلکین",
+        "belkin"
+      ]
+    },
+    {
+      "name": "ریکو",
+      "en": "Ricoh",
+      "aliases": [
+        "ریکو",
+        "ricoh"
+      ]
+    },
+    {
+      "name": "بلند کاست",
+      "en": null,
+      "aliases": [
+        "بلند کاست",
+        "بلندکاست"
+      ]
+    },
+    {
+      "name": "آروا",
+      "en": null,
+      "aliases": [
+        "آروا"
+      ]
+    },
+    {
+      "name": "سیلیکون پاور",
+      "en": "Silicon Power",
+      "aliases": [
+        "سیلیکون پاور",
+        "سیلیکونپاور",
+        "silicon power",
+        "siliconpower"
+      ]
+    },
+    {
+      "name": "جی شاک",
+      "en": "G-Shock",
+      "aliases": [
+        "جی شاک",
+        "جیشاک",
+        "g-shock",
+        "gshock"
+      ]
+    },
+    {
+      "name": "کوانتوم",
+      "en": null,
+      "aliases": [
+        "کوانتوم"
+      ]
+    },
+    {
+      "name": "سوبو",
+      "en": "SOBO",
+      "aliases": [
+        "سوبو",
+        "sobo"
+      ]
+    },
+    {
+      "name": "هوپ استار",
+      "en": null,
+      "aliases": [
+        "هوپ استار",
+        "هوپاستار"
+      ]
+    },
+    {
+      "name": "اروند",
+      "en": null,
+      "aliases": [
+        "اروند"
+      ]
+    },
+    {
+      "name": "پری‌سونوس",
+      "en": "PreSonus",
+      "aliases": [
+        "پری‌سونوس",
+        "پریسونوس",
+        "presonus"
+      ]
+    },
+    {
+      "name": "برین",
+      "en": null,
+      "aliases": [
+        "برین"
+      ]
+    },
+    {
+      "name": "فروچی",
+      "en": null,
+      "aliases": [
+        "فروچی"
+      ]
+    },
+    {
+      "name": "ولتامکس",
+      "en": null,
+      "aliases": [
+        "ولتامکس"
+      ]
+    },
+    {
+      "name": "بیکسولون",
+      "en": "Bixolon",
+      "aliases": [
+        "بیکسولون",
+        "bixolon"
+      ]
+    },
+    {
+      "name": "پژواک البرز",
+      "en": null,
+      "aliases": [
+        "پژواک البرز",
+        "پژواکالبرز"
+      ]
+    },
+    {
+      "name": "ناکامیچی",
+      "en": "Nakamichi",
+      "aliases": [
+        "ناکامیچی",
+        "nakamichi"
+      ]
+    },
+    {
+      "name": "تفال",
+      "en": "Tefal",
+      "aliases": [
+        "تفال",
+        "tefal"
+      ]
+    },
+    {
+      "name": "جنیون",
+      "en": null,
+      "aliases": [
+        "جنیون"
+      ]
+    },
+    {
+      "name": "موزر",
+      "en": "Moser",
+      "aliases": [
+        "موزر",
+        "moser"
+      ]
+    },
+    {
+      "name": "شون",
+      "en": null,
+      "aliases": [
+        "شون"
+      ]
+    },
+    {
+      "name": "موفی",
+      "en": "Mophie",
+      "aliases": [
+        "موفی",
+        "mophie"
+      ]
+    },
+    {
+      "name": "کریتیو",
+      "en": null,
+      "aliases": [
+        "کریتیو"
+      ]
+    },
+    {
+      "name": "فندر",
+      "en": "Fender",
+      "aliases": [
+        "فندر",
+        "fender"
+      ]
+    },
+    {
+      "name": "یوتاب",
+      "en": null,
+      "aliases": [
+        "یوتاب"
+      ]
+    },
+    {
+      "name": "مروارید",
+      "en": null,
+      "aliases": [
+        "مروارید"
+      ]
+    },
+    {
+      "name": "امسیگ",
+      "en": null,
+      "aliases": [
+        "امسیگ"
+      ]
+    },
+    {
+      "name": "ای اس",
+      "en": null,
+      "aliases": [
+        "ای اس",
+        "ایاس"
+      ]
+    },
+    {
+      "name": "سیگما",
+      "en": "Sigma",
+      "aliases": [
+        "سیگما",
+        "sigma"
+      ]
+    },
+    {
+      "name": "توتو",
+      "en": "TOTU",
+      "aliases": [
+        "توتو",
+        "totu"
+      ]
+    },
+    {
+      "name": "اکتیو تولز",
+      "en": null,
+      "aliases": [
+        "اکتیو تولز",
+        "اکتیوتولز"
+      ]
+    },
+    {
+      "name": "لالیک",
+      "en": "Lalique",
+      "aliases": [
+        "لالیک",
+        "lalique"
+      ]
+    },
+    {
+      "name": "تاینور",
+      "en": "tynor",
+      "aliases": [
+        "تاینور",
+        "tynor"
+      ]
+    },
+    {
+      "name": "اخوان",
+      "en": null,
+      "aliases": [
+        "اخوان"
+      ]
+    },
+    {
+      "name": "اینیوجوی",
+      "en": "Enujoy",
+      "aliases": [
+        "اینیوجوی",
+        "enujoy"
+      ]
+    },
+    {
+      "name": "آوان",
+      "en": null,
+      "aliases": [
+        "آوان"
+      ]
+    },
+    {
+      "name": "میتسوبیشی",
+      "en": "Mitsubishi",
+      "aliases": [
+        "میتسوبیشی",
+        "mitsubishi"
+      ]
+    },
+    {
+      "name": "نوید",
+      "en": null,
+      "aliases": [
+        "نوید"
+      ]
+    },
+    {
+      "name": "بهران",
+      "en": "Behran",
+      "aliases": [
+        "بهران",
+        "behran"
+      ]
+    },
+    {
+      "name": "پورینا",
+      "en": "Purina",
+      "aliases": [
+        "پورینا",
+        "purina"
+      ]
+    },
+    {
+      "name": "چویتک",
+      "en": "Choetech",
+      "aliases": [
+        "چویتک",
+        "choetech"
+      ]
+    },
+    {
+      "name": "نیتو",
+      "en": "NITU",
+      "aliases": [
+        "نیتو",
+        "nitu"
+      ]
+    },
+    {
+      "name": "کی اند ام",
+      "en": null,
+      "aliases": [
+        "کی اند ام",
+        "کیاندام"
+      ]
+    },
+    {
+      "name": "ریمکس",
+      "en": "Remax",
+      "aliases": [
+        "ریمکس",
+        "remax"
+      ]
+    },
+    {
+      "name": "رمو",
+      "en": "Remo",
+      "aliases": [
+        "رمو",
+        "remo"
+      ]
+    },
+    {
+      "name": "سناتور",
+      "en": null,
+      "aliases": [
+        "سناتور"
+      ]
+    },
+    {
+      "name": "لکا",
+      "en": null,
+      "aliases": [
+        "لکا"
+      ]
+    },
+    {
+      "name": "مایدیا",
+      "en": "Midea",
+      "aliases": [
+        "مایدیا",
+        "midea"
+      ]
+    },
+    {
+      "name": "ایپی‌اور",
+      "en": "Epever",
+      "aliases": [
+        "ایپی‌اور",
+        "ایپیاور",
+        "epever"
+      ]
+    },
+    {
+      "name": "شارک",
+      "en": "Shark",
+      "aliases": [
+        "شارک",
+        "shark"
+      ]
+    },
+    {
+      "name": "بیول",
+      "en": null,
+      "aliases": [
+        "بیول"
+      ]
+    },
+    {
+      "name": "اکیو چک",
+      "en": "Accu-Chek",
+      "aliases": [
+        "اکیو چک",
+        "اکیوچک",
+        "accu-chek"
+      ]
+    },
+    {
+      "name": "پارس پریا",
+      "en": null,
+      "aliases": [
+        "پارس پریا",
+        "پارسپریا"
+      ]
+    },
+    {
+      "name": "گالا",
+      "en": null,
+      "aliases": [
+        "گالا"
+      ]
+    },
+    {
+      "name": "بهسازان",
+      "en": null,
+      "aliases": [
+        "بهسازان"
+      ]
+    },
+    {
+      "name": "اس تی",
+      "en": null,
+      "aliases": [
+        "اس تی",
+        "استی"
+      ]
+    },
+    {
+      "name": "فستینا",
+      "en": "Festina",
+      "aliases": [
+        "فستینا",
+        "festina"
+      ]
+    },
+    {
+      "name": "ان ای سی",
+      "en": "NEC",
+      "aliases": [
+        "ان ای سی",
+        "انایسی",
+        "nec"
+      ]
+    },
+    {
+      "name": "ونوس",
+      "en": null,
+      "aliases": [
+        "ونوس"
+      ]
+    },
+    {
+      "name": "نایت کر",
+      "en": "Nitecore",
+      "aliases": [
+        "نایت کر",
+        "نایتکر",
+        "nitecore"
+      ]
+    },
+    {
+      "name": "صادراتی مشهد",
+      "en": null,
+      "aliases": [
+        "صادراتی مشهد",
+        "صادراتیمشهد"
+      ]
+    },
+    {
+      "name": "زیمنس",
+      "en": "Siemens",
+      "aliases": [
+        "زیمنس",
+        "siemens"
+      ]
+    },
+    {
+      "name": "آیبانز",
+      "en": "Ibanez",
+      "aliases": [
+        "آیبانز",
+        "ibanez"
+      ]
+    },
+    {
+      "name": "بلک بری",
+      "en": "BlackBerry",
+      "aliases": [
+        "بلک بری",
+        "بلکبری",
+        "blackberry"
+      ]
+    },
+    {
+      "name": "تابا",
+      "en": null,
+      "aliases": [
+        "تابا"
+      ]
+    },
+    {
+      "name": "سام الکترونیک",
+      "en": "Sam Electronic",
+      "aliases": [
+        "سام الکترونیک",
+        "سامالکترونیک",
+        "sam electronic",
+        "samelectronic"
+      ]
+    },
+    {
+      "name": "ریلمی",
+      "en": "Realme",
+      "aliases": [
+        "ریلمی",
+        "realme"
+      ]
+    },
+    {
+      "name": "رکسونا",
+      "en": "Rexona",
+      "aliases": [
+        "رکسونا",
+        "rexona"
+      ]
+    },
+    {
+      "name": "هرمس",
+      "en": "Hermes",
+      "aliases": [
+        "هرمس",
+        "hermes"
+      ]
+    },
+    {
+      "name": "آرتا",
+      "en": null,
+      "aliases": [
+        "آرتا"
+      ]
+    },
+    {
+      "name": "شیگلم",
+      "en": "Sheglam",
+      "aliases": [
+        "شیگلم",
+        "sheglam"
+      ]
+    },
+    {
+      "name": "بیلسی",
+      "en": null,
+      "aliases": [
+        "بیلسی"
+      ]
+    },
+    {
+      "name": "تام فورد",
+      "en": "Tom Ford",
+      "aliases": [
+        "تام فورد",
+        "تامفورد",
+        "tom ford",
+        "tomford"
+      ]
+    },
+    {
+      "name": "گرین پاور",
+      "en": null,
+      "aliases": [
+        "گرین پاور",
+        "گرینپاور"
+      ]
+    },
+    {
+      "name": "کویین",
+      "en": null,
+      "aliases": [
+        "کویین"
+      ]
+    },
+    {
+      "name": "پی آر اس",
+      "en": "PRS",
+      "aliases": [
+        "پی آر اس",
+        "پیآراس",
+        "prs"
+      ]
+    },
+    {
+      "name": "دبورا",
+      "en": "Deborah",
+      "aliases": [
+        "دبورا",
+        "deborah"
+      ]
+    },
+    {
+      "name": "آی کی مالتی مدیا",
+      "en": "IK Multimedia",
+      "aliases": [
+        "آی کی مالتی مدیا",
+        "آیکیمالتیمدیا",
+        "ik multimedia",
+        "ikmultimedia"
+      ]
+    },
+    {
+      "name": "پی ای پی",
+      "en": null,
+      "aliases": [
+        "پی ای پی",
+        "پیایپی"
+      ]
+    },
+    {
+      "name": "گرداک",
+      "en": "Gordak",
+      "aliases": [
+        "گرداک",
+        "gordak"
+      ]
+    },
+    {
+      "name": "زمرد",
+      "en": null,
+      "aliases": [
+        "زمرد"
+      ]
+    },
+    {
+      "name": "وینسنت",
+      "en": null,
+      "aliases": [
+        "وینسنت"
+      ]
+    },
+    {
+      "name": "تراست سیف",
+      "en": null,
+      "aliases": [
+        "تراست سیف",
+        "تراستسیف"
+      ]
+    },
+    {
+      "name": "سراوی",
+      "en": "CeraVe",
+      "aliases": [
+        "سراوی",
+        "cerave",
+        "سراوه"
+      ]
+    },
+    {
+      "name": "جی.تی.آر",
+      "en": "JTR",
+      "aliases": [
+        "جی.تی.آر",
+        "jtr"
+      ]
+    },
+    {
+      "name": "آرین",
+      "en": null,
+      "aliases": [
+        "آرین"
+      ]
+    },
+    {
+      "name": "گلکسیا",
+      "en": null,
+      "aliases": [
+        "گلکسیا"
+      ]
+    },
+    {
+      "name": "ی ای پی پرو",
+      "en": "Aappro",
+      "aliases": [
+        "ی ای پی پرو",
+        "یایپیپرو",
+        "aappro"
+      ]
+    },
+    {
+      "name": "رود",
+      "en": "Rode",
+      "aliases": [
+        "رود",
+        "rode"
+      ]
+    },
+    {
+      "name": "ناچ کدکس",
+      "en": null,
+      "aliases": [
+        "ناچ کدکس",
+        "ناچکدکس"
+      ]
+    },
+    {
+      "name": "یحیی",
+      "en": null,
+      "aliases": [
+        "یحیی"
+      ]
+    },
+    {
+      "name": "بربری",
+      "en": "Burberry",
+      "aliases": [
+        "بربری",
+        "burberry"
+      ]
+    },
+    {
+      "name": "ورتو",
+      "en": null,
+      "aliases": [
+        "ورتو"
+      ]
+    },
+    {
+      "name": "وریتی",
+      "en": "Verity",
+      "aliases": [
+        "وریتی",
+        "verity"
+      ]
+    },
+    {
+      "name": "روستیک",
+      "en": "Rustic",
+      "aliases": [
+        "روستیک",
+        "rustic"
+      ]
+    },
+    {
+      "name": "نتربیت",
+      "en": null,
+      "aliases": [
+        "نتربیت"
+      ]
+    },
+    {
+      "name": "یونیدن",
+      "en": null,
+      "aliases": [
+        "یونیدن"
+      ]
+    },
+    {
+      "name": "مدی کیوب",
+      "en": "Medicube",
+      "aliases": [
+        "مدی کیوب",
+        "مدیکیوب",
+        "medicube"
+      ]
+    },
+    {
+      "name": "آمبرلا",
+      "en": null,
+      "aliases": [
+        "آمبرلا"
+      ]
+    },
+    {
+      "name": "رزمکس",
+      "en": "Rossmax",
+      "aliases": [
+        "رزمکس",
+        "rossmax"
+      ]
+    },
+    {
+      "name": "پرفیوم دو مارلی",
+      "en": "Parfums de Marly",
+      "aliases": [
+        "پرفیوم دو مارلی",
+        "پرفیومدومارلی",
+        "parfums de marly",
+        "parfumsdemarly"
+      ]
+    },
+    {
+      "name": "راک پاور",
+      "en": null,
+      "aliases": [
+        "راک پاور",
+        "راکپاور"
+      ]
+    },
+    {
+      "name": "استنلی",
+      "en": "Stanley",
+      "aliases": [
+        "استنلی",
+        "stanley"
+      ]
+    },
+    {
+      "name": "زیمبرگ",
+      "en": null,
+      "aliases": [
+        "زیمبرگ"
+      ]
+    },
+    {
+      "name": "شایر",
+      "en": "Shayer",
+      "aliases": [
+        "شایر",
+        "shayer"
+      ]
+    },
+    {
+      "name": "بهداد الکتریک",
+      "en": null,
+      "aliases": [
+        "بهداد الکتریک",
+        "بهدادالکتریک"
+      ]
+    },
+    {
+      "name": "سکرت",
+      "en": "Secret",
+      "aliases": [
+        "سکرت",
+        "secret"
+      ]
+    },
+    {
+      "name": "مانگو",
+      "en": "Mango",
+      "aliases": [
+        "مانگو",
+        "mango"
+      ]
+    },
+    {
+      "name": "کورسیر",
+      "en": "Corsair",
+      "aliases": [
+        "کورسیر",
+        "corsair"
+      ]
+    },
+    {
+      "name": "فوجیتسو",
+      "en": null,
+      "aliases": [
+        "فوجیتسو"
+      ]
+    },
+    {
+      "name": "مومکس",
+      "en": "Momax",
+      "aliases": [
+        "مومکس",
+        "momax"
+      ]
+    },
+    {
+      "name": "اینتیمکس",
+      "en": null,
+      "aliases": [
+        "اینتیمکس"
+      ]
+    },
+    {
+      "name": "اوربیت",
+      "en": null,
+      "aliases": [
+        "اوربیت"
+      ]
+    },
+    {
+      "name": "بنکیو",
+      "en": "BenQ",
+      "aliases": [
+        "بنکیو",
+        "benq"
+      ]
+    },
+    {
+      "name": "دایسون",
+      "en": "Dyson",
+      "aliases": [
+        "دایسون",
+        "dyson"
+      ]
+    },
+    {
+      "name": "آلپکس",
+      "en": null,
+      "aliases": [
+        "آلپکس"
+      ]
+    },
+    {
+      "name": "کوارتز",
+      "en": null,
+      "aliases": [
+        "کوارتز"
+      ]
+    },
+    {
+      "name": "میتوبل",
+      "en": null,
+      "aliases": [
+        "میتوبل"
+      ]
+    },
+    {
+      "name": "سما طب",
+      "en": null,
+      "aliases": [
+        "سما طب",
+        "سماطب"
+      ]
+    },
+    {
+      "name": "دوماسی",
+      "en": null,
+      "aliases": [
+        "دوماسی"
+      ]
+    },
+    {
+      "name": "زاریکس",
+      "en": null,
+      "aliases": [
+        "زاریکس"
+      ]
+    },
+    {
+      "name": "فاراتل",
+      "en": null,
+      "aliases": [
+        "فاراتل"
+      ]
+    },
+    {
+      "name": "دافی",
+      "en": null,
+      "aliases": [
+        "دافی"
+      ]
+    },
+    {
+      "name": "آفورتیس",
+      "en": null,
+      "aliases": [
+        "آفورتیس"
+      ]
+    },
+    {
+      "name": "فوکوس رایت",
+      "en": "Focusrite",
+      "aliases": [
+        "فوکوس رایت",
+        "فوکوسرایت",
+        "focusrite"
+      ]
+    },
+    {
+      "name": "لیبرال",
+      "en": "liberal",
+      "aliases": [
+        "لیبرال",
+        "liberal"
+      ]
+    },
+    {
+      "name": "پاکشوما",
+      "en": null,
+      "aliases": [
+        "پاکشوما"
+      ]
+    },
+    {
+      "name": "آلیس",
+      "en": "Alice",
+      "aliases": [
+        "آلیس",
+        "alice"
+      ]
+    },
+    {
+      "name": "های ویدیو",
+      "en": "Hivideo",
+      "aliases": [
+        "های ویدیو",
+        "هایویدیو",
+        "hivideo"
+      ]
+    },
+    {
+      "name": "دنیل ولینگتون",
+      "en": "Daniel Wellington",
+      "aliases": [
+        "دنیل ولینگتون",
+        "دنیلولینگتون",
+        "daniel wellington",
+        "danielwellington"
+      ]
+    },
+    {
+      "name": "السانا",
+      "en": null,
+      "aliases": [
+        "السانا"
+      ]
+    },
+    {
+      "name": "بست",
+      "en": "BEST",
+      "aliases": [
+        "بست",
+        "best"
+      ]
+    },
+    {
+      "name": "پرسا",
+      "en": null,
+      "aliases": [
+        "پرسا"
+      ]
+    },
+    {
+      "name": "پیر ریکاد",
+      "en": "Pierre Ricaud",
+      "aliases": [
+        "پیر ریکاد",
+        "پیرریکاد",
+        "pierre ricaud",
+        "pierrericaud"
+      ]
+    },
+    {
+      "name": "آذیموس",
+      "en": null,
+      "aliases": [
+        "آذیموس"
+      ]
+    },
+    {
+      "name": "اینهل",
+      "en": "Einhell",
+      "aliases": [
+        "اینهل",
+        "einhell"
+      ]
+    },
+    {
+      "name": "شیمجه",
+      "en": null,
+      "aliases": [
+        "شیمجه"
+      ]
+    },
+    {
+      "name": "مباشی",
+      "en": null,
+      "aliases": [
+        "مباشی"
+      ]
+    },
+    {
+      "name": "نیوراک",
+      "en": "Newrock",
+      "aliases": [
+        "نیوراک",
+        "newrock"
+      ]
+    },
+    {
+      "name": "سریتا",
+      "en": null,
+      "aliases": [
+        "سریتا"
+      ]
+    },
+    {
+      "name": "هایواتر",
+      "en": null,
+      "aliases": [
+        "هایواتر"
+      ]
+    },
+    {
+      "name": "هپاکو",
+      "en": null,
+      "aliases": [
+        "هپاکو"
+      ]
+    },
+    {
+      "name": "دوجی",
+      "en": "Doogee",
+      "aliases": [
+        "دوجی",
+        "doogee"
+      ]
+    },
+    {
+      "name": "تاپ فید",
+      "en": null,
+      "aliases": [
+        "تاپ فید",
+        "تاپفید"
+      ]
+    },
+    {
+      "name": "لانکوم",
+      "en": "Lancome",
+      "aliases": [
+        "لانکوم",
+        "lancome"
+      ]
+    },
+    {
+      "name": "دیوالت",
+      "en": "DeWalt",
+      "aliases": [
+        "دیوالت",
+        "dewalt",
+        "دی والت"
+      ]
+    },
+    {
+      "name": "هانیول",
+      "en": "Honeywell",
+      "aliases": [
+        "هانیول",
+        "honeywell"
+      ]
+    },
+    {
+      "name": "یونیورسال آدیو",
+      "en": "Universal Audio",
+      "aliases": [
+        "یونیورسال آدیو",
+        "یونیورسالآدیو",
+        "universal audio",
+        "universalaudio"
+      ]
+    },
+    {
+      "name": "مانستر",
+      "en": null,
+      "aliases": [
+        "مانستر"
+      ]
+    },
+    {
+      "name": "داو",
+      "en": null,
+      "aliases": [
+        "داو"
+      ]
+    },
+    {
+      "name": "گوسونیک",
+      "en": null,
+      "aliases": [
+        "گوسونیک"
+      ]
+    },
+    {
+      "name": "کی ام سی",
+      "en": null,
+      "aliases": [
+        "کی ام سی",
+        "کیامسی"
+      ]
+    },
+    {
+      "name": "رسی",
+      "en": "Recci",
+      "aliases": [
+        "رسی",
+        "recci"
+      ]
+    },
+    {
+      "name": "اشتیل",
+      "en": "Stihl",
+      "aliases": [
+        "اشتیل",
+        "stihl"
+      ]
+    },
+    {
+      "name": "دیور",
+      "en": "Dior",
+      "aliases": [
+        "دیور",
+        "dior"
+      ]
+    },
+    {
+      "name": "تستو",
+      "en": "Testo",
+      "aliases": [
+        "تستو",
+        "testo"
+      ]
+    },
+    {
+      "name": "زیکو",
+      "en": null,
+      "aliases": [
+        "زیکو"
+      ]
+    },
+    {
+      "name": "لاگوست",
+      "en": "Lacoste",
+      "aliases": [
+        "لاگوست",
+        "lacoste",
+        "لاکوست"
+      ]
+    },
+    {
+      "name": "پاندورا",
+      "en": null,
+      "aliases": [
+        "پاندورا"
+      ]
+    },
+    {
+      "name": "پینک",
+      "en": null,
+      "aliases": [
+        "پینک"
+      ]
+    },
+    {
+      "name": "رف",
+      "en": "REF",
+      "aliases": [
+        "رف",
+        "ref"
+      ]
+    },
+    {
+      "name": "وی نت",
+      "en": "VNET",
+      "aliases": [
+        "وی نت",
+        "وینت",
+        "vnet"
+      ]
+    },
+    {
+      "name": "ژنوبایوتیک",
+      "en": null,
+      "aliases": [
+        "ژنوبایوتیک"
+      ]
+    },
+    {
+      "name": "ناتینگ",
+      "en": null,
+      "aliases": [
+        "ناتینگ"
+      ]
+    },
+    {
+      "name": "پرنیان استیل",
+      "en": null,
+      "aliases": [
+        "پرنیان استیل",
+        "پرنیاناستیل"
+      ]
+    },
+    {
+      "name": "مدرن",
+      "en": null,
+      "aliases": [
+        "مدرن"
+      ]
+    },
+    {
+      "name": "کوشش رادیاتور",
+      "en": null,
+      "aliases": [
+        "کوشش رادیاتور",
+        "کوششرادیاتور"
+      ]
+    },
+    {
+      "name": "بیوکسین",
+      "en": null,
+      "aliases": [
+        "بیوکسین"
+      ]
+    },
+    {
+      "name": "لاروش پوزای",
+      "en": "La Roche-Posay",
+      "aliases": [
+        "لاروش پوزای",
+        "لاروشپوزای",
+        "la roche-posay",
+        "laroche-posay",
+        "لاروش پوزه"
+      ]
+    },
+    {
+      "name": "فراتکنو",
+      "en": null,
+      "aliases": [
+        "فراتکنو"
+      ]
+    },
+    {
+      "name": "مبین نت",
+      "en": null,
+      "aliases": [
+        "مبین نت",
+        "مبیننت"
+      ]
+    },
+    {
+      "name": "نایس",
+      "en": null,
+      "aliases": [
+        "نایس"
+      ]
+    },
+    {
+      "name": "سهند",
+      "en": null,
+      "aliases": [
+        "سهند"
+      ]
+    },
+    {
+      "name": "امپرور",
+      "en": null,
+      "aliases": [
+        "امپرور"
+      ]
+    },
+    {
+      "name": "نو آکنه",
+      "en": null,
+      "aliases": [
+        "نو آکنه",
+        "نوآکنه"
+      ]
+    },
+    {
+      "name": "ارتقا صنعت نور",
+      "en": null,
+      "aliases": [
+        "ارتقا صنعت نور",
+        "ارتقاصنعتنور"
+      ]
+    },
+    {
+      "name": "پریم",
+      "en": null,
+      "aliases": [
+        "پریم"
+      ]
+    },
+    {
+      "name": "ایپک",
+      "en": null,
+      "aliases": [
+        "ایپک"
+      ]
+    },
+    {
+      "name": "ای لایف",
+      "en": "e-life",
+      "aliases": [
+        "ای لایف",
+        "ایلایف",
+        "e-life"
+      ]
+    },
+    {
+      "name": "سافت واتر",
+      "en": null,
+      "aliases": [
+        "سافت واتر",
+        "سافتواتر"
+      ]
+    },
+    {
+      "name": "الگنگس",
+      "en": null,
+      "aliases": [
+        "الگنگس"
+      ]
+    },
+    {
+      "name": "اسپریت",
+      "en": null,
+      "aliases": [
+        "اسپریت"
+      ]
+    },
+    {
+      "name": "بیگوتی",
+      "en": null,
+      "aliases": [
+        "بیگوتی"
+      ]
+    },
+    {
+      "name": "رکورد",
+      "en": "Record",
+      "aliases": [
+        "رکورد",
+        "record"
+      ]
+    },
+    {
+      "name": "زد تی ای",
+      "en": "ZTE",
+      "aliases": [
+        "زد تی ای",
+        "زدتیای",
+        "zte"
+      ]
+    },
+    {
+      "name": "هپی پت",
+      "en": null,
+      "aliases": [
+        "هپی پت",
+        "هپیپت"
+      ]
+    },
+    {
+      "name": "کمری",
+      "en": null,
+      "aliases": [
+        "کمری"
+      ]
+    },
+    {
+      "name": "ای ویژن",
+      "en": null,
+      "aliases": [
+        "ای ویژن",
+        "ایویژن"
+      ]
+    },
+    {
+      "name": "مارک ژوزف",
+      "en": null,
+      "aliases": [
+        "مارک ژوزف",
+        "مارکژوزف"
+      ]
+    },
+    {
+      "name": "بایودنس",
+      "en": null,
+      "aliases": [
+        "بایودنس"
+      ]
+    },
+    {
+      "name": "ایران زمین",
+      "en": null,
+      "aliases": [
+        "ایران زمین",
+        "ایرانزمین"
+      ]
+    },
+    {
+      "name": "پولو",
+      "en": "Polo",
+      "aliases": [
+        "پولو",
+        "polo"
+      ]
+    },
+    {
+      "name": "بابیلیس پرو",
+      "en": "BaByliss Pro",
+      "aliases": [
+        "بابیلیس پرو",
+        "بابیلیسپرو",
+        "babyliss pro",
+        "babylisspro"
+      ]
+    },
+    {
+      "name": "کونیل",
+      "en": null,
+      "aliases": [
+        "کونیل"
+      ]
+    },
+    {
+      "name": "استیل میت",
+      "en": null,
+      "aliases": [
+        "استیل میت",
+        "استیلمیت"
+      ]
+    },
+    {
+      "name": "کناف",
+      "en": null,
+      "aliases": [
+        "کناف"
+      ]
+    },
+    {
+      "name": "کلومن",
+      "en": "Koluman",
+      "aliases": [
+        "کلومن",
+        "koluman"
+      ]
+    },
+    {
+      "name": "ایبن اشتاک",
+      "en": null,
+      "aliases": [
+        "ایبن اشتاک",
+        "ایبناشتاک"
+      ]
+    },
+    {
+      "name": "داب",
+      "en": "DAB",
+      "aliases": [
+        "داب",
+        "dab"
+      ]
+    },
+    {
+      "name": "صنایع کریم زاده",
+      "en": null,
+      "aliases": [
+        "صنایع کریم زاده",
+        "صنایعکریمزاده"
+      ]
+    },
+    {
+      "name": "ژیون",
+      "en": null,
+      "aliases": [
+        "ژیون"
+      ]
+    },
+    {
+      "name": "نامبوزین",
+      "en": "Numbuzin",
+      "aliases": [
+        "نامبوزین",
+        "numbuzin"
+      ]
+    },
+    {
+      "name": "چیتا",
+      "en": null,
+      "aliases": [
+        "چیتا"
+      ]
+    },
+    {
+      "name": "نوت",
+      "en": null,
+      "aliases": [
+        "نوت"
+      ]
+    },
+    {
+      "name": "انزو پروفیشینال",
+      "en": null,
+      "aliases": [
+        "انزو پروفیشینال",
+        "انزوپروفیشینال"
+      ]
+    },
+    {
+      "name": "شوآرزکوف",
+      "en": "Schwarzkopf",
+      "aliases": [
+        "شوآرزکوف",
+        "schwarzkopf",
+        "شوارتزکوف"
+      ]
+    },
+    {
+      "name": "پاپکو",
+      "en": null,
+      "aliases": [
+        "پاپکو"
+      ]
+    },
+    {
+      "name": "فمی",
+      "en": null,
+      "aliases": [
+        "فمی"
+      ]
+    },
+    {
+      "name": "افرا",
+      "en": null,
+      "aliases": [
+        "افرا"
+      ]
+    },
+    {
+      "name": "انرجایزر",
+      "en": "Energizer",
+      "aliases": [
+        "انرجایزر",
+        "energizer"
+      ]
+    },
+    {
+      "name": "ناخمن",
+      "en": null,
+      "aliases": [
+        "ناخمن"
+      ]
+    },
+    {
+      "name": "پاکو رابان",
+      "en": "Paco Rabanne",
+      "aliases": [
+        "پاکو رابان",
+        "پاکورابان",
+        "paco rabanne",
+        "pacorabanne"
+      ]
+    },
+    {
+      "name": "دنیل سزر",
+      "en": null,
+      "aliases": [
+        "دنیل سزر",
+        "دنیلسزر"
+      ]
+    },
+    {
+      "name": "ورتیس",
+      "en": "Vortice",
+      "aliases": [
+        "ورتیس",
+        "vortice"
+      ]
+    },
+    {
+      "name": "کی جی",
+      "en": null,
+      "aliases": [
+        "کی جی",
+        "کیجی"
+      ]
+    },
+    {
+      "name": "بوز",
+      "en": "Bose",
+      "aliases": [
+        "بوز",
+        "bose"
+      ]
+    },
+    {
+      "name": "لعیا",
+      "en": null,
+      "aliases": [
+        "لعیا"
+      ]
+    },
+    {
+      "name": "دابی",
+      "en": "Dobe",
+      "aliases": [
+        "دابی",
+        "dobe"
+      ]
+    },
+    {
+      "name": "جتک",
+      "en": null,
+      "aliases": [
+        "جتک"
+      ]
+    },
+    {
+      "name": "راناب",
+      "en": null,
+      "aliases": [
+        "راناب"
+      ]
+    },
+    {
+      "name": "تایفون",
+      "en": null,
+      "aliases": [
+        "تایفون"
+      ]
+    },
+    {
+      "name": "دانگیل",
+      "en": null,
+      "aliases": [
+        "دانگیل"
+      ]
+    },
+    {
+      "name": "استرانگ",
+      "en": null,
+      "aliases": [
+        "استرانگ"
+      ]
+    },
+    {
+      "name": "وینستون",
+      "en": "Winston",
+      "aliases": [
+        "وینستون",
+        "winston"
+      ]
+    },
+    {
+      "name": "بینوکولارز",
+      "en": null,
+      "aliases": [
+        "بینوکولارز"
+      ]
+    },
+    {
+      "name": "زبرا",
+      "en": "Zebra",
+      "aliases": [
+        "زبرا",
+        "zebra"
+      ]
+    },
+    {
+      "name": "موستلا",
+      "en": "Mustela",
+      "aliases": [
+        "موستلا",
+        "mustela"
+      ]
+    },
+    {
+      "name": "آیلد",
+      "en": null,
+      "aliases": [
+        "آیلد"
+      ]
+    },
+    {
+      "name": "بوف",
+      "en": "BUFF",
+      "aliases": [
+        "بوف",
+        "buff"
+      ]
+    },
+    {
+      "name": "ورما",
+      "en": null,
+      "aliases": [
+        "ورما"
+      ]
+    },
+    {
+      "name": "اس تی پی",
+      "en": null,
+      "aliases": [
+        "اس تی پی",
+        "استیپی"
+      ]
+    },
+    {
+      "name": "آسانا",
+      "en": null,
+      "aliases": [
+        "آسانا"
+      ]
+    },
+    {
+      "name": "لئوچ",
+      "en": "Leoch",
+      "aliases": [
+        "لئوچ",
+        "leoch"
+      ]
+    },
+    {
+      "name": "دیپ کول",
+      "en": "DeepCool",
+      "aliases": [
+        "دیپ کول",
+        "دیپکول",
+        "deepcool"
+      ]
+    },
+    {
+      "name": "السیس",
+      "en": "Alesis",
+      "aliases": [
+        "السیس",
+        "alesis"
+      ]
+    },
+    {
+      "name": "اورز",
+      "en": null,
+      "aliases": [
+        "اورز"
+      ]
+    },
+    {
+      "name": "اچ تی ام",
+      "en": null,
+      "aliases": [
+        "اچ تی ام",
+        "اچتیام"
+      ]
+    },
+    {
+      "name": "البرز",
+      "en": null,
+      "aliases": [
+        "البرز"
+      ]
+    },
+    {
+      "name": "لمسر",
+      "en": null,
+      "aliases": [
+        "لمسر"
+      ]
+    },
+    {
+      "name": "ان جی کی",
+      "en": "NGK",
+      "aliases": [
+        "ان جی کی",
+        "انجیکی",
+        "ngk"
+      ]
+    },
+    {
+      "name": "تیمبرلند",
+      "en": "Timberland",
+      "aliases": [
+        "تیمبرلند",
+        "timberland"
+      ]
+    },
+    {
+      "name": "سایتک",
+      "en": null,
+      "aliases": [
+        "سایتک"
+      ]
+    },
+    {
+      "name": "آلن اَند هیت",
+      "en": null,
+      "aliases": [
+        "آلن اَند هیت",
+        "آلناَندهیت"
+      ]
+    },
+    {
+      "name": "آروما",
+      "en": null,
+      "aliases": [
+        "آروما"
+      ]
+    },
+    {
+      "name": "کرگ",
+      "en": "Korg",
+      "aliases": [
+        "کرگ",
+        "korg"
+      ]
+    },
+    {
+      "name": "بتا",
+      "en": null,
+      "aliases": [
+        "بتا"
+      ]
+    },
+    {
+      "name": "ایمر",
+      "en": null,
+      "aliases": [
+        "ایمر"
+      ]
+    },
+    {
+      "name": "دایوا",
+      "en": null,
+      "aliases": [
+        "دایوا"
+      ]
+    },
+    {
+      "name": "سان لوکس",
+      "en": null,
+      "aliases": [
+        "سان لوکس",
+        "سانلوکس"
+      ]
+    },
+    {
+      "name": "مهر",
+      "en": "Mehr",
+      "aliases": [
+        "مهر",
+        "mehr"
+      ]
+    },
+    {
+      "name": "ایکس-انرژی",
+      "en": null,
+      "aliases": [
+        "ایکس-انرژی"
+      ]
+    },
+    {
+      "name": "لیتو",
+      "en": null,
+      "aliases": [
+        "لیتو"
+      ]
+    },
+    {
+      "name": "یوفو",
+      "en": null,
+      "aliases": [
+        "یوفو"
+      ]
+    },
+    {
+      "name": "ایران هویه",
+      "en": null,
+      "aliases": [
+        "ایران هویه",
+        "ایرانهویه"
+      ]
+    },
+    {
+      "name": "نکسن",
+      "en": "Nexen",
+      "aliases": [
+        "نکسن",
+        "nexen"
+      ]
+    },
+    {
+      "name": "واستر",
+      "en": "Vaster",
+      "aliases": [
+        "واستر",
+        "vaster"
+      ]
+    },
+    {
+      "name": "رزتی",
+      "en": null,
+      "aliases": [
+        "رزتی"
+      ]
+    },
+    {
+      "name": "بیتس",
+      "en": "Beats",
+      "aliases": [
+        "بیتس",
+        "beats"
+      ]
+    },
+    {
+      "name": "مگاپول",
+      "en": null,
+      "aliases": [
+        "مگاپول"
+      ]
+    },
+    {
+      "name": "ریلکس",
+      "en": null,
+      "aliases": [
+        "ریلکس"
+      ]
+    },
+    {
+      "name": "لاکسمی",
+      "en": "Laxmi",
+      "aliases": [
+        "لاکسمی",
+        "laxmi"
+      ]
+    },
+    {
+      "name": "مایپو",
+      "en": null,
+      "aliases": [
+        "مایپو"
+      ]
+    },
+    {
+      "name": "گیگاست",
+      "en": null,
+      "aliases": [
+        "گیگاست"
+      ]
+    },
+    {
+      "name": "اس کی اف",
+      "en": "SKF",
+      "aliases": [
+        "اس کی اف",
+        "اسکیاف",
+        "skf"
+      ]
+    },
+    {
+      "name": "ریل تکنیکس",
+      "en": null,
+      "aliases": [
+        "ریل تکنیکس",
+        "ریلتکنیکس"
+      ]
+    },
+    {
+      "name": "سودو",
+      "en": null,
+      "aliases": [
+        "سودو"
+      ]
+    },
+    {
+      "name": "هیتاچی",
+      "en": "Hitachi",
+      "aliases": [
+        "هیتاچی",
+        "hitachi"
+      ]
+    },
+    {
+      "name": "آی رست",
+      "en": "iRest",
+      "aliases": [
+        "آی رست",
+        "آیرست",
+        "irest"
+      ]
+    },
+    {
+      "name": "اورجینال",
+      "en": null,
+      "aliases": [
+        "اورجینال"
+      ]
+    },
+    {
+      "name": "کیمی",
+      "en": null,
+      "aliases": [
+        "کیمی"
+      ]
+    },
+    {
+      "name": "سی بن",
+      "en": "CBON",
+      "aliases": [
+        "سی بن",
+        "سیبن",
+        "cbon"
+      ]
+    },
+    {
+      "name": "میلواکی",
+      "en": "Milwaukee",
+      "aliases": [
+        "میلواکی",
+        "milwaukee"
+      ]
+    },
+    {
+      "name": "ویوو",
+      "en": "Vivo",
+      "aliases": [
+        "ویوو",
+        "vivo"
+      ]
+    },
+    {
+      "name": "هادی نور البرز",
+      "en": null,
+      "aliases": [
+        "هادی نور البرز",
+        "هادینورالبرز"
+      ]
+    },
+    {
+      "name": "سارامونیک",
+      "en": "Saramonic",
+      "aliases": [
+        "سارامونیک",
+        "saramonic"
+      ]
+    },
+    {
+      "name": "هوپ",
+      "en": null,
+      "aliases": [
+        "هوپ"
+      ]
+    },
+    {
+      "name": "آردن",
+      "en": null,
+      "aliases": [
+        "آردن"
+      ]
+    },
+    {
+      "name": "زمان نور",
+      "en": null,
+      "aliases": [
+        "زمان نور",
+        "زماننور"
+      ]
+    },
+    {
+      "name": "راسان",
+      "en": null,
+      "aliases": [
+        "راسان"
+      ]
+    },
+    {
+      "name": "تکنوتل",
+      "en": null,
+      "aliases": [
+        "تکنوتل"
+      ]
+    },
+    {
+      "name": "ارت کوئیک",
+      "en": null,
+      "aliases": [
+        "ارت کوئیک",
+        "ارتکوئیک"
+      ]
+    },
+    {
+      "name": "مچر",
+      "en": null,
+      "aliases": [
+        "مچر"
+      ]
+    },
+    {
+      "name": "ماست",
+      "en": "MUST",
+      "aliases": [
+        "ماست",
+        "must"
+      ]
+    },
+    {
+      "name": "بیکارو",
+      "en": null,
+      "aliases": [
+        "بیکارو"
+      ]
+    },
+    {
+      "name": "تاپ تول",
+      "en": null,
+      "aliases": [
+        "تاپ تول",
+        "تاپتول"
+      ]
+    },
+    {
+      "name": "پی جی تی",
+      "en": "PGT",
+      "aliases": [
+        "پی جی تی",
+        "پیجیتی",
+        "pgt"
+      ]
+    },
+    {
+      "name": "میکروچیپ",
+      "en": "Microchip",
+      "aliases": [
+        "میکروچیپ",
+        "microchip"
+      ]
+    },
+    {
+      "name": "پیک سلوشن",
+      "en": null,
+      "aliases": [
+        "پیک سلوشن",
+        "پیکسلوشن"
+      ]
+    },
+    {
+      "name": "سوو",
+      "en": null,
+      "aliases": [
+        "سوو"
+      ]
+    },
+    {
+      "name": "دایناکورد",
+      "en": null,
+      "aliases": [
+        "دایناکورد"
+      ]
+    },
+    {
+      "name": "زد ام آی",
+      "en": null,
+      "aliases": [
+        "زد ام آی",
+        "زدامآی"
+      ]
+    },
+    {
+      "name": "ان شن",
+      "en": null,
+      "aliases": [
+        "ان شن",
+        "انشن"
+      ]
+    },
+    {
+      "name": "بالنسیاگا",
+      "en": "Balenciaga",
+      "aliases": [
+        "بالنسیاگا",
+        "balenciaga"
+      ]
+    },
+    {
+      "name": "کانپکس",
+      "en": "Conpex",
+      "aliases": [
+        "کانپکس",
+        "conpex"
+      ]
+    },
+    {
+      "name": "مک استایلر",
+      "en": null,
+      "aliases": [
+        "مک استایلر",
+        "مکاستایلر"
+      ]
+    },
+    {
+      "name": "ماندو",
+      "en": "Mando",
+      "aliases": [
+        "ماندو",
+        "mando"
+      ]
+    },
+    {
+      "name": "موبیس",
+      "en": "Mobis",
+      "aliases": [
+        "موبیس",
+        "mobis"
+      ]
+    },
+    {
+      "name": "اطلس",
+      "en": null,
+      "aliases": [
+        "اطلس"
+      ]
+    },
+    {
+      "name": "آزارو",
+      "en": "Azzaro",
+      "aliases": [
+        "آزارو",
+        "azzaro"
+      ]
+    },
+    {
+      "name": "لوارا",
+      "en": null,
+      "aliases": [
+        "لوارا"
+      ]
+    },
+    {
+      "name": "ریوبی",
+      "en": "Ryobi",
+      "aliases": [
+        "ریوبی",
+        "ryobi"
+      ]
+    },
+    {
+      "name": "رادونیکس",
+      "en": null,
+      "aliases": [
+        "رادونیکس"
+      ]
+    },
+    {
+      "name": "فیلمتک",
+      "en": null,
+      "aliases": [
+        "فیلمتک"
+      ]
+    },
+    {
+      "name": "استیکو",
+      "en": "Stco",
+      "aliases": [
+        "استیکو",
+        "stco"
+      ]
+    },
+    {
+      "name": "بهرینگر",
+      "en": "Behringer",
+      "aliases": [
+        "بهرینگر",
+        "behringer"
+      ]
+    },
+    {
+      "name": "فلکستک",
+      "en": "fluxtek",
+      "aliases": [
+        "فلکستک",
+        "fluxtek"
+      ]
+    },
+    {
+      "name": "وکال",
+      "en": "Vocal",
+      "aliases": [
+        "وکال",
+        "vocal"
+      ]
+    },
+    {
+      "name": "ارس",
+      "en": null,
+      "aliases": [
+        "ارس"
+      ]
+    },
+    {
+      "name": "هانتر",
+      "en": null,
+      "aliases": [
+        "هانتر"
+      ]
+    },
+    {
+      "name": "ژیوانشی",
+      "en": "Givenchy",
+      "aliases": [
+        "ژیوانشی",
+        "givenchy",
+        "جیوانچی"
+      ]
+    },
+    {
+      "name": "صندل",
+      "en": null,
+      "aliases": [
+        "صندل"
+      ]
+    },
+    {
+      "name": "وارم آدیو",
+      "en": "Warm Audio",
+      "aliases": [
+        "وارم آدیو",
+        "وارمآدیو",
+        "warm audio",
+        "warmaudio"
+      ]
+    },
+    {
+      "name": "جنرال گلد",
+      "en": null,
+      "aliases": [
+        "جنرال گلد",
+        "جنرالگلد"
+      ]
+    },
+    {
+      "name": "رایانه صنعت",
+      "en": null,
+      "aliases": [
+        "رایانه صنعت",
+        "رایانهصنعت"
+      ]
+    },
+    {
+      "name": "لاکچری آکوا",
+      "en": null,
+      "aliases": [
+        "لاکچری آکوا",
+        "لاکچریآکوا"
+      ]
+    },
+    {
+      "name": "اس پی ان",
+      "en": "SPN",
+      "aliases": [
+        "اس پی ان",
+        "اسپیان",
+        "spn"
+      ]
+    },
+    {
+      "name": "ست",
+      "en": null,
+      "aliases": [
+        "ست"
+      ]
+    },
+    {
+      "name": "جهان الکتریک",
+      "en": null,
+      "aliases": [
+        "جهان الکتریک",
+        "جهانالکتریک"
+      ]
+    },
+    {
+      "name": "تهران کیت",
+      "en": null,
+      "aliases": [
+        "تهران کیت",
+        "تهرانکیت"
+      ]
+    },
+    {
+      "name": "الارو",
+      "en": null,
+      "aliases": [
+        "الارو"
+      ]
+    },
+    {
+      "name": "هوگو باس",
+      "en": "Hugo Boss",
+      "aliases": [
+        "هوگو باس",
+        "هوگوباس",
+        "hugo boss",
+        "hugoboss"
+      ]
+    },
+    {
+      "name": "آر اند اس",
+      "en": null,
+      "aliases": [
+        "آر اند اس",
+        "آرانداس"
+      ]
+    },
+    {
+      "name": "آلکاتل",
+      "en": "Alcatel",
+      "aliases": [
+        "آلکاتل",
+        "alcatel"
+      ]
+    },
+    {
+      "name": "آلپاین",
+      "en": null,
+      "aliases": [
+        "آلپاین"
+      ]
+    },
+    {
+      "name": "رازی",
+      "en": null,
+      "aliases": [
+        "رازی"
+      ]
+    },
+    {
+      "name": "دیتا پلاس",
+      "en": null,
+      "aliases": [
+        "دیتا پلاس",
+        "دیتاپلاس"
+      ]
+    },
+    {
+      "name": "گریت وال",
+      "en": null,
+      "aliases": [
+        "گریت وال",
+        "گریتوال"
+      ]
+    },
+    {
+      "name": "رابین",
+      "en": null,
+      "aliases": [
+        "رابین"
+      ]
+    },
+    {
+      "name": "تکشیدفام",
+      "en": null,
+      "aliases": [
+        "تکشیدفام"
+      ]
+    },
+    {
+      "name": "ایران الکتریک",
+      "en": null,
+      "aliases": [
+        "ایران الکتریک",
+        "ایرانالکتریک"
+      ]
+    },
+    {
+      "name": "ویرکس",
+      "en": null,
+      "aliases": [
+        "ویرکس"
+      ]
+    },
+    {
+      "name": "میکرولب",
+      "en": null,
+      "aliases": [
+        "میکرولب"
+      ]
+    },
+    {
+      "name": "مولینکس",
+      "en": "Moulinex",
+      "aliases": [
+        "مولینکس",
+        "moulinex"
+      ]
+    },
+    {
+      "name": "کارولینا هررا",
+      "en": "Carolina Herrera",
+      "aliases": [
+        "کارولینا هررا",
+        "کارولیناهررا",
+        "carolina herrera",
+        "carolinaherrera"
+      ]
+    },
+    {
+      "name": "آرتمن",
+      "en": null,
+      "aliases": [
+        "آرتمن"
+      ]
+    },
+    {
+      "name": "ایران پتک",
+      "en": null,
+      "aliases": [
+        "ایران پتک",
+        "ایرانپتک"
+      ]
+    },
+    {
+      "name": "انویدیا",
+      "en": "NVIDIA",
+      "aliases": [
+        "انویدیا",
+        "nvidia"
+      ]
+    },
+    {
+      "name": "فردان الکتریک",
+      "en": null,
+      "aliases": [
+        "فردان الکتریک",
+        "فردانالکتریک"
+      ]
+    },
+    {
+      "name": "شی",
+      "en": null,
+      "aliases": [
+        "شی"
+      ]
+    },
+    {
+      "name": "جی سی پال",
+      "en": null,
+      "aliases": [
+        "جی سی پال",
+        "جیسیپال"
+      ]
+    },
+    {
+      "name": "فیرمن",
+      "en": null,
+      "aliases": [
+        "فیرمن"
+      ]
+    },
+    {
+      "name": "ایزاولا",
+      "en": null,
+      "aliases": [
+        "ایزاولا"
+      ]
+    },
+    {
+      "name": "دلونگی",
+      "en": "De'Longhi",
+      "aliases": [
+        "دلونگی",
+        "de'longhi",
+        "delonghi",
+        "دلونگهی"
+      ]
+    },
+    {
+      "name": "وگ",
+      "en": "WEG",
+      "aliases": [
+        "وگ",
+        "weg"
+      ]
+    },
+    {
+      "name": "اوزتاش",
+      "en": null,
+      "aliases": [
+        "اوزتاش"
+      ]
+    },
+    {
+      "name": "سیلا",
+      "en": null,
+      "aliases": [
+        "سیلا"
+      ]
+    },
+    {
+      "name": "فورس",
+      "en": null,
+      "aliases": [
+        "فورس"
+      ]
+    },
+    {
+      "name": "بست رست",
+      "en": null,
+      "aliases": [
+        "بست رست",
+        "بسترست"
+      ]
+    },
+    {
+      "name": "آکی",
+      "en": "Aukey",
+      "aliases": [
+        "آکی",
+        "aukey"
+      ]
+    },
+    {
+      "name": "اوکلی",
+      "en": "Oakley",
+      "aliases": [
+        "اوکلی",
+        "oakley"
+      ]
+    },
+    {
+      "name": "سلبریت",
+      "en": null,
+      "aliases": [
+        "سلبریت"
+      ]
+    },
+    {
+      "name": "تن زیب",
+      "en": null,
+      "aliases": [
+        "تن زیب",
+        "تنزیب"
+      ]
+    },
+    {
+      "name": "باوین",
+      "en": null,
+      "aliases": [
+        "باوین"
+      ]
+    },
+    {
+      "name": "عیسی",
+      "en": null,
+      "aliases": [
+        "عیسی"
+      ]
+    },
+    {
+      "name": "کپچر",
+      "en": "Capture",
+      "aliases": [
+        "کپچر",
+        "capture"
+      ]
+    },
+    {
+      "name": "ژک ساف",
+      "en": null,
+      "aliases": [
+        "ژک ساف",
+        "ژکساف"
+      ]
+    },
+    {
+      "name": "فراگرنس ورد",
+      "en": null,
+      "aliases": [
+        "فراگرنس ورد",
+        "فراگرنسورد"
+      ]
+    },
+    {
+      "name": "عروس",
+      "en": null,
+      "aliases": [
+        "عروس"
+      ]
+    },
+    {
+      "name": "کوالا",
+      "en": null,
+      "aliases": [
+        "کوالا"
+      ]
+    },
+    {
+      "name": "بوگریا",
+      "en": "Buqeria",
+      "aliases": [
+        "بوگریا",
+        "buqeria"
+      ]
+    },
+    {
+      "name": "نلی",
+      "en": "Nelly",
+      "aliases": [
+        "نلی",
+        "nelly"
+      ]
+    },
+    {
+      "name": "دوراسل",
+      "en": "Duracell",
+      "aliases": [
+        "دوراسل",
+        "duracell"
+      ]
+    },
+    {
+      "name": "هایک سمی",
+      "en": null,
+      "aliases": [
+        "هایک سمی",
+        "هایکسمی"
+      ]
+    },
+    {
+      "name": "رزونال",
+      "en": null,
+      "aliases": [
+        "رزونال"
+      ]
+    },
+    {
+      "name": "دایو",
+      "en": null,
+      "aliases": [
+        "دایو"
+      ]
+    },
+    {
+      "name": "گراندفوس",
+      "en": "Grundfos",
+      "aliases": [
+        "گراندفوس",
+        "grundfos",
+        "گروندفوس"
+      ]
+    },
+    {
+      "name": "جنیوس",
+      "en": "Genius",
+      "aliases": [
+        "جنیوس",
+        "genius"
+      ]
+    },
+    {
+      "name": "تی سی ال",
+      "en": "TCL",
+      "aliases": [
+        "تی سی ال",
+        "تیسیال",
+        "tcl"
+      ]
+    },
+    {
+      "name": "ورک سایت",
+      "en": null,
+      "aliases": [
+        "ورک سایت",
+        "ورکسایت"
+      ]
+    },
+    {
+      "name": "تی اف ای",
+      "en": "TFA",
+      "aliases": [
+        "تی اف ای",
+        "تیافای",
+        "tfa"
+      ]
+    },
+    {
+      "name": "افلاک الکتریک خراسان",
+      "en": null,
+      "aliases": [
+        "افلاک الکتریک خراسان",
+        "افلاکالکتریکخراسان"
+      ]
+    },
+    {
+      "name": "پروتک",
+      "en": null,
+      "aliases": [
+        "پروتک"
+      ]
+    },
+    {
+      "name": "خیام الکتریک",
+      "en": null,
+      "aliases": [
+        "خیام الکتریک",
+        "خیامالکتریک"
+      ]
+    },
+    {
+      "name": "شیزومی",
+      "en": null,
+      "aliases": [
+        "شیزومی"
+      ]
+    },
+    {
+      "name": "انرجیا",
+      "en": "Energea",
+      "aliases": [
+        "انرجیا",
+        "energea"
+      ]
+    },
+    {
+      "name": "اسنوم",
+      "en": null,
+      "aliases": [
+        "اسنوم"
+      ]
+    },
+    {
+      "name": "توتاص",
+      "en": null,
+      "aliases": [
+        "توتاص"
+      ]
+    },
+    {
+      "name": "بیبی کوکول",
+      "en": null,
+      "aliases": [
+        "بیبی کوکول",
+        "بیبیکوکول"
+      ]
+    },
+    {
+      "name": "هانی",
+      "en": null,
+      "aliases": [
+        "هانی"
+      ]
+    },
+    {
+      "name": "اندیس",
+      "en": null,
+      "aliases": [
+        "اندیس"
+      ]
+    },
+    {
+      "name": "آلکات",
+      "en": "alcott",
+      "aliases": [
+        "آلکات",
+        "alcott"
+      ]
+    },
+    {
+      "name": "دی اس پی",
+      "en": "DSP",
+      "aliases": [
+        "دی اس پی",
+        "دیاسپی",
+        "dsp"
+      ]
+    },
+    {
+      "name": "نئودرم",
+      "en": "Neuderm",
+      "aliases": [
+        "نئودرم",
+        "neuderm"
+      ]
+    },
+    {
+      "name": "میزیمو",
+      "en": null,
+      "aliases": [
+        "میزیمو"
+      ]
+    },
+    {
+      "name": "فوجی",
+      "en": null,
+      "aliases": [
+        "فوجی"
+      ]
+    },
+    {
+      "name": "ویکن",
+      "en": "Weicon",
+      "aliases": [
+        "ویکن",
+        "weicon"
+      ]
+    },
+    {
+      "name": "یونیورسال",
+      "en": null,
+      "aliases": [
+        "یونیورسال"
+      ]
+    },
+    {
+      "name": "رویان",
+      "en": null,
+      "aliases": [
+        "رویان"
+      ]
+    },
+    {
+      "name": "بکسو",
+      "en": null,
+      "aliases": [
+        "بکسو"
+      ]
+    },
+    {
+      "name": "البرز پیشرو",
+      "en": null,
+      "aliases": [
+        "البرز پیشرو",
+        "البرزپیشرو"
+      ]
+    },
+    {
+      "name": "نوتلا",
+      "en": "Nutella",
+      "aliases": [
+        "نوتلا",
+        "nutella"
+      ]
+    },
+    {
+      "name": "تایتان فیتنس",
+      "en": null,
+      "aliases": [
+        "تایتان فیتنس",
+        "تایتانفیتنس"
+      ]
+    },
+    {
+      "name": "کی تی",
+      "en": null,
+      "aliases": [
+        "کی تی",
+        "کیتی"
+      ]
+    },
+    {
+      "name": "هاریو",
+      "en": null,
+      "aliases": [
+        "هاریو"
+      ]
+    },
+    {
+      "name": "نارسیسو رودریگز",
+      "en": "Narciso Rodriguez",
+      "aliases": [
+        "نارسیسو رودریگز",
+        "نارسیسورودریگز",
+        "narciso rodriguez",
+        "narcisorodriguez"
+      ]
+    },
+    {
+      "name": "نیوبرند",
+      "en": null,
+      "aliases": [
+        "نیوبرند"
+      ]
+    },
+    {
+      "name": "بولگاری",
+      "en": "Bvlgari",
+      "aliases": [
+        "بولگاری",
+        "bvlgari",
+        "bulgari"
+      ]
+    },
+    {
+      "name": "کاروزریا",
+      "en": null,
+      "aliases": [
+        "کاروزریا"
+      ]
+    },
+    {
+      "name": "لوسوئن",
+      "en": "Lesoin",
+      "aliases": [
+        "لوسوئن",
+        "lesoin"
+      ]
+    },
+    {
+      "name": "فونیکس",
+      "en": "Phoenix",
+      "aliases": [
+        "فونیکس",
+        "phoenix"
+      ]
+    },
+    {
+      "name": "بریسک",
+      "en": "brisk",
+      "aliases": [
+        "بریسک",
+        "brisk"
+      ]
+    },
+    {
+      "name": "گری",
+      "en": "Gree",
+      "aliases": [
+        "گری",
+        "gree"
+      ]
+    },
+    {
+      "name": "ماکل",
+      "en": "makel",
+      "aliases": [
+        "ماکل",
+        "makel"
+      ]
+    },
+    {
+      "name": "یاتاقان بوش ایران",
+      "en": null,
+      "aliases": [
+        "یاتاقان بوش ایران",
+        "یاتاقانبوشایران"
+      ]
+    },
+    {
+      "name": "استیلاک",
+      "en": null,
+      "aliases": [
+        "استیلاک"
+      ]
+    },
+    {
+      "name": "سروو",
+      "en": null,
+      "aliases": [
+        "سروو"
+      ]
+    },
+    {
+      "name": "دیتک",
+      "en": null,
+      "aliases": [
+        "دیتک"
+      ]
+    },
+    {
+      "name": "کلر",
+      "en": null,
+      "aliases": [
+        "کلر"
+      ]
+    },
+    {
+      "name": "استاد",
+      "en": null,
+      "aliases": [
+        "استاد"
+      ]
+    },
+    {
+      "name": "بلینک مکس",
+      "en": null,
+      "aliases": [
+        "بلینک مکس",
+        "بلینکمکس"
+      ]
+    },
+    {
+      "name": "وندا",
+      "en": null,
+      "aliases": [
+        "وندا"
+      ]
+    },
+    {
+      "name": "کرید",
+      "en": "Creed",
+      "aliases": [
+        "کرید",
+        "creed"
+      ]
+    },
+    {
+      "name": "دبلیو یو دبلیو",
+      "en": null,
+      "aliases": [
+        "دبلیو یو دبلیو",
+        "دبلیویودبلیو"
+      ]
+    },
+    {
+      "name": "کنت کول",
+      "en": null,
+      "aliases": [
+        "کنت کول",
+        "کنتکول"
+      ]
+    },
+    {
+      "name": "فوجی فیلم",
+      "en": "Fujifilm",
+      "aliases": [
+        "فوجی فیلم",
+        "فوجیفیلم",
+        "fujifilm"
+      ]
+    },
+    {
+      "name": "لاریو",
+      "en": null,
+      "aliases": [
+        "لاریو"
+      ]
+    },
+    {
+      "name": "ویشی",
+      "en": "Vichy",
+      "aliases": [
+        "ویشی",
+        "vichy"
+      ]
+    },
+    {
+      "name": "لکسمارک",
+      "en": "Lexmark",
+      "aliases": [
+        "لکسمارک",
+        "lexmark"
+      ]
+    },
+    {
+      "name": "کولر مستر",
+      "en": "Cooler Master",
+      "aliases": [
+        "کولر مستر",
+        "کولرمستر",
+        "cooler master",
+        "coolermaster"
+      ]
+    },
+    {
+      "name": "اس ان تی",
+      "en": "SNT",
+      "aliases": [
+        "اس ان تی",
+        "اسانتی",
+        "snt"
+      ]
+    },
+    {
+      "name": "تندا",
+      "en": "Tenda",
+      "aliases": [
+        "تندا",
+        "tenda"
+      ]
+    },
+    {
+      "name": "آریوسیس",
+      "en": null,
+      "aliases": [
+        "آریوسیس"
+      ]
+    },
+    {
+      "name": "مونلو پریمیوم",
+      "en": null,
+      "aliases": [
+        "مونلو پریمیوم",
+        "مونلوپریمیوم"
+      ]
+    },
+    {
+      "name": "الکتروویس",
+      "en": "Electro",
+      "aliases": [
+        "الکتروویس",
+        "electro"
+      ]
+    },
+    {
+      "name": "پلاستونیک",
+      "en": null,
+      "aliases": [
+        "پلاستونیک"
+      ]
+    },
+    {
+      "name": "سوپرتاچ",
+      "en": null,
+      "aliases": [
+        "سوپرتاچ"
+      ]
+    },
+    {
+      "name": "سوشیا",
+      "en": null,
+      "aliases": [
+        "سوشیا"
+      ]
+    },
+    {
+      "name": "بلک اند دکر",
+      "en": "Black & Decker",
+      "aliases": [
+        "بلک اند دکر",
+        "بلکانددکر",
+        "black & decker",
+        "بلک دکر"
+      ]
+    },
+    {
+      "name": "سازه البرز",
+      "en": null,
+      "aliases": [
+        "سازه البرز",
+        "سازهالبرز"
+      ]
+    },
+    {
+      "name": "ناروا",
+      "en": null,
+      "aliases": [
+        "ناروا"
+      ]
+    },
+    {
+      "name": "دتکس پلاس",
+      "en": null,
+      "aliases": [
+        "دتکس پلاس",
+        "دتکسپلاس"
+      ]
+    },
+    {
+      "name": "اسکوپ",
+      "en": "Scope",
+      "aliases": [
+        "اسکوپ",
+        "scope"
+      ]
+    },
+    {
+      "name": "اپی مکس",
+      "en": null,
+      "aliases": [
+        "اپی مکس",
+        "اپیمکس"
+      ]
+    },
+    {
+      "name": "اپتیما",
+      "en": "Optima",
+      "aliases": [
+        "اپتیما",
+        "optima"
+      ]
+    },
+    {
+      "name": "آیتکس",
+      "en": null,
+      "aliases": [
+        "آیتکس"
+      ]
+    },
+    {
+      "name": "زاویو",
+      "en": null,
+      "aliases": [
+        "زاویو"
+      ]
+    },
+    {
+      "name": "بیم",
+      "en": null,
+      "aliases": [
+        "بیم"
+      ]
+    },
+    {
+      "name": "رپتور",
+      "en": null,
+      "aliases": [
+        "رپتور"
+      ]
+    },
+    {
+      "name": "تراست",
+      "en": "Trust",
+      "aliases": [
+        "تراست",
+        "trust"
+      ]
+    },
+    {
+      "name": "کونیکا مینولتا",
+      "en": null,
+      "aliases": [
+        "کونیکا مینولتا",
+        "کونیکامینولتا"
+      ]
+    },
+    {
+      "name": "نیا",
+      "en": null,
+      "aliases": [
+        "نیا"
+      ]
+    },
+    {
+      "name": "سانی‌ بت",
+      "en": "Sunny Batt",
+      "aliases": [
+        "سانی‌ بت",
+        "سانیبت",
+        "sunny batt",
+        "sunnybatt"
+      ]
+    },
+    {
+      "name": "هورد",
+      "en": "Hored",
+      "aliases": [
+        "هورد",
+        "hored"
+      ]
+    },
+    {
+      "name": "رین",
+      "en": null,
+      "aliases": [
+        "رین"
+      ]
+    },
+    {
+      "name": "ورلد",
+      "en": "Worlde",
+      "aliases": [
+        "ورلد",
+        "worlde"
+      ]
+    },
+    {
+      "name": "ممو",
+      "en": null,
+      "aliases": [
+        "ممو"
+      ]
+    },
+    {
+      "name": "لوزی",
+      "en": null,
+      "aliases": [
+        "لوزی"
+      ]
+    },
+    {
+      "name": "رایمون",
+      "en": null,
+      "aliases": [
+        "رایمون"
+      ]
+    },
+    {
+      "name": "اعتماد کابل البرز",
+      "en": null,
+      "aliases": [
+        "اعتماد کابل البرز",
+        "اعتمادکابلالبرز"
+      ]
+    },
+    {
+      "name": "گینشا",
+      "en": null,
+      "aliases": [
+        "گینشا"
+      ]
+    },
+    {
+      "name": "آی پی سی",
+      "en": null,
+      "aliases": [
+        "آی پی سی",
+        "آیپیسی"
+      ]
+    },
+    {
+      "name": "ان اچ ان",
+      "en": null,
+      "aliases": [
+        "ان اچ ان",
+        "اناچان"
+      ]
+    },
+    {
+      "name": "انزو",
+      "en": null,
+      "aliases": [
+        "انزو"
+      ]
+    },
+    {
+      "name": "ویکتوریا سکرت",
+      "en": "Victoria's Secret",
+      "aliases": [
+        "ویکتوریا سکرت",
+        "ویکتوریاسکرت",
+        "victoria's secret",
+        "victoria'ssecret",
+        "victoria secret"
+      ]
+    },
+    {
+      "name": "دسینی",
+      "en": null,
+      "aliases": [
+        "دسینی"
+      ]
+    },
+    {
+      "name": "لایت",
+      "en": null,
+      "aliases": [
+        "لایت"
+      ]
+    },
+    {
+      "name": "استانول",
+      "en": "Stannol",
+      "aliases": [
+        "استانول",
+        "stannol"
+      ]
+    },
+    {
+      "name": "جی ماری",
+      "en": null,
+      "aliases": [
+        "جی ماری",
+        "جیماری"
+      ]
+    },
+    {
+      "name": "مونگه",
+      "en": "Monge",
+      "aliases": [
+        "مونگه",
+        "monge"
+      ]
+    },
+    {
+      "name": "کلوین کلاین",
+      "en": "Calvin Klein",
+      "aliases": [
+        "کلوین کلاین",
+        "کلوینکلاین",
+        "calvin klein",
+        "calvinklein",
+        "کالوین کلاین"
+      ]
+    },
+    {
+      "name": "موتو",
+      "en": "Motu",
+      "aliases": [
+        "موتو",
+        "motu"
+      ]
+    },
+    {
+      "name": "دریمیز",
+      "en": null,
+      "aliases": [
+        "دریمیز"
+      ]
+    },
+    {
+      "name": "دنای",
+      "en": null,
+      "aliases": [
+        "دنای"
+      ]
+    },
+    {
+      "name": "اسپیگن",
+      "en": "Spigen",
+      "aliases": [
+        "اسپیگن",
+        "spigen"
+      ]
+    },
+    {
+      "name": "مکی",
+      "en": "Mackie",
+      "aliases": [
+        "مکی",
+        "mackie"
+      ]
+    },
+    {
+      "name": "تی سی اچ",
+      "en": null,
+      "aliases": [
+        "تی سی اچ",
+        "تیسیاچ"
+      ]
+    },
+    {
+      "name": "چشمه نور",
+      "en": null,
+      "aliases": [
+        "چشمه نور",
+        "چشمهنور"
+      ]
+    },
+    {
+      "name": "والنتینو",
+      "en": "Valentino",
+      "aliases": [
+        "والنتینو",
+        "valentino"
+      ]
+    },
+    {
+      "name": "اسپاس",
+      "en": null,
+      "aliases": [
+        "اسپاس"
+      ]
+    },
+    {
+      "name": "ام کی",
+      "en": null,
+      "aliases": [
+        "ام کی",
+        "امکی"
+      ]
+    },
+    {
+      "name": "افق البرز",
+      "en": null,
+      "aliases": [
+        "افق البرز",
+        "افقالبرز"
+      ]
+    },
+    {
+      "name": "موگزا",
+      "en": null,
+      "aliases": [
+        "موگزا"
+      ]
+    },
+    {
+      "name": "راک",
+      "en": "ROCK",
+      "aliases": [
+        "راک",
+        "rock"
+      ]
+    },
+    {
+      "name": "پیکسل",
+      "en": null,
+      "aliases": [
+        "پیکسل"
+      ]
+    },
+    {
+      "name": "سایکل",
+      "en": null,
+      "aliases": [
+        "سایکل"
+      ]
+    },
+    {
+      "name": "ای لایت",
+      "en": null,
+      "aliases": [
+        "ای لایت",
+        "ایلایت"
+      ]
+    },
+    {
+      "name": "جی اس پاور",
+      "en": null,
+      "aliases": [
+        "جی اس پاور",
+        "جیاسپاور"
+      ]
+    },
+    {
+      "name": "کانورس",
+      "en": "Converse",
+      "aliases": [
+        "کانورس",
+        "converse",
+        "آل استار",
+        "all star"
+      ]
+    },
+    {
+      "name": "آلپسین",
+      "en": "Alpecin",
+      "aliases": [
+        "آلپسین",
+        "alpecin"
+      ]
+    },
+    {
+      "name": "پدیگری",
+      "en": "Pedigree",
+      "aliases": [
+        "پدیگری",
+        "pedigree"
+      ]
+    },
+    {
+      "name": "لنوین",
+      "en": null,
+      "aliases": [
+        "لنوین"
+      ]
+    },
+    {
+      "name": "دونا",
+      "en": null,
+      "aliases": [
+        "دونا"
+      ]
+    },
+    {
+      "name": "پاژا",
+      "en": null,
+      "aliases": [
+        "پاژا"
+      ]
+    },
+    {
+      "name": "دنیم",
+      "en": null,
+      "aliases": [
+        "دنیم"
+      ]
+    },
+    {
+      "name": "اسلازنگر",
+      "en": null,
+      "aliases": [
+        "اسلازنگر"
+      ]
+    },
+    {
+      "name": "پلیس",
+      "en": null,
+      "aliases": [
+        "پلیس"
+      ]
+    },
+    {
+      "name": "دیوید گانر",
+      "en": null,
+      "aliases": [
+        "دیوید گانر",
+        "دیویدگانر"
+      ]
+    },
+    {
+      "name": "کاردینال",
+      "en": null,
+      "aliases": [
+        "کاردینال"
+      ]
+    },
+    {
+      "name": "مونوچیر",
+      "en": null,
+      "aliases": [
+        "مونوچیر"
+      ]
+    },
+    {
+      "name": "قهرمان",
+      "en": null,
+      "aliases": [
+        "قهرمان"
+      ]
+    },
+    {
+      "name": "راینو",
+      "en": null,
+      "aliases": [
+        "راینو"
+      ]
+    },
+    {
+      "name": "پنسیس",
+      "en": null,
+      "aliases": [
+        "پنسیس"
+      ]
+    },
+    {
+      "name": "ان اس کا",
+      "en": "NSK",
+      "aliases": [
+        "ان اس کا",
+        "اناسکا",
+        "nsk"
+      ]
+    },
+    {
+      "name": "اورینتال",
+      "en": null,
+      "aliases": [
+        "اورینتال"
+      ]
+    },
+    {
+      "name": "فیروزه",
+      "en": null,
+      "aliases": [
+        "فیروزه"
+      ]
+    },
+    {
+      "name": "زیو",
+      "en": null,
+      "aliases": [
+        "زیو"
+      ]
+    },
+    {
+      "name": "اینترکیبل",
+      "en": "intercable",
+      "aliases": [
+        "اینترکیبل",
+        "intercable"
+      ]
+    },
+    {
+      "name": "ژانومه",
+      "en": null,
+      "aliases": [
+        "ژانومه"
+      ]
+    },
+    {
+      "name": "دلگادو",
+      "en": "Delgado",
+      "aliases": [
+        "دلگادو",
+        "delgado"
+      ]
+    },
+    {
+      "name": "تراینگل",
+      "en": null,
+      "aliases": [
+        "تراینگل"
+      ]
+    },
+    {
+      "name": "مهرخواه",
+      "en": null,
+      "aliases": [
+        "مهرخواه"
+      ]
+    },
+    {
+      "name": "دونیکو",
+      "en": null,
+      "aliases": [
+        "دونیکو"
+      ]
+    },
+    {
+      "name": "مدیسانا",
+      "en": null,
+      "aliases": [
+        "مدیسانا"
+      ]
+    },
+    {
+      "name": "آدام آدیو",
+      "en": "ADAM",
+      "aliases": [
+        "آدام آدیو",
+        "آدامآدیو",
+        "adam"
+      ]
+    },
+    {
+      "name": "یونیوا",
+      "en": null,
+      "aliases": [
+        "یونیوا"
+      ]
+    },
+    {
+      "name": "زیلوت",
+      "en": null,
+      "aliases": [
+        "زیلوت"
+      ]
+    },
+    {
+      "name": "آمازون",
+      "en": "amazon",
+      "aliases": [
+        "آمازون",
+        "amazon"
+      ]
+    },
+    {
+      "name": "بهکو",
+      "en": null,
+      "aliases": [
+        "بهکو"
+      ]
+    },
+    {
+      "name": "دکتر آلتیا",
+      "en": "Dr. Althea",
+      "aliases": [
+        "دکتر آلتیا",
+        "دکترآلتیا",
+        "dr. althea"
+      ]
+    },
+    {
+      "name": "ایکس اف ایکس",
+      "en": "XFX",
+      "aliases": [
+        "ایکس اف ایکس",
+        "ایکسافایکس",
+        "xfx"
+      ]
+    },
+    {
+      "name": "مهرساز",
+      "en": null,
+      "aliases": [
+        "مهرساز"
+      ]
+    },
+    {
+      "name": "مرکوسیس",
+      "en": null,
+      "aliases": [
+        "مرکوسیس"
+      ]
+    },
+    {
+      "name": "کرسنت",
+      "en": null,
+      "aliases": [
+        "کرسنت"
+      ]
+    },
+    {
+      "name": "مکث",
+      "en": null,
+      "aliases": [
+        "مکث"
+      ]
+    },
+    {
+      "name": "سینکو",
+      "en": null,
+      "aliases": [
+        "سینکو"
+      ]
+    },
+    {
+      "name": "رترو",
+      "en": "Retro",
+      "aliases": [
+        "رترو",
+        "retro"
+      ]
+    },
+    {
+      "name": "دلمونتی",
+      "en": null,
+      "aliases": [
+        "دلمونتی"
+      ]
+    },
+    {
+      "name": "اسمگ",
+      "en": null,
+      "aliases": [
+        "اسمگ"
+      ]
+    },
+    {
+      "name": "کا اس ب",
+      "en": "KSB",
+      "aliases": [
+        "کا اس ب",
+        "کااسب",
+        "ksb"
+      ]
+    },
+    {
+      "name": "آنیت",
+      "en": null,
+      "aliases": [
+        "آنیت"
+      ]
+    },
+    {
+      "name": "سنسی",
+      "en": null,
+      "aliases": [
+        "سنسی"
+      ]
+    },
+    {
+      "name": "نهل",
+      "en": null,
+      "aliases": [
+        "نهل"
+      ]
+    },
+    {
+      "name": "فیشر",
+      "en": null,
+      "aliases": [
+        "فیشر"
+      ]
+    },
+    {
+      "name": "پنتر",
+      "en": null,
+      "aliases": [
+        "پنتر"
+      ]
+    },
+    {
+      "name": "جیم کت",
+      "en": "Gim cat",
+      "aliases": [
+        "جیم کت",
+        "جیمکت",
+        "gim cat",
+        "gimcat"
+      ]
+    },
+    {
+      "name": "ویدو",
+      "en": null,
+      "aliases": [
+        "ویدو"
+      ]
+    },
+    {
+      "name": "میلانو اکسچنج",
+      "en": null,
+      "aliases": [
+        "میلانو اکسچنج",
+        "میلانواکسچنج"
+      ]
+    },
+    {
+      "name": "کول کلد",
+      "en": null,
+      "aliases": [
+        "کول کلد",
+        "کولکلد"
+      ]
+    },
+    {
+      "name": "کاندید",
+      "en": null,
+      "aliases": [
+        "کاندید"
+      ]
+    },
+    {
+      "name": "تکنو",
+      "en": "Tecno",
+      "aliases": [
+        "تکنو",
+        "tecno"
+      ]
+    },
+    {
+      "name": "بنلی",
+      "en": null,
+      "aliases": [
+        "بنلی"
+      ]
+    },
+    {
+      "name": "لوک",
+      "en": null,
+      "aliases": [
+        "لوک"
+      ]
+    },
+    {
+      "name": "آرم",
+      "en": "ARM",
+      "aliases": [
+        "آرم",
+        "arm"
+      ]
+    },
+    {
+      "name": "مسیو",
+      "en": null,
+      "aliases": [
+        "مسیو"
+      ]
+    },
+    {
+      "name": "ورسای",
+      "en": null,
+      "aliases": [
+        "ورسای"
+      ]
+    },
+    {
+      "name": "یونی‌آرک",
+      "en": null,
+      "aliases": [
+        "یونی‌آرک",
+        "یونیآرک"
+      ]
+    },
+    {
+      "name": "دینگشی",
+      "en": null,
+      "aliases": [
+        "دینگشی"
+      ]
+    },
+    {
+      "name": "شوسی",
+      "en": null,
+      "aliases": [
+        "شوسی"
+      ]
+    },
+    {
+      "name": "ردتون",
+      "en": null,
+      "aliases": [
+        "ردتون"
+      ]
+    },
+    {
+      "name": "ایکس پی-پن",
+      "en": "Xp-pen",
+      "aliases": [
+        "ایکس پی-پن",
+        "ایکسپی-پن",
+        "xp-pen"
+      ]
+    },
+    {
+      "name": "مون بلان",
+      "en": "Montblanc",
+      "aliases": [
+        "مون بلان",
+        "مونبلان",
+        "montblanc",
+        "مونت بلانک"
+      ]
+    },
+    {
+      "name": "آر ال",
+      "en": null,
+      "aliases": [
+        "آر ال",
+        "آرال"
+      ]
+    },
+    {
+      "name": "لومباردی",
+      "en": "lombardi",
+      "aliases": [
+        "لومباردی",
+        "lombardi"
+      ]
+    },
+    {
+      "name": "نستله",
+      "en": "Nestle",
+      "aliases": [
+        "نستله",
+        "nestle"
+      ]
+    },
+    {
+      "name": "وایت",
+      "en": null,
+      "aliases": [
+        "وایت"
+      ]
+    },
+    {
+      "name": "اتمل",
+      "en": "Atmel",
+      "aliases": [
+        "اتمل",
+        "atmel"
+      ]
+    },
+    {
+      "name": "جیت",
+      "en": null,
+      "aliases": [
+        "جیت"
+      ]
+    },
+    {
+      "name": "اینفینیکس",
+      "en": "Infinix",
+      "aliases": [
+        "اینفینیکس",
+        "infinix"
+      ]
+    },
+    {
+      "name": "فوروارد",
+      "en": null,
+      "aliases": [
+        "فوروارد"
+      ]
+    },
+    {
+      "name": "امیرنیا",
+      "en": null,
+      "aliases": [
+        "امیرنیا"
+      ]
+    },
+    {
+      "name": "سیلور کرست",
+      "en": null,
+      "aliases": [
+        "سیلور کرست",
+        "سیلورکرست"
+      ]
+    },
+    {
+      "name": "وان اودیو",
+      "en": "OneOdio",
+      "aliases": [
+        "وان اودیو",
+        "واناودیو",
+        "oneodio"
+      ]
+    },
+    {
+      "name": "بنگ اند آلفسن",
+      "en": "Bang Olufsen",
+      "aliases": [
+        "بنگ اند آلفسن",
+        "بنگاندآلفسن",
+        "bang olufsen",
+        "bangolufsen"
+      ]
+    },
+    {
+      "name": "دی روحه",
+      "en": null,
+      "aliases": [
+        "دی روحه",
+        "دیروحه"
+      ]
+    },
+    {
+      "name": "بایگیش",
+      "en": null,
+      "aliases": [
+        "بایگیش"
+      ]
+    },
+    {
+      "name": "گراویتی",
+      "en": null,
+      "aliases": [
+        "گراویتی"
+      ]
+    },
+    {
+      "name": "عظام",
+      "en": null,
+      "aliases": [
+        "عظام"
+      ]
+    },
+    {
+      "name": "سبلان",
+      "en": null,
+      "aliases": [
+        "سبلان"
+      ]
+    },
+    {
+      "name": "گربر",
+      "en": null,
+      "aliases": [
+        "گربر"
+      ]
+    },
+    {
+      "name": "شرکت رضاراد",
+      "en": null,
+      "aliases": [
+        "شرکت رضاراد",
+        "شرکترضاراد"
+      ]
+    },
+    {
+      "name": "آرکا",
+      "en": null,
+      "aliases": [
+        "آرکا"
+      ]
+    },
+    {
+      "name": "البرز برتر",
+      "en": null,
+      "aliases": [
+        "البرز برتر",
+        "البرزبرتر"
+      ]
+    },
+    {
+      "name": "الیت",
+      "en": null,
+      "aliases": [
+        "الیت"
+      ]
+    },
+    {
+      "name": "مایکرولایف",
+      "en": "Microlife",
+      "aliases": [
+        "مایکرولایف",
+        "microlife"
+      ]
+    },
+    {
+      "name": "اسکچرز",
+      "en": "Skechers",
+      "aliases": [
+        "اسکچرز",
+        "skechers",
+        "اسکیچرز"
+      ]
+    },
+    {
+      "name": "دستکش گیلان",
+      "en": null,
+      "aliases": [
+        "دستکش گیلان",
+        "دستکشگیلان"
+      ]
+    },
+    {
+      "name": "جورجیو آرمانی",
+      "en": "Giorgio Armani",
+      "aliases": [
+        "جورجیو آرمانی",
+        "جورجیوآرمانی",
+        "giorgio armani",
+        "giorgioarmani"
+      ]
+    },
+    {
+      "name": "تاوا",
+      "en": null,
+      "aliases": [
+        "تاوا"
+      ]
+    },
+    {
+      "name": "آی فیت",
+      "en": null,
+      "aliases": [
+        "آی فیت",
+        "آیفیت"
+      ]
+    },
+    {
+      "name": "الکسا",
+      "en": null,
+      "aliases": [
+        "الکسا"
+      ]
+    },
+    {
+      "name": "یورونت",
+      "en": "Euronet",
+      "aliases": [
+        "یورونت",
+        "euronet"
+      ]
+    },
+    {
+      "name": "دنسو",
+      "en": "Denso",
+      "aliases": [
+        "دنسو",
+        "denso"
+      ]
+    },
+    {
+      "name": "کیووی",
+      "en": null,
+      "aliases": [
+        "کیووی"
+      ]
+    },
+    {
+      "name": "نیکیتا",
+      "en": "Nikita",
+      "aliases": [
+        "نیکیتا",
+        "nikita"
+      ]
+    },
+    {
+      "name": "اپیسر",
+      "en": null,
+      "aliases": [
+        "اپیسر"
+      ]
+    },
+    {
+      "name": "اینترپمپ",
+      "en": null,
+      "aliases": [
+        "اینترپمپ"
+      ]
+    },
+    {
+      "name": "اسکاچ",
+      "en": "Scotch",
+      "aliases": [
+        "اسکاچ",
+        "scotch"
+      ]
+    },
+    {
+      "name": "کلیون",
+      "en": null,
+      "aliases": [
+        "کلیون"
+      ]
+    },
+    {
+      "name": "امپریو آرمانی",
+      "en": "Emporio Armani",
+      "aliases": [
+        "امپریو آرمانی",
+        "امپریوآرمانی",
+        "emporio armani",
+        "emporioarmani"
+      ]
+    },
+    {
+      "name": "آسیکا",
+      "en": null,
+      "aliases": [
+        "آسیکا"
+      ]
+    },
+    {
+      "name": "اجمل",
+      "en": null,
+      "aliases": [
+        "اجمل"
+      ]
+    },
+    {
+      "name": "پک",
+      "en": null,
+      "aliases": [
+        "پک"
+      ]
+    },
+    {
+      "name": "90",
+      "en": null,
+      "aliases": [
+        "90"
+      ]
+    },
+    {
+      "name": "لی",
+      "en": null,
+      "aliases": [
+        "لی"
+      ]
+    },
+    {
+      "name": "کینگستون",
+      "en": "Kingston",
+      "aliases": [
+        "کینگستون",
+        "kingston"
+      ]
+    },
+    {
+      "name": "بیفار",
+      "en": null,
+      "aliases": [
+        "بیفار"
+      ]
+    },
+    {
+      "name": "راف",
+      "en": null,
+      "aliases": [
+        "راف"
+      ]
+    },
+    {
+      "name": "بلک استار",
+      "en": "Blackstar",
+      "aliases": [
+        "بلک استار",
+        "بلکاستار",
+        "blackstar"
+      ]
+    },
+    {
+      "name": "شکتر",
+      "en": "Schecter",
+      "aliases": [
+        "شکتر",
+        "schecter"
+      ]
+    },
+    {
+      "name": "اریا",
+      "en": "ARIA",
+      "aliases": [
+        "اریا",
+        "aria"
+      ]
+    },
+    {
+      "name": "هوتای",
+      "en": null,
+      "aliases": [
+        "هوتای"
+      ]
+    },
+    {
+      "name": "نیومن",
+      "en": "Neumann",
+      "aliases": [
+        "نیومن",
+        "neumann"
+      ]
+    },
+    {
+      "name": "ان تی ان",
+      "en": "NTN",
+      "aliases": [
+        "ان تی ان",
+        "انتیان",
+        "ntn"
+      ]
+    },
+    {
+      "name": "هانتین",
+      "en": null,
+      "aliases": [
+        "هانتین"
+      ]
+    },
+    {
+      "name": "دنمن",
+      "en": null,
+      "aliases": [
+        "دنمن"
+      ]
+    },
+    {
+      "name": "کن شین دا",
+      "en": null,
+      "aliases": [
+        "کن شین دا",
+        "کنشیندا"
+      ]
+    },
+    {
+      "name": "یونی-تی",
+      "en": "UNI-T",
+      "aliases": [
+        "یونی-تی",
+        "uni-t",
+        "یونیتی"
+      ]
+    },
+    {
+      "name": "اس ان بی سی",
+      "en": "SNBC",
+      "aliases": [
+        "اس ان بی سی",
+        "اسانبیسی",
+        "snbc"
+      ]
+    },
+    {
+      "name": "آی پگا",
+      "en": "Ipega",
+      "aliases": [
+        "آی پگا",
+        "آیپگا",
+        "ipega"
+      ]
+    },
+    {
+      "name": "ویفا",
+      "en": null,
+      "aliases": [
+        "ویفا"
+      ]
+    },
+    {
+      "name": "یوتل",
+      "en": null,
+      "aliases": [
+        "یوتل"
+      ]
+    },
+    {
+      "name": "ایستکول",
+      "en": null,
+      "aliases": [
+        "ایستکول"
+      ]
+    },
+    {
+      "name": "تارا",
+      "en": null,
+      "aliases": [
+        "تارا"
+      ]
+    },
+    {
+      "name": "نیرو تهویه البرز",
+      "en": null,
+      "aliases": [
+        "نیرو تهویه البرز",
+        "نیروتهویهالبرز"
+      ]
+    },
+    {
+      "name": "هانسول",
+      "en": "Hansol",
+      "aliases": [
+        "هانسول",
+        "hansol"
+      ]
+    },
+    {
+      "name": "پروئل",
+      "en": "Proel",
+      "aliases": [
+        "پروئل",
+        "proel"
+      ]
+    },
+    {
+      "name": "بلو",
+      "en": null,
+      "aliases": [
+        "بلو"
+      ]
+    },
+    {
+      "name": "فیسکارس",
+      "en": "Fiskars",
+      "aliases": [
+        "فیسکارس",
+        "fiskars"
+      ]
+    },
+    {
+      "name": "صنایع سیم و کابل همدان",
+      "en": null,
+      "aliases": [
+        "صنایع سیم و کابل همدان",
+        "صنایعسیموکابلهمدان"
+      ]
+    },
+    {
+      "name": "ایکار",
+      "en": "Eicar",
+      "aliases": [
+        "ایکار",
+        "eicar"
+      ]
+    },
+    {
+      "name": "آردزیا",
+      "en": null,
+      "aliases": [
+        "آردزیا"
+      ]
+    },
+    {
+      "name": "دیاموند",
+      "en": null,
+      "aliases": [
+        "دیاموند"
+      ]
+    },
+    {
+      "name": "لنیز",
+      "en": "Lenyes",
+      "aliases": [
+        "لنیز",
+        "lenyes"
+      ]
+    },
+    {
+      "name": "اسپید استیک",
+      "en": null,
+      "aliases": [
+        "اسپید استیک",
+        "اسپیداستیک"
+      ]
+    },
+    {
+      "name": "ایریدیوم",
+      "en": null,
+      "aliases": [
+        "ایریدیوم"
+      ]
+    },
+    {
+      "name": "دپو",
+      "en": "DEPO",
+      "aliases": [
+        "دپو",
+        "depo"
+      ]
+    },
+    {
+      "name": "پاستل",
+      "en": "Pastel",
+      "aliases": [
+        "پاستل",
+        "pastel"
+      ]
+    },
+    {
+      "name": "اوپتوما",
+      "en": "Optoma",
+      "aliases": [
+        "اوپتوما",
+        "optoma"
+      ]
+    },
+    {
+      "name": "اکسیوم",
+      "en": "Axiom",
+      "aliases": [
+        "اکسیوم",
+        "axiom"
+      ]
+    },
+    {
+      "name": "اسمیجر",
+      "en": "Smiger",
+      "aliases": [
+        "اسمیجر",
+        "smiger"
+      ]
+    },
+    {
+      "name": "گرندمی",
+      "en": null,
+      "aliases": [
+        "گرندمی"
+      ]
+    },
+    {
+      "name": "مستر",
+      "en": "Master",
+      "aliases": [
+        "مستر",
+        "master"
+      ]
+    },
+    {
+      "name": "اچ اند جی",
+      "en": null,
+      "aliases": [
+        "اچ اند جی",
+        "اچاندجی"
+      ]
+    },
+    {
+      "name": "دی سی ای",
+      "en": null,
+      "aliases": [
+        "دی سی ای",
+        "دیسیای"
+      ]
+    },
+    {
+      "name": "ای پی ان",
+      "en": null,
+      "aliases": [
+        "ای پی ان",
+        "ایپیان"
+      ]
+    },
+    {
+      "name": "الیو",
+      "en": null,
+      "aliases": [
+        "الیو"
+      ]
+    },
+    {
+      "name": "انرژی",
+      "en": null,
+      "aliases": [
+        "انرژی"
+      ]
+    },
+    {
+      "name": "ام دبلیو نت",
+      "en": null,
+      "aliases": [
+        "ام دبلیو نت",
+        "امدبلیونت"
+      ]
+    },
+    {
+      "name": "سیمبل",
+      "en": "Symbol",
+      "aliases": [
+        "سیمبل",
+        "symbol"
+      ]
+    },
+    {
+      "name": "اپکس",
+      "en": "APX",
+      "aliases": [
+        "اپکس",
+        "apx"
+      ]
+    },
+    {
+      "name": "نیوست",
+      "en": "Newest",
+      "aliases": [
+        "نیوست",
+        "newest"
+      ]
+    },
+    {
+      "name": "اکتینو",
+      "en": null,
+      "aliases": [
+        "اکتینو"
+      ]
+    },
+    {
+      "name": "استادرم",
+      "en": null,
+      "aliases": [
+        "استادرم"
+      ]
+    },
+    {
+      "name": "ترمالتیک",
+      "en": "Thermaltake",
+      "aliases": [
+        "ترمالتیک",
+        "thermaltake"
+      ]
+    },
+    {
+      "name": "گارنیک",
+      "en": "Garnic",
+      "aliases": [
+        "گارنیک",
+        "garnic"
+      ]
+    },
+    {
+      "name": "چمپیون",
+      "en": "Champion",
+      "aliases": [
+        "چمپیون",
+        "champion"
+      ]
+    },
+    {
+      "name": "رادیاتور ایران",
+      "en": null,
+      "aliases": [
+        "رادیاتور ایران",
+        "رادیاتورایران"
+      ]
+    },
+    {
+      "name": "پروفیتنس",
+      "en": null,
+      "aliases": [
+        "پروفیتنس"
+      ]
+    },
+    {
+      "name": "شایان صنعت",
+      "en": null,
+      "aliases": [
+        "شایان صنعت",
+        "شایانصنعت"
+      ]
+    },
+    {
+      "name": "افترشوکز",
+      "en": null,
+      "aliases": [
+        "افترشوکز"
+      ]
+    },
+    {
+      "name": "یوسمز",
+      "en": "Usams",
+      "aliases": [
+        "یوسمز",
+        "usams"
+      ]
+    },
+    {
+      "name": "بوکی",
+      "en": null,
+      "aliases": [
+        "بوکی"
+      ]
+    },
+    {
+      "name": "سفیر",
+      "en": "Safir",
+      "aliases": [
+        "سفیر",
+        "safir"
+      ]
+    },
+    {
+      "name": "الد اسپایس",
+      "en": "Old Spice",
+      "aliases": [
+        "الد اسپایس",
+        "الداسپایس",
+        "old spice",
+        "oldspice"
+      ]
+    },
+    {
+      "name": "دی اوردینری",
+      "en": "The Ordinary",
+      "aliases": [
+        "دی اوردینری",
+        "دیاوردینری",
+        "the ordinary",
+        "theordinary",
+        "اوردینری"
+      ]
+    },
+    {
+      "name": "ساچی",
+      "en": null,
+      "aliases": [
+        "ساچی"
+      ]
+    },
+    {
+      "name": "کومش البرز",
+      "en": null,
+      "aliases": [
+        "کومش البرز",
+        "کومشالبرز"
+      ]
+    },
+    {
+      "name": "اولکس",
+      "en": "OLEX",
+      "aliases": [
+        "اولکس",
+        "olex"
+      ]
+    },
+    {
+      "name": "دکورابو",
+      "en": null,
+      "aliases": [
+        "دکورابو"
+      ]
+    },
+    {
+      "name": "تیری موگلر",
+      "en": "Thierry Mugler",
+      "aliases": [
+        "تیری موگلر",
+        "تیریموگلر",
+        "thierry mugler",
+        "thierrymugler",
+        "mugler"
+      ]
+    },
+    {
+      "name": "داویدف",
+      "en": null,
+      "aliases": [
+        "داویدف"
+      ]
+    },
+    {
+      "name": "اوریون",
+      "en": "Orion",
+      "aliases": [
+        "اوریون",
+        "orion"
+      ]
+    },
+    {
+      "name": "تولید نور",
+      "en": null,
+      "aliases": [
+        "تولید نور",
+        "تولیدنور"
+      ]
+    },
+    {
+      "name": "آوا",
+      "en": null,
+      "aliases": [
+        "آوا"
+      ]
+    },
+    {
+      "name": "دیزنی",
+      "en": "Disney",
+      "aliases": [
+        "دیزنی",
+        "disney"
+      ]
+    },
+    {
+      "name": "سافیکس",
+      "en": null,
+      "aliases": [
+        "سافیکس"
+      ]
+    },
+    {
+      "name": "فیت لند",
+      "en": null,
+      "aliases": [
+        "فیت لند",
+        "فیتلند"
+      ]
+    },
+    {
+      "name": "فرش لایف",
+      "en": null,
+      "aliases": [
+        "فرش لایف",
+        "فرشلایف"
+      ]
+    },
+    {
+      "name": "سلین",
+      "en": "Celin",
+      "aliases": [
+        "سلین",
+        "celin"
+      ]
+    },
+    {
+      "name": "نسپرسو",
+      "en": "Nespresso",
+      "aliases": [
+        "نسپرسو",
+        "nespresso"
+      ]
+    },
+    {
+      "name": "سیلی دی",
+      "en": null,
+      "aliases": [
+        "سیلی دی",
+        "سیلیدی"
+      ]
+    },
+    {
+      "name": "بینتیک",
+      "en": null,
+      "aliases": [
+        "بینتیک"
+      ]
+    },
+    {
+      "name": "بی وای تی",
+      "en": null,
+      "aliases": [
+        "بی وای تی",
+        "بیوایتی"
+      ]
+    },
+    {
+      "name": "پاشا",
+      "en": "Pasha",
+      "aliases": [
+        "پاشا",
+        "pasha"
+      ]
+    },
+    {
+      "name": "راکوتن",
+      "en": null,
+      "aliases": [
+        "راکوتن"
+      ]
+    },
+    {
+      "name": "اوام",
+      "en": null,
+      "aliases": [
+        "اوام"
+      ]
+    },
+    {
+      "name": "آلپیکادو",
+      "en": null,
+      "aliases": [
+        "آلپیکادو"
+      ]
+    },
+    {
+      "name": "بانیو",
+      "en": null,
+      "aliases": [
+        "بانیو"
+      ]
+    },
+    {
+      "name": "ریواکس",
+      "en": null,
+      "aliases": [
+        "ریواکس"
+      ]
+    },
+    {
+      "name": "ترنسند",
+      "en": "Transcend",
+      "aliases": [
+        "ترنسند",
+        "transcend"
+      ]
+    },
+    {
+      "name": "لوسین روشا",
+      "en": null,
+      "aliases": [
+        "لوسین روشا",
+        "لوسینروشا"
+      ]
+    },
+    {
+      "name": "کروشیال",
+      "en": "Crucial",
+      "aliases": [
+        "کروشیال",
+        "crucial"
+      ]
+    },
+    {
+      "name": "کالی",
+      "en": "KALE",
+      "aliases": [
+        "کالی",
+        "kale"
+      ]
+    },
+    {
+      "name": "وحدت الکتریک",
+      "en": null,
+      "aliases": [
+        "وحدت الکتریک",
+        "وحدتالکتریک"
+      ]
+    },
+    {
+      "name": "تامرون",
+      "en": "Tamron",
+      "aliases": [
+        "تامرون",
+        "tamron"
+      ]
+    },
+    {
+      "name": "بیسل",
+      "en": null,
+      "aliases": [
+        "بیسل"
+      ]
+    },
+    {
+      "name": "کایانگ",
+      "en": null,
+      "aliases": [
+        "کایانگ"
+      ]
+    },
+    {
+      "name": "کانتو",
+      "en": "Cantu",
+      "aliases": [
+        "کانتو",
+        "cantu"
+      ]
+    },
+    {
+      "name": "ایتو",
+      "en": null,
+      "aliases": [
+        "ایتو"
+      ]
+    },
+    {
+      "name": "آنکال پلاس",
+      "en": null,
+      "aliases": [
+        "آنکال پلاس",
+        "آنکالپلاس"
+      ]
+    },
+    {
+      "name": "سونادا",
+      "en": null,
+      "aliases": [
+        "سونادا"
+      ]
+    },
+    {
+      "name": "ساگا",
+      "en": "SAGA",
+      "aliases": [
+        "ساگا",
+        "saga"
+      ]
+    },
+    {
+      "name": "ریجنت",
+      "en": null,
+      "aliases": [
+        "ریجنت"
+      ]
+    },
+    {
+      "name": "ترموس",
+      "en": null,
+      "aliases": [
+        "ترموس"
+      ]
+    },
+    {
+      "name": "کلینیک",
+      "en": "Clinique",
+      "aliases": [
+        "کلینیک",
+        "clinique"
+      ]
+    },
+    {
+      "name": "اکو",
+      "en": "ECCO",
+      "aliases": [
+        "اکو",
+        "ecco"
+      ]
+    },
+    {
+      "name": "امتچ",
+      "en": "Amtech",
+      "aliases": [
+        "امتچ",
+        "amtech"
+      ]
+    },
+    {
+      "name": "تی وی تی",
+      "en": "Tvt Td",
+      "aliases": [
+        "تی وی تی",
+        "تیویتی",
+        "tvt td",
+        "tvttd"
+      ]
+    },
+    {
+      "name": "سامورایی",
+      "en": null,
+      "aliases": [
+        "سامورایی"
+      ]
+    },
+    {
+      "name": "جی ال ایکس",
+      "en": "GLX",
+      "aliases": [
+        "جی ال ایکس",
+        "جیالایکس",
+        "glx"
+      ]
+    },
+    {
+      "name": "نیچرهایک",
+      "en": "Naturehike",
+      "aliases": [
+        "نیچرهایک",
+        "naturehike"
+      ]
+    },
+    {
+      "name": "ترزمی",
+      "en": "TRESemmé",
+      "aliases": [
+        "ترزمی",
+        "tresemmé",
+        "tresemme",
+        "ترسمه"
+      ]
+    },
+    {
+      "name": "کومت",
+      "en": null,
+      "aliases": [
+        "کومت"
+      ]
+    },
+    {
+      "name": "الیزابت آردن",
+      "en": "Elizabeth Arden",
+      "aliases": [
+        "الیزابت آردن",
+        "الیزابتآردن",
+        "elizabeth arden",
+        "elizabetharden"
+      ]
+    },
+    {
+      "name": "دنیز",
+      "en": "deniz",
+      "aliases": [
+        "دنیز",
+        "deniz"
+      ]
+    },
+    {
+      "name": "میله",
+      "en": "Miele",
+      "aliases": [
+        "میله",
+        "miele"
+      ]
+    },
+    {
+      "name": "دبلیو-کینگ",
+      "en": null,
+      "aliases": [
+        "دبلیو-کینگ"
+      ]
+    },
+    {
+      "name": "نیلسون",
+      "en": null,
+      "aliases": [
+        "نیلسون"
+      ]
+    },
+    {
+      "name": "کیلیان",
+      "en": "Kilian",
+      "aliases": [
+        "کیلیان",
+        "kilian"
+      ]
+    },
+    {
+      "name": "بی",
+      "en": null,
+      "aliases": [
+        "بی"
+      ]
+    },
+    {
+      "name": "سرجیو تاچینی",
+      "en": null,
+      "aliases": [
+        "سرجیو تاچینی",
+        "سرجیوتاچینی"
+      ]
+    },
+    {
+      "name": "لورچ",
+      "en": null,
+      "aliases": [
+        "لورچ"
+      ]
+    },
+    {
+      "name": "دیفرین",
+      "en": null,
+      "aliases": [
+        "دیفرین"
+      ]
+    },
+    {
+      "name": "می",
+      "en": null,
+      "aliases": [
+        "می"
+      ]
+    },
+    {
+      "name": "کیپر",
+      "en": "keeper",
+      "aliases": [
+        "کیپر",
+        "keeper"
+      ]
+    },
+    {
+      "name": "استورم",
+      "en": null,
+      "aliases": [
+        "استورم"
+      ]
+    },
+    {
+      "name": "هسل",
+      "en": null,
+      "aliases": [
+        "هسل"
+      ]
+    },
+    {
+      "name": "فری لوک",
+      "en": null,
+      "aliases": [
+        "فری لوک",
+        "فریلوک"
+      ]
+    },
+    {
+      "name": "هوگر",
+      "en": null,
+      "aliases": [
+        "هوگر"
+      ]
+    },
+    {
+      "name": "آیریور",
+      "en": null,
+      "aliases": [
+        "آیریور"
+      ]
+    },
+    {
+      "name": "آرونت",
+      "en": "Aront",
+      "aliases": [
+        "آرونت",
+        "aront"
+      ]
+    },
+    {
+      "name": "سونیر",
+      "en": "sounyer",
+      "aliases": [
+        "سونیر",
+        "sounyer"
+      ]
+    },
+    {
+      "name": "تِرِکا",
+      "en": null,
+      "aliases": [
+        "تِرِکا"
+      ]
+    },
+    {
+      "name": "بایفاس",
+      "en": null,
+      "aliases": [
+        "بایفاس"
+      ]
+    },
+    {
+      "name": "سویل پت",
+      "en": "Sevil Pet",
+      "aliases": [
+        "سویل پت",
+        "سویلپت",
+        "sevil pet",
+        "sevilpet"
+      ]
+    },
+    {
+      "name": "جگوار",
+      "en": null,
+      "aliases": [
+        "جگوار"
+      ]
+    },
+    {
+      "name": "کایابا",
+      "en": "KYB",
+      "aliases": [
+        "کایابا",
+        "kyb"
+      ]
+    },
+    {
+      "name": "لیکوتا",
+      "en": null,
+      "aliases": [
+        "لیکوتا"
+      ]
+    },
+    {
+      "name": "ایرانسل",
+      "en": "Irancell",
+      "aliases": [
+        "ایرانسل",
+        "irancell"
+      ]
+    },
+    {
+      "name": "ایزی لایف",
+      "en": null,
+      "aliases": [
+        "ایزی لایف",
+        "ایزیلایف"
+      ]
+    },
+    {
+      "name": "میموسا",
+      "en": null,
+      "aliases": [
+        "میموسا"
+      ]
+    },
+    {
+      "name": "اینکو",
+      "en": null,
+      "aliases": [
+        "اینکو"
+      ]
+    },
+    {
+      "name": "دیپ سنس",
+      "en": null,
+      "aliases": [
+        "دیپ سنس",
+        "دیپسنس"
+      ]
+    },
+    {
+      "name": "بایامکس",
+      "en": "Bayamax",
+      "aliases": [
+        "بایامکس",
+        "bayamax"
+      ]
+    },
+    {
+      "name": "نینجا",
+      "en": "Ninja",
+      "aliases": [
+        "نینجا",
+        "ninja"
+      ]
+    },
+    {
+      "name": "وایزآپ",
+      "en": null,
+      "aliases": [
+        "وایزآپ"
+      ]
+    },
+    {
+      "name": "زیمر",
+      "en": null,
+      "aliases": [
+        "زیمر"
+      ]
+    },
+    {
+      "name": "بلفامد",
+      "en": "Blephamed",
+      "aliases": [
+        "بلفامد",
+        "blephamed"
+      ]
+    },
+    {
+      "name": "نیوریکسینگ",
+      "en": null,
+      "aliases": [
+        "نیوریکسینگ"
+      ]
+    },
+    {
+      "name": "ساین اسکین",
+      "en": null,
+      "aliases": [
+        "ساین اسکین",
+        "سایناسکین"
+      ]
+    },
+    {
+      "name": "جی آر تی",
+      "en": "GRT",
+      "aliases": [
+        "جی آر تی",
+        "جیآرتی",
+        "grt"
+      ]
+    },
+    {
+      "name": "فاتلس",
+      "en": "Fateless",
+      "aliases": [
+        "فاتلس",
+        "fateless"
+      ]
+    },
+    {
+      "name": "باران دخت",
+      "en": null,
+      "aliases": [
+        "باران دخت",
+        "باراندخت"
+      ]
+    },
+    {
+      "name": "یو اس پت",
+      "en": "Us Pet",
+      "aliases": [
+        "یو اس پت",
+        "یواسپت",
+        "us pet",
+        "uspet"
+      ]
+    },
+    {
+      "name": "سادیتا",
+      "en": null,
+      "aliases": [
+        "سادیتا"
+      ]
+    },
+    {
+      "name": "شیدور",
+      "en": null,
+      "aliases": [
+        "شیدور"
+      ]
+    },
+    {
+      "name": "نینو",
+      "en": null,
+      "aliases": [
+        "نینو"
+      ]
+    },
+    {
+      "name": "کلمبیا",
+      "en": "Columbia",
+      "aliases": [
+        "کلمبیا",
+        "columbia"
+      ]
+    },
+    {
+      "name": "بی کی",
+      "en": null,
+      "aliases": [
+        "بی کی",
+        "بیکی"
+      ]
+    },
+    {
+      "name": "نیتیو اینسترومنت",
+      "en": "Native Instruments",
+      "aliases": [
+        "نیتیو اینسترومنت",
+        "نیتیواینسترومنت",
+        "native instruments",
+        "nativeinstruments"
+      ]
+    },
+    {
+      "name": "آراسته",
+      "en": null,
+      "aliases": [
+        "آراسته"
+      ]
+    },
+    {
+      "name": "پرشین نور",
+      "en": null,
+      "aliases": [
+        "پرشین نور",
+        "پرشیننور"
+      ]
+    },
+    {
+      "name": "پلی",
+      "en": null,
+      "aliases": [
+        "پلی"
+      ]
+    },
+    {
+      "name": "آی ان آ",
+      "en": "INA",
+      "aliases": [
+        "آی ان آ",
+        "آیانآ",
+        "ina"
+      ]
+    },
+    {
+      "name": "مینا",
+      "en": null,
+      "aliases": [
+        "مینا"
+      ]
+    },
+    {
+      "name": "سوپکس",
+      "en": null,
+      "aliases": [
+        "سوپکس"
+      ]
+    },
+    {
+      "name": "سکو",
+      "en": "SECO",
+      "aliases": [
+        "سکو",
+        "seco"
+      ]
+    },
+    {
+      "name": "وین کد",
+      "en": null,
+      "aliases": [
+        "وین کد",
+        "وینکد"
+      ]
+    },
+    {
+      "name": "بکر",
+      "en": null,
+      "aliases": [
+        "بکر"
+      ]
+    },
+    {
+      "name": "فرحان الکتریک",
+      "en": null,
+      "aliases": [
+        "فرحان الکتریک",
+        "فرحانالکتریک"
+      ]
+    },
+    {
+      "name": "سونی اریکسون",
+      "en": "Sony Ericsson",
+      "aliases": [
+        "سونی اریکسون",
+        "سونیاریکسون",
+        "sony ericsson",
+        "sonyericsson"
+      ]
+    },
+    {
+      "name": "هی ار شی",
+      "en": null,
+      "aliases": [
+        "هی ار شی",
+        "هیارشی"
+      ]
+    },
+    {
+      "name": "هیمالیا",
+      "en": "Himalia",
+      "aliases": [
+        "هیمالیا",
+        "himalia"
+      ]
+    },
+    {
+      "name": "جیپاس",
+      "en": "Geepas",
+      "aliases": [
+        "جیپاس",
+        "geepas"
+      ]
+    },
+    {
+      "name": "واندر",
+      "en": null,
+      "aliases": [
+        "واندر"
+      ]
+    },
+    {
+      "name": "هاربین",
+      "en": "Harbin",
+      "aliases": [
+        "هاربین",
+        "harbin"
+      ]
+    },
+    {
+      "name": "کلینیانس",
+      "en": null,
+      "aliases": [
+        "کلینیانس"
+      ]
+    },
+    {
+      "name": "بیتا",
+      "en": null,
+      "aliases": [
+        "بیتا"
+      ]
+    },
+    {
+      "name": "فینی",
+      "en": "Fini",
+      "aliases": [
+        "فینی",
+        "fini"
+      ]
+    },
+    {
+      "name": "مونسا",
+      "en": null,
+      "aliases": [
+        "مونسا"
+      ]
+    },
+    {
+      "name": "هاپومیل",
+      "en": null,
+      "aliases": [
+        "هاپومیل"
+      ]
+    },
+    {
+      "name": "تریکسی",
+      "en": "Trixie",
+      "aliases": [
+        "تریکسی",
+        "trixie"
+      ]
+    },
+    {
+      "name": "بلورمز",
+      "en": "Blurams",
+      "aliases": [
+        "بلورمز",
+        "blurams"
+      ]
+    },
+    {
+      "name": "روشن",
+      "en": null,
+      "aliases": [
+        "روشن"
+      ]
+    },
+    {
+      "name": "برگر",
+      "en": "Berger",
+      "aliases": [
+        "برگر",
+        "berger"
+      ]
+    },
+    {
+      "name": "ولسولو",
+      "en": "Welsolo",
+      "aliases": [
+        "ولسولو",
+        "welsolo"
+      ]
+    },
+    {
+      "name": "سیتروین",
+      "en": "Citroen",
+      "aliases": [
+        "سیتروین",
+        "citroen"
+      ]
+    },
+    {
+      "name": "ارس آلوم",
+      "en": null,
+      "aliases": [
+        "ارس آلوم",
+        "ارسآلوم"
+      ]
+    },
+    {
+      "name": "آلتیما",
+      "en": "Altima",
+      "aliases": [
+        "آلتیما",
+        "altima"
+      ]
+    },
+    {
+      "name": "کین",
+      "en": null,
+      "aliases": [
+        "کین"
+      ]
+    },
+    {
+      "name": "تیتان پلاس",
+      "en": null,
+      "aliases": [
+        "تیتان پلاس",
+        "تیتانپلاس"
+      ]
+    },
+    {
+      "name": "پتروتکس",
+      "en": null,
+      "aliases": [
+        "پتروتکس"
+      ]
+    },
+    {
+      "name": "کامل",
+      "en": null,
+      "aliases": [
+        "کامل"
+      ]
+    },
+    {
+      "name": "روتنبرگر",
+      "en": null,
+      "aliases": [
+        "روتنبرگر"
+      ]
+    },
+    {
+      "name": "تافت",
+      "en": null,
+      "aliases": [
+        "تافت"
+      ]
+    },
+    {
+      "name": "ویکتور",
+      "en": "Victor",
+      "aliases": [
+        "ویکتور",
+        "victor"
+      ]
+    },
+    {
+      "name": "آر.سی.اف",
+      "en": "RCF",
+      "aliases": [
+        "آر.سی.اف",
+        "rcf"
+      ]
+    },
+    {
+      "name": "لیتوو",
+      "en": "Lito",
+      "aliases": [
+        "لیتوو",
+        "lito"
+      ]
+    },
+    {
+      "name": "دکتر بیز",
+      "en": null,
+      "aliases": [
+        "دکتر بیز",
+        "دکتربیز"
+      ]
+    },
+    {
+      "name": "مایا",
+      "en": null,
+      "aliases": [
+        "مایا"
+      ]
+    },
+    {
+      "name": "بن کر",
+      "en": "Boncare",
+      "aliases": [
+        "بن کر",
+        "بنکر",
+        "boncare"
+      ]
+    },
+    {
+      "name": "سیلور",
+      "en": null,
+      "aliases": [
+        "سیلور"
+      ]
+    },
+    {
+      "name": "داریا",
+      "en": null,
+      "aliases": [
+        "داریا"
+      ]
+    },
+    {
+      "name": "روونا",
+      "en": null,
+      "aliases": [
+        "روونا"
+      ]
+    },
+    {
+      "name": "ردراگون",
+      "en": "Redragon",
+      "aliases": [
+        "ردراگون",
+        "redragon"
+      ]
+    },
+    {
+      "name": "خزرفن",
+      "en": null,
+      "aliases": [
+        "خزرفن"
+      ]
+    },
+    {
+      "name": "بایومارین",
+      "en": null,
+      "aliases": [
+        "بایومارین"
+      ]
+    },
+    {
+      "name": "تسکوویژن",
+      "en": null,
+      "aliases": [
+        "تسکوویژن"
+      ]
+    },
+    {
+      "name": "کی دی کی",
+      "en": "KDK",
+      "aliases": [
+        "کی دی کی",
+        "کیدیکی",
+        "kdk"
+      ]
+    },
+    {
+      "name": "تیوان",
+      "en": null,
+      "aliases": [
+        "تیوان"
+      ]
+    },
+    {
+      "name": "ژیواکو",
+      "en": null,
+      "aliases": [
+        "ژیواکو"
+      ]
+    },
+    {
+      "name": "بکو",
+      "en": null,
+      "aliases": [
+        "بکو"
+      ]
+    },
+    {
+      "name": "بست مارک",
+      "en": null,
+      "aliases": [
+        "بست مارک",
+        "بستمارک"
+      ]
+    },
+    {
+      "name": "نوتریکوک",
+      "en": null,
+      "aliases": [
+        "نوتریکوک"
+      ]
+    },
+    {
+      "name": "پیکنیک",
+      "en": null,
+      "aliases": [
+        "پیکنیک"
+      ]
+    },
+    {
+      "name": "ویرپول",
+      "en": null,
+      "aliases": [
+        "ویرپول"
+      ]
+    },
+    {
+      "name": "سری هوم",
+      "en": "Srihome",
+      "aliases": [
+        "سری هوم",
+        "سریهوم",
+        "srihome"
+      ]
+    },
+    {
+      "name": "تکتاب",
+      "en": null,
+      "aliases": [
+        "تکتاب"
+      ]
+    },
+    {
+      "name": "نوتری پت",
+      "en": null,
+      "aliases": [
+        "نوتری پت",
+        "نوتریپت"
+      ]
+    },
+    {
+      "name": "رنگین کمان",
+      "en": null,
+      "aliases": [
+        "رنگین کمان",
+        "رنگینکمان"
+      ]
+    },
+    {
+      "name": "ساند میکرز",
+      "en": null,
+      "aliases": [
+        "ساند میکرز",
+        "ساندمیکرز"
+      ]
+    },
+    {
+      "name": "ایرویک",
+      "en": null,
+      "aliases": [
+        "ایرویک"
+      ]
+    },
+    {
+      "name": "نارون",
+      "en": null,
+      "aliases": [
+        "نارون"
+      ]
+    },
+    {
+      "name": "روتای",
+      "en": "Rotai",
+      "aliases": [
+        "روتای",
+        "rotai"
+      ]
+    },
+    {
+      "name": "ورنا",
+      "en": null,
+      "aliases": [
+        "ورنا"
+      ]
+    },
+    {
+      "name": "کمل",
+      "en": "Camel",
+      "aliases": [
+        "کمل",
+        "camel"
+      ]
+    },
+    {
+      "name": "وردرز",
+      "en": "Werther",
+      "aliases": [
+        "وردرز",
+        "werther"
+      ]
+    },
+    {
+      "name": "مدیکس",
+      "en": "medix",
+      "aliases": [
+        "مدیکس",
+        "medix"
+      ]
+    },
+    {
+      "name": "پارس شوان",
+      "en": null,
+      "aliases": [
+        "پارس شوان",
+        "پارسشوان"
+      ]
+    },
+    {
+      "name": "کابل لوشان",
+      "en": null,
+      "aliases": [
+        "کابل لوشان",
+        "کابللوشان"
+      ]
+    },
+    {
+      "name": "میراسکرین",
+      "en": null,
+      "aliases": [
+        "میراسکرین"
+      ]
+    },
+    {
+      "name": "آتومن",
+      "en": "Atuman",
+      "aliases": [
+        "آتومن",
+        "atuman"
+      ]
+    },
+    {
+      "name": "کدنس",
+      "en": null,
+      "aliases": [
+        "کدنس"
+      ]
+    },
+    {
+      "name": "بهبود",
+      "en": null,
+      "aliases": [
+        "بهبود"
+      ]
+    },
+    {
+      "name": "باریکو",
+      "en": null,
+      "aliases": [
+        "باریکو"
+      ]
+    },
+    {
+      "name": "ارد",
+      "en": null,
+      "aliases": [
+        "ارد"
+      ]
+    },
+    {
+      "name": "یانسی",
+      "en": null,
+      "aliases": [
+        "یانسی"
+      ]
+    },
+    {
+      "name": "لویی ویتون",
+      "en": "Louis Vuitton",
+      "aliases": [
+        "لویی ویتون",
+        "لوییویتون",
+        "louis vuitton",
+        "louisvuitton"
+      ]
+    },
+    {
+      "name": "فوما",
+      "en": null,
+      "aliases": [
+        "فوما"
+      ]
+    },
+    {
+      "name": "موکسوم",
+      "en": "Moxom",
+      "aliases": [
+        "موکسوم",
+        "moxom"
+      ]
+    },
+    {
+      "name": "اوماکس",
+      "en": null,
+      "aliases": [
+        "اوماکس"
+      ]
+    },
+    {
+      "name": "سورن",
+      "en": "Soren",
+      "aliases": [
+        "سورن",
+        "soren"
+      ]
+    },
+    {
+      "name": "جنوا",
+      "en": null,
+      "aliases": [
+        "جنوا"
+      ]
+    },
+    {
+      "name": "نهاد نور",
+      "en": null,
+      "aliases": [
+        "نهاد نور",
+        "نهادنور"
+      ]
+    },
+    {
+      "name": "کانفیدنس",
+      "en": "confidence",
+      "aliases": [
+        "کانفیدنس",
+        "confidence"
+      ]
+    },
+    {
+      "name": "دورکس",
+      "en": null,
+      "aliases": [
+        "دورکس"
+      ]
+    },
+    {
+      "name": "هاما",
+      "en": "Hama",
+      "aliases": [
+        "هاما",
+        "hama"
+      ]
+    },
+    {
+      "name": "کمپ",
+      "en": "Camp",
+      "aliases": [
+        "کمپ",
+        "camp"
+      ]
+    },
+    {
+      "name": "دیتالایف",
+      "en": "Datalife",
+      "aliases": [
+        "دیتالایف",
+        "datalife"
+      ]
+    },
+    {
+      "name": "توله",
+      "en": "Thule",
+      "aliases": [
+        "توله",
+        "thule"
+      ]
+    },
+    {
+      "name": "رساسی",
+      "en": null,
+      "aliases": [
+        "رساسی"
+      ]
+    },
+    {
+      "name": "سولیدا",
+      "en": "solida",
+      "aliases": [
+        "سولیدا",
+        "solida"
+      ]
+    },
+    {
+      "name": "ایوا",
+      "en": null,
+      "aliases": [
+        "ایوا"
+      ]
+    },
+    {
+      "name": "هایگلد",
+      "en": "Higold",
+      "aliases": [
+        "هایگلد",
+        "higold"
+      ]
+    },
+    {
+      "name": "اکس",
+      "en": "AXE",
+      "aliases": [
+        "اکس",
+        "axe"
+      ]
+    },
+    {
+      "name": "تراول",
+      "en": "travel",
+      "aliases": [
+        "تراول",
+        "travel"
+      ]
+    },
+    {
+      "name": "السا استیل",
+      "en": null,
+      "aliases": [
+        "السا استیل",
+        "السااستیل"
+      ]
+    },
+    {
+      "name": "تولیپس",
+      "en": null,
+      "aliases": [
+        "تولیپس"
+      ]
+    },
+    {
+      "name": "پارس کوشان",
+      "en": null,
+      "aliases": [
+        "پارس کوشان",
+        "پارسکوشان"
+      ]
+    },
+    {
+      "name": "آستون",
+      "en": "Aston",
+      "aliases": [
+        "آستون",
+        "aston"
+      ]
+    },
+    {
+      "name": "بیولاین",
+      "en": "Bioline",
+      "aliases": [
+        "بیولاین",
+        "bioline"
+      ]
+    },
+    {
+      "name": "تانوس",
+      "en": null,
+      "aliases": [
+        "تانوس"
+      ]
+    },
+    {
+      "name": "تمپتینگ",
+      "en": null,
+      "aliases": [
+        "تمپتینگ"
+      ]
+    },
+    {
+      "name": "ابراهیمی یزد",
+      "en": null,
+      "aliases": [
+        "ابراهیمی یزد",
+        "ابراهیمییزد"
+      ]
+    },
+    {
+      "name": "ایی",
+      "en": null,
+      "aliases": [
+        "ایی"
+      ]
+    },
+    {
+      "name": "آنجل",
+      "en": "Angel",
+      "aliases": [
+        "آنجل",
+        "angel"
+      ]
+    },
+    {
+      "name": "کیوآی",
+      "en": null,
+      "aliases": [
+        "کیوآی"
+      ]
+    },
+    {
+      "name": "او ان",
+      "en": null,
+      "aliases": [
+        "او ان",
+        "اوان"
+      ]
+    },
+    {
+      "name": "لافارر",
+      "en": "Lafarrerr",
+      "aliases": [
+        "لافارر",
+        "lafarrerr"
+      ]
+    },
+    {
+      "name": "کاپرو",
+      "en": null,
+      "aliases": [
+        "کاپرو"
+      ]
+    },
+    {
+      "name": "اچ تی ان پرایم",
+      "en": null,
+      "aliases": [
+        "اچ تی ان پرایم",
+        "اچتیانپرایم"
+      ]
+    },
+    {
+      "name": "بیسیک",
+      "en": null,
+      "aliases": [
+        "بیسیک"
+      ]
+    },
+    {
+      "name": "دیزل",
+      "en": "Diesel",
+      "aliases": [
+        "دیزل",
+        "diesel"
+      ]
+    },
+    {
+      "name": "کوئین تک",
+      "en": null,
+      "aliases": [
+        "کوئین تک",
+        "کوئینتک"
+      ]
+    },
+    {
+      "name": "کی دی اس",
+      "en": "KDS",
+      "aliases": [
+        "کی دی اس",
+        "کیدیاس",
+        "kds"
+      ]
+    },
+    {
+      "name": "ایگل",
+      "en": "Eagle",
+      "aliases": [
+        "ایگل",
+        "eagle"
+      ]
+    },
+    {
+      "name": "ای وی",
+      "en": null,
+      "aliases": [
+        "ای وی",
+        "ایوی"
+      ]
+    },
+    {
+      "name": "سیترونال",
+      "en": null,
+      "aliases": [
+        "سیترونال"
+      ]
+    },
+    {
+      "name": "فیدار پاتیرا",
+      "en": null,
+      "aliases": [
+        "فیدار پاتیرا",
+        "فیدارپاتیرا"
+      ]
+    },
+    {
+      "name": "دلا",
+      "en": "Della",
+      "aliases": [
+        "دلا",
+        "della"
+      ]
+    },
+    {
+      "name": "چوگان",
+      "en": null,
+      "aliases": [
+        "چوگان"
+      ]
+    },
+    {
+      "name": "لونا",
+      "en": null,
+      "aliases": [
+        "لونا"
+      ]
+    },
+    {
+      "name": "فارگو",
+      "en": null,
+      "aliases": [
+        "فارگو"
+      ]
+    },
+    {
+      "name": "مدی",
+      "en": null,
+      "aliases": [
+        "مدی"
+      ]
+    },
+    {
+      "name": "باراد",
+      "en": null,
+      "aliases": [
+        "باراد"
+      ]
+    },
+    {
+      "name": "پاورجیم",
+      "en": "PowerGYM",
+      "aliases": [
+        "پاورجیم",
+        "powergym"
+      ]
+    },
+    {
+      "name": "سان پاور",
+      "en": null,
+      "aliases": [
+        "سان پاور",
+        "سانپاور"
+      ]
+    },
+    {
+      "name": "ای ان دی",
+      "en": null,
+      "aliases": [
+        "ای ان دی",
+        "ایاندی"
+      ]
+    },
+    {
+      "name": "فوکال",
+      "en": null,
+      "aliases": [
+        "فوکال"
+      ]
+    },
+    {
+      "name": "تی اسکن",
+      "en": "Tscan",
+      "aliases": [
+        "تی اسکن",
+        "تیاسکن",
+        "tscan"
+      ]
+    },
+    {
+      "name": "تی اس سی",
+      "en": null,
+      "aliases": [
+        "تی اس سی",
+        "تیاسسی"
+      ]
+    },
+    {
+      "name": "سایوتیم",
+      "en": null,
+      "aliases": [
+        "سایوتیم"
+      ]
+    },
+    {
+      "name": "هالی استار",
+      "en": null,
+      "aliases": [
+        "هالی استار",
+        "هالیاستار"
+      ]
+    },
+    {
+      "name": "اینسایز",
+      "en": "Insize",
+      "aliases": [
+        "اینسایز",
+        "insize"
+      ]
+    },
+    {
+      "name": "فرانت",
+      "en": "Faranet",
+      "aliases": [
+        "فرانت",
+        "faranet"
+      ]
+    },
+    {
+      "name": "آرماف",
+      "en": null,
+      "aliases": [
+        "آرماف"
+      ]
+    },
+    {
+      "name": "توتال",
+      "en": "Total",
+      "aliases": [
+        "توتال",
+        "total"
+      ]
+    },
+    {
+      "name": "استودیو میکاپ",
+      "en": null,
+      "aliases": [
+        "استودیو میکاپ",
+        "استودیومیکاپ"
+      ]
+    },
+    {
+      "name": "ریو کالکشن",
+      "en": null,
+      "aliases": [
+        "ریو کالکشن",
+        "ریوکالکشن"
+      ]
+    },
+    {
+      "name": "رناتا",
+      "en": null,
+      "aliases": [
+        "رناتا"
+      ]
+    },
+    {
+      "name": "فشن",
+      "en": "Fashion",
+      "aliases": [
+        "فشن",
+        "fashion"
+      ]
+    },
+    {
+      "name": "وان مور",
+      "en": null,
+      "aliases": [
+        "وان مور",
+        "وانمور"
+      ]
+    },
+    {
+      "name": "سوپریما",
+      "en": null,
+      "aliases": [
+        "سوپریما"
+      ]
+    },
+    {
+      "name": "یونیتک",
+      "en": null,
+      "aliases": [
+        "یونیتک"
+      ]
+    },
+    {
+      "name": "گوپرو",
+      "en": "GoPro",
+      "aliases": [
+        "گوپرو",
+        "gopro",
+        "گو پرو"
+      ]
+    },
+    {
+      "name": "هوکو",
+      "en": "Hoco",
+      "aliases": [
+        "هوکو",
+        "hoco"
+      ]
+    },
+    {
+      "name": "فلوک",
+      "en": "Fluke",
+      "aliases": [
+        "فلوک",
+        "fluke"
+      ]
+    },
+    {
+      "name": "ابارا",
+      "en": "Ebara",
+      "aliases": [
+        "ابارا",
+        "ebara"
+      ]
+    },
+    {
+      "name": "فسیل",
+      "en": "Fossil",
+      "aliases": [
+        "فسیل",
+        "fossil"
+      ]
+    },
+    {
+      "name": "ری بن",
+      "en": "Ray-Ban",
+      "aliases": [
+        "ری بن",
+        "ریبن",
+        "ray-ban",
+        "rayban"
+      ]
+    },
+    {
+      "name": "پوما",
+      "en": "Puma",
+      "aliases": [
+        "پوما",
+        "puma"
+      ]
+    },
+    {
+      "name": "اسیکس",
+      "en": "Asics",
+      "aliases": [
+        "اسیکس",
+        "asics"
+      ]
+    },
+    {
+      "name": "ریباک",
+      "en": "Reebok",
+      "aliases": [
+        "ریباک",
+        "reebok",
+        "ریبوک"
+      ]
+    },
+    {
+      "name": "ونس",
+      "en": "Vans",
+      "aliases": [
+        "ونس",
+        "vans"
+      ]
+    },
+    {
+      "name": "پرادا",
+      "en": "Prada",
+      "aliases": [
+        "پرادا",
+        "prada"
+      ]
+    },
+    {
+      "name": "اوریفلیم",
+      "en": "Oriflame",
+      "aliases": [
+        "اوریفلیم",
+        "oriflame",
+        "اوریفلم"
+      ]
+    },
+    {
+      "name": "لورال",
+      "en": "L'Oréal",
+      "aliases": [
+        "لورال",
+        "l'oréal",
+        "loreal",
+        "l'oreal"
+      ]
+    },
+    {
+      "name": "نیوآ",
+      "en": "Nivea",
+      "aliases": [
+        "نیوآ",
+        "nivea"
+      ]
+    },
+    {
+      "name": "گارنیه",
+      "en": "Garnier",
+      "aliases": [
+        "گارنیه",
+        "garnier",
+        "گارنیر"
+      ]
+    },
+    {
+      "name": "رولند",
+      "en": "Roland",
+      "aliases": [
+        "رولند",
+        "roland"
+      ]
+    },
+    {
+      "name": "لگو",
+      "en": "LEGO",
+      "aliases": [
+        "لگو",
+        "lego"
+      ]
+    }
+  ]
+}

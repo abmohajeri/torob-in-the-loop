@@ -1,0 +1,43 @@
+# Torob in the Loop runtime-only image from PREBUILT artifacts (the default for Liara: see liara.json).
+#
+# No npm, no network, no compilation during the build: it only COPYs three things that
+# `scripts/deploy-liara.sh` makes sure exist locally before uploading:
+#   apps/server/dist/   ← npm run build   (esbuild bundle + state-schema.sql, no node_modules needed)
+#   apps/web/dist/      ← npm run build   (Vite SPA)
+#   data/catalog.db     ← npm run data:build (read-only SQLite + FTS5, from the raw Torob CSVs)
+# The build takes seconds (well under Liara's 5-minute free-plan limit) and doesn't depend on
+# npm or Docker Hub being reachable from the Iran build location beyond the base image.
+#
+#   npm run build && docker build -f Dockerfile.runtime -t torob-in-the-loop:runtime .
+
+ARG NODE_IMAGE=node:22-bookworm-slim
+FROM ${NODE_IMAGE}
+ARG APP_VERSION=1.0.0
+LABEL org.opencontainers.image.title="torob-in-the-loop" \
+      org.opencontainers.image.description="Torob in the Loop: smart in-person shopping assistant for Tehran (Torob dataset)" \
+      org.opencontainers.image.version="${APP_VERSION}"
+ENV NODE_ENV=production \
+    HOST=0.0.0.0 \
+    PORT=3000 \
+    CATALOG_PATH=/app/data/catalog.db \
+    STATE_DB_PATH=/var/lib/torob-in-the-loop/state.db \
+    WEB_DIST=/app/apps/web/dist \
+    APP_VERSION=${APP_VERSION}
+WORKDIR /app
+RUN mkdir -p /var/lib/torob-in-the-loop \
+ && chown node:node /var/lib/torob-in-the-loop
+# Largest and least frequently changing layer first, so code-only releases reuse it.
+# (Never chmod/chown these after COPY: that would duplicate the ~300 MB catalog in a new layer.)
+COPY data/catalog.db ./data/catalog.db
+COPY scripts/docker-entrypoint.sh scripts/healthcheck.mjs ./scripts/
+COPY apps/web/dist ./apps/web/dist
+COPY apps/server/dist ./apps/server/dist
+RUN test -s apps/server/dist/index.js \
+ && test -s apps/server/dist/state-schema.sql \
+ && test -s apps/web/dist/index.html
+EXPOSE 3000
+HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
+  CMD ["node", "/app/scripts/healthcheck.mjs"]
+# Starts as root only to fix ownership of a root-mounted state disk, then drops to `node` via setpriv.
+ENTRYPOINT ["/bin/sh", "/app/scripts/docker-entrypoint.sh"]
+CMD ["node", "--disable-warning=ExperimentalWarning", "apps/server/dist/index.js"]

@@ -1,0 +1,60 @@
+# Docker build context for local `docker build` / `docker compose build`.
+# (Liara never uploads this file: its CLI uses .liaraignore and always skips .dockerignore.)
+#
+# Serves both Dockerfiles:
+#  - Dockerfile          → needs package*.json, tsconfig.base.json, packages/, apps/ (source), scripts/, data/catalog.db
+#  - Dockerfile.runtime  → needs apps/server/dist, apps/web/dist, scripts/, data/catalog.db
+# Note: unlike .gitignore, a bare name here only matches at the context root; use **/ for "any depth".
+
+# dependencies & caches
+node_modules
+**/node_modules
+.npm
+**/.vite
+**/*.tsbuildinfo
+**/coverage
+
+# raw dataset & data artifacts (only the prebuilt catalog is copied)
+dataset
+**/*.csv
+data/*
+!data/catalog.db
+
+# VCS, CI, editor & agent tooling
+.git
+.github
+.claude
+.idea
+.vscode
+
+# docs, design notes, screenshots
+docs
+design-system
+**/screenshots
+README.md
+
+# tests & outputs
+test-results
+playwright-report
+blob-report
+e2e
+**/__tests__
+**/*.test.ts
+**/*.test.tsx
+**/*.test.mjs
+scripts/test
+
+# local env & secrets, deploy config
+.env
+.env.*
+liara.json
+.liaraignore
+docker-compose*.yml
+
+# logs, archives, OS junk
+**/*.log
+*.tar
+*.tar.gz
+*.tgz
+**/.DS_Store
+liara-api-key.txt

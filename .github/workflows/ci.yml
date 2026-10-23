@@ -1,0 +1,83 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Test
+        run: npm test
+      - name: Build web + server
+        run: npm run build
+      - name: Shell scripts syntax
+        run: for f in scripts/*.sh; do bash -n "$f"; done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: |
+            apps/server/dist
+            apps/web/dist
+          retention-days: 7
+
+  deploy:
+    # Runs only on main and only when both secrets are configured.
+    needs: check
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: production
+    env:
+      LIARA_API_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
+      CATALOG_URL: ${{ secrets.CATALOG_URL }}
+      LIARA_APP: ${{ vars.LIARA_APP || 'torob-in-the-loop' }}
+    steps:
+      - name: Check secrets
+        id: gate
+        run: |
+          if [ -n "$LIARA_API_TOKEN" ] && [ -n "$CATALOG_URL" ]; then echo "ok=true" >> "$GITHUB_OUTPUT"
+          else echo "::notice::LIARA_API_TOKEN / CATALOG_URL not set, skipping deploy"; echo "ok=false" >> "$GITHUB_OUTPUT"; fi
+      - if: steps.gate.outputs.ok == 'true'
+        uses: actions/checkout@v4
+      - if: steps.gate.outputs.ok == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - if: steps.gate.outputs.ok == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: apps
+      - name: Download prebuilt catalog
+        if: steps.gate.outputs.ok == 'true'
+        run: |
+          mkdir -p data
+          curl -fSL --retry 3 -o data/catalog.db.part "$CATALOG_URL"
+          case "$CATALOG_URL" in *.gz) gunzip -c data/catalog.db.part > data/catalog.db; rm data/catalog.db.part ;; *) mv data/catalog.db.part data/catalog.db ;; esac
+          test -s data/catalog.db && ls -lh data/catalog.db
+      - name: Deploy to Liara
+        if: steps.gate.outputs.ok == 'true'
+        run: |
+          npm i -g @liara/cli@9.4.7
+          bash scripts/deploy-liara.sh --app "$LIARA_APP" --api-token "$LIARA_API_TOKEN" --skip-build
+      - name: Smoke test
+        if: steps.gate.outputs.ok == 'true'
+        run: bash scripts/smoke.sh "https://${LIARA_APP}.liara.run"

@@ -1,0 +1,6004 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-22T08:47:10Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 654080987,
+  "lat": 35.6949443,
+  "lon": 51.3784013,
+  "tags": {
+    "name": "جنوب غربی",
+    "name:en": "southwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 660624152,
+  "lat": 35.7243948,
+  "lon": 51.4275989,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "Northwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 660658572,
+  "lat": 35.7488862,
+  "lon": 51.4262979,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه همت",
+    "internet_access": "no",
+    "name": "شهید همت",
+    "name:ar": "الشهيد همت",
+    "name:en": "Shahid Hemmat",
+    "name:fa": "شهید همت",
+    "name:hi": "शहीद हिम्मत",
+    "name:ml": "ഷഹീദ് ഹെമ്മത്ത്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372998",
+    "wikipedia": "fa:ایستگاه متروی شهید همت"
+  }
+},
+{
+  "type": "node",
+  "id": 2169380700,
+  "lat": 35.7727016,
+  "lon": 51.4380971,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "شریعتی",
+    "internet_access": "no",
+    "name": "قلهک",
+    "name:ar": "قلهك",
+    "name:en": "Gholhak",
+    "name:fa": "قلهک",
+    "name:hi": "क़ुल्हक",
+    "name:ml": "ഗൊൽഹക്ക്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371957",
+    "wikipedia": "fa:ایستگاه متروی قلهک"
+  }
+},
+{
+  "type": "node",
+  "id": 2169732971,
+  "lat": 35.6904715,
+  "lon": 51.4567977,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "پیروزی",
+    "alt_name": "شیخ الرئیس",
+    "internet_access": "no",
+    "name": "ایستگاه مترو ابن سینا",
+    "name:ar": "ابن سينا",
+    "name:en": "Ebn-e Sina metro station",
+    "name:fa": "ابن سینا",
+    "name:hi": "इब्न सीना",
+    "name:ml": "ഇബ്നു സീന",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q55639627",
+    "wikipedia": "fa:ایستگاه متروی ابن‌سینا"
+  }
+},
+{
+  "type": "node",
+  "id": 2192231217,
+  "lat": 35.7010475,
+  "lon": 51.4054667,
+  "tags": {
+    "name": "پارک دانشجو",
+    "name:en": "Daneshjoo Park",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2203911488,
+  "lat": 35.7011482,
+  "lon": 51.4185869,
+  "tags": {
+    "name": "جنوب غربی",
+    "name:en": "southwest",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2203911616,
+  "lat": 35.7017700,
+  "lon": 51.4185722,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "northwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2203911624,
+  "lat": 35.7017714,
+  "lon": 51.4196483,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "Northeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2281972809,
+  "lat": 35.7057657,
+  "lon": 51.3537312,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "south",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2299605800,
+  "lat": 35.7181762,
+  "lon": 51.4646061,
+  "tags": {
+    "name": "سبلان جنوبی",
+    "name:en": "south sabalan",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2299605804,
+  "lat": 35.7188082,
+  "lon": 51.4642413,
+  "tags": {
+    "name": "سبلان شمالی",
+    "name:en": "north sabalan",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2299606138,
+  "lat": 35.7296540,
+  "lon": 51.5469473,
+  "tags": {
+    "name": "فرهنگسرا",
+    "name:en": "farhangsara",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2299606179,
+  "lat": 35.7307124,
+  "lon": 51.5319806,
+  "tags": {
+    "name": "شهید سلیمانی شرق",
+    "name:en": "East Shahid Soleimani",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2299606195,
+  "lat": 35.7310099,
+  "lon": 51.5320426,
+  "tags": {
+    "name": "شهید سلیمانی غرب",
+    "name:en": "West Shahid Soleimani",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2316962439,
+  "lat": 35.6905879,
+  "lon": 51.4566203,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "northeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2316962838,
+  "lat": 35.7244396,
+  "lon": 51.4279448,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "Northeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2317957220,
+  "lat": 35.6575546,
+  "lon": 51.4142185,
+  "tags": {
+    "name": "خیام",
+    "name:en": "Khayyam",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2317957425,
+  "lat": 35.6671869,
+  "lon": 51.4152159,
+  "tags": {
+    "name": "میدان محمدیه جنوب غربی",
+    "name:en": "Mohammadieh Square Southwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2317957434,
+  "lat": 35.6681820,
+  "lon": 51.4163740,
+  "tags": {
+    "name": "میدان محمدیه شمال شرقی",
+    "name:en": "Mohammadieh Square Northeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2317957459,
+  "lat": 35.6859034,
+  "lon": 51.4100200,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2317957463,
+  "lat": 35.6863318,
+  "lon": 51.4100896,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3010835326,
+  "lat": 35.7055197,
+  "lon": 51.3074690,
+  "tags": {
+    "name": "شهید صارمی",
+    "name:en": "Martyr Saremi",
+    "name:fa": "شهید صارمی",
+    "railway": "subway_entrance",
+    "ref": "1",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3075362396,
+  "lat": 35.7012330,
+  "lon": 51.3898414,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "North West",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3075362397,
+  "lat": 35.7011532,
+  "lon": 51.3924621,
+  "tags": {
+    "automatic_door": "no",
+    "door": "sliding",
+    "name": "شمال شرقی",
+    "name:en": "North East",
+    "open": "no",
+    "railway": "subway_entrance",
+    "wheelchair": "no",
+    "width": "2.6"
+  }
+},
+{
+  "type": "node",
+  "id": 3080821097,
+  "lat": 35.7264841,
+  "lon": 51.4759199,
+  "tags": {
+    "name": "شهید مدنی جنوبی به شمالی",
+    "name:en": "shahid madani south to north",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3080821098,
+  "lat": 35.7269366,
+  "lon": 51.4758012,
+  "tags": {
+    "name": "شهید مدنی شمالی به جنوبی",
+    "name:en": "shahid madani north to south",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3086587328,
+  "lat": 35.7161944,
+  "lon": 51.3436660,
+  "tags": {
+    "name": "شرقی",
+    "name:en": "east",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3086587329,
+  "lat": 35.7163468,
+  "lon": 51.3435748,
+  "tags": {
+    "name": "اسانسور به سمت صادقیه",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3086587330,
+  "lat": 35.7154635,
+  "lon": 51.3441425,
+  "tags": {
+    "name": "آسانسور به سمت امام خمینی",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3212178801,
+  "lat": 35.7401043,
+  "lon": 51.4271977,
+  "tags": {
+    "name": "جنوب شرقی",
+    "name:en": "Southeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3212178802,
+  "lat": 35.7406780,
+  "lon": 51.4271534,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "Northern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3417716479,
+  "lat": 35.6731535,
+  "lon": 51.4167573,
+  "tags": {
+    "name": "خیام",
+    "name:en": "Khayyam",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3428577592,
+  "lat": 35.6854361,
+  "lon": 51.4204189,
+  "tags": {
+    "name": "باب همایون",
+    "name:en": "Bab Homayun",
+    "railway": "subway_entrance",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 3428644793,
+  "lat": 35.6861201,
+  "lon": 51.4202901,
+  "tags": {
+    "name": "سپه",
+    "name:en": "Sepah",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3439539465,
+  "lat": 35.7010749,
+  "lon": 51.3782116,
+  "tags": {
+    "name": "توحید",
+    "name:en": "Tohid",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3635251445,
+  "lat": 35.6595032,
+  "lon": 51.3977283,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میدان راه آهن",
+    "internet_access": "no",
+    "name": "راه آهن",
+    "name:ar": "السكك الحديدية",
+    "name:en": "Rahahan",
+    "name:fa": "راه آهن",
+    "name:hi": "राह अहन",
+    "name:ml": "റാ ആഹൻ",
+    "name:ru": "Рах Ахан",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q17991377",
+    "wikipedia": "fa:ایستگاه متروی راه‌آهن (تهران)"
+  }
+},
+{
+  "type": "node",
+  "id": 3689254136,
+  "lat": 35.6505655,
+  "lon": 51.4167668,
+  "tags": {
+    "name": "عباسی",
+    "name:en": "Abbasi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3689254138,
+  "lat": 35.6296430,
+  "lon": 51.4182677,
+  "tags": {
+    "name": "دستواره",
+    "name:en": "Dastvareh",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3778821747,
+  "lat": 35.7313400,
+  "lon": 51.4447877,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "آیت الله قدوسی",
+    "internet_access": "no",
+    "name": "شهید قدوسی",
+    "name:ar": "الشهيد قدوسي",
+    "name:en": "Shahid Ghodousi",
+    "name:fa": "شهید قدوسی",
+    "name:hi": "शहीद कुद्दूसी",
+    "name:ml": "ഷഹീദ് ഖുദ്ദൂസി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q27063105",
+    "wikipedia": "fa:ایستگاه متروی شهید قدوسی"
+  }
+},
+{
+  "type": "node",
+  "id": 3778822187,
+  "lat": 35.7720780,
+  "lon": 51.4731866,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه صیاد شیرازی",
+    "internet_access": "no",
+    "name": "میدان هروی",
+    "name:ar": "ميدان هروي",
+    "name:en": "Meydan-e Heravi",
+    "name:fa": "میدان هروی",
+    "name:hi": "हिरवी मैदान",
+    "name:ml": "ഹെറവി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28713954"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861785,
+  "lat": 35.7311805,
+  "lon": 51.4367644,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "آیت الله بهشتی",
+    "internet_access": "no",
+    "name": "سهروردی",
+    "name:ar": "سهروردي",
+    "name:en": "Sohrevardi",
+    "name:fa": "سهروردی",
+    "name:hi": "सुहरेवर्दी",
+    "name:ml": "സൊഹ്രെവർദി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q26433876",
+    "wikipedia": "fa:ایستگاه متروی سهروردی"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861787,
+  "lat": 35.7434653,
+  "lon": 51.4621123,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "خواجه عبدالله انصاری",
+    "internet_access": "no",
+    "name": "خواجه عبدالله انصاری",
+    "name:ar": "خواجة عبد الله أنصاري",
+    "name:en": "Khajeh Abdollah-e Ansari",
+    "name:fa": "خواجه عبدالله انصاری",
+    "name:hi": "ख्वाजा अब्दुल्ला-ए अंसारी",
+    "name:ml": "ഖാജെ അബ്ദൊല്ലാഹെ അൻസാറി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q25252241",
+    "wikipedia": "fa:ایستگاه متروی خواجه عبدالله انصاری"
+  }
+},
+{
+  "type": "node",
+  "id": 3784645954,
+  "lat": 35.6677664,
+  "lon": 51.3871142,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "هلال احمر",
+    "internet_access": "no",
+    "name": "ایستگاه مترو هلال احمر",
+    "name:ar": "هلال احمر",
+    "name:en": "Helal Ahmar metro station",
+    "name:fa": "هلال احمر",
+    "name:hi": "हिलाल अहमर",
+    "name:ml": "ഹെലാൽ അഹ്മർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q65198890",
+    "wikipedia": "fa:ایستگاه متروی هلال احمر"
+  }
+},
+{
+  "type": "node",
+  "id": 3834386745,
+  "lat": 35.7326583,
+  "lon": 51.5164999,
+  "tags": {
+    "name": "غرب به شرق",
+    "name:en": "West to East",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3834418220,
+  "lat": 35.7346147,
+  "lon": 51.5050434,
+  "tags": {
+    "name": "شرق به غرب",
+    "name:en": "east to west",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3856733614,
+  "lat": 35.6925228,
+  "lon": 51.4330632,
+  "tags": {
+    "name": "دانشسرا",
+    "name:en": "Daneshsara",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3870176576,
+  "lat": 35.7011852,
+  "lon": 51.3334550,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "North West",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3972700019,
+  "lat": 35.7986543,
+  "lon": 51.5207032,
+  "tags": {
+    "name": "شرقی",
+    "name:en": "East",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4038852944,
+  "lat": 35.7606140,
+  "lon": 51.4654734,
+  "tags": {
+    "name": "شهید زین الدین",
+    "name:en": "Shahid Zeyn-e-ddin",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4155885934,
+  "lat": 35.6997318,
+  "lon": 51.3201514,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4165484096,
+  "lat": 35.7353574,
+  "lon": 51.4949607,
+  "tags": {
+    "addr:street": "دکتر آیت",
+    "name": "غرب به شرق",
+    "name:en": "west to east",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4167271189,
+  "lat": 35.6847788,
+  "lon": 51.4184668,
+  "tags": {
+    "name": "خیام",
+    "name:en": "Khayyam",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4174120891,
+  "lat": 35.7005871,
+  "lon": 51.3638469,
+  "tags": {
+    "name": "تیموری",
+    "name:en": "Teymouri",
+    "railway": "subway_entrance",
+    "ref": "1",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4174121392,
+  "lat": 35.6526956,
+  "lon": 51.3733745,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4174121393,
+  "lat": 35.7122136,
+  "lon": 51.4080607,
+  "tags": {
+    "name": "شاهد",
+    "name:en": "Shahed",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4174121494,
+  "lat": 35.6872000,
+  "lon": 51.3991445,
+  "tags": {
+    "name": "دانشگاه افسری امام علی",
+    "name:en": "Imam Ali Officers University",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4174126193,
+  "lat": 35.7626710,
+  "lon": 51.4442459,
+  "tags": {
+    "name": "شریعتی",
+    "name:en": "Shariati",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4174126195,
+  "lat": 35.6335041,
+  "lon": 51.3475774,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4174126196,
+  "lat": 35.6380667,
+  "lon": 51.3601366,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4174127589,
+  "lat": 35.6991151,
+  "lon": 51.4380832,
+  "tags": {
+    "name": "شمال شرق ابن سینا",
+    "name:en": "northeast Ebn-e Sina",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4176980394,
+  "lat": 35.7363948,
+  "lon": 51.4947765,
+  "tags": {
+    "name": "شرق به غرب",
+    "name:en": "east to west",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4200367229,
+  "lat": 35.7092476,
+  "lon": 51.4527339,
+  "tags": {
+    "name": "لسانی بحری",
+    "name:en": "lesani bahri",
+    "operator": "subway",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4217383911,
+  "lat": 35.7330572,
+  "lon": 51.4836567,
+  "tags": {
+    "name": "مهرانپور",
+    "name:en": "mehranpour",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4217385028,
+  "lat": 35.7333289,
+  "lon": 51.4845324,
+  "tags": {
+    "name": "شهید مدنی جنوبی به شمالی",
+    "name:en": "shahid madani south to north",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4219248422,
+  "lat": 35.7014676,
+  "lon": 51.4257538,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "Southern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4219248423,
+  "lat": 35.7018488,
+  "lon": 51.4257319,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "Northwest",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4219260482,
+  "lat": 35.7008798,
+  "lon": 51.3787110,
+  "tags": {
+    "name": "آزادی",
+    "name:en": "Azadi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4225663390,
+  "lat": 35.6440798,
+  "lon": 51.3689988,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4234109918,
+  "lat": 35.7433492,
+  "lon": 51.4633861,
+  "tags": {
+    "name": "خواجه عبدالله انصاری",
+    "name:en": "Khajeh Abdollah-e Ansari",
+    "railway": "subway_entrance",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4245940673,
+  "lat": 35.7156610,
+  "lon": 51.4264321,
+  "tags": {
+    "name": "شرقی",
+    "name:en": "Eastern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4245940674,
+  "lat": 35.7152254,
+  "lon": 51.4254718,
+  "tags": {
+    "level": "-1",
+    "name": "غربی",
+    "name:en": "Western",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4293293322,
+  "lat": 35.6946832,
+  "lon": 51.3791914,
+  "tags": {
+    "name": "جنوب شرقی",
+    "name:en": "southeast",
+    "railway": "subway_entrance",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4293301924,
+  "lat": 35.7279974,
+  "lon": 51.4175407,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "آیت‌الله بهشتی",
+    "name": "میرزای شیرازی",
+    "name:en": "Mirza-ye Shirazi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4307342671,
+  "lat": 35.7340344,
+  "lon": 51.5050174,
+  "tags": {
+    "name": "غرب به شرق",
+    "name:en": "west to east",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4380416542,
+  "lat": 35.7907119,
+  "lon": 51.4786660,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4388771061,
+  "lat": 35.7239513,
+  "lon": 51.4276538,
+  "tags": {
+    "name": "جنوب غربی",
+    "name:en": "Southwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4396461099,
+  "lat": 35.6782940,
+  "lon": 51.4173042,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "پانزده خرداد",
+    "internet_access": "no",
+    "name": "پانزده خرداد",
+    "name:ar": "السادس من يونيو",
+    "name:en": "Panzdah-e Khordad",
+    "name:fa": "پانزده خرداد",
+    "name:hi": "पांज़दहे-खुर्दाद",
+    "name:ml": "പാൻസദ ഖൊർദാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372356",
+    "wikipedia": "fa:ایستگاه متروی پانزده خرداد"
+  }
+},
+{
+  "type": "node",
+  "id": 4421782060,
+  "lat": 35.6339578,
+  "lon": 51.3467007,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4431077574,
+  "lat": 35.6296993,
+  "lon": 51.4162155,
+  "tags": {
+    "name": "علی آباد",
+    "name:en": "Shahid Dastvareh",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4443793545,
+  "lat": 35.7012407,
+  "lon": 51.4055785,
+  "tags": {
+    "check_date:wheelchair": "2025-01-30",
+    "name": "شرقی",
+    "name:en": "East",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4443793547,
+  "lat": 35.7013783,
+  "lon": 51.4054561,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "North East",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4443793548,
+  "lat": 35.7016214,
+  "lon": 51.4051176,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4443793550,
+  "lat": 35.7013578,
+  "lon": 51.4047494,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "North West",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4443793556,
+  "lat": 35.7008486,
+  "lon": 51.4051143,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4443841290,
+  "lat": 35.7012267,
+  "lon": 51.4047630,
+  "tags": {
+    "check_date:wheelchair": "2025-01-30",
+    "name": "غربی",
+    "name:en": "West",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4443949609,
+  "lat": 35.7200719,
+  "lon": 51.4088358,
+  "tags": {
+    "name": "شهید صدر",
+    "name:en": "Shahid Sadr",
+    "railway": "subway_entrance",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4445587131,
+  "lat": 35.7159593,
+  "lon": 51.3434501,
+  "tags": {
+    "name": "غربی",
+    "name:en": "west",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4447043734,
+  "lat": 35.6908955,
+  "lon": 51.4679657,
+  "tags": {
+    "description": "ورودی ایستگاه پیروزی اینجاست لطفا پاکش نکنید",
+    "name": "پیروزی",
+    "name:en": "Piroozi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4447077847,
+  "lat": 35.6989555,
+  "lon": 51.4985317,
+  "tags": {
+    "description": "ورودی غربی مترو است لطفا پاک نکنید",
+    "name": "غربی",
+    "name:en": "west",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4460126783,
+  "lat": 35.7006234,
+  "lon": 51.3645589,
+  "tags": {
+    "name": "حسامی",
+    "name:en": "hesami",
+    "railway": "subway_entrance",
+    "ref": "2",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4467024499,
+  "lat": 35.7400704,
+  "lon": 51.4263662,
+  "tags": {
+    "name": "جنوب غربی",
+    "name:en": "Southwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4473002178,
+  "lat": 35.7309791,
+  "lon": 51.4368491,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 4483402991,
+  "lat": 35.7480921,
+  "lon": 51.4259949,
+  "tags": {
+    "name": "همت شرق",
+    "name:en": "Hemmat East",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4493689476,
+  "lat": 35.6100909,
+  "lon": 51.4198689,
+  "tags": {
+    "name": "جوانمرد قصاب",
+    "name:en": "Javanmard-e Ghasab",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4499905470,
+  "lat": 35.6902721,
+  "lon": 51.4474716,
+  "tags": {
+    "name": "شرقی",
+    "name:en": "east",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4499931427,
+  "lat": 35.6927930,
+  "lon": 51.4879672,
+  "tags": {
+    "name": "نیروی هوایی",
+    "name:en": "Niru-ye-Hayavi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4508494541,
+  "lat": 35.7299321,
+  "lon": 51.4274366,
+  "tags": {
+    "name": "مفتح شرق",
+    "name:en": "Mofatteh East",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4508500046,
+  "lat": 35.7310237,
+  "lon": 51.4270131,
+  "tags": {
+    "name": "مصلی",
+    "name:en": "Mosalla",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4532784208,
+  "lat": 35.7477395,
+  "lon": 51.3782405,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "northwest",
+    "railway": "subway_entrance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4553519986,
+  "lat": 35.6989580,
+  "lon": 51.5000530,
+  "tags": {
+    "name": "شرقی",
+    "name:en": "east",
+    "note": "ورودی شرقی مترو ست لطفا پاک نکنید",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4553591969,
+  "lat": 35.7004955,
+  "lon": 51.3560129,
+  "tags": {
+    "name": "دکتر حبیب اله",
+    "name:en": "Doctor Habib-o-llah",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4558200196,
+  "lat": 35.6921420,
+  "lon": 51.3225685,
+  "tags": {
+    "name": "فرودگاه مهرآباد ترمینال‌های ۱ و ۲",
+    "name:en": "Mehrabad Airport Terminals 1 & 2",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4560007208,
+  "lat": 35.7058975,
+  "lon": 51.3542720,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "north",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4566502125,
+  "lat": 35.6405888,
+  "lon": 51.4151488,
+  "tags": {
+    "name": "شهید بخارایی",
+    "name:en": "Shahid Bokharaei",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4583016720,
+  "lat": 35.7172669,
+  "lon": 51.3313192,
+  "tags": {
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4672357739,
+  "lat": 35.7331887,
+  "lon": 51.5167770,
+  "tags": {
+    "name": "شرق به غرب",
+    "name:en": "East to West",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4699612455,
+  "lat": 35.6273012,
+  "lon": 51.3355480,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4699612457,
+  "lat": 35.6279983,
+  "lon": 51.3354072,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4732328685,
+  "lat": 35.6919442,
+  "lon": 51.4328396,
+  "tags": {
+    "name": "کمال الملک",
+    "name:en": "Kamal-ol Molk",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4780665323,
+  "lat": 35.7112114,
+  "lon": 51.4074540,
+  "tags": {
+    "name": "شهدای سازش",
+    "name:en": "Shohada-ye Sazesh",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4781215605,
+  "lat": 35.6876359,
+  "lon": 51.3790994,
+  "tags": {
+    "level": "-1",
+    "name": "غربی",
+    "name:en": "west",
+    "name:fa": "رودکي",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4853415469,
+  "lat": 35.6906199,
+  "lon": 51.3886267,
+  "tags": {
+    "name": "دانشگاه جنگ جنوبی",
+    "name:en": "south University of War",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4853415470,
+  "lat": 35.6909770,
+  "lon": 51.3885577,
+  "tags": {
+    "name": "دانشگاه جنگ شمالی",
+    "name:en": "north University of War",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4939470509,
+  "lat": 35.6385018,
+  "lon": 51.3592492,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5068589664,
+  "lat": 35.7719451,
+  "lon": 51.4735475,
+  "tags": {
+    "name": "میدان هروی",
+    "name:en": "Heravi Square",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5078343294,
+  "lat": 35.7122344,
+  "lon": 51.4068506,
+  "tags": {
+    "name": "کشاورز",
+    "name:en": "Keshavarz",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5097223596,
+  "lat": 35.6442717,
+  "lon": 51.3684454,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5108879548,
+  "lat": 35.7111946,
+  "lon": 51.4066757,
+  "tags": {
+    "name": "ولیعصر جنوب",
+    "name:en": "South Valiasr",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5128085899,
+  "lat": 35.6597462,
+  "lon": 51.3974844,
+  "tags": {
+    "name": "کارگر جنوبی",
+    "name:en": "Karegar South",
+    "railway": "subway_entrance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5156504221,
+  "lat": 35.6732062,
+  "lon": 51.3808062,
+  "tags": {
+    "opening_hours": "Mo-Su 06:00-18:35",
+    "railway": "subway_entrance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5162855447,
+  "lat": 35.6731655,
+  "lon": 51.4166268,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "خیام",
+    "internet_access": "no",
+    "name": "خیام",
+    "name:ar": "خیام",
+    "name:en": "Khayyam",
+    "name:fa": "خیام",
+    "name:hi": "खय्याम",
+    "name:ml": "ഖയ്യാം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q1708126",
+    "wikipedia": "fa:ایستگاه متروی خیام (تهران)"
+  }
+},
+{
+  "type": "node",
+  "id": 5162910430,
+  "lat": 35.6916179,
+  "lon": 51.4773416,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "پیروزی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو نبرد",
+    "name:ar": "نبرد",
+    "name:en": "Nabard metro station",
+    "name:fa": "نبرد",
+    "name:hi": "नबर्द",
+    "name:ml": "നബർദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372016",
+    "wikipedia": "fa:ایستگاه متروی نبرد"
+  }
+},
+{
+  "type": "node",
+  "id": 5162910431,
+  "lat": 35.7011762,
+  "lon": 51.3924370,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میدان انقلاب اسلامی",
+    "departures_board": "timetable",
+    "internet_access": "no",
+    "name": "میدان انقلاب اسلامی",
+    "name:ar": "ساحة الثورة الإسلامية",
+    "name:en": "Meydan-e Enghelab-e Eslami",
+    "name:fa": "میدان انقلاب اسلامی",
+    "name:hi": "इस्लामी इंकलाब मैदान",
+    "name:ml": "മെയ്ദാനെ ഇംഗിലാബെ ഇസ്ലാമി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5909873",
+    "wikipedia": "fa:ایستگاه متروی میدان انقلاب اسلامی"
+  }
+},
+{
+  "type": "node",
+  "id": 5162910432,
+  "lat": 35.7012551,
+  "lon": 51.4052694,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "ولی عصر",
+    "alt_name": "چهارراه ولیعصر",
+    "internet_access": "no",
+    "name": "تئاتر شهر",
+    "name:ar": "مسرح المدينة",
+    "name:en": "Teatr-e Shahr",
+    "name:fa": "تئاتر شهر",
+    "name:hi": "थिएटर शहर",
+    "name:it": "Teatr-e Shahr - Vali Asr",
+    "name:ml": "തിയാത്രെ ഷഹർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q1585723",
+    "wikipedia": "fa:ایستگاه متروی تئاتر شهر"
+  }
+},
+{
+  "type": "node",
+  "id": 5162910441,
+  "lat": 35.6927768,
+  "lon": 51.4881134,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "پیروزی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو نیرو هوایی",
+    "name:ar": "القوات الجوية",
+    "name:en": "Nirou Havayi metro station",
+    "name:fa": "نیرو هوایی",
+    "name:hi": "नीरू-ये-हवाई",
+    "name:ml": "നീറൂയെ ഹയാവി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5906181",
+    "wikipedia": "fa:ایستگاه متروی نیروهوایی"
+  }
+},
+{
+  "type": "node",
+  "id": 5162910442,
+  "lat": 35.6986125,
+  "lon": 51.4997931,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه یاسینی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو شهید کلاهدوز",
+    "name:ar": "الشهيد كلاهدوز",
+    "name:en": "Shahid Kolahdouz metro station",
+    "name:fa": "شهید کلاهدوز",
+    "name:hi": "शहीद कुलाहदूज़",
+    "name:ml": "ഷഹീദ് കൊലഹ്ദൂസ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2373027",
+    "wikipedia": "fa:ایستگاه متروی شهید کلاهدوز"
+  }
+},
+{
+  "type": "node",
+  "id": 5163103597,
+  "lat": 35.7978034,
+  "lon": 51.5081682,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "شاهد",
+    "internet_access": "no",
+    "name": "شهید محلاتی",
+    "name:ar": "الشهيد محلاتي",
+    "name:en": "Shahid Mahallati",
+    "name:fa": "شهید محلاتی",
+    "name:hi": "शहीद महल्लाती",
+    "name:ml": "ഷഹീദ് മഹല്ലത്തി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q39050279",
+    "wikipedia": "fa:ایستگاه متروی شهید محلاتی"
+  }
+},
+{
+  "type": "node",
+  "id": 5163103598,
+  "lat": 35.7988727,
+  "lon": 51.5208074,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میدان جنگلبان (قائم)",
+    "internet_access": "no",
+    "name": "قائم",
+    "name:ar": "قائم",
+    "name:en": "Ghaem",
+    "name:fa": "قائم",
+    "name:hi": "काइम",
+    "name:ml": "ഖായെം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q21064663",
+    "wikipedia": "fa:ایستگاه متروی قائم"
+  }
+},
+{
+  "type": "node",
+  "id": 5163103599,
+  "lat": 35.7328808,
+  "lon": 51.5168389,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه شهید سلیمانی",
+    "alt_name": "شهید باقری",
+    "alt_name:ar": "الشهيد باقري",
+    "alt_name:en": "Shahid Bagheri",
+    "alt_name:fa": "شهید باقری",
+    "alt_name:hi": "शहीद बाकरी",
+    "alt_name:ml": "ഷഹീദ് ബാഖറി",
+    "internet_access": "no",
+    "name": "شهیدان باقری",
+    "name:en": "Shahidan-e Bagheri",
+    "name:fa": "شهیدان باقری",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2373042",
+    "wikipedia": "fa:ایستگاه متروی شهیدان باقری"
+  }
+},
+{
+  "type": "node",
+  "id": 5163103600,
+  "lat": 35.7298253,
+  "lon": 51.5470491,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بلوار علیرضا ناهیدی",
+    "internet_access": "no",
+    "name": "فرهنگسرا",
+    "name:ar": "فرهنغسرا",
+    "name:en": "Farhangsara",
+    "name:fa": "فرهنگسرا",
+    "name:hi": "फरहंगसरा",
+    "name:ml": "ഫർഹംഗ്സറ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2373638",
+    "wikipedia": "fa:ایستگاه متروی فرهنگسرا"
+  }
+},
+{
+  "type": "node",
+  "id": 5163103601,
+  "lat": 35.7308782,
+  "lon": 51.5318398,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه شهید سلیمانی",
+    "internet_access": "no",
+    "name": "تهرانپارس",
+    "name:ar": "طهرانبارس",
+    "name:en": "Tehranpars",
+    "name:fa": "تهرانپارس",
+    "name:hi": "तेहरानपार्स",
+    "name:ml": "ടെഹ്റാൻപാർസ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5907250",
+    "wikipedia": "fa:ایستگاه متروی تهرانپارس"
+  }
+},
+{
+  "type": "node",
+  "id": 5165422503,
+  "lat": 35.6949232,
+  "lon": 51.3787835,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "نواب صفوی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو شهید نواب صفوی",
+    "name:ar": "الشهيد نواب صفوي",
+    "name:en": "Shahid Navvab-e Safavi metro station",
+    "name:fa": "شهید نواب صفوی",
+    "name:hi": "शहीद नवाब-ए सफ़वी",
+    "name:ml": "ഷഹീദ് നവാബ് സഫവി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2374950",
+    "wikipedia": "fa:ایستگاه متروی شهید نواب صفوی"
+  }
+},
+{
+  "type": "node",
+  "id": 5165422504,
+  "lat": 35.6877551,
+  "lon": 51.3795193,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه نواب صفوی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو رودکی",
+    "name:ar": "الرودكي",
+    "name:en": "Roudaki metro station",
+    "name:fa": "رودکی",
+    "name:hi": "रुदकी",
+    "name:ml": "റൂദക്കി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q42296390",
+    "wikipedia": "fa:ایستگاه متروی رودکی"
+  }
+},
+{
+  "type": "node",
+  "id": 5165462147,
+  "lat": 35.6337679,
+  "lon": 51.3472457,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه آیت الله سعیدی",
+    "internet_access": "no",
+    "name": "نعمت آباد",
+    "name:ar": "نعمت آباد",
+    "name:en": "Ne'mat Abad",
+    "name:fa": "نعمت آباد",
+    "name:hi": "नेमताबाद",
+    "name:ml": "നെമത്താബാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21694153",
+    "wikipedia": "fa:ایستگاه متروی نعمت‌آباد"
+  }
+},
+{
+  "type": "node",
+  "id": 5165462148,
+  "lat": 35.6275210,
+  "lon": 51.3352468,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه آیت الله سعیدی",
+    "internet_access": "no",
+    "name": "آزادگان",
+    "name:ar": "آزادغان",
+    "name:en": "Azadegan",
+    "name:fa": "آزادگان",
+    "name:hi": "आज़ादगान",
+    "name:ml": "ആസാദഗാൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17991373",
+    "wikipedia": "fa:ایستگاه متروی آزادگان"
+  }
+},
+{
+  "type": "node",
+  "id": 5183499958,
+  "lat": 35.6665645,
+  "lon": 51.4899239,
+  "tags": {
+    "name": "بسیج",
+    "name:en": "Basij",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5183508081,
+  "lat": 35.7155645,
+  "lon": 51.4260941,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میدان هفت تیر",
+    "alt_name": "هفت تیر",
+    "internet_access": "no",
+    "name": "شهدای هفتم تیر",
+    "name:ar": "شهداء الثمانية وعشرون من يونيو",
+    "name:en": "Shohada-ye Haftom-e Tir",
+    "name:fa": "شهدای هفتم تیر",
+    "name:hi": "शुहदा-ये हफ़्तुम तीर",
+    "name:ml": "ഹഫ്തെ തീർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372086",
+    "wikipedia": "fa:ایستگاه متروی شهدای هفتم تیر"
+  }
+},
+{
+  "type": "node",
+  "id": 5183513583,
+  "lat": 35.6296378,
+  "lon": 51.4157072,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بلوار دستواره",
+    "internet_access": "no",
+    "name": "علی آباد",
+    "name:ar": "علي آباد",
+    "name:en": "Ali Abad",
+    "name:fa": "علی آباد",
+    "name:hi": "अलीयाबाद",
+    "name:ml": "അലിയാബാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372287",
+    "wikipedia": "fa:ایستگاه متروی علی‌آباد"
+  }
+},
+{
+  "type": "node",
+  "id": 5183520307,
+  "lat": 35.6995082,
+  "lon": 51.3222062,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه لشگری",
+    "internet_access": "no",
+    "name": "بیمه",
+    "name:ar": "بيمه",
+    "name:en": "Bimeh",
+    "name:fa": "بیمه",
+    "name:hi": "बीमा",
+    "name:ml": "ബീമെ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q23962380",
+    "wikipedia": "fa:ایستگاه متروی بیمه"
+  }
+},
+{
+  "type": "node",
+  "id": 5183625750,
+  "lat": 35.7004149,
+  "lon": 51.3647616,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "خیابان آزادی",
+    "internet_access": "no",
+    "name": "شادمان",
+    "name:ar": "شادمان",
+    "name:en": "Shademan",
+    "name:fa": "شادمان",
+    "name:hi": "शादमान",
+    "name:ml": "ഷാദെമാൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "old_name": "آزادی",
+    "old_name:en": "Azadi",
+    "old_name:fa": "آزادی",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q2371974",
+    "wikipedia": "fa:ایستگاه متروی شادمان"
+  }
+},
+{
+  "type": "node",
+  "id": 5186234550,
+  "lat": 35.6999026,
+  "lon": 51.3328335,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "زیر گذر شهید لشگری",
+    "internet_access": "no",
+    "name": "میدان آزادی",
+    "name:ar": "ساحة آزادي",
+    "name:en": "Meydan-e Azadi",
+    "name:fa": "میدان آزادی",
+    "name:hi": "आज़ादी मैदान",
+    "name:ml": "മെയ്ദാനെ ആസാദി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6534346",
+    "wikipedia": "fa:ایستگاه متروی میدان آزادی"
+  }
+},
+{
+  "type": "node",
+  "id": 5186262276,
+  "lat": 35.6858747,
+  "lon": 51.4207683,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "امام خمینی",
+    "internet_access": "no",
+    "name": "امام خمینی(ره)",
+    "name:ar": "الامام الخميني",
+    "name:en": "Emam Khomeini",
+    "name:fa": "امام خمینی(ره)",
+    "name:hi": "इमाम ख़ुमैनी",
+    "name:ml": "ഇമാം ഖൊമെയ്നി",
+    "name:ru": "Имам Хомейни",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372190",
+    "wikipedia": "fa:ایستگاه متروی امام خمینی"
+  }
+},
+{
+  "type": "node",
+  "id": 5188247275,
+  "lat": 35.7015783,
+  "lon": 51.4260210,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "انقلاب اسلامی",
+    "internet_access": "no",
+    "name": "دروازه دولت",
+    "name:ar": "بوابة الحكومة",
+    "name:en": "Darvazeh Dowlat",
+    "name:fa": "دروازه دولت",
+    "name:hi": "दरवाज़ा दौलत",
+    "name:ml": "ദർവാസെ ദൗലത്ത്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372159",
+    "wikipedia": "fa:ایستگاه متروی دروازه دولت"
+  }
+},
+{
+  "type": "node",
+  "id": 5188341403,
+  "lat": 35.6989969,
+  "lon": 51.4372795,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "ابن سینا",
+    "internet_access": "no",
+    "name": "دروازه شمیران",
+    "name:ar": "بوابة شميران",
+    "name:en": "Darvazeh Shemiran",
+    "name:fa": "دروازه شمیران",
+    "name:hi": "दरवाज़ा शेमीरान",
+    "name:ml": "ദർവാസെ ഷെമീറാൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372800",
+    "wikipedia": "fa:ایستگاه متروی دروازه شمیران"
+  }
+},
+{
+  "type": "node",
+  "id": 5190423568,
+  "lat": 35.7248927,
+  "lon": 51.3813173,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه چمران",
+    "internet_access": "no",
+    "name": "دانشگاه تربیت مدرس",
+    "name:ar": "جامعة تربية مدرس",
+    "name:en": "Daneshgah-e Tarbiat Modarres",
+    "name:fa": "دانشگاه تربیت مدرس",
+    "name:hi": "तर्बियत मुदरस विश्वविद्यालय",
+    "name:ml": "തർബിയത്ത് മദറസ് യൂണിവേഴ്സിറ്റി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q31069749",
+    "wikipedia": "fa:ایستگاه متروی دانشگاه تربیت مدرس"
+  }
+},
+{
+  "type": "node",
+  "id": 5190423570,
+  "lat": 35.6813395,
+  "lon": 51.3800656,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه نواب صفوی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو کمیل",
+    "name:ar": "کمیل",
+    "name:en": "Komeyl metro station",
+    "name:fa": "کمیل",
+    "name:hi": "कुमैल",
+    "name:ml": "കൊമൈൽ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q31069760",
+    "wikipedia": "fa:ایستگاه متروی کمیل"
+  }
+},
+{
+  "type": "node",
+  "id": 5207068055,
+  "lat": 35.7933092,
+  "lon": 51.4350190,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "Northeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5211274170,
+  "lat": 35.6990443,
+  "lon": 51.3201810,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5211274175,
+  "lat": 35.6993314,
+  "lon": 51.3338788,
+  "tags": {
+    "name": "لشگری جنوب",
+    "name:en": "Lashgari South",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5358224529,
+  "lat": 35.7977912,
+  "lon": 51.5082156,
+  "tags": {
+    "name": "شهید محلاتی",
+    "name:en": "Shahid Mahallati",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5508708607,
+  "lat": 35.6993503,
+  "lon": 51.4375057,
+  "tags": {
+    "name": "شمال غرب ابن سینا",
+    "name:en": "northwest Ebn-e Sina",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5538633456,
+  "lat": 35.7316091,
+  "lon": 51.4444404,
+  "tags": {
+    "name": "شهید قدوسی",
+    "name:en": "Shahid Ghoddoosi",
+    "railway": "subway_entrance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5540220849,
+  "lat": 35.7306110,
+  "lon": 51.4270830,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "آیت الله بهشتی",
+    "internet_access": "no",
+    "name": "شهید بهشتی",
+    "name:ar": "الشهيد بهشتي",
+    "name:en": "Shahid Beheshti",
+    "name:fa": "شهید بهشتی",
+    "name:hi": "शहीद बेहिश्ती",
+    "name:ml": "ഷഹീദ് ബെഹെഷ്തി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q1708115",
+    "wikipedia": "fa:ایستگاه متروی شهید بهشتی (تهران)"
+  }
+},
+{
+  "type": "node",
+  "id": 5602579936,
+  "lat": 35.7175582,
+  "lon": 51.3020416,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "شقایق جنوبی",
+    "alt_name": "اکباتان",
+    "internet_access": "no",
+    "name": "ارم سبز",
+    "name:ar": "إرم سبز",
+    "name:en": "Eram-e Sabz",
+    "name:fa": "ارم سبز",
+    "name:hi": "इरम-ए सब्ज़",
+    "name:ml": "ഇറം സബ്സ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q2374567",
+    "wikipedia": "fa:ایستگاه متروی ارم سبز"
+  }
+},
+{
+  "type": "node",
+  "id": 5604726917,
+  "lat": 35.7169564,
+  "lon": 51.2438647,
+  "tags": {
+    "light_rail": "yes",
+    "name": "ایستگاه مترو چیتگر",
+    "name:ar": "تشيتغر",
+    "name:en": "Chitgar",
+    "name:fa": "چیتگر",
+    "name:hi": "चीतगर",
+    "name:ml": "ചിത്ഗർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372140",
+    "wikipedia": "fa:ایستگاه متروی چیتگر"
+  }
+},
+{
+  "type": "node",
+  "id": 5604727197,
+  "lat": 35.7178504,
+  "lon": 51.3311631,
+  "tags": {
+    "addr:city": "تهران",
+    "internet_access": "no",
+    "name": "صادقیه",
+    "name:ar": "صادقية",
+    "name:en": "Sadeghiyeh",
+    "name:fa": "صادقیه",
+    "name:hi": "सादिकिया",
+    "name:ml": "സാദെഗിയെ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q2373666",
+    "wikipedia": "fa:ایستگاه متروی صادقیه"
+  }
+},
+{
+  "type": "node",
+  "id": 5669676071,
+  "lat": 35.7187870,
+  "lon": 51.4644400,
+  "tags": {
+    "name": "شهید مدنی شمالی",
+    "name:en": "north shahid madani",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5758507227,
+  "lat": 35.7902291,
+  "lon": 51.4788940,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5892238817,
+  "lat": 35.6809481,
+  "lon": 51.4012566,
+  "tags": {
+    "automatic_door": "no",
+    "door": "sliding",
+    "name": "غربی",
+    "name:en": "West",
+    "open": "full",
+    "railway": "subway_entrance",
+    "wheelchair": "no",
+    "width": "5.3"
+  }
+},
+{
+  "type": "node",
+  "id": 6090395289,
+  "lat": 35.7002353,
+  "lon": 51.3326191,
+  "tags": {
+    "name": "لشگری شمال",
+    "name:en": "Lashgari North",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6326965069,
+  "lat": 35.6679998,
+  "lon": 51.3875746,
+  "tags": {
+    "level": "-1",
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6388937499,
+  "lat": 35.6447510,
+  "lon": 51.4441738,
+  "tags": {
+    "name": "بعثت شرق",
+    "name:en": "Be'sat East",
+    "railway": "subway_entrance",
+    "source": "map.ir"
+  }
+},
+{
+  "type": "node",
+  "id": 6390530105,
+  "lat": 35.6188159,
+  "lon": 51.4641433,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار قدس",
+    "internet_access": "no",
+    "name": "شهدای دولت آباد",
+    "name:ar": "شهداء دولت آباد",
+    "name:en": "Shohada-ye Dowlat Abad",
+    "name:fa": "شهدای دولت آباد",
+    "name:hi": "शुहदा-ये दौलताबाद",
+    "name:ml": "ദൗലത്താബാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q63041330",
+    "wikipedia": "fa:ایستگاه متروی شهدای دولت‌آباد"
+  }
+},
+{
+  "type": "node",
+  "id": 6390530109,
+  "lat": 35.6900920,
+  "lon": 51.4474200,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "میدان شهدا",
+    "internet_access": "no",
+    "name": "ایستگاه مترو میدان شهدا",
+    "name:ar": "ساحة الشهداء",
+    "name:en": "Meydan-e Shohada metro station",
+    "name:fa": "میدان شهدا",
+    "name:hi": "शहीद मैदान",
+    "name:ml": "മെയ്ദാനെ ഷൊഹദാ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q7500107",
+    "wikipedia": "fa:ایستگاه متروی میدان شهدا"
+  }
+},
+{
+  "type": "node",
+  "id": 6417374273,
+  "lat": 35.7242430,
+  "lon": 51.3813451,
+  "tags": {
+    "name": "جنوب شرقی",
+    "name:en": "southeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6444462277,
+  "lat": 35.6448382,
+  "lon": 51.4445887,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه شهید رئیسی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو بعثت",
+    "name:ar": "بعثت",
+    "name:en": "Be'sat metro station",
+    "name:fa": "بعثت",
+    "name:hi": "बेसत",
+    "name:ml": "ബെസത്ത്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q61064622",
+    "wikipedia": "fa:ایستگاه متروی بعثت"
+  }
+},
+{
+  "type": "node",
+  "id": 6463545147,
+  "lat": 35.6499456,
+  "lon": 51.4177665,
+  "tags": {
+    "name": "پایانه مسافربری جنوب",
+    "name:en": "South Passenger Terminal",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6468332409,
+  "lat": 35.7851958,
+  "lon": 51.4358490,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "Southern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6581263862,
+  "lat": 35.7181154,
+  "lon": 51.3311153,
+  "tags": {
+    "name": "ولیعصر",
+    "name:en": "Valiasr",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6636898112,
+  "lat": 35.7788769,
+  "lon": 51.4786726,
+  "tags": {
+    "name": "حسین آباد",
+    "name:en": "Hossein Abad",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6694194498,
+  "lat": 35.7359473,
+  "lon": 51.3317671,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "Southern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6737096941,
+  "lat": 35.6677096,
+  "lon": 51.4158560,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میدان محمدیه",
+    "internet_access": "no",
+    "name": "ایستگاه مترو میدان محمدیه",
+    "name:ar": "ساحة المحمدية",
+    "name:en": "Meydan-e Mohammadiyeh metro station",
+    "name:fa": "میدان محمدیه",
+    "name:hi": "मुहम्मदिया मैदान",
+    "name:ml": "മൊഹമ്മദിയെ ചത്വരം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "old_name": "مولوی",
+    "old_name:ar": "مولوي",
+    "old_name:en": "Mowlavi",
+    "old_name:fa": "مولوی",
+    "old_name:hi": "मौलवी",
+    "old_name:ml": "മൗലവി",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2374553",
+    "wikipedia": "fa:ایستگاه متروی میدان محمدیه"
+  }
+},
+{
+  "type": "node",
+  "id": 6746468335,
+  "lat": 35.7179571,
+  "lon": 51.3301786,
+  "tags": {
+    "name": "پایانه تاکسی",
+    "name:en": "taxi station",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6814313950,
+  "lat": 35.7172002,
+  "lon": 51.3302817,
+  "tags": {
+    "name": "پایانه اتوبوس رانی",
+    "name:en": "bus station",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6818484835,
+  "lat": 35.7021584,
+  "lon": 51.4458690,
+  "tags": {
+    "name": "ورودی ایستگاه مترو امام حسین",
+    "name:ar": "الإمام الحسين",
+    "name:en": "Emam Hossein Metro Station Entrance",
+    "name:hi": "इमाम हुसैन",
+    "name:ml": "ഇമാം ഹൊസെയ്ൻ",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7061611731,
+  "lat": 35.7994362,
+  "lon": 51.5205534,
+  "tags": {
+    "name": "غربی",
+    "name:en": "West",
+    "railway": "subway_entrance",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7061650894,
+  "lat": 35.7600722,
+  "lon": 51.4337264,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "Northern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7061650895,
+  "lat": 35.7596456,
+  "lon": 51.4337264,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "Southern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7061650896,
+  "lat": 35.7594192,
+  "lon": 51.4345311,
+  "tags": {
+    "name": "جنوب شرقی",
+    "name:en": "Southeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7232916108,
+  "lat": 35.7545403,
+  "lon": 51.3674006,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "northwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8243426038,
+  "lat": 35.6825596,
+  "lon": 51.4468691,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "هفده شهریور",
+    "internet_access": "no",
+    "name": "ایستگاه مترو امیرکبیر",
+    "name:ar": "امیر کبیر",
+    "name:en": "Amir Kabir Metro Station",
+    "name:fa": "امیرکبیر",
+    "name:hi": "अमीर कबीर",
+    "name:ml": "അമീർ കബീർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q104579528",
+    "wikipedia": "fa:ایستگاه متروی امیرکبیر (تهران)"
+  }
+},
+{
+  "type": "node",
+  "id": 8273593825,
+  "lat": 35.6326811,
+  "lon": 51.4483483,
+  "tags": {
+    "name": "کیان شهر",
+    "name:en": "Kiyan Shahr",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8273593826,
+  "lat": 35.6330387,
+  "lon": 51.4486420,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "عزیزخانی",
+    "internet_access": "no",
+    "name": "کیان‌شهر",
+    "name:ar": "کیان شهر",
+    "name:en": "Kiyan Shahr",
+    "name:fa": "کیان‌شهر",
+    "name:hi": "कियानशहर",
+    "name:ml": "കിയാൻഷഹർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q85774664",
+    "wikipedia": "fa:ایستگاه متروی کیان‌شهر"
+  }
+},
+{
+  "type": "node",
+  "id": 8479037451,
+  "lat": 35.7350043,
+  "lon": 51.3461306,
+  "tags": {
+    "name": "مرزداران",
+    "name:en": "Marzdaran",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8479037611,
+  "lat": 35.6674121,
+  "lon": 51.4895605,
+  "tags": {
+    "name": "پارک بسیج",
+    "name:en": "Basij park",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8489586985,
+  "lat": 35.6067077,
+  "lon": 51.3059276,
+  "tags": {
+    "construction": "station",
+    "name": "چهاردانگه",
+    "name:en": "Chahar Dangeh",
+    "name:fa": "چهاردانگه",
+    "name:ml": "ചഹാർദാംഗെ",
+    "public_transport": "station",
+    "railway": "construction",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8489586989,
+  "lat": 35.5868799,
+  "lon": 51.2833127,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه آیت الله سعیدی",
+    "construction": "station",
+    "internet_access": "no",
+    "name": "شاطره",
+    "name:en": "Shatareh",
+    "name:fa": "شاطره",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "construction",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8489586990,
+  "lat": 35.5620131,
+  "lon": 51.2539775,
+  "tags": {
+    "construction": "station",
+    "name": "نماز",
+    "name:en": "Namaz",
+    "name:fa": "نماز",
+    "public_transport": "station",
+    "railway": "construction",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8489586991,
+  "lat": 35.5512870,
+  "lon": 51.2303125,
+  "tags": {
+    "construction": "station",
+    "name": "نواب (سلمان فارسی)",
+    "name:en": "Navvab",
+    "name:fa": "نواب (سلمان فارسی)",
+    "public_transport": "station",
+    "railway": "construction",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8507749864,
+  "lat": 35.6783006,
+  "lon": 51.4160729,
+  "tags": {
+    "name": "حسینیه کربلایی‌ها",
+    "name:en": "Hoseinieh Karbalaeiha",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8614032470,
+  "lat": 35.6780139,
+  "lon": 51.4174884,
+  "tags": {
+    "name": "۱۵ خرداد جنوبی",
+    "name:en": "15 Khordad Southern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8730248893,
+  "lat": 35.7280175,
+  "lon": 51.4172345,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "آیت الله بهشتی",
+    "internet_access": "no",
+    "name": "میرزای شیرازی",
+    "name:ar": "ميرزا ​​الشيرازي",
+    "name:en": "Mirza-ye Shirazi",
+    "name:fa": "میرزای شیرازی",
+    "name:hi": "मिर्ज़ाये शीराज़ी",
+    "name:ml": "മിർസായെ ഷിറാസി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q25425194",
+    "wikipedia": "fa:ایستگاه متروی میرزای شیرازی (تهران)"
+  }
+},
+{
+  "type": "node",
+  "id": 8738914819,
+  "lat": 35.8006019,
+  "lon": 51.4846024,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "موحد دانش",
+    "internet_access": "no",
+    "name": "اقدسیه",
+    "name:ar": "أقدسية",
+    "name:en": "Aghdasiyeh",
+    "name:fa": "اقدسیه",
+    "name:hi": "अक्दसिया",
+    "name:ml": "അഖ്ദസിയെ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q109558784",
+    "wikipedia": "fa:ایستگاه متروی اقدسیه"
+  }
+},
+{
+  "type": "node",
+  "id": 8890549263,
+  "lat": 35.7344246,
+  "lon": 51.3594728,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار مرزداران",
+    "internet_access": "no",
+    "name": "مرزداران",
+    "name:ar": "مرزداران",
+    "name:en": "Marzdaran",
+    "name:fa": "مرزداران",
+    "name:hi": "मर्ज़दारान",
+    "name:ml": "മർസ്ദാറാൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107406849",
+    "wikipedia": "fa:ایستگاه متروی مرزداران"
+  }
+},
+{
+  "type": "node",
+  "id": 8906980008,
+  "lat": 35.7345863,
+  "lon": 51.3593647,
+  "tags": {
+    "name": "سرسبز شمالی",
+    "name:en": "North Sarsabz",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8907277818,
+  "lat": 35.5949391,
+  "lon": 51.4222984,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "فرمانداری",
+    "internet_access": "no",
+    "name": "شهرری",
+    "name:ar": "مدينة ري",
+    "name:en": "Shahr-e Rey",
+    "name:fa": "شهرری",
+    "name:hi": "रे शहर",
+    "name:ml": "ഷഹ്റെ റെയ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372323",
+    "wikipedia": "fa:ایستگاه متروی شهرری"
+  }
+},
+{
+  "type": "node",
+  "id": 8979941574,
+  "lat": 35.7160051,
+  "lon": 51.4260961,
+  "tags": {
+    "level": "-1",
+    "name": "شمالی",
+    "name:en": "Northern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8979969908,
+  "lat": 35.6804783,
+  "lon": 51.3799236,
+  "tags": {
+    "level": "-1",
+    "name": "غربی",
+    "name:en": "west",
+    "railway": "subway_entrance",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8979969909,
+  "lat": 35.6807286,
+  "lon": 51.3804208,
+  "tags": {
+    "level": "-1",
+    "name": "شرقی",
+    "name:en": "east",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9025939361,
+  "lat": 35.7326789,
+  "lon": 51.3827152,
+  "tags": {
+    "name": "نمایشگاه شهرداری تهران",
+    "name:en": "Tehran Municipality Exhibition",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9025939362,
+  "lat": 35.7063508,
+  "lon": 51.3778845,
+  "tags": {
+    "name": "دانشکده پرستاری و مامایی",
+    "name:en": "Faculty of Nursing and Midwifery",
+    "old_name": "ایستگاه مترو باقرخان",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9025939363,
+  "lat": 35.6699970,
+  "lon": 51.4373543,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "northeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9025939364,
+  "lat": 35.6681189,
+  "lon": 51.4271771,
+  "tags": {
+    "name": "آتش نشانی",
+    "name:en": "Atash neshani",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9033082250,
+  "lat": 35.7009894,
+  "lon": 51.4048155,
+  "tags": {
+    "check_date:wheelchair": "2025-01-30",
+    "name": "جنوب غربی",
+    "name:en": "South West",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9105930293,
+  "lat": 35.6779303,
+  "lon": 51.4184896,
+  "tags": {
+    "name": "پاساژ دلگشا",
+    "name:en": "Delgosha Mall",
+    "railway": "subway_entrance",
+    "ref": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 9149513248,
+  "lat": 35.6517959,
+  "lon": 51.4446046,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "هفده شهریور",
+    "internet_access": "no",
+    "name": "ایستگاه مترو شهید رضایی",
+    "name:ar": "الشهيد رضائي",
+    "name:en": "Shahid Rezaei Metro Station",
+    "name:fa": "شهید رضایی",
+    "name:hi": "शहीद रिज़ाई",
+    "name:ml": "ഷഹീദ് റെസായി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q109550671",
+    "wikipedia": "fa:ایستگاه متروی شهید رضایی"
+  }
+},
+{
+  "type": "node",
+  "id": 9166566159,
+  "lat": 35.6898012,
+  "lon": 51.4566397,
+  "tags": {
+    "name": "جنوب شرقی",
+    "name:en": "southeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9266851430,
+  "lat": 35.6693123,
+  "lon": 51.4737026,
+  "tags": {
+    "name": "آهنگ",
+    "name:en": "Ahang",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9366193868,
+  "lat": 35.7064610,
+  "lon": 51.3773313,
+  "tags": {
+    "name": "ستارخان",
+    "name:en": "Sattarkhan",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9746864722,
+  "lat": 35.7154098,
+  "lon": 51.4147057,
+  "tags": {
+    "name": "مریم مقدس",
+    "name:en": "Maryam-e Moghaddas",
+    "railway": "subway_entrance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9921520766,
+  "lat": 35.6693381,
+  "lon": 51.4276163,
+  "tags": {
+    "name": "حضرتی",
+    "name:en": "Hazrati",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10746895092,
+  "lat": 35.7085883,
+  "lon": 51.3950759,
+  "tags": {
+    "name": "بوستان لاله",
+    "name:en": "Laleh Park",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10746895093,
+  "lat": 35.7149533,
+  "lon": 51.3895579,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "کارگر شمالی",
+    "internet_access": "no",
+    "name": "کارگر",
+    "name:ar": "كارغر",
+    "name:en": "Karegar",
+    "name:fa": "کارگر",
+    "name:hi": "कारगर",
+    "name:ml": "കാറെഗർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q111852443",
+    "wikipedia": "fa:ایستگاه متروی کارگر"
+  }
+},
+{
+  "type": "node",
+  "id": 10760685493,
+  "lat": 35.7115655,
+  "lon": 51.4070003,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میدان ولیعصر",
+    "alt_name": "میدان ولی عصر",
+    "alt_name:en": "Vali-e Asr Square",
+    "alt_name:ml": "മെയ്ദാനെ വലിയെ അസർ",
+    "internet_access": "no",
+    "name": "میدان حضرت ولی عصر(عج)",
+    "name:ar": "ساحة حضرة ولي عصر",
+    "name:en": "Meydan-e Hazrat-e Vali-e Asr",
+    "name:fa": "میدان حضرت ولی عصر(عج)",
+    "name:hi": "हज़रत वली-ए-असर मैदान",
+    "name:ml": "വലിയെ അസർ ചത്വരം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q20718064",
+    "wikipedia": "fa:ایستگاه متروی میدان ولیعصر (تهران)"
+  }
+},
+{
+  "type": "node",
+  "id": 10842009881,
+  "lat": 35.7671317,
+  "lon": 51.3661501,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "northwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10861347776,
+  "lat": 35.7309611,
+  "lon": 51.3071786,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "پروانه شمالی",
+    "alt_name": "پروانه",
+    "internet_access": "no",
+    "name": "علامه جعفری",
+    "name:ar": "العلامة جعفري",
+    "name:en": "Allameh Ja'fari",
+    "name:etymology:wikidata": "Q545407",
+    "name:fa": "علامه جعفری",
+    "name:hi": "अल्लामा जाफ़री",
+    "name:ml": "അല്ലാമെ ജാഫറി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q118130784",
+    "wikipedia": "fa:ایستگاه متروی علامه جعفری"
+  }
+},
+{
+  "type": "node",
+  "id": 10969076750,
+  "lat": 35.7310792,
+  "lon": 51.3072069,
+  "tags": {
+    "name": "علامه جعفری",
+    "name:en": "Allameh Ja'fari",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10982033228,
+  "lat": 35.7000653,
+  "lon": 51.3639580,
+  "tags": {
+    "name": "آزادی",
+    "name:en": "azadi",
+    "railway": "subway_entrance",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 11263536541,
+  "lat": 35.7459092,
+  "lon": 51.2942485,
+  "tags": {
+    "name": "شهر زیبا",
+    "name:en": "Shahr-e Ziba",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11263536544,
+  "lat": 35.7539289,
+  "lon": 51.2882073,
+  "tags": {
+    "name": "همت غرب",
+    "name:en": "Hemmat West",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11263536546,
+  "lat": 35.7707049,
+  "lon": 51.2791997,
+  "tags": {
+    "name": "آرمان علی وردی",
+    "name:en": "Arman Aliverdi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11263799078,
+  "lat": 35.7771212,
+  "lon": 51.3563604,
+  "tags": {
+    "name": "میدان کتاب",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11281445852,
+  "lat": 35.5599402,
+  "lon": 51.3993678,
+  "tags": {
+    "addr:street": "خیابان هنرستان",
+    "internet_access": "no",
+    "name": "پالایشگاه",
+    "name:ar": "مصفاة",
+    "name:en": "Palayeshgah",
+    "name:fa": "پالایشگاه",
+    "name:hi": "पालायेशगाह",
+    "name:ml": "പലായെഷ്ഗ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371882",
+    "wikipedia": "fa:ایستگاه متروی پالایشگاه"
+  }
+},
+{
+  "type": "node",
+  "id": 11342897748,
+  "lat": 35.7531559,
+  "lon": 51.2876773,
+  "tags": {
+    "name": "همت شرق",
+    "name:en": "Hemmat East",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11397331446,
+  "lat": 35.6670853,
+  "lon": 51.3991727,
+  "tags": {
+    "name": "مولوی جنوب غربی",
+    "name:en": "South West Molavi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11397336552,
+  "lat": 35.6672912,
+  "lon": 51.3989528,
+  "tags": {
+    "name": "مولوی شمالی",
+    "name:en": "North Molavi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11417020371,
+  "lat": 35.6671658,
+  "lon": 51.3993725,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "ولی عصر",
+    "internet_access": "no",
+    "name": "ایستگاه مترو مهدیه",
+    "name:ar": "مهدية",
+    "name:en": "Mahdiyeh Metro Station",
+    "name:fa": "مهدیه",
+    "name:hi": "महदीया",
+    "name:ml": "മഹ്ദിയെ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q20718111",
+    "wikipedia": "fa:ایستگاه متروی مهدیه"
+  }
+},
+{
+  "type": "node",
+  "id": 11417054142,
+  "lat": 35.6885293,
+  "lon": 51.3312333,
+  "tags": {
+    "name": "فرودگاه مهرآباد ترمینال‌های ۴ و ۶",
+    "name:en": "Mehrabad Airport Terminals 4 & 6",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11417054143,
+  "lat": 35.6890644,
+  "lon": 51.3304485,
+  "tags": {
+    "name": "ایستگاه مترو فرودگاه مهرآباد ترمینال‌های ۴ و ۶",
+    "name:ar": "مطار مهرآباد، المحطتان 4 و6",
+    "name:en": "Mehrabad Airport Terminals 4 & 6 Metro Station",
+    "name:fa": "فرودگاه مهرآباد ترمینال‌های ۴ و ۶",
+    "name:hi": "मेहराबाद हवाई अड्डा टर्मिनल 4 और 6",
+    "name:ml": "മെഹ്റാബാദ് എയർപോർട്ട് 4 & 6 ടെർമിനലുകൾ",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q23962255"
+  }
+},
+{
+  "type": "node",
+  "id": 11417054161,
+  "lat": 35.6931600,
+  "lon": 51.3251037,
+  "tags": {
+    "name": "ایستگاه مترو فرودگاه مهرآباد ترمینال‌های ۱ و ۲",
+    "name:ar": "مطار مهرآباد، المحطتان 1 و2",
+    "name:en": "Mehrabad Airport Terminals 1 & 2 Metro Station",
+    "name:fa": "فرودگاه مهرآباد ترمینال‌های ۱ و ۲",
+    "name:hi": "मेहराबाद हवाई अड्डा टर्मिनल 1 और 2",
+    "name:ml": "മെഹ്‌റാബാദ് എയർപോർട്ട് 1 & 2 ടെർമിനലുകൾ",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q24041752"
+  }
+},
+{
+  "type": "node",
+  "id": 11468172630,
+  "lat": 35.7633075,
+  "lon": 51.2838086,
+  "tags": {
+    "name": "غربی",
+    "name:en": "Western",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11491058642,
+  "lat": 35.7468094,
+  "lon": 51.3788599,
+  "tags": {
+    "name": "جنوب شرقی",
+    "name:en": "southeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11644943830,
+  "lat": 35.7205797,
+  "lon": 51.4083087,
+  "tags": {
+    "alt_name": "پلازای ایستگاه متروی میدان جهاد",
+    "name": "فاطمی",
+    "name:en": "Fatemi",
+    "railway": "subway_entrance",
+    "wikidata": "Q139975663",
+    "wikipedia": "fa:پلازای مترو جهاد"
+  }
+},
+{
+  "type": "node",
+  "id": 11655780757,
+  "lat": 35.7664420,
+  "lon": 51.3674306,
+  "tags": {
+    "name": "جنوب شرقی",
+    "name:en": "southeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11737168945,
+  "lat": 35.7410456,
+  "lon": 51.3023598,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "Northern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11750922029,
+  "lat": 35.6665024,
+  "lon": 51.4900285,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه محلاتی",
+    "internet_access": "no",
+    "name": "بسیج",
+    "name:ar": "بسیج",
+    "name:en": "Basij",
+    "name:fa": "بسیج",
+    "name:hi": "बसीज",
+    "name:ml": "ബസീജ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q31069779",
+    "wikipedia": "fa:ایستگاه متروی بسیج"
+  }
+},
+{
+  "type": "node",
+  "id": 11932470420,
+  "lat": 35.7634208,
+  "lon": 51.2842503,
+  "tags": {
+    "name": "شرقی",
+    "name:en": "Eastern",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12037680563,
+  "lat": 35.7495816,
+  "lon": 51.4259230,
+  "tags": {
+    "name": "همت غرب",
+    "name:en": "Hemmat West",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12157511978,
+  "lat": 35.7473420,
+  "lon": 51.3785742,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "برج میلاد",
+    "internet_access": "no",
+    "name": "برج میلاد تهران",
+    "name:ar": "برج الميلاد طهران",
+    "name:en": "Borj-e Milad-e Tehran",
+    "name:fa": "برج میلاد تهران",
+    "name:hi": "बुर्ज-ए मिलाद-ए तेहरान",
+    "name:ml": "ബൊർജെ മിലാദെ ടെഹ്റാൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q101957215",
+    "wikipedia": "fa:ایستگاه متروی برج میلاد تهران"
+  }
+},
+{
+  "type": "node",
+  "id": 12167854848,
+  "lat": 35.7367364,
+  "lon": 51.3199844,
+  "tags": {
+    "name": "حکیم شرق",
+    "name:en": "Hakim East",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12167907213,
+  "lat": 35.7001690,
+  "lon": 51.3446707,
+  "tags": {
+    "name": "استاد معین",
+    "name:en": "Ostad Moein",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12330887623,
+  "lat": 35.7184975,
+  "lon": 51.3019367,
+  "tags": {
+    "name": "شقایق جنوبی",
+    "name:en": "South Shaqayeq",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12401824830,
+  "lat": 35.7402674,
+  "lon": 51.3017745,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "Southern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12659430599,
+  "lat": 35.6653944,
+  "lon": 51.4456123,
+  "tags": {
+    "name": "میدان خراسان",
+    "name:ar": "ساحة خراسان",
+    "name:en": "Meydan-e Khorasan",
+    "name:fa": "میدان خراسان",
+    "name:hi": "ख़ुरासान मैदान",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q133310460",
+    "wikipedia": "fa:ایستگاه متروی میدان خراسان"
+  }
+},
+{
+  "type": "node",
+  "id": 12995663159,
+  "lat": 35.6811847,
+  "lon": 51.4019595,
+  "tags": {
+    "name": "شرقی",
+    "name:en": "East",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13115909964,
+  "lat": 35.7170750,
+  "lon": 51.2837224,
+  "tags": {
+    "name": "ورزشگاه آزادی",
+    "name:en": "Varzeshgah-e Azadi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13190291818,
+  "lat": 35.7347905,
+  "lon": 51.4592344,
+  "tags": {
+    "building": "transportation",
+    "name": "شهید صیاد شیرازی",
+    "name:en": "Shahid Sayyad-e Shirazi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13192458338,
+  "lat": 35.6586523,
+  "lon": 51.3983662,
+  "tags": {
+    "name": "شوش شرقی",
+    "name:en": "Shoosh East",
+    "railway": "subway_entrance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13196130134,
+  "lat": 35.7093068,
+  "lon": 51.4534378,
+  "tags": {
+    "name": "کسروی",
+    "name:en": "Kasravi",
+    "operator": "subway",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13197291142,
+  "lat": 35.6519283,
+  "lon": 51.3742536,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13197369444,
+  "lat": 35.6593650,
+  "lon": 51.3878062,
+  "tags": {
+    "name": "جوادیه",
+    "name:en": "Javadiyeh",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13197446158,
+  "lat": 35.6670635,
+  "lon": 51.3995844,
+  "tags": {
+    "name": "مولوی جنوب شرقی",
+    "name:en": "South East Molavi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13197843326,
+  "lat": 35.6988366,
+  "lon": 51.4372903,
+  "tags": {
+    "name": "جنوب ابن سینا",
+    "name:en": "south Ebn-e Sina",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13198098119,
+  "lat": 35.6882707,
+  "lon": 51.4267874,
+  "tags": {
+    "name": "جنوبی",
+    "name:en": "south",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13198098120,
+  "lat": 35.6885430,
+  "lon": 51.4268115,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "north",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13198401486,
+  "lat": 35.7923817,
+  "lon": 51.4353141,
+  "tags": {
+    "name": "جنوب شرقی",
+    "name:en": "Southeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13198453622,
+  "lat": 35.7727527,
+  "lon": 51.4379548,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "Northwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13198453623,
+  "lat": 35.7728311,
+  "lon": 51.4385100,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "Northeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13200364129,
+  "lat": 35.6940904,
+  "lon": 51.3803262,
+  "tags": {
+    "name": "دامپزشکی",
+    "name:en": "Veterinary",
+    "railway": "subway_entrance",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13200364130,
+  "lat": 35.6949486,
+  "lon": 51.3790803,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "northeast",
+    "railway": "subway_entrance",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13200383917,
+  "lat": 35.7300325,
+  "lon": 51.4268048,
+  "tags": {
+    "name": "مفتح غرب",
+    "name:en": "Mosalla West",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202066659,
+  "lat": 35.7015309,
+  "lon": 51.4191216,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میدان فردوسی",
+    "alt_name:ml": "ഫിർദൗസി",
+    "internet_access": "no",
+    "name": "فردوسی",
+    "name:ar": "فردوسي",
+    "name:en": "Ferdowsi",
+    "name:fa": "فردوسی",
+    "name:hi": "फिरदौसी",
+    "name:ml": "ഫെർദോസി",
+    "name:ru": "Фирдоуси",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372815"
+  }
+},
+{
+  "type": "node",
+  "id": 13202387905,
+  "lat": 35.7071462,
+  "lon": 51.4254141,
+  "tags": {
+    "name": "طالقانی",
+    "name:en": "Taleqani",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202440568,
+  "lat": 35.7561554,
+  "lon": 51.4259666,
+  "tags": {
+    "name": "جنوب غربی",
+    "name:en": "Southwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202440569,
+  "lat": 35.7565972,
+  "lon": 51.4261490,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "Northeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202603251,
+  "lat": 35.7855063,
+  "lon": 51.4358103,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "Northern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202636300,
+  "lat": 35.7018677,
+  "lon": 51.4264467,
+  "tags": {
+    "name": "شمال شرقی",
+    "name:en": "Northeast",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202656116,
+  "lat": 35.6934074,
+  "lon": 51.4243224,
+  "tags": {
+    "name": "غربی",
+    "name:en": "Western",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202656117,
+  "lat": 35.6933453,
+  "lon": 51.4246939,
+  "tags": {
+    "name": "شرقی",
+    "name:en": "Eastern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202803745,
+  "lat": 35.6781956,
+  "lon": 51.4175592,
+  "tags": {
+    "name": "۱۵ خرداد شمالی",
+    "name:en": "15 Khordad Northern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202918233,
+  "lat": 35.6675298,
+  "lon": 51.4173380,
+  "tags": {
+    "name": "پورالله وردی",
+    "name:en": "Pourallah Verdi",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13202948539,
+  "lat": 35.6568015,
+  "lon": 51.4143795,
+  "tags": {
+    "name": "بوستان مادر",
+    "name:en": "Madar park",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13207435369,
+  "lat": 35.6876324,
+  "lon": 51.3799439,
+  "tags": {
+    "name": "شرقی",
+    "name:en": "east",
+    "name:fa": "رودکي",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13207638758,
+  "lat": 35.6685845,
+  "lon": 51.4456098,
+  "tags": {
+    "name": "شمال غربی",
+    "name:en": "northwest",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13207646161,
+  "lat": 35.6678686,
+  "lon": 51.4624540,
+  "tags": {
+    "name": "آل آقا",
+    "name:en": "Al Agha",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13208293349,
+  "lat": 35.7375777,
+  "lon": 51.3199027,
+  "tags": {
+    "name": "حکیم غرب",
+    "name:en": "Hakim West",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13227820945,
+  "lat": 35.6916288,
+  "lon": 51.4776501,
+  "tags": {
+    "name": "نبرد",
+    "name:en": "Nabard",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13227857771,
+  "lat": 35.6902934,
+  "lon": 51.4470541,
+  "tags": {
+    "name": "غربی",
+    "name:en": "west",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13228373011,
+  "lat": 35.7363912,
+  "lon": 51.3302265,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "Northern",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13229146928,
+  "lat": 35.7341389,
+  "lon": 51.3597724,
+  "tags": {
+    "name": "تات",
+    "name:en": "Tat",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13229154715,
+  "lat": 35.7344600,
+  "lon": 51.3469541,
+  "tags": {
+    "name": "یادگار امام",
+    "name:en": "Yadegar-e Emam",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13229413414,
+  "lat": 35.7149027,
+  "lon": 51.3895369,
+  "tags": {
+    "name": "کارگر",
+    "name:en": "Kargar",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13229504955,
+  "lat": 35.7316404,
+  "lon": 51.3715661,
+  "tags": {
+    "name": "شهرک آزمایش",
+    "name:en": "Shahrak Azmayesh",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13229680791,
+  "lat": 35.6823678,
+  "lon": 51.4469697,
+  "tags": {
+    "name": "امیر کبیر",
+    "name:en": "Amir Kabir",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13229706156,
+  "lat": 35.6640672,
+  "lon": 51.4452946,
+  "tags": {
+    "name": "میدان خراسان",
+    "name:en": "Meydan-e Khorasan",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13229714562,
+  "lat": 35.6454376,
+  "lon": 51.4453375,
+  "tags": {
+    "name": "بعثت غرب",
+    "name:en": "Be'sat West",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13229722069,
+  "lat": 35.6523991,
+  "lon": 51.4447957,
+  "tags": {
+    "name": "شهید رضایی",
+    "name:en": "Shahid Rezaei",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13229844901,
+  "lat": 35.6186035,
+  "lon": 51.4640768,
+  "tags": {
+    "name": "شهدای دولت آباد",
+    "name:en": "Shohadaye Dowlat Abad",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13230283736,
+  "lat": 35.7705521,
+  "lon": 51.2790018,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار کوهسار",
+    "alt_name": "کوهسار",
+    "alt_name:en": "Kouhsar",
+    "internet_access": "no",
+    "name": "شهید آرمان علی وردی",
+    "name:ar": "الشهيد الأرمان علي وردي",
+    "name:en": "Shahid Arman Aliverdi",
+    "name:fa": "شهید آرمان علی وردی",
+    "name:hi": "अरमान अलिवेर्दी",
+    "name:ml": "അലിവെർദി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q123097140",
+    "wikipedia": "fa:ایستگاه متروی شهید آرمان علی‌وردی (کوهسار)"
+  }
+},
+{
+  "type": "node",
+  "id": 13230313218,
+  "lat": 35.7055267,
+  "lon": 51.3076746,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار صارمی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو شهرک اکباتان",
+    "name:ar": "مدينة إيكباتانا",
+    "name:en": "Sharak-e Ekbatan Metro Station",
+    "name:fa": "شهرک اکباتان",
+    "name:hi": "शहरक-ए-इक्बातान",
+    "name:ml": "ഷഹ്റക്ക് ഇക്ബാത്താൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q9135509",
+    "wikipedia": "fa:ایستگاه متروی شهرک اکباتان"
+  }
+},
+{
+  "type": "node",
+  "id": 13279314257,
+  "lat": 35.7151939,
+  "lon": 51.4144384,
+  "tags": {
+    "alt_name": "شهید نجات اللهی",
+    "alt_name:en": "Shahid Nejatollahi",
+    "name": "مریم مقدس(س)",
+    "name:ar": "مريم المقدسة",
+    "name:en": "Maryam-e Moghaddas",
+    "name:fa": "مریم مقدس(س)",
+    "name:hi": "मरियम-ए-मुक़द्दस",
+    "name:ml": "പരിശുദ്ധ മറിയം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q136645108",
+    "wikipedia": "fa:ایستگاه متروی مریم مقدس"
+  }
+},
+{
+  "type": "node",
+  "id": 13284688255,
+  "lat": 35.6684763,
+  "lon": 51.4457800,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "هفده شهریور",
+    "internet_access": "no",
+    "name": "شهدای هفده شهریور",
+    "name:ar": "شهداء الثامن من سبتمبر",
+    "name:en": "Shohada-ye Hefdah-e Shahrivar",
+    "name:fa": "شهدای هفده شهریور",
+    "name:hi": "शुहदा-ये हेफ़दहे शहरिवर",
+    "name:ml": "ഷൊഹദായെ ഹെഫ്ദഹെ ഷഹറീവർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q123097286",
+    "wikipedia": "fa:ایستگاه متروی شهدای هفده شهریور"
+  }
+},
+{
+  "type": "node",
+  "id": 13380418873,
+  "lat": 35.6100492,
+  "lon": 51.4194666,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بلوار دستواره",
+    "internet_access": "no",
+    "name": "جوانمرد قصاب",
+    "name:ar": "جوانمرد قصاب",
+    "name:en": "Javanmard-e Ghassab",
+    "name:fa": "جوانمرد قصاب",
+    "name:hi": "जवानमर्द कसाब",
+    "name:ml": "ജവാൻമർദ് ഗസാബ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372002",
+    "wikipedia": "fa:ایستگاه متروی جوانمرد قصاب"
+  }
+},
+{
+  "type": "node",
+  "id": 13380425728,
+  "lat": 35.6407705,
+  "lon": 51.4147776,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "غلامرضا همدانی",
+    "alt_name": "خزانه",
+    "internet_access": "no",
+    "name": "شهید بخارایی",
+    "name:ar": "الشهيد بخاري",
+    "name:en": "Shahid Bokharaei",
+    "name:fa": "شهید بخارایی",
+    "name:hi": "शहीद बुखारी",
+    "name:ml": "ഷഹീദ് ബൊഖാറായ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372761",
+    "wikipedia": "fa:ایستگاه متروی خزانه"
+  }
+},
+{
+  "type": "node",
+  "id": 13380425818,
+  "lat": 35.6508946,
+  "lon": 51.4162862,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "عباسی",
+    "internet_access": "no",
+    "name": "پایانه جنوب",
+    "name:ar": "المحطة الجنوبية",
+    "name:en": "Payaneh Jonoub",
+    "name:fa": "پایانه جنوب",
+    "name:hi": "पायाने-ए जनूब",
+    "name:ml": "പായാനെ ജനൂബ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "old_name": "ترمینال جنوب",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372029",
+    "wikipedia": "fa:ایستگاه متروی پایانه جنوب"
+  }
+},
+{
+  "type": "node",
+  "id": 13380425834,
+  "lat": 35.6574237,
+  "lon": 51.4142407,
+  "tags": {
+    "name": "شوش",
+    "name:ar": "شوش",
+    "name:en": "Shoush",
+    "name:fa": "شوش",
+    "name:hi": "शूश",
+    "name:ml": "ഷൂഷ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372340",
+    "wikipedia": "fa:ایستگاه متروی شوش"
+  }
+},
+{
+  "type": "node",
+  "id": 13380785610,
+  "lat": 35.6933311,
+  "lon": 51.4244398,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "جمهوری اسلامی",
+    "internet_access": "no",
+    "name": "سعدی",
+    "name:ar": "سعدي",
+    "name:en": "Sa'di",
+    "name:fa": "سعدی",
+    "name:hi": "सादी",
+    "name:ml": "സാദി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2373074",
+    "wikipedia": "fa:ایستگاه متروی سعدی"
+  }
+},
+{
+  "type": "node",
+  "id": 13380785625,
+  "lat": 35.7071305,
+  "lon": 51.4255161,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "آیت الله طالقانی",
+    "internet_access": "no",
+    "name": "آیت‌الله طالقانی",
+    "name:ar": "طالقاني",
+    "name:en": "Ayatollah Taleghani",
+    "name:fa": "آیت‌الله طالقانی",
+    "name:hi": "तालिकानी",
+    "name:ml": "താലെഖാനി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q2372252",
+    "wikipedia": "fa:ایستگاه متروی طالقانی"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123725,
+  "lat": 35.7244381,
+  "lon": 51.4277776,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "دکتر مفتح شمالی",
+    "internet_access": "no",
+    "name": "شهید مفتح",
+    "name:ar": "الشهيد مفتح",
+    "name:en": "Shahid Mofatteh",
+    "name:fa": "شهید مفتح",
+    "name:hi": "शहीद मुफ़त्तह",
+    "name:ml": "ഷഹീദ് മൊഫത്തേഹ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372979",
+    "wikipedia": "fa:ایستگاه متروی شهید مفتح"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123730,
+  "lat": 35.7403353,
+  "lon": 51.4276616,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه شهید سلیمانی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو مصلی امام خمینی(ره)",
+    "name:ar": "مصلی الإمام الخميني",
+    "name:en": "Mosalla-ye Emam Khomeini metro station",
+    "name:fa": "مصلی امام خمینی(ره)",
+    "name:hi": "मुसल्ला",
+    "name:ml": "മൊസല്ല",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2373749",
+    "wikipedia": "fa:ایستگاه متروی مصلای امام خمینی"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123745,
+  "lat": 35.7567055,
+  "lon": 51.4260913,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه حقانی",
+    "internet_access": "no",
+    "name": "شهید حقانی",
+    "name:ar": "الشهيد حقاني",
+    "name:en": "Shahid Haghani",
+    "name:fa": "شهید حقانی",
+    "name:hi": "शहीद हक्कानी",
+    "name:ml": "ഷഹീദ് ഹഖാനി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "old_name": "میرداماد",
+    "old_name:ar": "میرداماد",
+    "old_name:en": "Mirdamad",
+    "old_name:fa": "میرداماد",
+    "old_name:hi": "मीरदामाद",
+    "old_name:ml": "മിർദാമാദ്",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372745",
+    "wikipedia": "fa:ایستگاه متروی شهید حقانی"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123758,
+  "lat": 35.7599846,
+  "lon": 51.4338172,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میرداماد",
+    "internet_access": "no",
+    "name": "میرداماد",
+    "name:ar": "میرداماد",
+    "name:en": "Mirdamad",
+    "name:fa": "میرداماد",
+    "name:hi": "मीरदामाद",
+    "name:ml": "മിർദാമാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372844",
+    "wikipedia": "fa:ایستگاه متروی میرداماد"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123759,
+  "lat": 35.7630183,
+  "lon": 51.4440762,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "دکتر علی شریعتی",
+    "internet_access": "no",
+    "name": "دکتر شریعتی",
+    "name:ar": "الدكتور شريعتي",
+    "name:en": "Doctor Shari'ati",
+    "name:fa": "دکتر شریعتی",
+    "name:hi": "डॉ. शरीयती",
+    "name:ml": "ഡോക്ടർ ഷറീയത്തി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372209",
+    "wikipedia": "fa:ایستگاه متروی دکتر شریعتی (تهران)"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123770,
+  "lat": 35.7851105,
+  "lon": 51.4360028,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "شریعتی",
+    "internet_access": "no",
+    "name": "شهید صدر",
+    "name:ar": "الشهيد صدر",
+    "name:en": "Shahid Sadr",
+    "name:fa": "شهید صدر",
+    "name:hi": "शहीद सद्र",
+    "name:ml": "ഷഹീദ് സദ്ർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371507",
+    "wikipedia": "fa:ایستگاه متروی شهید صدر"
+  }
+},
+{
+  "type": "node",
+  "id": 13381264373,
+  "lat": 35.7934184,
+  "lon": 51.4350607,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "شریعتی",
+    "internet_access": "no",
+    "name": "قیطریه",
+    "name:ar": "قيطرية",
+    "name:en": "Gheytariyeh",
+    "name:fa": "قیطریه",
+    "name:hi": "क़ैतरिया",
+    "name:ml": "ഖൈത്തറിയെ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372827",
+    "wikipedia": "fa:ایستگاه متروی قیطریه"
+  }
+},
+{
+  "type": "node",
+  "id": 13381264374,
+  "lat": 35.8046938,
+  "lon": 51.4336496,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "شریعتی",
+    "internet_access": "no",
+    "name": "تجریش",
+    "name:ar": "تجریش",
+    "name:de": "Tadschrisch",
+    "name:en": "Tajrish",
+    "name:fa": "تجریش",
+    "name:hi": "तजरीश",
+    "name:ml": "തജ്രീഷ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "website": "https://tajrish1.ir",
+    "wikidata": "Q5887864",
+    "wikipedia": "fa:ایستگاه متروی تجریش"
+  }
+},
+{
+  "type": "node",
+  "id": 13423300360,
+  "lat": 35.6678232,
+  "lon": 51.3867689,
+  "tags": {
+    "level": "-1",
+    "name": "جنوبی",
+    "name:en": "South",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13426456063,
+  "lat": 35.7024541,
+  "lon": 51.4454905,
+  "tags": {
+    "name": "ورودی ایستگاه متروی امام حسین",
+    "name:ar": "الإمام الحسين",
+    "name:en": "Emam Hossein Metro Station Entrance",
+    "name:hi": "इमाम हुसैन",
+    "name:ml": "ഇമാം ഹൊസെയ്ൻ",
+    "railway": "subway_entrance",
+    "wikidata": "Q6003067"
+  }
+},
+{
+  "type": "node",
+  "id": 13426501908,
+  "lat": 35.7025305,
+  "lon": 51.4453338,
+  "tags": {
+    "name": "ورودی ایستگاه متروی امام حسین",
+    "name:ar": "الإمام الحسين",
+    "name:en": "Emam Hossein Metro Station Entrance",
+    "name:hi": "इमाम हुसैन",
+    "name:ml": "ഇമാം ഹൊസെയ്ൻ",
+    "railway": "subway_entrance",
+    "wikidata": "Q6003067"
+  }
+},
+{
+  "type": "node",
+  "id": 13426509302,
+  "lat": 35.7164092,
+  "lon": 51.4396000,
+  "tags": {
+    "name": "ورودی ایستگاه متروی بهار شیراز",
+    "name:en": "Bahar Shiraz Metro Station Entrance",
+    "railway": "subway_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13426743990,
+  "lat": 35.7024033,
+  "lon": 51.4457999,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "انقلاب اسلامی",
+    "internet_access": "no",
+    "name": "امام حسین(ع)",
+    "name:en": "Emam Hossein",
+    "name:fa": "امام حسین(ع)",
+    "name:hi": "इमाम हुसैन",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6003067",
+    "wikipedia": "fa:ایستگاه متروی امام حسین (تهران)"
+  }
+},
+{
+  "type": "node",
+  "id": 13474982012,
+  "lat": 35.7090054,
+  "lon": 51.4431244,
+  "tags": {
+    "name": "ورودی ایستگاه متروی سرباز وطن",
+    "name:en": "Sarbaz-e Vatan Metro Station Entrance",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13817588094,
+  "lat": 35.6645811,
+  "lon": 51.5106479,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار شهیدان ارتش",
+    "internet_access": "no",
+    "name": "ورزشگاه تختی",
+    "name:en": "Varzeshgah-e Takhti",
+    "name:fa": "ورزشگاه تختی",
+    "name:hi": "वर्ज़ेशगाह-ए-तख़्ती",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q140455345",
+    "wikipedia": "fa:ایستگاه متروی ورزشگاه تختی"
+  }
+},
+{
+  "type": "node",
+  "id": 13817588095,
+  "lat": 35.6664427,
+  "lon": 51.5079978,
+  "tags": {
+    "name": "ایستگاه مترو ورزشگاه تختی",
+    "name:en": "Varzeshgah-e Takhti metro station",
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 14040974369,
+  "lat": 35.7172367,
+  "lon": 51.3312928,
+  "tags": {
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 14040974370,
+  "lat": 35.7172449,
+  "lon": 51.3313667,
+  "tags": {
+    "railway": "subway_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 14050905114,
+  "lat": 35.7052234,
+  "lon": 51.3081358,
+  "tags": {
+    "level": "-1",
+    "name": "مگامال",
+    "name:en": "Megamall",
+    "name:fa": "مگامال",
+    "railway": "subway_entrance",
+    "ref": "2",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 14058145512,
+  "lat": 35.7057413,
+  "lon": 51.3541472,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار علی تیموری",
+    "alt_name:en": "Sharif University",
+    "internet_access": "no",
+    "name": "دانشگاه شریف",
+    "name:ar": "جامعة شريف",
+    "name:en": "Daneshgah-e Sharif",
+    "name:fa": "دانشگاه شریف",
+    "name:hi": "शरीफ़ विश्वविद्यालय",
+    "name:ml": "ഷരീഫ് സർവകലാശാല",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372225",
+    "wikipedia": "fa:ایستگاه متروی دانشگاه شریف"
+  }
+},
+{
+  "type": "node",
+  "id": 14058145513,
+  "lat": 35.7160582,
+  "lon": 51.3435568,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار چوب‌ تراش",
+    "internet_access": "no",
+    "name": "طرشت",
+    "name:ar": "طرشت",
+    "name:en": "Tarasht",
+    "name:fa": "طرشت",
+    "name:hi": "तरश्त",
+    "name:ml": "തറഷ്ത്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372268",
+    "wikipedia": "fa:ایستگاه متروی طرشت"
+  }
+},
+{
+  "type": "node",
+  "id": 14058145514,
+  "lat": 35.6874279,
+  "lon": 51.3990752,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "خیابان امام خمینی",
+    "alt_name:en": "Imam Ali University",
+    "internet_access": "no",
+    "name": "دانشگاه امام علی(ع)",
+    "name:ar": "جامعة الامام علي",
+    "name:en": "Daneshgah-e Emam Ali",
+    "name:fa": "دانشگاه امام علی(ع)",
+    "name:hi": "इमाम अली विश्वविद्यालय",
+    "name:ml": "ദാനെഷ്ഗാഹെ ഇമാം അലി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371488",
+    "wikipedia": "fa:ایستگاه متروی دانشگاه امام علی"
+  }
+},
+{
+  "type": "node",
+  "id": 14058145515,
+  "lat": 35.6861307,
+  "lon": 51.4101776,
+  "tags": {
+    "internet_access": "no",
+    "name": "حسن‌آباد",
+    "name:ar": "حسن أباد",
+    "name:en": "Hassan Abad",
+    "name:fa": "حسن‌آباد",
+    "name:hi": "हसनाबाद",
+    "name:ml": "ഹസ്സനാബാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372305",
+    "wikipedia": "fa:ایستگاه متروی حسن‌آباد"
+  }
+},
+{
+  "type": "node",
+  "id": 14058146709,
+  "lat": 35.6908129,
+  "lon": 51.3883457,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "دانشگاه جنگ",
+    "internet_access": "no",
+    "name": "میدان حر",
+    "name:ar": "ساحة هار",
+    "name:en": "Meydan-e Horr",
+    "name:fa": "میدان حر",
+    "name:hi": "हुर मैदान",
+    "name:ml": "മെയ്ദാനെ ഹൊർ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372044",
+    "wikipedia": "fa:ایستگاه متروی میدان حر"
+  }
+},
+{
+  "type": "node",
+  "id": 14058409025,
+  "lat": 35.6883546,
+  "lon": 51.4267491,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "ملت",
+    "internet_access": "no",
+    "name": "ملت",
+    "name:ar": "ملت",
+    "name:en": "Mellat",
+    "name:fa": "ملت",
+    "name:hi": "मिल्लत",
+    "name:ml": "മെല്ലത്ത്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371897",
+    "wikipedia": "fa:ایستگاه متروی ملت"
+  }
+},
+{
+  "type": "node",
+  "id": 14058409026,
+  "lat": 35.6923315,
+  "lon": 51.4331659,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بهارستان",
+    "internet_access": "no",
+    "name": "بهارستان",
+    "name:ar": "بهارستان",
+    "name:en": "Baharestan",
+    "name:fa": "بهارستان",
+    "name:hi": "बहारिस्तान",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371536",
+    "wikipedia": "fa:ایستگاه متروی بهارستان"
+  }
+},
+{
+  "type": "node",
+  "id": 14058409027,
+  "lat": 35.7090646,
+  "lon": 51.4529324,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "آیت الله مدنی",
+    "internet_access": "no",
+    "name": "شهید مدنی",
+    "name:ar": "الشهيد مدني",
+    "name:en": "Shahid Madani",
+    "name:fa": "شهید مدنی",
+    "name:hi": "शहीद मदनी",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372962",
+    "wikipedia": "fa:ایستگاه متروی شهید مدنی"
+  }
+},
+{
+  "type": "node",
+  "id": 14058409028,
+  "lat": 35.7183643,
+  "lon": 51.4644122,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "سبلان شمالی",
+    "internet_access": "no",
+    "name": "سبلان",
+    "name:ar": "سبلان",
+    "name:en": "Sabalan",
+    "name:fa": "سبلان",
+    "name:hi": "सबालान",
+    "name:ml": "സബലാൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371990",
+    "wikipedia": "fa:ایستگاه متروی سبلان"
+  }
+},
+{
+  "type": "node",
+  "id": 14058409029,
+  "lat": 35.7265917,
+  "lon": 51.4756607,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "آیت الله مدنی",
+    "internet_access": "no",
+    "name": "فدک",
+    "name:ar": "فدك",
+    "name:en": "Fadak",
+    "name:fa": "فدک",
+    "name:hi": "फ़दक",
+    "name:ml": "ഫദക്ക്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371865",
+    "wikipedia": "fa:ایستگاه متروی فدک"
+  }
+},
+{
+  "type": "node",
+  "id": 14058409030,
+  "lat": 35.7332500,
+  "lon": 51.4841233,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "آیت الله مدنی",
+    "internet_access": "no",
+    "name": "جانبازان",
+    "name:ar": "جانبازان",
+    "name:en": "Janbazan",
+    "name:fa": "جانبازان",
+    "name:hi": "जानबाज़ान",
+    "name:ml": "ജാൻബസാൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "old_name": "گلبرگ",
+    "old_name:en": "Golbarg",
+    "old_name:fa": "گلبرگ",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372781",
+    "wikipedia": "fa:ایستگاه متروی جانبازان (تهران)"
+  }
+},
+{
+  "type": "node",
+  "id": 14058409031,
+  "lat": 35.7357392,
+  "lon": 51.4947995,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه شهید سلیمانی",
+    "internet_access": "no",
+    "name": "سرسبز",
+    "name:ar": "سرسبز",
+    "name:en": "Sarsabz",
+    "name:fa": "سرسبز",
+    "name:hi": "सरसब्ज़",
+    "name:ml": "സർസബ്സ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2373650",
+    "wikipedia": "fa:ایستگاه متروی سرسبز"
+  }
+},
+{
+  "type": "node",
+  "id": 14058409032,
+  "lat": 35.7344480,
+  "lon": 51.5049808,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه شهید سلیمانی",
+    "alt_name:en": "Elm-o San'at University",
+    "internet_access": "no",
+    "name": "دانشگاه علم و صنعت",
+    "name:ar": "جامعة العلوم والتكنولوجيا",
+    "name:en": "Daneshgah-e Elm-o San'at",
+    "name:fa": "دانشگاه علم و صنعت",
+    "name:hi": "विज्ञान और उद्योग विश्वविद्यालय",
+    "name:ml": "ദാനെഷ്ഗ എൽമ് ഒ-സനാത്ത്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372103",
+    "wikipedia": "fa:ایستگاه متروی دانشگاه علم و صنعت"
+  }
+},
+{
+  "type": "node",
+  "id": 14059828792,
+  "lat": 35.6680357,
+  "lon": 51.4624707,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "عمو شیخی",
+    "internet_access": "no",
+    "name": "چهل تن دولاب",
+    "name:ar": "تشهل تن دولاب",
+    "name:en": "Chehel Tan-e Doulab",
+    "name:fa": "چهل تن دولاب",
+    "name:hi": "चेहेल तन दौलाब",
+    "name:ml": "ചഹൽ തൻ ദൗലബ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q110969514",
+    "wikipedia": "fa:ایستگاه متروی چهل تن دولاب"
+  }
+},
+{
+  "type": "node",
+  "id": 14059862414,
+  "lat": 35.6696951,
+  "lon": 51.4365030,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میدان قیام",
+    "internet_access": "no",
+    "name": "ایستگاه مترو میدان قیام",
+    "name:ar": "ساحة الانتفاضة",
+    "name:en": "Meydan-e Ghiyam metro station",
+    "name:fa": "میدان قیام",
+    "name:fa-Latn": "Meydan-e Ghiyam",
+    "name:hi": "कियाम मैदान",
+    "name:ml": "മൈദാൻ ഖിയാം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q110969523",
+    "wikipedia": "fa:ایستگاه متروی میدان قیام"
+  }
+},
+{
+  "type": "node",
+  "id": 14060804178,
+  "lat": 35.7205609,
+  "lon": 51.4084485,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "ولی عصر",
+    "alt_name": "فاطمی",
+    "alt_name:en": "Fatemi",
+    "name": "میدان جهاد",
+    "name:ar": "ساحة الجهاد",
+    "name:de": "Jahad-Platz",
+    "name:en": "Meydan-e Jahad",
+    "name:fa": "میدان جهاد",
+    "name:hi": "जहाद मैदान",
+    "name:it": "Meidan e Jahad",
+    "name:ml": "മെയ്ദാനെ ജഹാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q20718062",
+    "wikipedia": "fa:ایستگاه متروی میدان جهاد"
+  }
+},
+{
+  "type": "node",
+  "id": 14060820580,
+  "lat": 35.7090614,
+  "lon": 51.4429982,
+  "tags": {
+    "name": "سرباز وطن",
+    "name:en": "Sarbaz-e Vatan",
+    "name:fa": "سرباز وطن",
+    "name:hi": "सरबाज़-ए-वतन",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q140770645",
+    "wikipedia": "fa:ایستگاه متروی سرباز وطن"
+  }
+},
+{
+  "type": "node",
+  "id": 14061094940,
+  "lat": 35.7903056,
+  "lon": 51.4794353,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه صدر",
+    "internet_access": "no",
+    "name": "نوبنیاد",
+    "name:ar": "نوبنیاد",
+    "name:en": "Nobonyad",
+    "name:fa": "نوبنیاد",
+    "name:hi": "नोबुनयाद",
+    "name:ml": "നൊബന്യാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21064666",
+    "wikipedia": "fa:ایستگاه متروی نوبنیاد"
+  }
+},
+{
+  "type": "node",
+  "id": 14064336782,
+  "lat": 35.7414809,
+  "lon": 51.3008955,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار آیت الله کاشانی",
+    "internet_access": "no",
+    "name": "آیت الله کاشانی",
+    "name:ar": "آية الله الكاشاني",
+    "name:en": "Ayatollah Kashani",
+    "name:fa": "آیت الله کاشانی",
+    "name:hi": "अयतुल्ला काशानी",
+    "name:ml": "ആയത്തുള്ള കാഷാനി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q139961003",
+    "wikipedia": "fa:ایستگاه متروی آیت‌الله کاشانی"
+  }
+},
+{
+  "type": "node",
+  "id": 14064708967,
+  "lat": 35.7632069,
+  "lon": 51.2839263,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار کوهسار",
+    "internet_access": "no",
+    "name": "شهدای کن",
+    "name:ar": "شهداء كان",
+    "name:en": "Shohada-ye Kan",
+    "name:fa": "شهدای کن",
+    "name:hi": "शुहदा-ये-कन",
+    "name:hy": "Կաննի նահատակներ",
+    "name:ml": "ഷുഹദായെ കൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q140790518",
+    "wikipedia": "fa:ایستگاه متروی شهدای کن"
+  }
+},
+{
+  "type": "node",
+  "id": 14064708968,
+  "lat": 35.7539673,
+  "lon": 51.2874522,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه شهید همت",
+    "internet_access": "no",
+    "name": "شهران",
+    "name:ar": "شهران",
+    "name:en": "Shahran",
+    "name:fa": "شهران",
+    "name:hi": "शहरान",
+    "name:ml": "ഷഹ്റാൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q123097288",
+    "wikipedia": "fa:ایستگاه متروی شهران"
+  }
+},
+{
+  "type": "node",
+  "id": 14065945232,
+  "lat": 35.7369035,
+  "lon": 51.3199597,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه آیت الله حکیم",
+    "internet_access": "no",
+    "name": "شهید ستاری",
+    "name:ar": "الشهيد ستاري",
+    "name:en": "Shahid Sattari",
+    "name:fa": "شهید ستاری",
+    "name:hi": "शहीद सत्तारी",
+    "name:ml": "ഷഹീദ് സത്താറി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107406834",
+    "wikipedia": "fa:ایستگاه متروی شهید ستاری"
+  }
+},
+{
+  "type": "node",
+  "id": 14065977511,
+  "lat": 35.7003030,
+  "lon": 51.3560371,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "خیابان آزادی",
+    "internet_access": "no",
+    "name": "دکتر حبیب اله",
+    "name:ar": "الدكتور حبيب الله",
+    "name:en": "Doctor Habib-o-llah",
+    "name:fa": "دکتر حبیب اله",
+    "name:hi": "डॉक्टर हबीबुल्ला",
+    "name:ml": "ഡോക്ടർ ഹബീബൊള്ള",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5882449",
+    "wikipedia": "fa:ایستگاه متروی دکتر حبیب‌الله"
+  }
+},
+{
+  "type": "node",
+  "id": 14071125007,
+  "lat": 35.6692388,
+  "lon": 51.4288234,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "مولوی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو مولوی",
+    "name:ar": "مولوي",
+    "name:en": "Mowlavi metro station",
+    "name:fa": "مولوی",
+    "name:hi": "मौलवी",
+    "name:ml": "മൗലവി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q78153724",
+    "wikipedia": "fa:ایستگاه متروی مولوی"
+  }
+},
+{
+  "type": "node",
+  "id": 14071125009,
+  "lat": 35.7156750,
+  "lon": 51.4398077,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "دکتر علی شریعتی",
+    "alt_name": "بیمارستان خانواده",
+    "alt_name:en": "Khanevadeh Hospital",
+    "alt_name:fa": "بیمارستان خانواده",
+    "internet_access": "no",
+    "name": "بهار شیراز",
+    "name:ar": "بهار شیراز",
+    "name:en": "Bahar Shiraz",
+    "name:fa": "بهار شیراز",
+    "name:hi": "बहार-ए-शीराज़",
+    "name:ml": "ബഹാർ ഷിറാസ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q140839416",
+    "wikipedia": "fa:ایستگاه متروی بهار شیراز"
+  }
+},
+{
+  "type": "node",
+  "id": 14071134417,
+  "lat": 35.7312596,
+  "lon": 51.4367732,
+  "tags": {
+    "name": "شمالی",
+    "name:en": "North",
+    "railway": "subway_entrance",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 14072135584,
+  "lat": 35.7316960,
+  "lon": 51.3705445,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه شیخ فضل‌الله نوری",
+    "internet_access": "no",
+    "name": "شهرک آزمایش",
+    "name:ar": "مدينة آزمایش",
+    "name:en": "Shahrak-e Azmayesh",
+    "name:fa": "شهرک آزمایش",
+    "name:hi": "शहरक आज़मायेश",
+    "name:ml": "ഷഹ്റക്കെ ആസ്മയേഷ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "not:name": "بلوارفردوس",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107406897",
+    "wikipedia": "fa:ایستگاه متروی شهرک آزمایش"
+  }
+},
+{
+  "type": "node",
+  "id": 14072135585,
+  "lat": 35.7347737,
+  "lon": 51.3460523,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه یادگار امام",
+    "internet_access": "no",
+    "name": "یادگار امام(ره)",
+    "name:ar": "ذكرى الإمام",
+    "name:en": "Yadegar-e Emam",
+    "name:fa": "یادگار امام(ره)",
+    "name:hi": "यादगार-ए-इमाम",
+    "name:ml": "യാദഗാർ ഇമാം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107406844",
+    "wikipedia": "fa:ایستگاه متروی یادگار امام"
+  }
+},
+{
+  "type": "node",
+  "id": 14072135586,
+  "lat": 35.7362612,
+  "lon": 51.3310699,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "پیامبر شرقی",
+    "internet_access": "no",
+    "name": "شهید اشرفی اصفهانی",
+    "name:ar": "الشهيد أشرفي أصفهاني",
+    "name:en": "Shahid Ashrafi Esfahani",
+    "name:fa": "شهید اشرفی اصفهانی",
+    "name:hi": "अशरफ़ी इस्फ़हानी",
+    "name:ml": "അഷ്റഫി ഇസ്ഫഹാനി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107406822",
+    "wikipedia": "fa:ایستگاه متروی شهید اشرفی اصفهانی"
+  }
+},
+{
+  "type": "node",
+  "id": 14072135587,
+  "lat": 35.7457000,
+  "lon": 51.2947953,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بلوار عاشوری",
+    "internet_access": "no",
+    "name": "شهر زیبا",
+    "name:ar": "مدينة زیبا",
+    "name:en": "Shahr-e Ziba",
+    "name:fa": "شهر زیبا",
+    "name:hi": "शहर-ए-ज़ीबा",
+    "name:ml": "ഷഹ്റെ സീബ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q123095404",
+    "wikipedia": "fa:ایستگاه متروی شهر زیبا"
+  }
+},
+{
+  "type": "node",
+  "id": 14072135588,
+  "lat": 35.7355586,
+  "lon": 51.4583795,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه صیاد شیرازی",
+    "internet_access": "no",
+    "name": "شهید صیاد شیرازی",
+    "name:ar": "الشهيد صياد الشيرازي",
+    "name:en": "Shahid Sayyad-e Shirazi",
+    "name:fa": "شهید صیاد شیرازی",
+    "name:hi": "शहीद सैयाद-ए शीराज़ी",
+    "name:ml": "ഷഹീദ് സയ്യാദ് ഷിറാസി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27792585",
+    "wikipedia": "fa:ایستگاه متروی شهید صیاد شیرازی"
+  }
+},
+{
+  "type": "node",
+  "id": 14072135590,
+  "lat": 35.7606209,
+  "lon": 51.4658640,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "گیلان",
+    "internet_access": "no",
+    "name": "شهید زین الدین",
+    "name:ar": "الشهيد زين الدين",
+    "name:en": "Shahid Zeyn-e-ddin",
+    "name:fa": "شهید زین الدین",
+    "name:hi": "शहीद ज़ेनुद्दीन",
+    "name:ml": "ഷഹീദ് സെയ്നുദ്ദീൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21064670",
+    "wikipedia": "fa:ایستگاه متروی شهید زین‌الدین"
+  }
+},
+{
+  "type": "node",
+  "id": 14072135591,
+  "lat": 35.7789334,
+  "lon": 51.4787227,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه صیاد شیرازی",
+    "alt_name:ml": "ഹുസൈനാബാദ്",
+    "internet_access": "no",
+    "name": "حسین آباد",
+    "name:ar": "حسین آباد",
+    "name:en": "Hossein Abad",
+    "name:fa": "حسین آباد",
+    "name:hi": "हुसैनाबाद",
+    "name:ml": "ഹൊസെയ്നാബാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28713625",
+    "wikipedia": "fa:ایستگاه متروی حسین‌آباد"
+  }
+},
+{
+  "type": "node",
+  "id": 14075053790,
+  "lat": 35.7061376,
+  "lon": 51.3776661,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه چمران",
+    "internet_access": "no",
+    "name": "ایستگاه مترو مدافعان سلامت",
+    "name:ar": "مدافعان سلامت",
+    "name:en": "Modafean-e Salamat metro station",
+    "name:fa": "مدافعان سلامت",
+    "name:hi": "मुदाफ़ियान सलामत",
+    "name:ml": "മൊദാഫെയാൻ സലാമത്ത്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107552476",
+    "wikipedia": "fa:ایستگاه متروی مدافعان سلامت"
+  }
+},
+{
+  "type": "node",
+  "id": 14075125225,
+  "lat": 35.6692338,
+  "lon": 51.4721700,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه محلاتی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو آهنگ",
+    "name:ar": "آهنغ",
+    "name:en": "Ahang metro station",
+    "name:fa": "آهنگ",
+    "name:hi": "आहंग",
+    "name:ml": "ആഹംഗ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q109548297",
+    "wikipedia": "fa:ایستگاه متروی آهنگ"
+  }
+},
+{
+  "type": "node",
+  "id": 14075125227,
+  "lat": 35.6910017,
+  "lon": 51.4678624,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "پیروزی",
+    "internet_access": "no",
+    "name": "ایستگاه مترو پیروزی",
+    "name:ar": "بيروزي",
+    "name:en": "Pirouzi metro station",
+    "name:fa": "پیروزی",
+    "name:hi": "पीरूज़ी",
+    "name:ml": "പിറൂസി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5701801",
+    "wikipedia": "fa:ایستگاه متروی پیروزی"
+  }
+},
+{
+  "type": "node",
+  "id": 14075284474,
+  "lat": 35.7319611,
+  "lon": 51.3830310,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه چمران",
+    "alt_name:en": "Goftegou Park",
+    "internet_access": "no",
+    "name": "بوستان گفتگو",
+    "name:ar": "حديقة غفتغو",
+    "name:en": "Boostan-e Goftegou",
+    "name:fa": "بوستان گفتگو",
+    "name:hi": "गुफ्तगू पार्क",
+    "name:ml": "ഗൊഫ്തെഗൂ പാർക്ക്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q118713171",
+    "wikipedia": "fa:ایستگاه متروی بوستان گفتگو"
+  }
+},
+{
+  "type": "node",
+  "id": 14075284475,
+  "lat": 35.7544097,
+  "lon": 51.3679800,
+  "tags": {
+    "alt_name:en": "San'at Square",
+    "name": "میدان صنعت",
+    "name:ar": "ساحة الصناعة",
+    "name:en": "Meydan-e San'at",
+    "name:fa": "میدان صنعت",
+    "name:hi": "सनात मैदान",
+    "name:ml": "സനാത്ത് ചത്വരം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q31069747",
+    "wikipedia": "fa:ایستگاه متروی میدان صنعت"
+  }
+},
+{
+  "type": "node",
+  "id": 14075284476,
+  "lat": 35.7671098,
+  "lon": 51.3664941,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بلوار دادمان",
+    "internet_access": "no",
+    "name": "شهید دادمان",
+    "name:ar": "الشهيد دادمان",
+    "name:en": "Shahid Dadman",
+    "name:fa": "شهید دادمان",
+    "name:hi": "शहीद दादमान",
+    "name:ml": "ഷഹീദ് ദാദ്മാൻ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q118715287",
+    "wikipedia": "fa:ایستگاه متروی شهید دادمان"
+  }
+},
+{
+  "type": "node",
+  "id": 14075284477,
+  "lat": 35.7772938,
+  "lon": 51.3558107,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "چهار راه کتاب",
+    "alt_name:en": "Ketab Square",
+    "internet_access": "no",
+    "name": "میدان کتاب",
+    "name:ar": "ساحة الكتاب",
+    "name:en": "Meydan-e Ketab",
+    "name:fa": "میدان کتاب",
+    "name:hi": "किताब मैदान",
+    "name:ml": "കിത്താബ് ചത്വരം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q122923402",
+    "wikipedia": "fa:ایستگاه متروی میدان کتاب"
+  }
+},
+{
+  "type": "node",
+  "id": 14084275563,
+  "lat": 35.6811423,
+  "lon": 51.4016277,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "میدان منیریه",
+    "internet_access": "no",
+    "name": "منیریه",
+    "name:ar": "منيرية",
+    "name:en": "Moniriyeh",
+    "name:fa": "منیریه",
+    "name:hi": "मुनीरिया",
+    "name:ml": "മൊനീറിയെ",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q17991382",
+    "wikipedia": "fa:ایستگاه متروی منیریه"
+  }
+},
+{
+  "type": "node",
+  "id": 14084275564,
+  "lat": 35.6525848,
+  "lon": 51.3735816,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "بزرگراه چراغی",
+    "internet_access": "no",
+    "name": "زمزم",
+    "name:ar": "زمزم",
+    "name:en": "Zamzam",
+    "name:fa": "زمزم",
+    "name:hi": "ज़मज़म",
+    "name:ml": "സംസം",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17991380",
+    "wikipedia": "fa:ایستگاه متروی زمزم"
+  }
+},
+{
+  "type": "node",
+  "id": 14084275565,
+  "lat": 35.6442308,
+  "lon": 51.3685150,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "بزرگراه چراغی",
+    "internet_access": "no",
+    "name": "شهرک شریعتی",
+    "name:ar": "مدينة شريعتي",
+    "name:en": "Shahrak-e Shariati",
+    "name:fa": "شهرک شریعتی",
+    "name:hi": "शहरक-ए-शरीयती",
+    "name:ml": "ഷഹ്റക്കെ ഷറീയത്തി",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q20718131",
+    "wikipedia": "fa:ایستگاه متروی شهرک شریعتی"
+  }
+},
+{
+  "type": "node",
+  "id": 14089610125,
+  "lat": 35.6383795,
+  "lon": 51.3599365,
+  "tags": {
+    "addr:city": "شهر تهران",
+    "addr:street": "مترو عبدل اباد",
+    "internet_access": "no",
+    "name": "عبدل آباد",
+    "name:ar": "عبدل آباد",
+    "name:en": "Abdol Abad",
+    "name:fa": "عبدل آباد",
+    "name:hi": "अब्दुलाबाद",
+    "name:ml": "അബ്ദൊലാബാദ്",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q20717407",
+    "wikipedia": "fa:ایستگاه متروی عبدل‌آباد"
+  }
+}
+
+  ]
+}

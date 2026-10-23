@@ -1,0 +1,16 @@
+{
+  "name": "@titl/etl",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:catalog": "tsx --disable-warning=ExperimentalWarning src/build.ts",
+    "build:fixtures": "tsx --disable-warning=ExperimentalWarning src/fixtures.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@titl/shared": "*",
+    "csv-parse": "^5.6.0"
+  }
+}

@@ -1,0 +1,74 @@
+# What `liara deploy` must NOT upload. This upload is the Docker build context on Liara.
+#
+# Liara CLI reads exactly ONE ignore file per directory: .liaraignore > .dockerignore > .gitignore.
+# Because this file exists, .gitignore is NOT used for the upload. That's on purpose: .gitignore
+# excludes dist/ and data/*.db, but the default Dockerfile.runtime needs them:
+#   apps/server/dist/  apps/web/dist/  data/catalog.db  scripts/{docker-entrypoint.sh,healthcheck.mjs}
+# The (small, ~2 MB) source tree is uploaded too, so `liara deploy --dockerfile Dockerfile` (full build
+# from source on Liara) works from the same upload.
+# The CLI itself always skips: .git .idea .vscode .next .dockerignore *.*~ liara.json node_modules
+# bower_components .DS_Store.
+#
+# Budget: free/bronze plan = 128 MB compressed upload, silver+ = 256 MB, CLI hard limit 256 MiB.
+# The catalog dominates; measure the real upload with: scripts/check-size.sh
+
+# dependencies & caches (rebuilt in the image if needed)
+node_modules
+**/node_modules
+.npm
+.vite
+**/.vite
+**/*.tsbuildinfo
+coverage
+**/coverage
+
+# raw dataset & other data artifacts (only the prebuilt catalog ships)
+dataset
+**/*.csv
+data/*
+!data/catalog.db
+
+# VCS, CI, editor & agent tooling
+.git
+.github
+.claude
+.idea
+.vscode
+*.swp
+
+# docs, design notes, screenshots (not needed at runtime)
+docs
+design-system
+**/screenshots
+*.png.tmp
+
+# tests & test outputs
+test-results
+playwright-report
+blob-report
+e2e
+**/test
+**/tests
+**/__tests__
+**/*.test.ts
+**/*.test.tsx
+**/*.test.mjs
+**/*.spec.ts
+playwright.config.*
+scripts/test
+
+# local env & secrets (set envs with `liara env set`, never upload them)
+.env
+.env.*
+*.pem
+*.key
+
+# logs, archives, OS junk
+*.log
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+.DS_Store
+Thumbs.db
+liara-api-key.txt

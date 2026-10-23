@@ -1,0 +1,26 @@
+{
+  "app": "torob-in-the-loop",
+  "platform": "docker",
+  "port": 3000,
+  "build": {
+    "dockerfile": "Dockerfile.runtime",
+    "cache": true
+  },
+  "disks": [
+    {
+      "name": "torob-in-the-loop-data",
+      "mountTo": "/var/lib/torob-in-the-loop"
+    }
+  ],
+  "healthCheck": {
+    "command": [
+      "CMD",
+      "node",
+      "/app/scripts/healthcheck.mjs"
+    ],
+    "interval": 30,
+    "timeout": 10,
+    "retries": 3,
+    "startPeriod": 30
+  }
+}

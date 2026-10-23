@@ -1,0 +1,2937 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-15T15:22:01Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 26751498,
+  "lat": 35.7406933,
+  "lon": 51.4276116,
+  "tags": {
+    "name": "ایستگاه مترو مصلی امام خمینی(ره)",
+    "name:ar": "مصلی",
+    "name:en": "Mosalla-ye Emam Khomeini Metro Station",
+    "name:fa": "مصلی امام خمینی(ره)",
+    "name:hi": "मुसल्ला",
+    "name:ml": "മൊസല്ല",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 654081655,
+  "lat": 35.7004036,
+  "lon": 51.3647339,
+  "tags": {
+    "name": "ایستگاه مترو شادمان",
+    "name:en": "Shademan metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 654082162,
+  "lat": 35.6908759,
+  "lon": 51.3883603,
+  "tags": {
+    "name": "ایستگاه مترو میدان حر",
+    "name:ar": "ساحة هار",
+    "name:en": "Meydan-e Hor metro station",
+    "name:fa": "میدان حر",
+    "name:hi": "हुर मैदान",
+    "name:ml": "മെയ്ദാനെ ഹൊർ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 659782107,
+  "lat": 35.6923351,
+  "lon": 51.4331713,
+  "tags": {
+    "name": "ایستگاه مترو بهارستان",
+    "name:ar": "بهارستان",
+    "name:en": "Baharestan metro station",
+    "name:fa": "بهارستان",
+    "name:hi": "बहारिस्तान",
+    "name:ml": "ബഹാറെസ്ഥാൻ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 659784460,
+  "lat": 35.6883561,
+  "lon": 51.4267210,
+  "tags": {
+    "name": "ایستگاه مترو ملت",
+    "name:ar": "ملت",
+    "name:en": "Mellat metro station",
+    "name:fa": "ملت",
+    "name:hi": "मिल्लत",
+    "name:ml": "മെല്ലത്ത്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371897"
+  }
+},
+{
+  "type": "node",
+  "id": 660623347,
+  "lat": 35.6933268,
+  "lon": 51.4245717,
+  "tags": {
+    "name": "ایستگاه مترو سعدی",
+    "name:ar": "سعدي",
+    "name:en": "Sa'di",
+    "name:fa": "سعدی",
+    "name:hi": "सादी",
+    "name:ml": "സാദി",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660623588,
+  "lat": 35.7016854,
+  "lon": 51.4261099,
+  "tags": {
+    "name": "ایستگاه مترو دروازه دولت",
+    "name:en": "Darvazeh Dowlat",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660623849,
+  "lat": 35.7071122,
+  "lon": 51.4255727,
+  "tags": {
+    "name": "ایستگاه مترو طالقانی",
+    "name:ar": "طالقاني",
+    "name:en": "Ayatollah Taleghani",
+    "name:fa": "طالقانی",
+    "name:hi": "तालिकानी",
+    "name:ml": "താലെഖാനി",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 660624203,
+  "lat": 35.7244122,
+  "lon": 51.4277961,
+  "tags": {
+    "name": "ایستگاه مترو شهید مفتح",
+    "name:ar": "الشهيد مفتح",
+    "name:en": "Shahid Mofatteh",
+    "name:fa": "شهید مفتح",
+    "name:hi": "शहीद मुफ़त्तह",
+    "name:ml": "ഷഹീദ് മൊഫത്തേഹ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660624968,
+  "lat": 35.7015450,
+  "lon": 51.4191220,
+  "tags": {
+    "alt_name:ml": "ഫിർദൗസി",
+    "name": "ایستگاه مترو فردوسی",
+    "name:en": "Ferdowsi metro station",
+    "name:ml": "ഫെർദോസി",
+    "name:ru": "Фирдоуси",
+    "network": "متروی تهران",
+    "network:wikidata": "Q714823",
+    "operator": "Tehran Urban and Suburban Railway Company",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660627035,
+  "lat": 35.6989544,
+  "lon": 51.4372755,
+  "tags": {
+    "name": "ایستگاه مترو دروازه شمیران",
+    "name:en": "Darvazeh Shemiran metro station",
+    "name:fa": "دروازه شمیران",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660627594,
+  "lat": 35.6900818,
+  "lon": 51.4473848,
+  "tags": {
+    "name": "ایستگاه مترو میدان شهدا",
+    "name:en": "Meydan-e Shohada metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660628277,
+  "lat": 35.7023939,
+  "lon": 51.4457615,
+  "tags": {
+    "name": "ایستگاه مترو امام حسین",
+    "name:en": "Emam Hossein Metro Station",
+    "name:fa": "امام حسین(ع)",
+    "operator": "Tehran Urban & Suburban Railway Operation Co.",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660628303,
+  "lat": 35.7090585,
+  "lon": 51.4529655,
+  "tags": {
+    "name": "ایستگاه مترو شهید مدنی",
+    "name:ar": "الشهيد مدني",
+    "name:en": "Shahid Madani metro station",
+    "name:fa": "شهید مدنی",
+    "name:hi": "शहीद मदनी",
+    "name:ml": "ഷഹീദ് മദനി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372962"
+  }
+},
+{
+  "type": "node",
+  "id": 660628364,
+  "lat": 35.7182413,
+  "lon": 51.4645702,
+  "tags": {
+    "name": "ایستگاه مترو سبلان",
+    "name:ar": "سبلان",
+    "name:en": "Sabalan metro station",
+    "name:fa": "سبلان",
+    "name:hi": "सबालान",
+    "name:ml": "സബലാൻ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2371990"
+  }
+},
+{
+  "type": "node",
+  "id": 660628705,
+  "lat": 35.7357324,
+  "lon": 51.4947992,
+  "tags": {
+    "name": "ایستگاه مترو سرسبز",
+    "name:ar": "سرسبز",
+    "name:en": "Sarsabz metro station",
+    "name:fa": "سرسبز",
+    "name:hi": "सरसब्ज़",
+    "name:ml": "സർസബ്സ്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "vending_machine": "coffe",
+    "wikidata": "Q2373650",
+    "wikimedia_commons": "Category:Sarsabz Metro Station"
+  }
+},
+{
+  "type": "node",
+  "id": 660628852,
+  "lat": 35.7344204,
+  "lon": 51.5049701,
+  "tags": {
+    "name": "ایستگاه مترو دانشگاه علم و صنعت",
+    "name:ar": "جامعة العلوم والتكنولوجيا",
+    "name:en": "Daneshgah-e Elm-o San'at Metro Station",
+    "name:fa": "دانشگاه علم و صنعت",
+    "name:hi": "विज्ञान और उद्योग विश्वविद्यालय",
+    "name:ml": "ദാനെഷ്ഗ എൽമ് ഒ-സനാത്ത്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660628855,
+  "lat": 35.7328667,
+  "lon": 51.5168379,
+  "tags": {
+    "name": "ایستگاه مترو شهید باقری",
+    "name:en": "Shahid Bagheri metro station",
+    "name:fa": "شهید باقری",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660628921,
+  "lat": 35.7308930,
+  "lon": 51.5318406,
+  "tags": {
+    "name": "ایستگاه مترو تهرانپارس",
+    "name:en": "Tehranpars metro station",
+    "name:fa": "تهرانپارس",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660631367,
+  "lat": 35.5473539,
+  "lon": 51.3827029,
+  "tags": {
+    "name": "ایستگاه مترو شاهد باقرشهر",
+    "name:en": "Shahed- Bagher Shahr",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660633348,
+  "lat": 35.6296087,
+  "lon": 51.4157326,
+  "tags": {
+    "name": "ایستگاه مترو علی آباد",
+    "name:en": "Ali Abad",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660635266,
+  "lat": 35.6407100,
+  "lon": 51.4147857,
+  "tags": {
+    "alt_name": "خزانه",
+    "name": "ایستگاه مترو شهید بخارایی",
+    "name:ar": "الشهيد بخاري",
+    "name:en": "Shahid Bokharaei",
+    "name:fa": "شهید بخارایی",
+    "name:hi": "शहीद बुखारी",
+    "name:ml": "ഷഹീദ് ബൊഖാറായ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660636159,
+  "lat": 35.6508488,
+  "lon": 51.4162934,
+  "tags": {
+    "name": "ایستگاه مترو پایانه جنوب",
+    "name:ar": "المحطة الجنوبية",
+    "name:en": "Payaneh Jonoub",
+    "name:fa": "پایانه جنوب",
+    "name:hi": "पायाने-ए जनूब",
+    "name:ml": "പായാനെ ജനൂബ്",
+    "old_name": "ترمینال جنوب",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660637545,
+  "lat": 35.6573519,
+  "lon": 51.4142572,
+  "tags": {
+    "name": "ایستگاه مترو شوش",
+    "name:ar": "شوش",
+    "name:en": "Shoush",
+    "name:fa": "شوش",
+    "name:hi": "शूश",
+    "name:ml": "ഷൂഷ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660640664,
+  "lat": 35.6731433,
+  "lon": 51.4166027,
+  "tags": {
+    "name": "ایستگاه مترو خیام",
+    "name:en": "Khayyam",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660640714,
+  "lat": 35.6678066,
+  "lon": 51.4158124,
+  "tags": {
+    "name": "ایستگاه مترو میدان محمودیه",
+    "name:en": "Meydan-e Mohammadiyeh",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 660658298,
+  "lat": 35.7567411,
+  "lon": 51.4261045,
+  "tags": {
+    "name": "ایستگاه مترو شهید حقانی",
+    "name:ar": "الشهيد حقاني",
+    "name:en": "Shahid Haghani",
+    "name:fa": "شهید حقانی",
+    "name:hi": "शहीद हक्कानी",
+    "name:ml": "ഷഹീദ് ഹഖാനി",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 864404756,
+  "lat": 35.7057728,
+  "lon": 51.3541752,
+  "tags": {
+    "name": "ایستگاه مترو دانشگاه شریف",
+    "name:ar": "جامعة شريف",
+    "name:en": "Sharif University Metro Station",
+    "name:fa": "دانشگاه شریف",
+    "name:hi": "शरीफ़ विश्वविद्यालय",
+    "name:ml": "ഷരീഫ് സർവകലാശാല",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372225"
+  }
+},
+{
+  "type": "node",
+  "id": 2120217849,
+  "lat": 35.7160834,
+  "lon": 51.3435808,
+  "tags": {
+    "name": "ایستگاه مترو طرشت",
+    "name:ar": "طرشت",
+    "name:en": "Tarasht metro station",
+    "name:fa": "طرشت",
+    "name:hi": "तरश्त",
+    "name:ml": "തറഷ്ത്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372268"
+  }
+},
+{
+  "type": "node",
+  "id": 2152781392,
+  "lat": 35.8046421,
+  "lon": 51.4336901,
+  "tags": {
+    "name": "ایستگاه مترو تجریش",
+    "name:ar": "تجریش",
+    "name:de": "Tadschrisch",
+    "name:en": "Tajrish",
+    "name:fa": "تجریش",
+    "name:hi": "तजरीश",
+    "name:ml": "തജ്രീഷ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169292190,
+  "lat": 35.5599329,
+  "lon": 51.3993896,
+  "tags": {
+    "name": "ایستگاه مترو پالایشگاه",
+    "name:en": "Palayeshgah",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169298472,
+  "lat": 35.5217482,
+  "lon": 51.3692684,
+  "tags": {
+    "name": "ایستگاه مترو کهریزک",
+    "name:en": "Kahrizak",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169380695,
+  "lat": 35.7850956,
+  "lon": 51.4360196,
+  "tags": {
+    "name": "ایستگاه مترو شهید صدر",
+    "name:ar": "الشهيد صدر",
+    "name:en": "Shahid Sadr",
+    "name:fa": "شهید صدر",
+    "name:hi": "शहीद सद्र",
+    "name:ml": "ഷഹീദ് സദ്ർ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169380696,
+  "lat": 35.7934924,
+  "lon": 51.4348134,
+  "tags": {
+    "name": "ایستگاه مترو قیطریه",
+    "name:ar": "قيطرية",
+    "name:en": "Gheytariyeh",
+    "name:fa": "قیطریه",
+    "name:hi": "क़ैतरिया",
+    "name:ml": "ഖൈത്തറിയെ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169380705,
+  "lat": 35.7630523,
+  "lon": 51.4439276,
+  "tags": {
+    "name": "ایستگاه مترو دکتر شریعتی",
+    "name:ar": "الدكتور شريعتي",
+    "name:en": "Doctor Shari'ati",
+    "name:fa": "دکتر شریعتی",
+    "name:hi": "डॉ. शरीयती",
+    "name:ml": "ഡോക്ടർ ഷറീയത്തി",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169380710,
+  "lat": 35.6858753,
+  "lon": 51.4210380,
+  "tags": {
+    "name": "ایستگاه مترو امام خمینی",
+    "name:ar": "الامام الخميني",
+    "name:en": "Emam Khomeini",
+    "name:ru": "Имам Хомейни",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169380721,
+  "lat": 35.7601006,
+  "lon": 51.4339605,
+  "tags": {
+    "name": "ایستگاه مترو میرداماد",
+    "name:ar": "میرداماد",
+    "name:en": "Mirdamad",
+    "name:fa": "میرداماد",
+    "name:hi": "मीरदामाद",
+    "name:ml": "മിർദാമാദ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169691367,
+  "lat": 35.7298161,
+  "lon": 51.5470271,
+  "tags": {
+    "name": "ایستگاه مترو فرهنگسرا",
+    "name:en": "Farhangsara Metro Station",
+    "name:fa": "فرهنگسرا",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169732950,
+  "lat": 35.6997500,
+  "lon": 51.3325863,
+  "tags": {
+    "name": "ایستگاه مترو میدان آزادی",
+    "name:ar": "ساحة الحرية",
+    "name:en": "Meydan-e Azadi Metro Station",
+    "name:fa": "میدان آزادی",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169732952,
+  "lat": 35.7009387,
+  "lon": 51.3919400,
+  "tags": {
+    "name": "ایستگاه مترو میدان انقلاب اسلامی",
+    "name:en": "Meydan-e Enghelab-e Eslami Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169732956,
+  "lat": 35.7055139,
+  "lon": 51.3076362,
+  "tags": {
+    "name": "شهرک اکباتان",
+    "name:ar": "مدينة إيكباتانا",
+    "name:en": "Sharak-e Ekbatan",
+    "name:ml": "ഷഹ്റക്ക് ഇക്ബാത്താൻ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169732969,
+  "lat": 35.6915682,
+  "lon": 51.4773477,
+  "tags": {
+    "name": "ایستگاه مترو نبرد",
+    "name:en": "Nabard metro station",
+    "name:ml": "നബർദ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169732971,
+  "lat": 35.6904567,
+  "lon": 51.4568004,
+  "tags": {
+    "alt_name": "شیخ الرئیس",
+    "name": "ایستگاه مترو ابن سینا",
+    "name:ar": "ابن سينا",
+    "name:en": "Ebne Sina metro station",
+    "name:fa": "ابن سینا",
+    "name:hi": "इब्न सीना",
+    "name:ml": "ഇബ്നു സീന",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q55639627"
+  }
+},
+{
+  "type": "node",
+  "id": 2169732979,
+  "lat": 35.7013096,
+  "lon": 51.4052281,
+  "tags": {
+    "alt_name": "ایستگاه مترو چهارراه ولیعصر",
+    "name": "ایستگاه مترو تئاترشهر",
+    "name:en": "Teatr-e Shahr Metro Station",
+    "name:it": "Teatr-e Shahr - Vali Asr",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2169732980,
+  "lat": 35.6927945,
+  "lon": 51.4880742,
+  "tags": {
+    "name": "ایستگاه مترو نیرو هوایی",
+    "name:en": "Niru-ye-Hayavi metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes",
+    "wikidata": "Q5906181"
+  }
+},
+{
+  "type": "node",
+  "id": 2169732984,
+  "lat": 35.7001565,
+  "lon": 51.3447089,
+  "tags": {
+    "name": "ایستگاه مترو استاد معین",
+    "name:ar": "استاد معین",
+    "name:en": "Ostad Moein Metro Station",
+    "name:fa": "استاد معین",
+    "name:hi": "उस्ताद मोईन",
+    "name:ml": "ഉസ്താദ് മൊയീൻ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q7107559"
+  }
+},
+{
+  "type": "node",
+  "id": 2367114843,
+  "lat": 35.4078608,
+  "lon": 51.1544874,
+  "tags": {
+    "name": "ایستگاه مترو فرودگاه امام خمینی",
+    "name:en": "Imam Khomeini Airport Metro Station",
+    "network": "متروی تهران",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2831259303,
+  "lat": 35.7281781,
+  "lon": 51.4169344,
+  "tags": {
+    "name": "ایستگاه مترو میرزای شیرازی",
+    "name:ar": "ميرزا ​​الشيرازي",
+    "name:en": "Mirza-ye Shirazi Metro Station",
+    "name:fa": "میرزای شیرازی",
+    "name:hi": "मिर्ज़ा-ये शीराज़ी",
+    "name:ml": "മിർസായെ ഷിറാസി",
+    "public_transport": "stop_position",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q25425194"
+  }
+},
+{
+  "type": "node",
+  "id": 2831259315,
+  "lat": 35.7205082,
+  "lon": 51.4084156,
+  "tags": {
+    "alt_name": "ایستگاه مترو فاطمی",
+    "alt_name:en": "Fatemi Metro Station",
+    "name": "ایستگاه مترو میدان جهاد",
+    "name:ar": "ساحة الجهاد",
+    "name:de": "Jahad-Platz",
+    "name:en": "Meydan-e Jahad Metro Station",
+    "name:fa": "میدان جهاد",
+    "name:hi": "जहाद मैदान",
+    "name:it": "Meidan e Jahad",
+    "name:ml": "മെയ്ദാനെ ജഹാദ്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q20718062"
+  }
+},
+{
+  "type": "node",
+  "id": 3080821096,
+  "lat": 35.7265800,
+  "lon": 51.4756588,
+  "tags": {
+    "name": "ایستگاه مترو فدک",
+    "name:ar": "فدك",
+    "name:en": "Fadak metro station",
+    "name:fa": "فدک",
+    "name:hi": "फ़दक",
+    "name:ml": "ഫദക്ക്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q2371865"
+  }
+},
+{
+  "type": "node",
+  "id": 3548939496,
+  "lat": 35.6782744,
+  "lon": 51.4172945,
+  "tags": {
+    "name": "ایستگاه مترو پانزده خرداد",
+    "name:en": "Panzdah-e Khordad",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3641204693,
+  "lat": 35.6593516,
+  "lon": 51.3877910,
+  "tags": {
+    "addr:city": "تهران",
+    "addr:street": "نادر زربافیان",
+    "name": "ایستگاه مترو جوادیه",
+    "name:ar": "جوادية",
+    "name:en": "Javadiyeh Metro Station",
+    "name:fa": "جوادیه",
+    "name:hi": "जवादिया",
+    "name:ml": "ജവാദിയെ",
+    "operator": "مترو تهران",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17991375"
+  }
+},
+{
+  "type": "node",
+  "id": 3649760925,
+  "lat": 35.6274192,
+  "lon": 51.3350953,
+  "tags": {
+    "name": "ایستگاه مترو آزادگان",
+    "name:en": "Azadegan Metro Station",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3649760926,
+  "lat": 35.6811307,
+  "lon": 51.4016410,
+  "tags": {
+    "name": "ایستگاه مترو منیریه",
+    "name:ar": "منيرية",
+    "name:en": "Moniriyeh Metro Station",
+    "name:fa": "منیریه",
+    "name:hi": "मुनीरिया",
+    "name:ml": "മൊനീറിയെ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17991382"
+  }
+},
+{
+  "type": "node",
+  "id": 3649760928,
+  "lat": 35.6442232,
+  "lon": 51.3685225,
+  "tags": {
+    "name": "ایستگاه مترو شهرک شریعتی",
+    "name:ar": "مدينة شريعتي",
+    "name:en": "Shahrak-e Shariati Metro Station",
+    "name:fa": "شهرک شریعتی",
+    "name:hi": "शहरक-ए-शरीयती",
+    "name:ml": "ഷഹ്റക്കെ ഷറീയത്തി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q20718131"
+  }
+},
+{
+  "type": "node",
+  "id": 3691093697,
+  "lat": 35.6100249,
+  "lon": 51.4194926,
+  "tags": {
+    "name": "ایستگاه مترو جوانمرد قصاب",
+    "name:ar": "جوانمرد قصاب",
+    "name:en": "Javanmard-e Ghassab",
+    "name:fa": "جوانمرد قصاب",
+    "name:hi": "जवानमर्द कसाब",
+    "name:ml": "ജവാൻമർദ് ഗസാബ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3691224155,
+  "lat": 35.6861227,
+  "lon": 51.4101573,
+  "tags": {
+    "name": "ایستگاه مترو حسن آباد",
+    "name:ar": "حسن أباد",
+    "name:en": "Hassan Abad metro station",
+    "name:fa": "حسن آباد",
+    "name:hi": "हसनाबाद",
+    "name:ml": "ഹസ്സനാബാദ്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372305"
+  }
+},
+{
+  "type": "node",
+  "id": 3778792864,
+  "lat": 35.6874074,
+  "lon": 51.3990742,
+  "tags": {
+    "name": "ایستگاه مترو دانشگاه امام علی ع",
+    "name:ar": "جامعة الامام علي",
+    "name:en": "Daneshgah-e Imam Ali metro station",
+    "name:fa": "دانشگاه امام علی(ع)",
+    "name:hi": "इमाम अली विश्वविद्यालय",
+    "name:ml": "ദാനെഷ്ഗാഹെ ഇമാം അലി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q2371488"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861785,
+  "lat": 35.7311282,
+  "lon": 51.4367691,
+  "tags": {
+    "name": "ایستگاه مترو سهروردی",
+    "name:ar": "سهروردي",
+    "name:en": "Sohrevardi Metro Station",
+    "name:fa": "سهروردی",
+    "name:hi": "सुहरेवर्दी",
+    "name:ml": "സൊഹ്രെവർദി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q26433876"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861786,
+  "lat": 35.7355601,
+  "lon": 51.4583975,
+  "tags": {
+    "name": "ایستگاه مترو شهید صیاد شیرازی",
+    "name:ar": "الشهيد صياد الشيرازي",
+    "name:en": "Shahid Sayyad-e Shirazi Metro Station",
+    "name:fa": "شهید صیاد شیرازی",
+    "name:hi": "शहीद सैयाद-ए शीराज़ी",
+    "name:ml": "ഷഹീദ് സയ്യാദ് ഷിറാസി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27792585"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861787,
+  "lat": 35.7434577,
+  "lon": 51.4621422,
+  "tags": {
+    "name": "ایستگاه مترو خواجه عبدالله انصاری",
+    "name:ar": "خواجة عبد الله أنصاري",
+    "name:en": "Khajeh Abdollah-e Ansari Metro Station",
+    "name:fa": "خواجه عبدالله انصاری",
+    "name:hi": "ख्वाजा अब्दुल्ला-ए अंसारी",
+    "name:ml": "ഖാജെ അബ്ദൊല്ലാഹെ അൻസാറി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q25252241"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861789,
+  "lat": 35.7789408,
+  "lon": 51.4786726,
+  "tags": {
+    "alt_name:ml": "ഹുസൈനാബാദ്",
+    "name": "ایستگاه مترو حسین آباد",
+    "name:ar": "حسین آباد",
+    "name:en": "Hossein Abad Metro Station",
+    "name:fa": "حسین آباد",
+    "name:hi": "हुसैनाबाद",
+    "name:ml": "ഹൊസെയ്നാബാദ്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28713625"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861790,
+  "lat": 35.7903188,
+  "lon": 51.4793790,
+  "tags": {
+    "name": "ایستگاه مترو نوبنیاد",
+    "name:ar": "نوبنیاد",
+    "name:en": "Nobonyad Metro Station",
+    "name:fa": "نوبنیاد",
+    "name:hi": "नोबुनयाद",
+    "name:ml": "നൊബന്യാദ്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21064666"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861791,
+  "lat": 35.8006991,
+  "lon": 51.4846199,
+  "tags": {
+    "name": "ایستگاه مترو اقدسیه",
+    "name:en": "Aghdasiyeh Metro Station",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861792,
+  "lat": 35.7974624,
+  "lon": 51.5084383,
+  "tags": {
+    "name": "ایستگاه مترو شهید محلاتی",
+    "name:en": "Shahid Mahallati Metro Station",
+    "name:ml": "ഷഹീദ് മഹല്ലത്തി",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3778861797,
+  "lat": 35.7992391,
+  "lon": 51.5209106,
+  "tags": {
+    "name": "ایستگاه مترو قائم",
+    "name:en": "Ghaem Metro Station",
+    "name:ml": "ഖായിം",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784645922,
+  "lat": 35.6679421,
+  "lon": 51.4623861,
+  "tags": {
+    "name": "ایستگاه مترو چهل تن دولاب",
+    "name:ar": "تشهل تن دولاب",
+    "name:en": "Chehel Tan Dowlab metro station",
+    "name:fa": "چهل تن دولاب",
+    "name:hi": "चेहेल तन दौलाब",
+    "name:ml": "ചഹൽ തൻ ദൗലബ്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784645934,
+  "lat": 35.6697324,
+  "lon": 51.4364777,
+  "tags": {
+    "name": "ایستگاه مترو میدان قیام",
+    "name:ar": "ساحة الانتفاضة",
+    "name:en": "Ghiyam Square metro station",
+    "name:fa": "میدان قیام",
+    "name:fa-Latn": "Meydan-e Ghiyam",
+    "name:hi": "कियाम मैदान",
+    "name:ml": "മൈദാൻ ഖിയാം",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784645954,
+  "lat": 35.6677915,
+  "lon": 51.3870914,
+  "tags": {
+    "name": "ایستگاه مترو هلال احمر",
+    "name:ar": "هلال احمر",
+    "name:en": "Helal Ahmar metro station",
+    "name:fa": "هلال احمر",
+    "name:hi": "हिलाल अहमर",
+    "name:ml": "ഹെലാൽ അഹ്മർ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648769,
+  "lat": 35.6813541,
+  "lon": 51.3800490,
+  "tags": {
+    "name": "ایستگاه مترو کمیل",
+    "name:en": "Komeyl metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648857,
+  "lat": 35.7772810,
+  "lon": 51.3558412,
+  "tags": {
+    "name": "میدان کتاب",
+    "name:ar": "ساحة الكتاب",
+    "name:en": "Ketab Square",
+    "name:fa": "میدان کتاب",
+    "name:hi": "किताब मैदान",
+    "name:ml": "കിത്താബ് ചത്വരം",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q122923402"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648869,
+  "lat": 35.6645008,
+  "lon": 51.5105881,
+  "tags": {
+    "name": "ورزشگاه تختی",
+    "name:en": "Varzeshgah-e Takhti",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648870,
+  "lat": 35.6665217,
+  "lon": 51.4900951,
+  "tags": {
+    "name": "ایستگاه مترو بسیج",
+    "name:en": "Basij metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648871,
+  "lat": 35.6692170,
+  "lon": 51.4722000,
+  "tags": {
+    "name": "ایستگاه مترو آهنگ",
+    "name:ar": "آهنغ",
+    "name:en": "Ahang metro station",
+    "name:fa": "آهنگ",
+    "name:hi": "आहंग",
+    "name:ml": "ആഹംഗ്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648875,
+  "lat": 35.6692573,
+  "lon": 51.4288083,
+  "tags": {
+    "name": "ایستگاه مترو مولوی",
+    "name:ar": "مولوي",
+    "name:en": "Molavi metro station",
+    "name:fa": "مولوی",
+    "name:hi": "मौलवी",
+    "name:ml": "മൗലവി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q78153724"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648877,
+  "lat": 35.6671873,
+  "lon": 51.3994195,
+  "tags": {
+    "name": "ایستگاه مترو مهدیه",
+    "name:en": "Mahdiyeh Metro Station",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648879,
+  "lat": 35.6877530,
+  "lon": 51.3794785,
+  "tags": {
+    "name": "ایستگاه مترو رودکی",
+    "name:en": "Roudaki metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648880,
+  "lat": 35.6948960,
+  "lon": 51.3786419,
+  "tags": {
+    "name": "ایستگاه مترو شهید نواب صفوی",
+    "name:en": "Shahid Navvab-e Safavi metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648882,
+  "lat": 35.7249336,
+  "lon": 51.3813794,
+  "tags": {
+    "name": "ایستگاه مترو دانشگاه تربیت مدرس",
+    "name:en": "Tarbiat Modares University metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648883,
+  "lat": 35.7320386,
+  "lon": 51.3827505,
+  "tags": {
+    "name": "ایستگاه مترو بوستان گفتگو",
+    "name:ar": "حديقة غفتغو",
+    "name:en": "Goftegou Park metro station",
+    "name:fa": "بوستان گفتگو",
+    "name:hi": "गुफ्तगू पार्क",
+    "name:ml": "ഗൊഫ്തെഗൂ പാർക്ക്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648884,
+  "lat": 35.7474221,
+  "lon": 51.3790751,
+  "tags": {
+    "name": "ایستگاه مترو برج میلاد تهران",
+    "name:ar": "برج الميلاد طهران",
+    "name:en": "Borj-e Milad-e Tehran metro station",
+    "name:fa": "برج میلاد تهران",
+    "name:hi": "बुर्ज-ए मिलाद-ए तेहरान",
+    "name:ml": "ബൊർജെ മിലാദെ ടെഹ്റാൻ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q101957215"
+  }
+},
+{
+  "type": "node",
+  "id": 3784648885,
+  "lat": 35.7543831,
+  "lon": 51.3679617,
+  "tags": {
+    "name": "ایستگاه مترو میدان صنعت",
+    "name:ar": "ساحة الصناعة",
+    "name:en": "San'at Square metro station",
+    "name:fa": "میدان صنعت",
+    "name:hi": "सनात मैदान",
+    "name:ml": "സനാത്ത് ചത്വരം",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q31069747"
+  }
+},
+{
+  "type": "node",
+  "id": 3815454692,
+  "lat": 35.6186600,
+  "lon": 51.4642056,
+  "tags": {
+    "name": "ایستگاه مترو شهدای دولت آباد",
+    "name:ar": "شهداء دولت آباد",
+    "name:en": "Shohadaye Dowlat Abad Metro Station",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3815454724,
+  "lat": 35.6653691,
+  "lon": 51.4456005,
+  "tags": {
+    "name": "ایستگاه مترو میدان خراسان",
+    "name:ar": "ساحة خراسان",
+    "name:en": "Meydan-e Khorasan Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3815454729,
+  "lat": 35.6824470,
+  "lon": 51.4468296,
+  "tags": {
+    "name": "ایستگاه مترو امیر کبیر",
+    "name:en": "Amir Kabir Metro Station",
+    "name:hi": "अमीर कबीर",
+    "name:ml": "അമീർ കബീർ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3815456757,
+  "lat": 35.7162264,
+  "lon": 51.4264916,
+  "tags": {
+    "alt_name": "هفت تیر",
+    "name": "ایستگاه مترو شهدای هفتم تیر",
+    "name:en": "Shohada-ye Haftom-e tir Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3815456806,
+  "lat": 35.7316901,
+  "lon": 51.3705088,
+  "tags": {
+    "name": "ایستگاه مترو شهرک آزمایش",
+    "name:ar": "مدينة آزمایش",
+    "name:en": "Shahrak Azmayesh Metro Station",
+    "name:fa": "شهرک آزمایش",
+    "name:hi": "शहरक आज़मायेश",
+    "name:ml": "ഷഹ്റക്കെ ആസ്മയേഷ്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107406897"
+  }
+},
+{
+  "type": "node",
+  "id": 3815456820,
+  "lat": 35.7343535,
+  "lon": 51.3589200,
+  "tags": {
+    "name": "ایستگاه مترو مرزداران",
+    "name:en": "Marzdaran Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3815456823,
+  "lat": 35.7347651,
+  "lon": 51.3460208,
+  "tags": {
+    "name": "ایستگاه مترو یادگار امام",
+    "name:ar": "ذكرى الإمام",
+    "name:en": "Yadegar-e Emam Metro Station",
+    "name:fa": "یادگار امام",
+    "name:hi": "यादगार-ए-इमाम",
+    "name:ml": "യാദഗാർ ഇമാം",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3815456838,
+  "lat": 35.7360887,
+  "lon": 51.3318177,
+  "tags": {
+    "name": "ایستگاه مترو اشرفی اصفهانی",
+    "name:ar": "أشرفي أصفهاني",
+    "name:en": "Ashrafi Esfahani Metro Station",
+    "name:fa": "اشرفی اصفهانی",
+    "name:hi": "अशरफ़ी इस्फ़हानी",
+    "name:ml": "അഷ്റഫി ഇസ്ഫഹാനി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3815456860,
+  "lat": 35.7414736,
+  "lon": 51.3008783,
+  "tags": {
+    "name": "ایستگاه مترو آیت الله کاشانی",
+    "name:ar": "آية الله الكاشاني",
+    "name:en": "Ayatollah Kashani Metro Station",
+    "name:fa": "آیت الله کاشانی",
+    "name:hi": "अयतुल्ला काशानी",
+    "name:ml": "ആയത്തുള്ള കാഷാനി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3853324357,
+  "lat": 35.7705739,
+  "lon": 51.2790369,
+  "tags": {
+    "alt_name": "کوهسار",
+    "alt_name:en": "Kouhsar",
+    "name": "ایستگاه مترو آرمان علی وردی",
+    "name:ar": "أرمان علي وردي",
+    "name:en": "Arman Aliverdi Metro Station",
+    "name:ml": "അലിവെർദി",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3853324358,
+  "lat": 35.7539780,
+  "lon": 51.2874715,
+  "tags": {
+    "name": "ایستگاه مترو شهران",
+    "name:ar": "شهران",
+    "name:en": "Shahran Metro Station",
+    "name:fa": "شهران",
+    "name:hi": "शहरान",
+    "name:ml": "ഷഹ്റാൻ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q123097288"
+  }
+},
+{
+  "type": "node",
+  "id": 3853324374,
+  "lat": 35.7144491,
+  "lon": 51.3893823,
+  "tags": {
+    "name": "ایستگاه مترو کارگر",
+    "name:en": "Kargar Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3853324397,
+  "lat": 35.7083255,
+  "lon": 51.3951877,
+  "tags": {
+    "name": "ایستگاه مترو بوستان لاله",
+    "name:ar": "حديقة لاله",
+    "name:en": "Laleh Park Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3853324399,
+  "lat": 35.7115736,
+  "lon": 51.4069522,
+  "tags": {
+    "alt_name": "ایستگاه مترو میدان ولی عصر",
+    "alt_name:en": "Vali-e Asr Square Metro Station",
+    "name": "ایستگاه مترو میدان حضرت ولیعصر",
+    "name:en": "Hazrat Vali-e Asr Square Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3853324412,
+  "lat": 35.7151526,
+  "lon": 51.4144293,
+  "tags": {
+    "alt_name": "ایستگاه مترو شهید نجات اللهی",
+    "alt_name:en": "Shadid nejatollahi Metro Station",
+    "name": "ایستگاه مترو مریم مقدس",
+    "name:ar": "مريم المقدسة",
+    "name:en": "Maryam-e Moghaddas Metro Station",
+    "name:fa": "مریم مقدس",
+    "name:hi": "मरियम-ए-मुक़द्दस",
+    "name:ml": "പരിശുദ്ധ മറിയം",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3853324444,
+  "lat": 35.6330612,
+  "lon": 51.4486775,
+  "tags": {
+    "name": "ایستگاه مترو کیان شهر",
+    "name:en": "Kiyan Shahr Metro Station",
+    "name:fa": "کیانشهر",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3930789262,
+  "lat": 35.6995402,
+  "lon": 51.3221163,
+  "tags": {
+    "name": "ایستگاه مترو بیمه",
+    "name:ar": "بيمه",
+    "name:en": "Bimeh Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3930792260,
+  "lat": 35.6890555,
+  "lon": 51.3304429,
+  "tags": {
+    "name": "ایستگاه مترو فرودگاه مهرآباد ترمینال‌های ۴ و ۶",
+    "name:en": "Mehrabad Airport Terminals 4 & 6 Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3930792665,
+  "lat": 35.6931469,
+  "lon": 51.3250917,
+  "tags": {
+    "name": "ایستگاه مترو فرودگاه مهرآباد ترمینال‌های ۱ و ۲",
+    "name:en": "Mehrabad Airport Terminals 1 & 2 Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4452299882,
+  "lat": 35.5945720,
+  "lon": 51.4223939,
+  "tags": {
+    "name": "ایستگاه مترو شهرری",
+    "name:en": "Shahr-e Rey",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4452329924,
+  "lat": 35.6948792,
+  "lon": 51.3787887,
+  "tags": {
+    "name": "ایستگاه مترو شهید نواب صفوی",
+    "name:en": "Shahid Navvab-e Safavi metro station",
+    "name:fa": "شهید نواب صفوی",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4452444057,
+  "lat": 35.7006696,
+  "lon": 51.3782580,
+  "tags": {
+    "name": "ایستگاه مترو توحید",
+    "name:en": "Towhid metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4453205974,
+  "lat": 35.7605766,
+  "lon": 51.4658777,
+  "tags": {
+    "name": "ایستگاه مترو شهید زین الدین",
+    "name:ar": "الشهيد زين الدين",
+    "name:en": "Shahid Zeyn-e-ddin Metro Station",
+    "name:fa": "شهید زین الدین",
+    "name:hi": "शहीद ज़ेनुद्दीन",
+    "name:ml": "ഷഹീദ് സെയ്നുദ്ദീൻ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21064670"
+  }
+},
+{
+  "type": "node",
+  "id": 4453224428,
+  "lat": 35.6671096,
+  "lon": 51.3993309,
+  "tags": {
+    "name": "ایستگاه مترو مهدیه",
+    "name:en": "Mahdiyeh Metro Station",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4453604919,
+  "lat": 35.6383716,
+  "lon": 51.3599477,
+  "tags": {
+    "name": "ایستگاه مترو عبدل آباد",
+    "name:ar": "عبدل آباد",
+    "name:en": "Abdol Abad Metro Station",
+    "name:fa": "عبدل آباد",
+    "name:hi": "अब्दुलाबाद",
+    "name:ml": "അബ്ദൊലാബാദ്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q20717407"
+  }
+},
+{
+  "type": "node",
+  "id": 4453614390,
+  "lat": 35.6337606,
+  "lon": 51.3472831,
+  "tags": {
+    "name": "ایستگاه مترو نعمت آباد",
+    "name:en": "Ne'mat Abad Metro Station",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4453643066,
+  "lat": 35.7177807,
+  "lon": 51.3311732,
+  "tags": {
+    "name": "ایستگاه مترو صادقیه",
+    "name:en": "Sadeghiyeh metro station",
+    "name:fa": "تهران(صادقیه)",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4544628125,
+  "lat": 35.6909860,
+  "lon": 51.4678610,
+  "tags": {
+    "addr:street": "خیابان پیروزی",
+    "name": "ایستگاه مترو پیروزی",
+    "name:ar": "بيروزي",
+    "name:en": "Piroozi metro station",
+    "name:fa": "پیروزی",
+    "name:hi": "पीरूज़ी",
+    "name:ml": "പിറൂസി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5701801"
+  }
+},
+{
+  "type": "node",
+  "id": 4553519985,
+  "lat": 35.6985354,
+  "lon": 51.4997731,
+  "tags": {
+    "name": "ایستگاه مترو شهید کلاهدوز",
+    "name:ar": "الشهيد كلاهدوز",
+    "name:en": "Shahid Kolahdooz metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4558309639,
+  "lat": 35.7002963,
+  "lon": 51.3560391,
+  "tags": {
+    "name": "ایستگاه مترو دکتر حبیب اله",
+    "name:ar": "الدكتور حبيب الله",
+    "name:en": "Doctor Habib-o-llah Metro Station",
+    "name:fa": "دکتر حبیب اله",
+    "name:hi": "डॉक्टर हबीबुल्ला",
+    "name:ml": "ഡോക്ടർ ഹബീബൊള്ള",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5882449"
+  }
+},
+{
+  "type": "node",
+  "id": 4674995987,
+  "lat": 35.7332370,
+  "lon": 51.4841242,
+  "tags": {
+    "name": "ایستگاه مترو جانبازان",
+    "name:ar": "جانبازان",
+    "name:en": "Janbazan metro Station",
+    "name:fa": "جانبازان",
+    "name:hi": "जानबाज़ान",
+    "name:ml": "ജാൻബസാൻ",
+    "old_name": "گلبرگ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2372781"
+  }
+},
+{
+  "type": "node",
+  "id": 4981028494,
+  "lat": 35.6730670,
+  "lon": 51.3808527,
+  "tags": {
+    "name": "ایستگاه مترو بریانک",
+    "name:en": "Beryanak metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5003695295,
+  "lat": 35.5396694,
+  "lon": 51.3494158,
+  "tags": {
+    "name": "ایستگاه مترو شهر آفتاب",
+    "name:en": "Shahre Aftab Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5003695296,
+  "lat": 35.5397601,
+  "lon": 51.3492315,
+  "tags": {
+    "name": "ایستگاه مترو شهر آفتاب",
+    "name:en": "Shahre Aftab Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5161529740,
+  "lat": 35.7188979,
+  "lon": 51.3055167,
+  "tags": {
+    "alt_name": "ایستگاه مترو اکباتان",
+    "name": "ایستگاه مترو ارم سبز",
+    "name:ar": "ارم سبز",
+    "name:en": "Eram-e Sabz metro station",
+    "name:fa": "ارم سبز",
+    "name:hi": "इरम सब्ज़",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5162855460,
+  "lat": 35.5474474,
+  "lon": 51.3827366,
+  "tags": {
+    "name": "ایستگاه مترو شاهد باقرشهر",
+    "name:en": "Shahed- Bagher Shahr",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5162910434,
+  "lat": 35.7012294,
+  "lon": 51.4053709,
+  "tags": {
+    "alt_name": "ایستگاه مترو چهارراه ولیعصر",
+    "name": "ایستگاه مترو تئاترشهر",
+    "name:en": "Teatr-e Shahr Metro Station",
+    "name:it": "Teatr-e Shahr - Vali Asr",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5183625749,
+  "lat": 35.7004369,
+  "lon": 51.3646624,
+  "tags": {
+    "name": "ایستگاه مترو شادمان",
+    "name:en": "Shademan metro station",
+    "name:fa": "شادمان",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5186262280,
+  "lat": 35.6858808,
+  "lon": 51.4203056,
+  "tags": {
+    "name": "ایستگاه مترو امام خمینی",
+    "name:ar": "الامام الخميني",
+    "name:en": "Emam Khomeini metro station",
+    "name:fa": "امام خمینی(ره)",
+    "name:ru": "Имам Хомейни",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5188238057,
+  "lat": 35.7299644,
+  "lon": 51.4269978,
+  "tags": {
+    "name": "ایستگاه مترو شهید بهشتی",
+    "name:en": "Shahid Beheshti",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5188238058,
+  "lat": 35.7306503,
+  "lon": 51.4271416,
+  "tags": {
+    "name": "ایستگاه مترو شهید بهشتی",
+    "name:en": "Shahid Beheshti Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5188247276,
+  "lat": 35.7015620,
+  "lon": 51.4260048,
+  "tags": {
+    "name": "ایستگاه مترو دروازه دولت",
+    "name:en": "Darvazeh Dowlat Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5188341404,
+  "lat": 35.6990524,
+  "lon": 51.4373130,
+  "tags": {
+    "name": "ایستگاه مترو دروازه شمیران",
+    "name:en": "Darvazeh Shemiran metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5190423567,
+  "lat": 35.7153930,
+  "lon": 51.4260716,
+  "tags": {
+    "alt_name": "هفت تیر",
+    "name": "ایستگاه مترو شهدای هفتم تیر",
+    "name:en": "Shohada-ye Haftom-e Tir",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5190423569,
+  "lat": 35.7248518,
+  "lon": 51.3813825,
+  "tags": {
+    "name": "ایستگاه مترو دانشگاه تربیت مدرس",
+    "name:en": "Tarbiat Modares University metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5190555599,
+  "lat": 35.6525617,
+  "lon": 51.3735926,
+  "tags": {
+    "name": "ایستگاه مترو زمزم",
+    "name:ar": "زمزم",
+    "name:en": "Zamzam Metro Station",
+    "name:fa": "زمزم",
+    "name:hi": "ज़मज़म",
+    "name:ml": "സംസം",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17991380"
+  }
+},
+{
+  "type": "node",
+  "id": 5193453622,
+  "lat": 35.6676820,
+  "lon": 51.4160771,
+  "tags": {
+    "name": "ایستگاه مترو میدان محمودیه",
+    "name:en": "Mohammadieh Square Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5930756414,
+  "lat": 35.6448426,
+  "lon": 51.4446370,
+  "tags": {
+    "name": "ایستگاه مترو بعثت",
+    "name:ar": "بعثت",
+    "name:en": "Be'sat Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6438071583,
+  "lat": 35.6900693,
+  "lon": 51.4473913,
+  "tags": {
+    "name": "ایستگاه مترو میدان شهدا",
+    "name:en": "Meydan-e Shohada metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6735113793,
+  "lat": 35.4078102,
+  "lon": 51.1544627,
+  "tags": {
+    "name": "ایستگاه مترو فرودگاه امام خمینی",
+    "name:en": "Imam Khomeini Airport Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7056721168,
+  "lat": 35.5217139,
+  "lon": 51.3691430,
+  "tags": {
+    "name": "ایستگاه مترو کهریزک",
+    "name:en": "Kahrizak",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9149513247,
+  "lat": 35.6518521,
+  "lon": 51.4446523,
+  "tags": {
+    "name": "ایستگاه مترو شهید رضایی",
+    "name:ar": "الشهيد رضائي",
+    "name:en": "Shahid Rezaei Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes",
+    "wikidata": "Q109550671"
+  }
+},
+{
+  "type": "node",
+  "id": 9360432983,
+  "lat": 35.7009343,
+  "lon": 51.3780939,
+  "tags": {
+    "name": "ایستگاه مترو توحید",
+    "name:en": "Towhid metro station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9817359618,
+  "lat": 35.6684881,
+  "lon": 51.4454775,
+  "tags": {
+    "name": "ایستگاه مترو شهدای هفده شهریور",
+    "name:ar": "شهداء السابع عشر من سبتمبر",
+    "name:en": "Shohada-ye Hefdah-e Shahrivar metro station",
+    "name:fa": "شهدای هفده شهریور",
+    "name:hi": "शुहदा-ये हेफ़दहे शहरिवर",
+    "name:ml": "ഷൊഹദായെ ഹെഫ്ദഹെ ഷഹറീവർ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10126282787,
+  "lat": 35.7061214,
+  "lon": 51.3776859,
+  "tags": {
+    "name": "ایستگاه مترو مدافعان سلامت",
+    "name:ar": "مدافعان سلامت",
+    "name:en": "Modafean-e Salamat metro station",
+    "name:fa": "مدافعان سلامت",
+    "name:hi": "मुदाफ़ियान सलामत",
+    "name:ml": "മൊദാഫെയാൻ സലാമത്ത്",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10235224668,
+  "lat": 35.7369271,
+  "lon": 51.3199678,
+  "tags": {
+    "name": "ایستگاه مترو شهید ستاری",
+    "name:ar": "الشهيد ستاري",
+    "name:en": "Shahid Sattari Metro Station",
+    "name:fa": "شهید ستاری",
+    "name:hi": "शहीद सत्तारी",
+    "name:ml": "ഷഹീദ് സത്താറി",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107406834"
+  }
+},
+{
+  "type": "node",
+  "id": 10746895094,
+  "lat": 35.7670778,
+  "lon": 51.3665384,
+  "tags": {
+    "name": "ایستگاه مترو شهید دادمان",
+    "name:ar": "الشهيد دادمان",
+    "name:en": "Shahid Dadman metro station",
+    "name:fa": "شهید دادمان",
+    "name:hi": "शहीद दादमान",
+    "name:ml": "ഷഹീദ് ദാദ്മാൻ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q118715287"
+  }
+},
+{
+  "type": "node",
+  "id": 10759924012,
+  "lat": 35.7156400,
+  "lon": 51.4397861,
+  "tags": {
+    "alt_name": "ایستگاه متروی بیمارستان خانواده",
+    "alt_name:en": "Khanevadeh Hospital Metro Station",
+    "alt_name:fa": "بیمارستان خانواده",
+    "name": "ایستگاه متروی بهار شیراز",
+    "name:ar": "بهار شیراز",
+    "name:en": "Bahar Shiraz Metro Station",
+    "name:fa": "بهار شیراز",
+    "name:hi": "बहार-ए-शीराज़",
+    "name:ml": "ബഹാർ ഷിറാസ്",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10760685494,
+  "lat": 35.7115271,
+  "lon": 51.4070196,
+  "tags": {
+    "alt_name": "ایستگاه مترو میدان ولی عصر",
+    "alt_name:en": "Vali-e Asr Square Metro Station",
+    "name": "ایستگاه مترو میدان حضرت ولیعصر",
+    "name:en": "Hazrat Vali-e Asr Square Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 10761286147,
+  "lat": 35.7632103,
+  "lon": 51.2839432,
+  "tags": {
+    "name": "ایستگاه مترو شهدای کن",
+    "name:ar": "شهداء كان",
+    "name:en": "Shohada-ye Kan Metro Station",
+    "name:fa": "شهدای کن",
+    "name:hi": "शुहदा-ये-कन",
+    "name:ml": "ഷുഹദായെ കൻ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10860300370,
+  "lat": 35.7316241,
+  "lon": 51.3074720,
+  "tags": {
+    "name": "ایستگاه مترو علامه جعفری",
+    "name:ar": "العلامة جعفري",
+    "name:en": "Allameh Ja'fari Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11263536540,
+  "lat": 35.7456674,
+  "lon": 51.2947466,
+  "tags": {
+    "name": "ایستگاه مترو شهر زیبا",
+    "name:ar": "مدينة زیبا",
+    "name:en": "Shahr-e Ziba Metro Station",
+    "name:fa": "شهر زیبا",
+    "name:hi": "शहर-ए-ज़ीबा",
+    "name:ml": "ഷഹ്റെ സീബ",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q123095404"
+  }
+},
+{
+  "type": "node",
+  "id": 11271470415,
+  "lat": 35.4638433,
+  "lon": 50.9771474,
+  "tags": {
+    "name": "ایستگاه مترو شهر پرند",
+    "name:en": "Shahr-e Parand Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11281419801,
+  "lat": 35.5450702,
+  "lon": 51.3730512,
+  "tags": {
+    "name": "ایستگاه مترو حرم مطهر",
+    "name:ar": "الضريح المقدس",
+    "name:en": "Haram-e Motahar-e Imam Khomeini",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11417054144,
+  "lat": 35.6995040,
+  "lon": 51.3221135,
+  "tags": {
+    "name": "ایستگاه مترو بیمه",
+    "name:en": "Bimeh Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11417054145,
+  "lat": 35.6995125,
+  "lon": 51.3220910,
+  "tags": {
+    "name": "ایستگاه مترو بیمه",
+    "name:en": "Bimeh Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11417054162,
+  "lat": 35.6931716,
+  "lon": 51.3251214,
+  "tags": {
+    "name": "ایستگاه مترو فرودگاه مهرآباد ترمینال‌های ۱ و ۲",
+    "name:en": "Mehrabad Airport Terminals 1 & 2 Metro Station",
+    "name:tk": "Mehrabat Gonalgasy 1-nji we 2-nji Terminalı",
+    "name:tr": "Mehrabat Havalimanı 1. ve 2. Terminalı",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11417054166,
+  "lat": 35.6890751,
+  "lon": 51.3304584,
+  "tags": {
+    "name": "ایستگاه مترو فرودگاه مهرآباد ترمینال‌های ۴ و ۶",
+    "name:en": "Mehrabad Airport Terminals 4 & 6 Metro Station",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12457390950,
+  "lat": 35.6595076,
+  "lon": 51.3977226,
+  "tags": {
+    "name": "ایستگاه مترو راه آهن",
+    "name:en": "Rah Ahan Metro Station",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12457390951,
+  "lat": 35.7720416,
+  "lon": 51.4731866,
+  "tags": {
+    "name": "ایستگاه مترو میدان هروی",
+    "name:en": "Heravi Square Metro Station",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12457390952,
+  "lat": 35.7313051,
+  "lon": 51.4447367,
+  "tags": {
+    "name": "ایستگاه مترو شهید قدوسی",
+    "name:en": "Shahid Ghoddoosi Metro Station",
+    "public_transport": "stop_position",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12457390955,
+  "lat": 35.7728779,
+  "lon": 51.4381024,
+  "tags": {
+    "name": "ایستگاه مترو قلهک",
+    "name:ar": "قلهك",
+    "name:en": "Gholhak",
+    "name:fa": "قلهک",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12457390956,
+  "lat": 35.7489388,
+  "lon": 51.4263148,
+  "tags": {
+    "name": "ایستگاه مترو شهید همت",
+    "name:en": "Shahid Hemmat",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13203213003,
+  "lat": 35.5473928,
+  "lon": 51.3827174,
+  "tags": {
+    "name": "ایستگاه مترو شاهد باقرشهر",
+    "name:en": "Shahed- Bagher Shahr",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380418856,
+  "lat": 35.5599465,
+  "lon": 51.3993412,
+  "tags": {
+    "name": "ایستگاه مترو پالایشگاه",
+    "name:en": "Palayeshgah",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380418857,
+  "lat": 35.5450963,
+  "lon": 51.3730092,
+  "tags": {
+    "name": "ایستگاه مترو حرم مطهر",
+    "name:ar": "الضريح المقدس",
+    "name:en": "Haram-e Motahar-e Imam Khomeini",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380418863,
+  "lat": 35.5945669,
+  "lon": 51.4223459,
+  "tags": {
+    "name": "ایستگاه مترو شهرری",
+    "name:en": "Shahr-e Rey",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380418872,
+  "lat": 35.6100211,
+  "lon": 51.4194518,
+  "tags": {
+    "name": "ایستگاه مترو جوانمرد قصاب",
+    "name:ar": "جوانمرد قصاب",
+    "name:en": "Javanmard-e Ghassab",
+    "name:fa": "جوانمرد قصاب",
+    "name:hi": "जवानमर्द कसाब",
+    "name:ml": "ജവാൻമർദ് ഗസാബ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380418899,
+  "lat": 35.6296030,
+  "lon": 51.4156928,
+  "tags": {
+    "name": "ایستگاه مترو علی آباد",
+    "name:en": "Ali Abad",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380425726,
+  "lat": 35.6407131,
+  "lon": 51.4147551,
+  "tags": {
+    "alt_name": "خزانه",
+    "name": "ایستگاه مترو شهید بخارایی",
+    "name:ar": "الشهيد بخاري",
+    "name:en": "Shahid Bokharaei",
+    "name:fa": "شهید بخارایی",
+    "name:hi": "शहीद बुखारी",
+    "name:ml": "ഷഹീദ് ബൊഖാറായ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380425829,
+  "lat": 35.6508513,
+  "lon": 51.4162591,
+  "tags": {
+    "name": "ایستگاه مترو پایانه جنوب",
+    "name:ar": "المحطة الجنوبية",
+    "name:en": "Payaneh Jonoub",
+    "name:fa": "پایانه جنوب",
+    "name:hi": "पायाने-ए जनूब",
+    "name:ml": "പായാനെ ജനൂബ്",
+    "old_name": "ترمینال جنوب",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380425847,
+  "lat": 35.6573536,
+  "lon": 51.4142138,
+  "tags": {
+    "name": "ایستگاه مترو شوش",
+    "name:ar": "شوش",
+    "name:en": "Shoush",
+    "name:fa": "شوش",
+    "name:hi": "शूश",
+    "name:ml": "ഷൂഷ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380779561,
+  "lat": 35.6678087,
+  "lon": 51.4157820,
+  "tags": {
+    "name": "ایستگاه مترو میدان محمودیه",
+    "name:en": "Meydan-e Mohammadiyeh",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380779580,
+  "lat": 35.6731431,
+  "lon": 51.4165574,
+  "tags": {
+    "name": "ایستگاه مترو خیام",
+    "name:en": "Khayyam",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380779588,
+  "lat": 35.6782754,
+  "lon": 51.4172694,
+  "tags": {
+    "name": "ایستگاه مترو پانزده خرداد",
+    "name:en": "Panzdah-e Khordad",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380785609,
+  "lat": 35.6858947,
+  "lon": 51.4210334,
+  "tags": {
+    "name": "ایستگاه مترو امام خمینی",
+    "name:ar": "الامام الخميني",
+    "name:en": "Emam Khomeini",
+    "name:ru": "Имам Хомейни",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380785611,
+  "lat": 35.6933307,
+  "lon": 51.4245383,
+  "tags": {
+    "name": "ایستگاه مترو سعدی",
+    "name:ar": "سعدي",
+    "name:en": "Sa'di",
+    "name:fa": "سعدی",
+    "name:hi": "सादी",
+    "name:ml": "സാദി",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380785623,
+  "lat": 35.7016831,
+  "lon": 51.4260811,
+  "tags": {
+    "name": "ایستگاه مترو دروازه دولت",
+    "name:en": "Darvazeh Dowlat",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13380785627,
+  "lat": 35.7071117,
+  "lon": 51.4255402,
+  "tags": {
+    "name": "ایستگاه مترو طالقانی",
+    "name:ar": "طالقاني",
+    "name:en": "Ayatollah Taleghani",
+    "name:fa": "طالقانی",
+    "name:hi": "तालिकानी",
+    "name:ml": "താലെഖാനി",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123723,
+  "lat": 35.7153961,
+  "lon": 51.4260470,
+  "tags": {
+    "alt_name": "هفت تیر",
+    "name": "ایستگاه مترو شهدای هفتم تیر",
+    "name:en": "Shohada-ye Haftom-e Tir",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123727,
+  "lat": 35.7244104,
+  "lon": 51.4277687,
+  "tags": {
+    "name": "ایستگاه مترو شهید مفتح",
+    "name:ar": "الشهيد مفتح",
+    "name:en": "Shahid Mofatteh",
+    "name:fa": "شهید مفتح",
+    "name:hi": "शहीद मुफ़त्तह",
+    "name:ml": "ഷഹീദ് മൊഫത്തേഹ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123728,
+  "lat": 35.7299624,
+  "lon": 51.4269690,
+  "tags": {
+    "name": "ایستگاه مترو شهید بهشتی",
+    "name:en": "Shahid Beheshti",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123733,
+  "lat": 35.7406906,
+  "lon": 51.4275807,
+  "tags": {
+    "name": "ایستگاه مترو مصلی امام خمینی(ره)",
+    "name:ar": "مصلی",
+    "name:en": "Mosalla-ye Emam Khomeini Metro Station",
+    "name:fa": "مصلی امام خمینی(ره)",
+    "name:hi": "मुसल्ला",
+    "name:ml": "മൊസല്ല",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123738,
+  "lat": 35.7567416,
+  "lon": 51.4260776,
+  "tags": {
+    "name": "ایستگاه مترو شهید حقانی",
+    "name:ar": "الشهيد حقاني",
+    "name:en": "Shahid Haghani",
+    "name:fa": "شهید حقانی",
+    "name:hi": "शहीद हक्कानी",
+    "name:ml": "ഷഹീദ് ഹഖാനി",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123740,
+  "lat": 35.7489369,
+  "lon": 51.4262773,
+  "tags": {
+    "name": "ایستگاه مترو شهید همت",
+    "name:en": "Shahid Hemmat",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123744,
+  "lat": 35.7601274,
+  "lon": 51.4339607,
+  "tags": {
+    "name": "ایستگاه مترو میرداماد",
+    "name:ar": "میرداماد",
+    "name:en": "Mirdamad",
+    "name:fa": "میرداماد",
+    "name:hi": "मीरदामाद",
+    "name:ml": "മിർദാമാദ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123757,
+  "lat": 35.7630499,
+  "lon": 51.4438944,
+  "tags": {
+    "name": "ایستگاه مترو دکتر شریعتی",
+    "name:ar": "الدكتور شريعتي",
+    "name:en": "Doctor Shari'ati",
+    "name:fa": "دکتر شریعتی",
+    "name:hi": "डॉ. शरीयती",
+    "name:ml": "ഡോക്ടർ ഷറീയത്തി",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123763,
+  "lat": 35.7728682,
+  "lon": 51.4380719,
+  "tags": {
+    "name": "ایستگاه مترو قلهک",
+    "name:ar": "قلهك",
+    "name:en": "Gholhak",
+    "name:fa": "قلهک",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381123769,
+  "lat": 35.7850945,
+  "lon": 51.4359918,
+  "tags": {
+    "name": "ایستگاه مترو شهید صدر",
+    "name:ar": "الشهيد صدر",
+    "name:en": "Shahid Sadr",
+    "name:fa": "شهید صدر",
+    "name:hi": "शहीद सद्र",
+    "name:ml": "ഷഹീദ് സദ്ർ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381264367,
+  "lat": 35.7934903,
+  "lon": 51.4347772,
+  "tags": {
+    "name": "ایستگاه مترو قیطریه",
+    "name:ar": "قيطرية",
+    "name:en": "Gheytariyeh",
+    "name:fa": "قیطریه",
+    "name:hi": "क़ैतरिया",
+    "name:ml": "ഖൈത്തറിയെ",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13381264372,
+  "lat": 35.8046380,
+  "lon": 51.4336485,
+  "tags": {
+    "name": "ایستگاه مترو تجریش",
+    "name:ar": "تجریش",
+    "name:de": "Tadschrisch",
+    "name:en": "Tajrish",
+    "name:fa": "تجریش",
+    "name:hi": "तजरीश",
+    "name:ml": "തജ്രീഷ്",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13426509301,
+  "lat": 35.7090570,
+  "lon": 51.4429368,
+  "tags": {
+    "name": "ایستگاه متروی سرباز وطن",
+    "name:en": "Sarbaz-e Vatan Metro Station",
+    "name:fa": "سرباز وطن",
+    "name:hi": "सरबाज़-ए-वतन",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "toilets": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13426743991,
+  "lat": 35.7023874,
+  "lon": 51.4458420,
+  "tags": {
+    "name": "ایستگاه مترو امام حسین",
+    "name:en": "Emam Hossein Metro Station",
+    "network": "میدان امام حسین",
+    "operator": "شهرداری",
+    "railway": "stop",
+    "subway": "yes",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13953682945,
+  "lat": 35.7178137,
+  "lon": 51.3311648,
+  "tags": {
+    "name": "ایستگاه مترو صادقیه",
+    "name:en": "Sadeghiyeh metro station",
+    "name:fa": "تهران(صادقیه)",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "train": "yes"
+  }
+}
+
+  ]
+}

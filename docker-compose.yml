@@ -1,0 +1,35 @@
+# Local production-like run (same image + layout as Liara).
+#   npm run data:build && npm run build      # catalog + dist (for Dockerfile.runtime)
+#   cp .env.example .env                      # optional: LLM keys etc.
+#   docker compose up --build
+#   scripts/smoke.sh http://localhost:3000
+# Use the full source build instead with:  BAZAARGARD_DOCKERFILE=Dockerfile docker compose up --build
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ${BAZAARGARD_DOCKERFILE:-Dockerfile.runtime}
+      args:
+        NPM_REGISTRY: ${NPM_REGISTRY:-}
+    image: torob-in-the-loop:local
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      STATE_DB_PATH: /var/lib/torob-in-the-loop/state.db
+    ports:
+      - "${HOST_PORT:-3000}:3000"
+    volumes:
+      - torob-in-the-loop-state:/var/lib/torob-in-the-loop
+    # Mirrors Liara: the root filesystem is read-only, only the state disk (and /tmp) is writable.
+    read_only: true
+    tmpfs:
+      - /tmp
+    init: false
+    stop_grace_period: 10s
+    restart: unless-stopped
+
+volumes:
+  torob-in-the-loop-state:
