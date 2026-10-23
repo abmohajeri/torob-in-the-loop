@@ -84,16 +84,16 @@ docker build --build-arg NPM_REGISTRY=https://package-mirror.liara.ir/repository
 
 ### عیب‌یابی
 
-| نشانه | علت و راه‌حل |
-|---|---|
-| `EROFS` یا خطای نوشتن | فایل‌سیستم فقط‌خواندنی است؛ فقط `/var/lib/torob-in-the-loop` (دیسک) و `/tmp` قابل نوشتن‌اند. `STATE_DB_PATH` را تغییر ندهید. |
+| نشانه                                                                                                  | علت و راه‌حل                                                                                                                                                 |
+|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `EROFS` یا خطای نوشتن                                                                                  | فایل‌سیستم فقط‌خواندنی است؛ فقط `/var/lib/torob-in-the-loop` (دیسک) و `/tmp` قابل نوشتن‌اند. `STATE_DB_PATH` را تغییر ندهید.                                 |
 | لاگ `state dir not writable; using ephemeral temp storage` و در `/api/health` مقدار `persistent=false` | دیسک متصل نیست. دیسک را بسازید (گام ۳)، نام آن را با `liara.json` مطابقت دهید و دوباره deploy کنید. تا آن زمان استعلام‌ها با هر راه‌اندازی مجدد پاک می‌شوند. |
-| `catalog database not found` و خروج کانتینر | `data/catalog.db` در آپلود نبوده. `npm run data:build` و بعد `scripts/check-size.sh` را اجرا کنید. |
-| `/api/health` با کد ۵۰۳ (`degraded`) | کاتالوگ یا state مشکل دارد؛ لاگ‌ها را ببینید. |
-| دستیار پاسخ قالبی می‌دهد / `llm.enabled=false` | `LLM_BASE_URL` یا `LLM_API_KEY` تنظیم نشده یا سرویس در دسترس نیست. برنامه خودکار به حالت قاعده‌محور می‌رود؛ کلیدها را با `liara env set` بررسی کنید. |
-| خطای حجم آپلود | `scripts/check-size.sh` را اجرا کنید؛ فایل‌های بزرگ ناخواسته را به `.liaraignore` اضافه کنید یا پلن را ارتقا دهید. |
-| build بیش از ۵ دقیقه | از `Dockerfile.runtime` (پیش‌فرض) استفاده کنید، نه `--full`. |
-| health check ناموفق در شروع | راه‌اندازی حدود ۱۰ ثانیه است؛ `startPeriod` را در `liara.json` افزایش دهید. |
+| `catalog database not found` و خروج کانتینر                                                            | `data/catalog.db` در آپلود نبوده. `npm run data:build` و بعد `scripts/check-size.sh` را اجرا کنید.                                                           |
+| `/api/health` با کد ۵۰۳ (`degraded`)                                                                   | کاتالوگ یا state مشکل دارد؛ لاگ‌ها را ببینید.                                                                                                                |
+| دستیار پاسخ قالبی می‌دهد / `llm.enabled=false`                                                         | `LLM_BASE_URL` یا `LLM_API_KEY` تنظیم نشده یا سرویس در دسترس نیست. برنامه خودکار به حالت قاعده‌محور می‌رود؛ کلیدها را با `liara env set` بررسی کنید.         |
+| خطای حجم آپلود                                                                                         | `scripts/check-size.sh` را اجرا کنید؛ فایل‌های بزرگ ناخواسته را به `.liaraignore` اضافه کنید یا پلن را ارتقا دهید.                                           |
+| build بیش از ۵ دقیقه                                                                                   | از `Dockerfile.runtime` (پیش‌فرض) استفاده کنید، نه `--full`.                                                                                                 |
+| health check ناموفق در شروع                                                                            | راه‌اندازی حدود ۱۰ ثانیه است؛ `startPeriod` حداکثر ۳۰۰۰ است؛ `retries` یا `interval` را در `liara.json` افزایش دهید.                                         |
 
 ---
 
@@ -143,7 +143,8 @@ liara app logs --app torob-in-the-loop -f
 - Health-check fields: https://docs.liara.ir/paas/details/health-check/ — the page's example uses
   `interval: 30, timeout: 15, retries: 2, startPeriod: 5` but the values are milliseconds, as the prose and the CLI's
   `liara init` prompts (`interval(ms)`, `startPeriod(ms)`) say. Our values: interval 30000, timeout 10000, retries 3,
-  startPeriod 60000.
+  startPeriod 3000 (Liara rejects startPeriod > 3000 with a 400; the 3 retries × 30s interval give slow starts ~90s of
+  grace).
 
 ---
 
