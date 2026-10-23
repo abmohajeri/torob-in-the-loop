@@ -141,3 +141,24 @@ liara app logs --app torob-in-the-loop -f
 - `liara.json` schema & flags: Liara CLI 9.4.7 source (`lib/types/liara-json.d.ts`, `lib/commands/deploy.js`, `lib/commands/disk/create.js` — disk size in GB, `lib/commands/app/create.js` — `--platform`, `--plan`, `--read-only`).
 - Ignore precedence and size limit: `lib/utils/create-archive.js` (`.liaraignore` > `.dockerignore` > `.gitignore`, 256 MiB).
 - Health-check fields: https://docs.liara.ir/paas/details/health-check/ — the page's example uses `interval: 30, timeout: 15, retries: 2, startPeriod: 5` (values that only make sense as seconds, although the prose says milliseconds). Our values follow the example's scale.
+
+---
+
+## اپ تیمی و استقرار از GitHub / Team apps & GitHub Actions
+
+- **اپ تیمی لیارا:** اگر اپ زیر یک تیم ساخته شده، شناسهٔ تیم را بدهید: `scripts/deploy-liara.sh --team-id <ID>` یا
+  `LIARA_TEAM_ID=<ID>`. همهٔ دستورهای `liara` هم `--team-id` می‌پذیرند.
+- **استقرار خودکار با GitHub Actions** (`.github/workflows/ci.yml`):
+  1. `gzip -9 -k data/catalog.db` و فایل `data/catalog.db.gz` را به‌عنوان asset یک Release (مثلاً `catalog-v1`) بارگذاری
+     کنید.
+  2. در Settings → Secrets → Actions این‌ها را بسازید: `LIARA_API_TOKEN`، `LIARA_TEAM_ID`، `CATALOG_URL` (لینک دانلود
+     asset).
+  3. هر push روی `main`: typecheck، تست، build، دانلود کاتالوگ، `liara deploy` و `scripts/smoke.sh` روی
+     `https://torob-in-the-loop.liara.run`.
+- **Health check:** در `liara.json` واحدها ثانیه‌اند و لیارا `interval` کمتر از ۳۰ را نمی‌پذیرد.
+- **LLM:** هر درگاه سازگار با OpenAI؛ مثال BoxAPI: `LLM_BASE_URL=https://ai.boxapi.ir/ai/v1`، `
+  LLM_MODEL=openai/gpt-5.4-mini`، `LLM_FAST_MODEL=openai/gpt-5.4-mini` (با `liara env set ... --team-id <ID>`).
+
+**English:** for team-owned apps pass `--team-id` (or `LIARA_TEAM_ID`). For CI deploys, upload `catalog.db.gz` as a
+Release asset and set the `LIARA_API_TOKEN`, `LIARA_TEAM_ID` and `CATALOG_URL` repository secrets; each push to `main`
+then tests, builds, deploys and smoke-tests. Liara health-check values are in seconds, with `interval` ≥ 30.
